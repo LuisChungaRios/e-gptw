@@ -5,7 +5,7 @@
         <img src="img/background.png" alt="background" style="width: 100%;">
         <img src="img/logo_01.png" alt="persona" style="width:47%;position: absolute;top: 0;right: 0">
 
-        <img src="img/background-2.png" alt="background-2" style="width: 100%;position: absolute;top: 20%;z-index: -10">
+        <img src="img/background-2.png" alt="background-2" style="width: 100%;position: absolute;top: 20%;z-index: -10;left:0">
         <div class="main-info" style="position: absolute;top: 5%;width: 500px">
           <img src="img/logo_main.png" alt="" style="width: 25%;">
           <div class="main-description">
