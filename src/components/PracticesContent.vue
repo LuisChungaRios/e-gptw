@@ -1,16 +1,19 @@
 <template>
   <div class="row main-practices__content" style="margin: 0">
-    <div class="col-6">
-      <h1>{{  data.title  }}</h1>
-      <p>{{ data.content }}</p>
-      <ul>
-        <li v-for="(item, itemKey) in data.list"  :key="data.item">{{ (itemKey + 1) }}  {{   item.name }}  </li>
-      </ul>
+    <div class="col-8 d-flex justify-content-center">
+      <div class="">
+        <h2 class="practices_title">{{  data.title  }}</h2>
+        <p class="practices_title_description">{{ data.content }}</p>
+        <ul>
+          <li class="practices_list" v-for="(item, itemKey) in data.list"  :key="data.item">{{ (itemKey + 1) }}  {{   item.name }}  </li>
+        </ul>
+      </div>
     </div>
-    <div class="col-6">
-      <button>Documentos</button>
-      <button>Videos</button>
-      <button>Otros archivos</button>
+    <div class="col-4 download-files">
+      <a href="#"  class="btn practices_documents" > Documentos </a>
+      <a href="#" class="btn practices_videos"> Videos </a>
+      <a href="#"  class="btn  practices_other_files" > Otros archivos </a>
+      <img src="img/logo_seccion_1.png" alt="logo download" >
     </div>
   </div>
 </template>
@@ -23,5 +26,13 @@
 </script>
 
 <style scoped>
+  .download-files img{
+
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+
+
 
 </style>

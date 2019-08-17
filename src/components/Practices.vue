@@ -1,6 +1,6 @@
 <template lang="pug">
 
-.main-practices
+.main-practices(id="section-1")
   PracticesDescription
   .card-carousel-wrapper
     .card-carousel--nav__left(
@@ -11,7 +11,11 @@
       .card-carousel--overflow-container
         .card-carousel-cards(:style="{ transform: 'translateX' + '(' + currentOffset + 'px' + ')'}")
           .card-carousel--card(v-for="(practice, index) in practices")
-            button(class="button-practices" @click="setItem(index)") {{practice.name}}
+            button(class="button-practices" @click="setItem(index)"  :class="{isActive: practice.name == itemFocus.name}" )
+              img(src="/img/folder_color.png" v-if="practice.name == itemFocus.name" )
+              img(src="/img/folder_blank.png" v-else )
+
+              span {{practice.name}}
     .card-carousel--nav__right(
       @click="moveCarousel(1)"
       :disabled="atEndOfList")
@@ -120,8 +124,8 @@
       height: 15px;
       padding: 10px;
       box-sizing: border-box;
-      border-top: 2px solid $vue-teal;
-      border-right: 2px solid $vue-teal;
+      border-top: 5px solid $vue-teal;
+      border-right: 5px solid $vue-teal;
       cursor: pointer;
       margin: 0 10px;
       transition: transform 150ms linear;
@@ -238,5 +242,27 @@
   height: 100px;
 
 }
+  .isActive {
+
+    color: #ff8334;
+    border: 2px solid #ff8334 !important;
+
+  }
+  .isActive:hover {
+
+    border: 2px solid #ff8334;
+    box-shadow: none;
+  }
+  .button-practices:focus {
+    border: 2px solid #ff8334 !important;
+
+    outline: none;
+    box-shadow: none;
+
+  }
+  .btn {
+    transition: none;
+  }
+
 
 </style>

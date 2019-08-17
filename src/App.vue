@@ -1,7 +1,8 @@
 <template lang="pug">
   <div class="">
-   <!-- <MainSection/> -->
+    <MainSection/>
     <Practices/>
+
   </div>
 </template>
 
