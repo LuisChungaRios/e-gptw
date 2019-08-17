@@ -1,17 +1,17 @@
-<template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+<template lang="pug">
+  <div class="">
+    <MainSection/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+  import MainSection from './components/MainSection'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    MainSection
   }
 }
 </script>

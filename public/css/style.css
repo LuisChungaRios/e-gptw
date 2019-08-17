@@ -1,0 +1,119 @@
+:root{
+
+  --primary-color: #005cff;
+  --secondary-color: #eb8ca5;
+  --hover-color: #ff3c00;
+  --white:#ffffff;
+  --font-size: 16px;
+  --alternative: #00B89C;
+  --menu-background: #2d2f8d;
+
+}
+
+* {
+
+  color: var(--white);
+
+}
+
+.main-info {
+
+  left: 18%;
+
+}
+
+.main {
+
+  min-height: 100vh;
+
+
+}
+
+.decorate {
+  color: var(--secondary-color);
+}
+
+.main-description_elovers {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+
+}
+
+.main-description_elovers div p {
+  margin-top: 5px;
+}
+
+.sign-img {
+
+  margin-top: 20px;
+
+
+}
+
+.e-culture {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+
+.container-menu {
+
+  position: fixed;
+  z-index: 20;
+  margin-left: 10px;
+}
+.container-menu .menu {
+
+
+  list-style: none;
+
+}
+
+.container-menu .menu li a {
+  text-decoration: none;
+  color: var(--white);
+
+}
+.container-menu .menu li {
+  text-align: center;
+
+  background-color: var(--menu-background);
+
+  width: 50px;
+  margin-top: 10px;
+  height: 50px;
+  line-height: 30px;
+
+  border-radius: 50%;
+
+}
+
+.container-menu .menu li a {
+
+  display: inline-block;
+  width: 165px;
+  height: 25px;
+  line-height: 25px;
+  background-color: var(--menu-background);
+  border-right: 5px solid var(--secondary-color);
+  margin-left: 7px;
+  background-image: url("../img/corazon_vacio.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  margin-top: 13px;
+}
+
+.container-menu .menu li a:hover {
+
+  background-image: url("../img/corazon_lleno.png");
+
+
+}
