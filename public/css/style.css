@@ -7,7 +7,9 @@
   --font-size: 16px;
   --alternative: #00B89C;
   --menu-background: #2d2f8d;
-
+  --color-alternative: #ff8334;
+  --section-color: #222473;
+  --section-color-secondory: #42e8b4;
 }
 
 * {
@@ -116,4 +118,48 @@
   background-image: url("../img/corazon_lleno.png");
 
 
+}
+
+
+
+
+
+/**
+Luis
+ */
+
+.card-carousel--nav__right, .card-carousel--nav__left {
+
+  border-color: var(--white) !important;
+
+
+}
+
+.main-practices {
+  background-color: var(--section-color);
+  min-height: 100vh;
+}
+
+.button-practices {
+  text-align: center;
+  width: 150px;
+  color: var(--white);
+  background-color: var(--section-color);
+  border:1px solid var(--white) ;
+  margin-top: 10px;
+  height: 40px;
+
+}
+
+.button-practices:hover {
+
+  border-color: var(--color-alternative);
+  color: var(--color-alternative);
+}
+
+
+.practices-description {
+
+  background-color: var(--section-color-secondory);
+  min-height: 100vh;
 }

@@ -1,17 +1,19 @@
 <template lang="pug">
   <div class="">
-    <MainSection/>
+   <!-- <MainSection/> -->
+    <Practices/>
   </div>
 </template>
 
 <script>
 
   import MainSection from './components/MainSection'
-
+  import Practices from './components/Practices'
 export default {
   name: 'app',
   components: {
-    MainSection
+    MainSection,
+    Practices
   }
 }
 </script>
