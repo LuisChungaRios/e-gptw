@@ -10,9 +10,9 @@
       </div>
     </div>
     <div class="col-4 download-files">
-      <a href="#"  class="btn practices_documents" > Documentos </a>
-      <a href="#" class="btn practices_videos"> Videos </a>
-      <a href="#"  class="btn  practices_other_files" > Otros archivos </a>
+      <a :href="data.links.documents"  v-if="data.links.documents != '#'" target="_blank" class="btn practices_documents" > Documentos </a>
+      <a :href="data.links.videos"     v-if="data.links.videos != '#'" target="_blank" class="btn practices_videos"> Videos </a>
+      <a :href="data.links.otherFiles" v-if="data.links.otherFiles != '#'" target="_blank" class="btn  practices_other_files" > Otros archivos </a>
       <img src="img/logo_seccion_1.png" alt="logo download" >
     </div>
   </div>

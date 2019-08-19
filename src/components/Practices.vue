@@ -11,11 +11,13 @@
       .card-carousel--overflow-container
         .card-carousel-cards(:style="{ transform: 'translateX' + '(' + currentOffset + 'px' + ')'}")
           .card-carousel--card(v-for="(practice, index) in practices")
-            button(class="button-practices" @click="setItem(index)"  :class="{isActive: practice.name == itemFocus.name}" )
+            button(class="button-practices" @click="setItem(index)"  :class="{isActive: practice.name == itemFocus.name}" data-toggle="tooltip" data-placement="top" :title="practice.name" )
               img(src="/img/folder_color.png" v-if="practice.name == itemFocus.name" )
               img(src="/img/folder_blank.png" v-else )
 
-              span {{practice.name}}
+              span(v-if="practice.name.length > 12") {{practice.name.substring(0,9)}}...
+              span(v-else) {{practice.name}}
+
     .card-carousel--nav__right(
       @click="moveCarousel(1)"
       :disabled="atEndOfList")
