@@ -48,7 +48,7 @@ export default new Vuex.Store({
         content: `Los candidatos deben llegar a conocernos tanto como nosotros a ellos y qué mejor a través del medio que nosotros ofrecemos. Esa es la premisa de nuestra Cultura que se refleja en cada interacción con ellos durante todo el proceso conectando con sus intereses y motivaciones a través de señales que inspiran y les pedimos que nos envíen un video por WhatsApp, contándonos quiénes son y qué es lo que les motiva a trabajar con nosotros.Cada nuevo candidato debe pasar por las siguientes instancias:
 `,
         links: {
-          video:'https://vimeo.com/showcase/6225572',
+          videos:'https://vimeo.com/showcase/6225572',
           documents: '#',
           otherFiles: '#'
         },
