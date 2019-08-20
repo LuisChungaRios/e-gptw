@@ -1,217 +1,252 @@
 @font-face {
- font-family: 'Barlow';
-  src: url("./fonts/Barlow/Barlow-Regular.ttf");
-}
-
-:root{
-
-  --primary-color: #005cff;
-  --secondary-color: #eb8ca5;
-  --hover-color: #ff3c00;
-  --white:#ffffff;
-  --font-size: 16px;
-  --alternative: #00B89C;
-  --menu-background: #2d2f8d;
-  --color-alternative: #ff8334;
-  --section-color: #222473;
-  --section-color-secondory: #42e8b4;
-}
-
-* {
-  font-family: Barlow,sans-serif;
-  color: var(--white);
-  box-sizing: border-box;
-}
-
-.main-info {
-
-  left: 18%;
-
-}
-
-.main {
-
-  min-height: 100vh;
-
-
-}
-
-.decorate {
-  color: var(--secondary-color);
-  font-weight: bold;
-}
-
-.main-description_elovers {
-  margin-top: 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: end;
-
-}
-
-.main-description_elovers div p {
-  margin-top: 5px;
-}
-
-.sign-img {
-
-  margin-top: 20px;
-
-
-}
-
-.e-culture {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-
-}
-
-
-
-.container-menu {
-
-  position: fixed;
-  z-index: 20;
-  margin-left: 10px;
-}
-.container-menu .menu {
-
-
-  list-style: none;
-
-}
-
-.container-menu .menu li a {
-  text-decoration: none;
-  color: var(--white);
-
-}
-.container-menu .menu li {
-  text-align: center;
-
-  background-color: var(--menu-background);
-
-  width: 50px;
-  margin-top: 10px;
-  height: 50px;
-  line-height: 30px;
-
-  border-radius: 50%;
-
-}
-
-.container-menu .menu li a {
-
-  display: inline-block;
-  width: 165px;
-  height: 25px;
-  line-height: 25px;
-  background-color: var(--menu-background);
-  border-right: 5px solid var(--secondary-color);
-  margin-left: 7px;
-  background-image: url("../img/corazon_vacio.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: left;
-  margin-top: 13px;
-}
-
-.container-menu .menu li a:hover {
-
-  background-image: url("../img/corazon_lleno.png");
-
-
-}
-
-
-
-
-
-/**
-Luis
- */
-
-.card-carousel--nav__right, .card-carousel--nav__left {
-
-  border-color: var(--white) !important;
-
-
-}
-
-.main-practices {
-  background-color: var(--section-color);
-  min-height: 100vh;
-}
-
-.button-practices {
-  text-align: left;
-  width: 150px;
-  color: var(--white);
-  background-color: var(--section-color);
-  border:1px solid var(--white) ;
-  margin-top: 10px;
-  height: 40px;
-
-}
-
-.button-practices img {
-  margin: 0 5px;
-}
-
-.button-practices:hover {
-
-  border-color: var(--color-alternative);
-  color: var(--color-alternative);
-}
-
-
-.practices-description {
-
-  background-color: var(--section-color-secondory);
-
-}
-
-.practices_title, .practices_list {
-
-  color: var(--color-alternative);
-
-}
-
-.practices_title {
-  font-weight: bold;
-}
-
-.practices_list {
-  list-style: none;
-}
-
-.practices_documents, .practices_videos, .practices_other_files {
-
-  width: 250px;
-  color: var(--white);
-  border-radius:5px;
-  display: block;
-  margin-top: 10px;
-}
-
-.practices_documents {
-
-  background-color:  var(--color-alternative);
-}
-
-
-
-.practices_videos, .practices_other_files {
-
-  background-color: var(--primary-color);
-
-}
-
-.practices_title_description {
-
-  width: 500px;
-
-}
+  font-family: 'Barlow';
+   src: url("./fonts/Barlow/Barlow-Regular.ttf");
+ }
+ @font-face {
+   font-family: 'Barlow-Bold';
+    src: url("./fonts/Barlow/Barlow-Bold.ttf");
+  }
+ 
+ :root{
+ 
+   --primary-color: #005cff;
+   --secondary-color: #eb8ca5;
+   --hover-color: #ff3c00;
+   --white:#ffffff;
+   --font-size: 16px;
+   --alternative: #00B89C;
+   --menu-background: #2d2f8d;
+   --color-alternative: #ff8334;
+   --section-color: #222473;
+   --section-color-secondory: #42e8b4;
+ }
+ 
+ * {
+   font-family: Barlow,sans-serif;
+   color: var(--white);
+   box-sizing: border-box;
+ }
+ 
+ .main-info {
+ 
+   left: 18%;
+ 
+ }
+ 
+ .main {
+ 
+   min-height: 100vh;
+ 
+ 
+ }
+ 
+ .decorate {
+   color: var(--secondary-color);
+   font-weight: bold;
+ }
+ 
+ .main-description_elovers {
+   margin-top: 30px;
+   display: flex;
+   justify-content: space-between;
+   align-items: end;
+ 
+ }
+ 
+ .main-description_elovers div p {
+   margin-top: 5px;
+ }
+ 
+ .sign-img {
+ 
+   margin-top: 20px;
+ 
+ 
+ }
+ 
+ .e-culture {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+ 
+ }
+ 
+ 
+ 
+ .container-menu {
+ 
+   position: fixed;
+   z-index: 20;
+   margin-left: 10px;
+ }
+ .container-menu .menu {
+ 
+ 
+   list-style: none;
+ 
+ }
+ 
+ .container-menu .menu li a {
+   text-decoration: none;
+   color: var(--white);
+ 
+ }
+ .container-menu .menu li {
+   text-align: center;
+ 
+   background-color: var(--menu-background);
+ 
+   width: 50px;
+   margin-top: 10px;
+   height: 50px;
+   line-height: 30px;
+ 
+   border-radius: 50%;
+ 
+ }
+ 
+ .container-menu .menu li a {
+ 
+   display: inline-block;
+   width: 165px;
+   height: 25px;
+   line-height: 25px;
+   background-color: var(--menu-background);
+   border-right: 5px solid var(--secondary-color);
+   margin-left: 7px;
+   background-image: url("../img/corazon_vacio.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: left;
+   margin-top: 13px;
+ }
+ 
+ .container-menu .menu li a:hover {
+ 
+   background-image: url("../img/corazon_lleno.png");
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ /**
+ Luis
+  */
+ 
+ .card-carousel--nav__right, .card-carousel--nav__left {
+ 
+   border-color: var(--white) !important;
+ 
+ 
+ }
+ 
+ .main-practices {
+   background-color: var(--section-color);
+   min-height: 100vh;
+ }
+ 
+ .button-practices {
+   text-align: left;
+   width: 150px;
+   color: var(--white);
+   background-color: var(--section-color);
+   border:1px solid var(--white) ;
+   margin-top: 10px;
+   height: 40px;
+ 
+ }
+ 
+ .button-practices img {
+   margin: 0 5px;
+ }
+ 
+ .button-practices:hover {
+ 
+   border-color: var(--color-alternative);
+   color: var(--color-alternative);
+ }
+ 
+ 
+ .practices-description {
+ 
+   background-color: var(--section-color-secondory);
+ 
+ }
+ 
+ .practices_title, .practices_list {
+ 
+   color: var(--color-alternative);
+ 
+ }
+ 
+ .practices_title {
+   font-weight: bold;
+ }
+ 
+ .practices_list {
+   list-style: none;
+ }
+ 
+ .practices_documents, .practices_videos, .practices_other_files {
+ 
+   width: 250px;
+   color: var(--white);
+   border-radius:5px;
+   display: block;
+   margin-top: 10px;
+ }
+ 
+ .practices_documents {
+ 
+   background-color:  var(--color-alternative);
+ }
+ 
+ 
+ 
+ .practices_videos, .practices_other_files {
+ 
+   background-color: var(--primary-color);
+ 
+ }
+ 
+ .practices_title_description {
+ 
+   width: 500px;
+ 
+ }
+ 
+ 
+ /*JOAN :V */
+ 
+ #section-1 .title{
+   font-family: 'Barlow-Bold';
+   position: relative;
+   z-index: 9;
+   margin: 30px 0px;
+ }
+ 
+ #section-1 .title:after,
+ #section-1 .title:before{
+   font-family: 'Barlow-Bold';
+   font-size: 90px;
+   color: #39d8a6;
+ }
+ #section-1 .title:before{
+   content: 'Reclu';
+   position: absolute;
+   top: -70px;
+   left: -5px;
+   z-index: -1;
+ }
+ #section-1 .title:after{
+   content: 'tando';
+   position: absolute;
+   bottom: -65px;
+   left: 0;
+   z-index: -1;
+ }
