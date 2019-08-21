@@ -11,7 +11,7 @@
                 </a>
             </li>
             <li>
-                <a href="#hablando">
+                <a href="#inspirando">
                     <img src="img/corazon_lleno3.png" alt="corazon_lleno" class="corazon_lleno">
                     <div class="texto">
                         <span class="numero">2.</span>
@@ -20,7 +20,7 @@
                 </a>
             </li>
             <li>
-                <a href="javascript:void(0)">
+                <a href="#hablando">
                     <img src="img/corazon_lleno3.png" alt="corazon_lleno" class="corazon_lleno">
                     <div class="texto">
                         <span class="numero">3.</span>

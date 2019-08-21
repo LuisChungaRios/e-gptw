@@ -271,6 +271,8 @@
  /*Lista Navegador*/
 #navegador{
   margin-top: 45px;
+  position: fixed;
+  z-index: 99;
 }
 #navegador ul{
 	list-style: none;
@@ -427,7 +429,7 @@
   border-radius: 10px;
   display: inline-block;
   text-decoration: none;
-  padding: 6.5px 22.5px;
+  padding: 5.5px 22.5px;
   padding-left: 40px;
   position: relative;
   color: #005cff;  
@@ -564,7 +566,7 @@
   /* top: 35%; */
   right: 12%;
   /* top: 27.5%; */
-  top: 30%;
+  top: 32%;
 }
 #inspirando .floro-cont h5{
   font-family:'Barlow-Bold';
@@ -594,7 +596,7 @@
   border-radius: 10px;
   display: inline-block;
   text-decoration: none;
-  padding: 6.5px 22.5px;
+  padding: 5.5px 22.5px;
   padding-left: 40px;
   position: relative;
   color: #005cff;  
@@ -680,6 +682,9 @@
   position: absolute;
   bottom: 0px;
 }
+#inspirando-des .img-footer{
+  bottom: -30px;
+}
 /*Media Queries*/
 @media(min-width: 1600px){
   #inspirando{
@@ -687,5 +692,16 @@
   }
   #hablando{
     min-height: 768px;
+  }
+}
+@media(min-width: 1200px) and (max-width:1400px){
+  #inspirando{
+    padding-top: 60px;
+  }
+  #inspirando .floro-cont{
+      top: 7%;
+  }
+  #hablando .floro-cont{
+    top: 20%;
   }
 }
