@@ -1,6 +1,7 @@
 <template>
+<div class="container">
   <div class="row main-practices__content" style="margin: 0">
-    <div class="col-8 d-flex justify-content-center">
+    <div class="offset-1 col-6 d-flex justify-content-center">
       <div class="">
         <h2 class="practices_title">{{  data.title  }}</h2>
 
@@ -17,6 +18,7 @@
       <img src="img/logo_seccion_1.png" alt="logo download" >
     </div>
   </div>
+</div>
 </template>
 
 <script>

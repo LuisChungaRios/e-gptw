@@ -6,6 +6,14 @@
    font-family: 'Barlow-Bold';
     src: url("./fonts/Barlow/Barlow-Bold.ttf");
   }
+  @font-face {
+    font-family: 'Barlow-MediumItalic';
+     src: url("./fonts/Barlow/Barlow-MediumItalic.ttf");
+   }
+   @font-face {
+    font-family: 'Barlow-Light';
+     src: url("./fonts/Barlow/Barlow-Light.ttf");
+   }
  
  :root{
  
@@ -23,7 +31,7 @@
  
  * {
    font-family: Barlow,sans-serif;
-   color: var(--white);
+   /* color: var(--white); */
    box-sizing: border-box;
  }
  
@@ -214,20 +222,23 @@
  
  }
  
- .practices_title_description {
- 
-   width: 500px;
- 
+ /*
+ .practices_title_description { 
+   width: 500px; 
  }
- 
+ */
  
  /*JOAN :V */
+ .practices-description__content img{
+   position: relative;
+   z-index: 99;
+ }
  
  #section-1 .title{
    font-family: 'Barlow-Bold';
    position: relative;
    z-index: 9;
-   margin: 30px 0px;
+   margin: 12.5px 0px 75px 0px;
  }
  
  #section-1 .title:after,
@@ -250,3 +261,195 @@
    left: 0;
    z-index: -1;
  }
+
+ /*Lista Navegador*/
+#navegador{
+  margin-top: 45px;
+}
+#navegador ul{
+	list-style: none;
+	padding-left: 0;
+}
+#navegador ul li{
+	margin-bottom: 15px;
+}
+#navegador a{
+	color: #222473;
+	text-decoration: none;
+	position: relative;
+	display: inline-block;
+}
+#navegador .active{
+	color: white;
+}
+#navegador .texto{
+	display: inline-block;
+	padding: 4.5px 30px;
+	margin-left: 22.5px;
+	/*opcional*/
+	width: calc(100% + 15px);
+	padding-left: 27px;
+  color: #222473;
+  
+}
+#navegador .active .texto{
+	background: #2d2f8d;
+  border-right: 5px solid #eb8ca5;
+  color: white;
+}		
+#navegador .corazon_lleno{
+	position: absolute;
+	top:-7.5px;
+	padding: 12.5px;
+	background: #2d2f8d;
+	border-radius: 50%;
+	visibility: hidden;
+}
+#navegador .active .corazon_lleno{
+	visibility: visible;
+}
+
+#navegador span{
+	font-family:'Barlow-Bold';
+	font-style:normal;
+	font-weight:700;
+  /* font-size:16px; */
+  font-size: 14px;
+  display: inline-block;
+  color: #222473;
+}
+#navegador .active span{
+  color: #fff;
+}
+#navegador .descripcion{
+	width: 100px;
+	max-width: 120px;
+    visibility: hidden;
+    padding-left: 7.5px;
+}
+#navegador .active .descripcion{
+	visibility: visible;
+}
+/*------------ Fin ListaNavegador-----------------*/
+
+
+/*2 Hablando*/
+#hablando figure{
+  margin: 0;
+}
+#hablando{
+  padding-top: 45px;
+  padding-bottom: 30px;
+  color: black;
+  min-height: 100vh;
+  position: relative;
+  background-image: url(../img/hablando/banner-hablando.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 9;
+}
+#hablando .logo h3{
+  color: #36c5ef;
+	font-family:'Barlow-Bold';
+	font-style:normal;
+  font-weight:700;
+  font-size: 60px  
+}
+#hablando .principal p{
+  font-family: 'Barlow-Light';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+}
+#hablando .principal p b{
+  font-family: 'Barlow-Bold';
+  font-style: normal;
+  font-weight: 700;
+}
+#hablando .principal p .camb{
+  color: #36c5ef;
+}
+
+#hablando .imagen-c{
+  position: absolute;
+  bottom: 30px;
+  left: calc(52.5% - 225px);
+  z-index: -9;
+}
+#hablando .imagen-c img{
+  position: relative;
+  z-index: -9;
+  width: 450px;
+  /* width: 375px; */
+}
+#hablando .floro .fondo{
+  position: relative;
+  z-index: -99;
+}
+#hablando .floro-cont{
+  position: absolute;
+  z-index: 9;
+  top: 25%;
+  right: -10%;
+}
+#hablando .floro-cont h5{
+  font-family:'Barlow-Bold';
+  font-style:normal;
+  font-weight:700;
+  font-size: 24px;
+  color: #0066c5;
+}
+#hablando .floro-cont .texto{
+  font-family:'Barlow-MediumItalic';
+  font-style:normal;
+  font-weight:500;
+  color: white;
+  font-size: 16px;
+}
+#hablando .floro-cont .puesto{
+  font-family:'Barlow-Bold';
+  font-style:normal;
+  font-weight:700;  
+  font-size: 16px;
+  color: white;
+}
+#hablando .floro-cont .conocer .btn-conoceme{
+  background: white;
+  border-radius: 10px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 6.5px 22.5px;
+  padding-left: 40px;
+  position: relative;
+}
+#hablando .floro-cont .conocer .btn-conoceme img{
+  position: absolute;
+  top: 0;
+  left: -7px;
+}
+
+
+#hablando-des{
+  background-color: #222473;
+}
+#hablando-des .separar{
+  top: -120px;
+  z-index: 9;
+}
+#hablando-des .titulo{
+  font-family:'Barlow-Bold';
+  font-style:normal;
+  font-weight:700;
+  color: white;  
+  position: absolute;
+  top: calc(50% - 26.8px);
+  left: 10%;
+  width: 80%;
+  font-size: 36px;
+  margin-bottom: 0;
+}
+#hablando-des .titulo b{
+  color: #37c7f0;
+}
+/*------------- Fin Hablando --------------------*/

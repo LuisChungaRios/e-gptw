@@ -2,7 +2,7 @@
   <div class="">
     <!-- <MainSection/> -->
     <Practices/>
-
+    <Inspirando/>
   </div>
 </template>
 
@@ -10,11 +10,14 @@
 
   import MainSection from './components/MainSection'
   import Practices from './components/Practices'
+  import Inspirando from './components/Inspirando'
+
 export default {
   name: 'app',
   components: {
     MainSection,
-    Practices
+    Practices,
+    Inspirando
   }
 }
 </script>

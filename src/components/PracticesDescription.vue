@@ -1,6 +1,8 @@
 <template>
   <div class="row practices-description" style="margin: 0">
-    <div class="col-2"></div>
+    <div class="col-2">
+      <Navegador/>
+    </div>
     <div class="col-10 img-responsive" >
       <div class="practices-description__content">
         <img src="img/icon_3.png" alt="">
@@ -34,8 +36,12 @@
 </template>
 
 <script>
+  import Navegador from './Navegador';
   export default {
-    name: "PracticesDescription"
+    name: "PracticesDescription",
+    components: {
+      Navegador
+    }
   }
 </script>
 
