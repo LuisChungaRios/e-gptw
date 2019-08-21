@@ -6,9 +6,11 @@
           <h2 class="practices_title">{{  data.title  }}</h2>
 
           <p class="practices_title_description">{{ data.content }}</p>
-          <ul>
-            <li class="practices_list" v-for="(item, itemKey) in data.list"  :key="data.item">{{ (itemKey + 1) }}  {{   item.name }}  </li>
-          </ul>
+        <template v-if="data.list.lenght > 0">
+             <div>
+                <li  class="practices_list" v-for="(item, itemKey) in data.list"  :key="data.item">{{ (itemKey + 1) }}  {{   item.name }}  </li>
+             </div>
+           </template>
         </div>
       </div>
       <div class="col-4 download-files">

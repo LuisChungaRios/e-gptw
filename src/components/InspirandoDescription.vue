@@ -53,7 +53,7 @@
 
       ...mapState({
 
-        practices: state => state.inspirando
+        practices: state => state.hablando
       }),
       atEndOfList() {
         return this.currentOffset <= (this.paginationFactor * -1) * (this.practices.length - this.windowSize);
