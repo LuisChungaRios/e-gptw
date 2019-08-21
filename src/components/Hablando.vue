@@ -55,7 +55,6 @@
         <!-- Codigo -->
       <HablandoDescription/>
 
-
 <!-- Fin Codigo -->
         <div class="container">
             <div class="row">
@@ -69,12 +68,12 @@
 </template>
 <script>
  import Navegador from './Navegador'
- import  inspirandoDescription from './HablandoDescription'
+ import  HablandoDescription from './HablandoDescription'
 export default {
     name: "Hablando",
     components: {
         Navegador,
-      inspirandoDescription
+      HablandoDescription
     }
 }
 </script>
