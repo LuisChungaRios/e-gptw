@@ -42,9 +42,19 @@ cliente</b> se transmite a otros miembros del equipo para que puedan <b>experime
                 </div>
             </div>
         </div>
+
         <!-- Codigo -->
       <inspirandoDescription/>
+
+
 <!-- Fin Codigo -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                                        
+                </div>
+            </div>
+        </div>
     </div>
 </div>    
 </template>
