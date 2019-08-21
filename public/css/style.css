@@ -454,4 +454,20 @@
 #hablando-des .titulo b{
   color: #37c7f0;
 }
+
+#hablando-des #section-1 .practices_title{
+  color: #37c7f0;
+}
+#hablando-des #section-1 .practices_list{
+  color: #37c7f0;
+}
+#hablando-des .button-practices:hover{
+  border-color: #37c7f0 !important;
+}
+#hablando-de .button-practices..isActive[data-v-a7128ece]{
+  border: 2px solid #37c7f0 !important;
+}
+#hablando-de .button-practices[data-v-a7128ece]:focus{
+  border: 2px solid #37c7f0 !important;
+}
 /*------------- Fin Hablando --------------------*/
