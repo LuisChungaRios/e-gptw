@@ -1,5 +1,5 @@
 <template>
-<div class="container pb-4">
+<div class="container">
   <div class="row main-practices__content" style="margin: 0">
     <div class="offset-1 col-6 d-flex justify-content-center">
       <div class="">

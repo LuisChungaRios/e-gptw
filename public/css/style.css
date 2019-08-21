@@ -234,6 +234,9 @@
    z-index: 99;
  }
  
+ #section-1{
+   padding-bottom: 30px;
+ }
  #section-1 .title{
    font-family: 'Barlow-Bold';
    position: relative;
@@ -470,6 +473,10 @@
 #hablando-de .button-practices[data-v-a7128ece]:focus{
   border: 2px solid #37c7f0 !important;
 }
+
+#hablando-des .main-practices{
+  min-height: unset;
+}
 /*------------- Fin Hablando --------------------*/
 
 
@@ -485,4 +492,16 @@
 .card-carousel-wrapper{
   position: relative;
   z-index: 9;
+}
+
+
+.row.main-practices__content .offset-1{
+  overflow-y: scroll;
+  min-height: 395px;
+  max-height: 395px;
+}
+
+.download-files img{
+  position: absolute;
+  bottom: 0px;
 }
