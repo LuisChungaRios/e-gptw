@@ -16,6 +16,7 @@
         </div>
       </div>
       <div class="col-4 download-files">
+        <p class="text-right evidencia">Evidencias:</p>
         <a :href="data.links.documents"  v-if="data.links.documents != '#'" target="_blank" class="btn practices_documents" > Documentos </a>
         <a :href="data.links.videos"     v-if="data.links.videos != '#'" target="_blank" class="btn practices_videos"> Videos </a>
         <a :href="data.links.otherFiles" v-if="data.links.otherFiles != '#'" target="_blank" class="btn  practices_other_files" > Otros archivos </a>

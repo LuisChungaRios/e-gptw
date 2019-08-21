@@ -2,7 +2,7 @@
     <div id="navegador" class="lista">
         <ul>
             <li>
-                <a href="#section-1">
+                <a href="#section-1" class="active">
                     <img src="img/corazon_lleno3.png" alt="corazon_lleno" class="corazon_lleno">
                     <div class="texto">
                         <span class="numero">1.</span>
@@ -29,7 +29,7 @@
                 </a>
             </li>
             <li>
-                <a href="javascript:void(0)" class="active">
+                <a href="javascript:void(0)">
                     <img src="img/corazon_lleno3.png" alt="corazon_lleno" class="corazon_lleno">
                     <div class="texto">
                         <span class="numero">4.</span>

@@ -28,7 +28,7 @@
     </div>
     <div class="col-2"></div>
     <div class="col-10 img-2" >
-      <h2 class="bottom-text">Buenas practicas</h2>
+      <h2 class="bottom-text">Buenas <span>Prácticas</span></h2>
       <img src="img/reclutando_bottom.png" class="img-bottom"   alt="">
     </div>
 

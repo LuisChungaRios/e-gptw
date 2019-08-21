@@ -224,6 +224,19 @@
    background-color: var(--primary-color);
  
  }
+
+ #section-1.main-practices .bottom-text{
+  font-size: 36px;
+  font-family: 'Barlow-Bold';
+  font-style: normal;
+  font-weight: 700;
+ }
+ #section-1.main-practices .bottom-text span{
+   color: #ff8334;
+   /* text-decoration: underline; */
+   border-bottom: 2px solid #ff8334;
+ }
+
  
  /*
  .practices_title_description { 
@@ -297,8 +310,7 @@
 	/*opcional*/
 	width: calc(100% + 15px);
 	padding-left: 27px;
-  color: #222473;
-  
+  color: #222473;  
 }
 #navegador .active .texto{
 	background: #2d2f8d;
@@ -400,7 +412,8 @@
 #hablando .floro-cont{
   position: absolute;
   z-index: 9;
-  top: 25%;
+  /* top: 25%; */
+  top: 20%;
   right: -10%;
 }
 #hablando .floro-cont h5{
@@ -467,6 +480,7 @@
 }
 #hablando-des .titulo b{
   color: #37c7f0;
+  border-bottom: 1px solid #37c7f0;
 }
 
 #hablando-des #section-1 .practices_title{
@@ -541,8 +555,8 @@
   position: absolute;
   bottom: 30px;
   /* left: calc(52.5% - 225px); */
-  /* left: calc(50% - 360px); */
   left: calc(58% - 360px);
+  /* left: calc(43% - 360px); */
   z-index: -9;
 }
 #inspirando .imagen-c img{
@@ -634,6 +648,7 @@
 }
 #inspirando-des .titulo b{
   color: #37c7f0;
+  border-bottom: 2px solid #37c7f0;
 }
 
 #inspirando-des #section-1 .practices_title{
@@ -660,9 +675,24 @@
 
 
 
+#section-1 .practices-description__content p{
+  font-family:'Barlow-Light';
+  font-style:normal;
+  font-weight:200;
+  color: #2d2f8d;
+}
+#section-1 .practices-description__content h4{
+  font-family: 'Barlow-Medium';
+  font-style:normal;
+  font-weight:500;
+  color: #2d2f8d;
+}
 
-
-
+#section-1 .conoceme_mas p{
+  font-family: 'Barlow-Medium';
+  font-style:normal;
+  font-weight:500;
+}
 
 
 
@@ -704,4 +734,44 @@
   #hablando .floro-cont{
     top: 20%;
   }
+
+  #navegador .texto{
+    padding-right: 0px;
+  }
+  #navegador .descripcion{
+    width: 90px;
+  }
+ 
+}
+
+@media(min-width: 1400px){
+  #inspirando .imagen-c{
+    left: calc(58% - 360px);
+  }
+}
+/* @media(min-width: 1600){
+#inspirando .imagen-c {
+  left: calc(58% - 360px);
+}
+} */
+
+
+.practices_title_description{
+  font-family: 'Barlow-Light';
+  font-style: normal;
+  font-weight: 200;
+}
+.practices_list{
+  font-family: 'Barlow-Light';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.download-files .evidencia{
+  font-family: 'Barlow-Light';
+  font-style: normal;
+  font-weight: 200;
+  width:250px;
+  font-size:30px;
 }
