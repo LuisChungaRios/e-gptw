@@ -31,7 +31,7 @@
  
  * {
    font-family: Barlow,sans-serif;
-   /* color: var(--white); */
+   color: var(--white);
    box-sizing: border-box;
  }
  
@@ -361,11 +361,13 @@
   font-style: normal;
   font-weight: 200;
   font-size: 16px;
+  color: #001843;
 }
 #hablando .principal p b{
   font-family: 'Barlow-Bold';
   font-style: normal;
   font-weight: 700;
+  color: #001843;
 }
 #hablando .principal p .camb{
   color: #36c5ef;

@@ -42,29 +42,36 @@ cliente</b> se transmite a otros miembros del equipo para que puedan <b>experime
                 </div>
             </div>
         </div>
-        <!-- Codigo -->
-<div data-v-6ff49298="" class="card-carousel-wrapper">
-  <div data-v-6ff49298="" disabled="disabled" class="card-carousel--nav__left"></div>
-    <div data-v-6ff49298="" class="card-carousel">
-        <div data-v-6ff49298="" class="card-carousel--overflow-container">
-            <div data-v-6ff49298="" class="card-carousel-cards" style="transform: translateX(0px);">
-                <div 
-                    data-v-6ff49298="" class="card-carousel--card"><button data-v-6ff49298="" data-toggle="tooltip" data-placement="top" title="TRABAJA CON NOSOTROS" class="button-practices isActive">
-                    <img data-v-6ff49298="" src="/img/folder_color.png"><span data-v-6ff49298="">TRABAJA C...</span></button></div>
-                <div
-                    data-v-6ff49298="" class="card-carousel--card"><button data-v-6ff49298="" data-toggle="tooltip" data-placement="top" title="ENTREVISTA POR VIDEO LLAMADA ENTELINA" class="button-practices"><img data-v-6ff49298="" src="/img/folder_blank.png"><span data-v-6ff49298="">ENTREVIST...</span></button></div>
-                <div
-                    data-v-6ff49298="" class="card-carousel--card"><button data-v-6ff49298="" data-toggle="tooltip" data-placement="top" title="UN NUEVO TALENTO SE INCORPORA AL EQUIPO. ¿YA ESTÁS LISTO?" class="button-practices"><img data-v-6ff49298="" src="/img/folder_blank.png"><span data-v-6ff49298="">UN NUEVO ...</span></button></div>
-                <div
-                    data-v-6ff49298="" class="card-carousel--card"><button data-v-6ff49298="" data-toggle="tooltip" data-placement="top" title="AIRA - PLATAFORMA DE RECLUTAMIENTO " class="button-practices"><img data-v-6ff49298="" src="/img/folder_blank.png"><span data-v-6ff49298="">AIRA - PL...</span></button></div>
-                <div
-                    data-v-6ff49298="" class="card-carousel--card"><button data-v-6ff49298="" data-toggle="tooltip" data-placement="top" title="TUS PRIMEROS DÍAS EN ENTEL " class="button-practices"><img data-v-6ff49298="" src="/img/folder_blank.png"><span data-v-6ff49298="">TUS PRIME...</span></button></div>
+<!-- Codigo -->
+        <div data-v-6ff49298="" class="card-carousel-wrapper">
+        <div data-v-6ff49298="" disabled="disabled" class="card-carousel--nav__left"></div>
+            <div data-v-6ff49298="" class="card-carousel">
+                <div data-v-6ff49298="" class="card-carousel--overflow-container">
+                    <div data-v-6ff49298="" class="card-carousel-cards" style="transform: translateX(0px);">
+                        <div 
+                            data-v-6ff49298="" class="card-carousel--card"><button data-v-6ff49298="" data-toggle="tooltip" data-placement="top" title="TRABAJA CON NOSOTROS" class="button-practices isActive">
+                            <img data-v-6ff49298="" src="/img/folder_color.png"><span data-v-6ff49298="">TRABAJA C...</span></button></div>
+                        <div
+                            data-v-6ff49298="" class="card-carousel--card"><button data-v-6ff49298="" data-toggle="tooltip" data-placement="top" title="ENTREVISTA POR VIDEO LLAMADA ENTELINA" class="button-practices"><img data-v-6ff49298="" src="/img/folder_blank.png"><span data-v-6ff49298="">ENTREVIST...</span></button></div>
+                        <div
+                            data-v-6ff49298="" class="card-carousel--card"><button data-v-6ff49298="" data-toggle="tooltip" data-placement="top" title="UN NUEVO TALENTO SE INCORPORA AL EQUIPO. ¿YA ESTÁS LISTO?" class="button-practices"><img data-v-6ff49298="" src="/img/folder_blank.png"><span data-v-6ff49298="">UN NUEVO ...</span></button></div>
+                        <div
+                            data-v-6ff49298="" class="card-carousel--card"><button data-v-6ff49298="" data-toggle="tooltip" data-placement="top" title="AIRA - PLATAFORMA DE RECLUTAMIENTO " class="button-practices"><img data-v-6ff49298="" src="/img/folder_blank.png"><span data-v-6ff49298="">AIRA - PL...</span></button></div>
+                        <div
+                            data-v-6ff49298="" class="card-carousel--card"><button data-v-6ff49298="" data-toggle="tooltip" data-placement="top" title="TUS PRIMEROS DÍAS EN ENTEL " class="button-practices"><img data-v-6ff49298="" src="/img/folder_blank.png"><span data-v-6ff49298="">TUS PRIME...</span></button></div>
+                    </div>
+                </div>
+            </div>
+            <div data-v-6ff49298="" class="card-carousel--nav__right"></div>
+        </div>
+<!-- Fin Codigo -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                                        
+                </div>
             </div>
         </div>
-    </div>
-    <div data-v-6ff49298="" class="card-carousel--nav__right"></div>
-</div>    
-<!-- Fin Codigo -->
     </div>
 </div>    
 </template>
