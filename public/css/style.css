@@ -471,3 +471,18 @@
   border: 2px solid #37c7f0 !important;
 }
 /*------------- Fin Hablando --------------------*/
+
+
+
+
+
+
+
+
+
+
+
+.card-carousel-wrapper{
+  position: relative;
+  z-index: 9;
+}

@@ -34,7 +34,7 @@ cliente</b> se transmite a otros miembros del equipo para que puedan <b>experime
         </div>
     </div>
     <div id="hablando-des">
-        <div class="container">
+        <div class="container" style="height: 0px;">
             <div class="row">
                 <div class="col-lg-12 separar">
                     <img src="img/hablando/separar.png" alt="" class="img-fluid">

@@ -15,7 +15,7 @@
         <a :href="data.links.documents"  v-if="data.links.documents != '#'" target="_blank" class="btn practices_documents" > Documentos </a>
         <a :href="data.links.videos"     v-if="data.links.videos != '#'" target="_blank" class="btn practices_videos"> Videos </a>
         <a :href="data.links.otherFiles" v-if="data.links.otherFiles != '#'" target="_blank" class="btn  practices_other_files" > Otros archivos </a>
-        <img src="img/logo_seccion_1.png" alt="logo download" >
+        <img src="img/hablando/cuadro.png" alt="logo cuadro" >
       </div>
     </div>
   </div>
