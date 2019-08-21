@@ -2,6 +2,7 @@
   <div class="">
     <!-- <MainSection/> -->
     <Practices/>
+    <Hablando/>
     <Inspirando/>
   </div>
 </template>
@@ -11,13 +12,15 @@
   import MainSection from './components/MainSection'
   import Practices from './components/Practices'
   import Inspirando from './components/Inspirando'
+  import Hablando from './components/Hablando'
 
 export default {
   name: 'app',
   components: {
     MainSection,
     Practices,
-    Inspirando
+    Inspirando,
+    Hablando
   }
 }
 </script>

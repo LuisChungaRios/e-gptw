@@ -14,7 +14,10 @@
     font-family: 'Barlow-Light';
      src: url("./fonts/Barlow/Barlow-Light.ttf");
    }
- 
+   @font-face {
+    font-family: 'Barlow-Medium';
+     src: url("./fonts/Barlow/Barlow-Medium.ttf");
+   }
  :root{
  
    --primary-color: #005cff;
@@ -427,11 +430,17 @@
   padding: 6.5px 22.5px;
   padding-left: 40px;
   position: relative;
+  color: #005cff;  
+  font-family:'Barlow-Medium';
+  font-style:normal;
+  font-weight:500;
+  font-size: 20px;
 }
 #hablando .floro-cont .conocer .btn-conoceme img{
   position: absolute;
   top: 0;
-  left: -7px;
+  left: -8.5px;
+  width: 41px;
 }
 
 
@@ -479,7 +488,173 @@
 }
 /*------------- Fin Hablando --------------------*/
 
+/*3 Inspirando*/
+#inspirando figure{
+  margin: 0;
+}
+#inspirando{
+  padding-top: 45px;
+  padding-bottom: 30px;
+  color: black;
+  min-height: 100vh;
+  position: relative;
+  background-image: url(../img/inspirando/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 9;
+}
+#inspirando .logo h3{
+  color: #2d2f8d;
+	font-family:'Barlow-Bold';
+	font-style:normal;
+  font-weight:700;
+  font-size: 60px  
+}
+#inspirando .principal p{
+  font-family: 'Barlow-Light';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  color: #2d2f8d;
+}
+#inspirando .principal p b{
+  font-family: 'Barlow-Bold';
+  font-style: normal;
+  font-weight: 700;
+  color: #2d2f8d;
+}
+#inspirando .principal p span{
+  font-family:'Barlow-Medium';
+  font-style:normal;
+  font-weight:500;
+  color: #2d2f8d;
+  font-size: 24px;
+}
+#inspirando .principal p .camb{
+  color: #36c5ef;
+}
 
+#inspirando .imagen-c{
+  position: absolute;
+  bottom: 30px;
+  /* left: calc(52.5% - 225px); */
+  /* left: calc(50% - 360px); */
+  left: calc(58% - 360px);
+  z-index: -9;
+}
+#inspirando .imagen-c img{
+  width: 720px;
+  position: relative;
+  z-index: -9;
+  /* width: 450px; */
+  /* width: 375px; */
+}
+#inspirando .floro .fondo{
+  position: relative;
+  z-index: -99;
+}
+#inspirando .floro-cont{
+  /* position: absolute;
+  z-index: 9;
+  top: 25%;
+  right: -10%; */
+  position: absolute;
+  z-index: 9;
+  /* top: 35%; */
+  right: 12%;
+  /* top: 27.5%; */
+  top: 30%;
+}
+#inspirando .floro-cont h5{
+  font-family:'Barlow-Bold';
+  font-style:normal;
+  font-weight:700;
+  font-size: 24px;
+  color: #37c7f0;
+}
+#inspirando .floro-cont .texto{
+  font-family:'Barlow-MediumItalic';
+  font-style:normal;
+  font-weight:500;
+  color: white;
+  font-size: 16px;
+  line-height: 22px;
+}
+#inspirando .floro-cont .puesto{
+  font-family:'Barlow-Bold';
+  font-style:normal;
+  font-weight:700;  
+  font-size: 16px;
+  color: #ff8334;
+  line-height: 20px;
+}
+#inspirando .floro-cont .conocer .btn-conoceme{
+  background: white;
+  border-radius: 10px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 6.5px 22.5px;
+  padding-left: 40px;
+  position: relative;
+  color: #005cff;  
+  font-family:'Barlow-Medium';
+  font-style:normal;
+  font-weight:500;
+  font-size: 20px;
+}
+#inspirando .floro-cont .conocer .btn-conoceme img{
+  position: absolute;
+  top: 0;
+  left: -8.5px;
+  width: 41px;
+}
+
+
+#inspirando-des{
+  background-color: #222473;
+}
+#inspirando-des .separar{
+  top: -120px;
+  z-index: 9;
+}
+#inspirando-des .titulo{
+  font-family:'Barlow-Bold';
+  font-style:normal;
+  font-weight:700;
+  color: white;  
+  position: absolute;
+  top: calc(50% - 26.8px);
+  left: 10%;
+  width: 80%;
+  font-size: 36px;
+  margin-bottom: 0;
+}
+#inspirando-des .titulo b{
+  color: #37c7f0;
+}
+
+#inspirando-des #section-1 .practices_title{
+  color: #37c7f0;
+}
+#inspirando-des #section-1 .practices_list{
+  color: #37c7f0;
+}
+#inspirando-des .button-practices:hover{
+  border-color: #37c7f0 !important;
+}
+#inspirando-de .button-practices..isActive[data-v-a7128ece]{
+  border: 2px solid #37c7f0 !important;
+}
+#inspirando-de .button-practices[data-v-a7128ece]:focus{
+  border: 2px solid #37c7f0 !important;
+}
+
+#inspirando-des .main-practices{
+  min-height: unset;
+}
+
+/*------------- Fin Inspirando --------------------*/
 
 
 
@@ -504,4 +679,13 @@
 .download-files img{
   position: absolute;
   bottom: 0px;
+}
+/*Media Queries*/
+@media(min-width: 1600px){
+  #inspirando{
+    min-height: 768px;
+  }
+  #hablando{
+    min-height: 768px;
+  }
 }

@@ -22,7 +22,7 @@
         <p class="cargo">Ejecutiva Canal Elité <br>
           Área: Regional Consumidores <br>
           Lima - Comercia</p>
-        <button class="btn-conoceme" style="display: none"><img src="img/btn-corazon.png" alt="" class="btn-img-corazon">¡Conóceme!</button>
+        <button class="btn-conoceme"><img src="img/btn-corazon.png" alt="" class="btn-img-corazon">¡Conóceme!</button>
       </div>
       <img src="img/nicole.png" class="img-nicol" alt="">
     </div>
