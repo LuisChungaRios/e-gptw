@@ -358,6 +358,15 @@ width: 30px;
 #navegador .active .descripcion{
 	visibility: visible;
 }
+
+#navegador .active{
+  transition: all 0.5s;
+}
+#navegador .active:hover{
+  transform: scale(1.12);
+}
+
+
 /*------------ Fin ListaNavegador-----------------*/
 
 
@@ -1145,7 +1154,7 @@ width: 30px;
 
 /*------------------------------------------*/
 
-/*2 Hablando*/
+/*2 desarrollando*/
 #desarrollando figure{
   margin: 0;
 }
@@ -1309,4 +1318,175 @@ width: 30px;
   }
 }
 /*------------- Fin escuchando --------------------*/
+
+
+#balanceando{
+  background-color: #0066c5;
+}
+
+#balanceando figure{
+  margin: 0;
+}
+#balanceando{
+  padding-top: 45px;
+  padding-bottom: 30px;
+  color: black;
+  min-height: 100vh;
+  position: relative;
+  /* background-image: url(../img/hablando/banner-hablando.png); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 9;
+}
+#balanceando .logo h3{
+  color: #42e8b4;
+	font-family:'Barlow-Bold';
+	font-style:normal;
+  font-weight:700;
+  font-size: 60px  
+}
+#balanceando .principal p{
+  font-family: 'Barlow-Light';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  color: #fff;
+}
+#balanceando .principal p b{
+  font-family: 'Barlow-Bold';
+  font-style: normal;
+  font-weight: 700;
+  color: #fff;
+}
+#balanceando .principal .camb{
+  font-family: 'Barlow-Medium';
+  font-style: normal;
+  font-weight: 500;
+  color: #42e8b4;
+  font-size: 24px;
+}
+
+#balanceando .imagen-c{
+  position: absolute;
+  bottom: 30px;
+  left: calc(52.5% - 162.5px);
+  z-index: -9;
+}
+#balanceando .imagen-c img{
+  position: relative;
+  z-index: -9;
+  /* width: 450px; */
+  width: 325px;
+}
+#balanceando .floro .fondo{
+  position: relative;
+  z-index: -99;
+  left: 15%;
+}
+#balanceando .floro-cont{
+  position: absolute;
+  z-index: 9;
+  top: 20%;
+  right: -10%;
+}
+#balanceando .floro-cont h5{
+  font-family:'Barlow-Bold';
+  font-style:normal;
+  font-weight:700;
+  font-size: 24px;
+  color: #fff;
+}
+#balanceando .floro-cont .texto{
+  font-family:'Barlow-MediumItalic';
+  font-style:normal;
+  font-weight:500;
+  color: #ffffff;
+  font-size: 16px;
+}
+#balanceando .floro-cont .puesto{
+  font-family:'Barlow-Bold';
+  font-style:normal;
+  font-weight:700;  
+  font-size: 16px;
+  color: #42e8b4;
+}
+#balanceando .floro-cont .conocer .btn-conoceme{
+  background: white;
+  border-radius: 10px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 5.5px 22.5px;
+  padding-left: 40px;
+  position: relative;
+  color: #005cff;  
+  font-family:'Barlow-Medium';
+  font-style:normal;
+  font-weight:500;
+  font-size: 20px;
+}
+#balanceando .floro-cont .conocer .btn-conoceme img{
+  position: absolute;
+  top: 0;
+  left: -8.5px;
+  width: 41px;
+}
+
+
+#balanceando-des{
+  background-color: #222473;
+}
+#balanceando-des .separar{
+  top: -120px;
+  z-index: 9;
+}
+#balanceando-des .titulo{
+  font-family:'Barlow-Bold';
+  font-style:normal;
+  font-weight:700;
+  color: white;  
+  position: absolute;
+  top: calc(50% - 26.8px);
+  left: 10%;
+  width: 80%;
+  font-size: 36px;
+  margin-bottom: 0;
+}
+#balanceando-des .titulo b{
+  color: #42e8b4;
+  border-bottom: 1px solid #42e8b4;
+}
+
+#balanceando-des #section-1 .practices_title{
+  color: #42e8b4;
+}
+#balanceando-des #section-1 .practices_list{
+  color: #42e8b4;
+}
+#balanceando-des .button-practices:hover{
+  border-color: #42e8b4 !important;
+}
+#balanceando-de .button-practices..isActive[data-v-a7128ece]{
+  border: 2px solid #42e8b4 !important;
+}
+#balanceando-de .button-practices[data-v-a7128ece]:focus{
+  border: 2px solid #42e8b4 !important;
+}
+
+#balanceando-des .main-practices{
+  min-height: unset;
+}
+
+#balanceando-des .isActive span{
+  color: #42e8b4;
+}
+#balanceando-des .img-footer{
+  bottom: -30px;
+}
+@media(min-width:1366px){
+  #balanceando .floro-cont{
+    top: 22.55%;
+  }
+}
+/*------------- Fin balanceando --------------------*/
 

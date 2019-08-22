@@ -38,7 +38,7 @@
                 </a>
             </li>
             <li>
-                <a href="javascript:void(0)">
+                <a href="#agradeciendo">
                     <img src="img/heart5.png" alt="corazon_lleno" class="corazon_lleno">
                     <div class="texto">
                         <span class="numero">5.</span>
@@ -47,7 +47,7 @@
                 </a>
             </li>
             <li>
-                <a href="javascript:void(0)">
+                <a href="#desarrollando">
                     <img src="img/heart6.png" alt="corazon_lleno" class="corazon_lleno">
                     <div class="texto">
                         <span class="numero">6.</span>
@@ -56,7 +56,7 @@
                 </a>
             </li>  
             <li>
-                <a href="javascript:void(0)">
+                <a href="#balanceando">
                     <img src="img/heart7.png" alt="corazon_lleno" class="corazon_lleno">
                     <div class="texto">
                         <span class="numero">7.</span>
