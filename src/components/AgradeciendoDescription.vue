@@ -1,7 +1,7 @@
 <template lang="pug">
 
 .main-practices(id="section-1")
-  PracticesDescription
+
   .card-carousel-wrapper
     .card-carousel--nav__left(
       @click="moveCarousel(-1)"
@@ -12,31 +12,30 @@
         .card-carousel-cards(:style="{ transform: 'translateX' + '(' + currentOffset + 'px' + ')'}")
           .card-carousel--card(v-for="(practice, index) in practices")
             button(class="button-practices" @click="setItem(index)"  :class="{isActive: practice.name == itemFocus.name}" data-toggle="tooltip" data-placement="top" :title="practice.name" )
-              img(src="/img/folder_color.png" v-if="practice.name == itemFocus.name" )
+              img(src="/img/agradeciendo/carpeta.png" v-if="practice.name == itemFocus.name" )
               img(src="/img/folder_blank.png" v-else )
 
-              span.naranja(v-if="practice.name.length > 12") {{practice.name.substring(0,9)}}...
-              span.naranja(v-else) {{practice.name}}
+              span(v-if="practice.name.length > 12") {{practice.name.substring(0,9)}}...
+              span(v-else) {{practice.name}}
 
     .card-carousel--nav__right(
       @click="moveCarousel(1)"
       :disabled="atEndOfList")
-  PracticesContent(:data="itemFocus")
+  AgradeciendoContent(:data="itemFocus")
 
 
 </template>
 
 <script>
-
   import { mapState  }from 'vuex'
-  import PracticesContent from './PracticesContent'
-  import PracticesDescription from './PracticesDescription'
+
+  import AgradeciendoContent from './AgradeciendoContent'
 
   export default {
     name: "Practices",
     components: {
-      PracticesContent,
-      PracticesDescription
+      AgradeciendoContent,
+
 
     },
     data() {
@@ -53,7 +52,7 @@
 
       ...mapState({
 
-        practices: state => state.practices
+        practices: state => state.inspirando
       }),
       atEndOfList() {
         return this.currentOffset <= (this.paginationFactor * -1) * (this.practices.length - this.windowSize);
@@ -238,12 +237,12 @@
     }
   }
 
-.container-practices {
+  .container-practices {
 
-  background: white;
-  height: 100px;
+    background: white;
+    height: 100px;
 
-}
+  }
   .isActive {
 
     color: #ff8334;

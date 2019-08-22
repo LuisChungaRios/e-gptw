@@ -1,3 +1,7 @@
+/* ::-webkit-scrollbar {
+width: 30px;
+} */
+
 @font-face {
   font-family: 'Barlow';
    src: url("./fonts/Barlow/Barlow-Regular.ttf");
@@ -148,6 +152,9 @@
  /**
  Luis
   */
+  #section-1 .card-carousel-wrapper .isActive .naranja{
+    color: #ff8334;   
+   }
  
  .card-carousel--nav__right, .card-carousel--nav__left {
  
@@ -309,8 +316,9 @@
 	margin-left: 22.5px;
 	/*opcional*/
 	width: calc(100% + 15px);
-	padding-left: 27px;
-  color: #222473;  
+	/* padding-left: 27px; */
+  color: #222473;
+  padding-left: 33px;
 }
 #navegador .active .texto{
 	background: #2d2f8d;
@@ -502,6 +510,10 @@
 #hablando-des .main-practices{
   min-height: unset;
 }
+#hablando-des .isActive span{
+  color: #37c7f0;
+}
+
 /*------------- Fin Hablando --------------------*/
 
 /*3 Inspirando*/
@@ -715,6 +727,9 @@
 #inspirando-des .img-footer{
   bottom: -30px;
 }
+#inspirando-des .isActive span{
+  color: #37c7f0;
+}
 /*Media Queries*/
 @media(min-width: 1600px){
   #inspirando{
@@ -774,4 +789,356 @@
   font-weight: 200;
   width:250px;
   font-size:30px;
+}
+
+/* #inspirando .logo h3{position: relative;}
+#inspirando .logo h3::before{
+  content: url(../img/hablando/hablando.png);
+  position: absolute;
+} */
+
+/*Escuchando*/
+#escuchando{
+  background-color: #42e8b4;
+}
+
+/*2 Hablando*/
+#escuchando figure{
+  margin: 0;
+}
+#escuchando{
+  padding-top: 45px;
+  padding-bottom: 30px;
+  color: black;
+  min-height: 100vh;
+  position: relative;
+  background-image: url(../img/hablando/banner-hablando.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 9;
+}
+#escuchando .logo h3{
+  color: #2d2f8d;
+	font-family:'Barlow-Bold';
+	font-style:normal;
+  font-weight:700;
+  font-size: 60px  
+}
+#escuchando .principal p{
+  font-family: 'Barlow-Light';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  color: #001843;
+}
+#escuchando .principal p b{
+  font-family: 'Barlow-Bold';
+  font-style: normal;
+  font-weight: 700;
+  color: #001843;
+}
+#escuchando .principal p .camb{
+  font-family: 'Barlow-Medium';
+  font-style: normal;
+  font-weight: 500;
+  color: #2d2f8d;
+  font-size: 24px;
+}
+
+#escuchando .imagen-c{
+  position: absolute;
+  bottom: 30px;
+  left: calc(52.5% - 175px);
+  z-index: -9;
+}
+#escuchando .imagen-c img{
+  position: relative;
+  z-index: -9;
+  /* width: 450px; */
+  width: 350px;
+}
+#escuchando .floro .fondo{
+  position: relative;
+  z-index: -99;
+  left:23.5%;
+}
+#escuchando .floro-cont{
+  position: absolute;
+  z-index: 9;
+  /* top: 25%; */
+  top: 20%;
+  right: -10%;
+}
+#escuchando .floro-cont h5{
+  font-family:'Barlow-Bold';
+  font-style:normal;
+  font-weight:700;
+  font-size: 24px;
+  color: #fb5b87;
+}
+#escuchando .floro-cont .texto{
+  font-family:'Barlow-MediumItalic';
+  font-style:normal;
+  font-weight:500;
+  color: white;
+  font-size: 16px;
+}
+#escuchando .floro-cont .puesto{
+  font-family:'Barlow-Bold';
+  font-style:normal;
+  font-weight:700;  
+  font-size: 16px;
+  color: #42e8b4;
+}
+#escuchando .floro-cont .conocer .btn-conoceme{
+  background: white;
+  border-radius: 10px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 5.5px 22.5px;
+  padding-left: 40px;
+  position: relative;
+  color: #005cff;  
+  font-family:'Barlow-Medium';
+  font-style:normal;
+  font-weight:500;
+  font-size: 20px;
+}
+#escuchando .floro-cont .conocer .btn-conoceme img{
+  position: absolute;
+  top: 0;
+  left: -8.5px;
+  width: 41px;
+}
+
+
+#escuchando-des{
+  background-color: #222473;
+}
+#escuchando-des .separar{
+  top: -120px;
+  z-index: 9;
+}
+#escuchando-des .titulo{
+  font-family:'Barlow-Bold';
+  font-style:normal;
+  font-weight:700;
+  color: white;  
+  position: absolute;
+  top: calc(50% - 26.8px);
+  left: 10%;
+  width: 80%;
+  font-size: 36px;
+  margin-bottom: 0;
+}
+#escuchando-des .titulo b{
+  color: #fb5b87;
+  border-bottom: 1px solid #fb5b87;
+}
+
+#escuchando-des #section-1 .practices_title{
+  color: #fb5b87;
+}
+#escuchando-des #section-1 .practices_list{
+  color: #fb5b87;
+}
+#escuchando-des .button-practices:hover{
+  border-color: #fb5b87 !important;
+}
+#escuchando-de .button-practices..isActive[data-v-a7128ece]{
+  border: 2px solid #fb5b87 !important;
+}
+#escuchando-de .button-practices[data-v-a7128ece]:focus{
+  border: 2px solid #fb5b87 !important;
+}
+
+#escuchando-des .main-practices{
+  min-height: unset;
+}
+
+#escuchando-des .isActive span{
+  color: #fb5b87;
+}
+
+@media(min-width:1366px){
+  #escuchando .floro-cont{
+    top: 25%;
+  }
+}
+/*------------- Fin escuchando --------------------*/
+
+
+/*5 agradeciendo */
+#agradeciendo figure{
+  margin: 0;
+}
+#agradeciendo{
+  padding-top: 45px;
+  padding-bottom: 30px;
+  color: black;
+  min-height: 100vh;
+  position: relative;
+  background-image: url(../img/agradeciendo/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 9;
+}
+#agradeciendo .logo h3{
+  color: #2d2f8d;
+	font-family:'Barlow-Bold';
+	font-style:normal;
+  font-weight:700;
+  font-size: 60px  
+}
+#agradeciendo .principal p{
+  font-family: 'Barlow-Light';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  color: #001843;
+}
+#agradeciendo .principal p b{
+  font-family: 'Barlow-Bold';
+  font-style: normal;
+  font-weight: 700;
+  color: #001843;
+}
+#agradeciendo .principal p .camb{
+  font-family: 'Barlow-Medium';
+  font-style: normal;
+  font-weight: 500;
+  color: #001843;
+  font-size: 24px;
+  margin-top: 30px;
+  display: inline-block;  
+}
+
+#agradeciendo .imagen-c{
+  position: absolute;
+  bottom: 30px;
+  left: calc(50% - 278px);
+  z-index: -9;
+}
+#agradeciendo .imagen-c img{
+  position: relative;
+  z-index: -9;
+  /* width: 450px; */
+  /* width: 350px; */
+  width: 556px;
+
+}
+#agradeciendo .floro .fondo{
+  position: relative;
+  z-index: -99;
+  /* left:23.5%; */
+  left: 12.5%;
+}
+#agradeciendo .floro-cont{
+  position: absolute;
+  z-index: 9;
+  /* top: 25%; */
+  top: 20%;
+  right: -10%;
+}
+#agradeciendo .floro-cont h5{
+  font-family:'Barlow-Bold';
+  font-style:normal;
+  font-weight:700;
+  font-size: 24px;
+  color: #29acf4;
+}
+#agradeciendo .floro-cont .texto{
+  font-family:'Barlow-MediumItalic';
+  font-style:normal;
+  font-weight:500;
+  color: white;
+  font-size: 16px;
+}
+#agradeciendo .floro-cont .puesto{
+  font-family:'Barlow-Bold';
+  font-style:normal;
+  font-weight:700;  
+  font-size: 16px;
+  color: #fb5b87;
+}
+#agradeciendo .floro-cont .conocer .btn-conoceme{
+  background: white;
+  border-radius: 10px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 5.5px 22.5px;
+  padding-left: 40px;
+  position: relative;
+  color: #005cff;  
+  font-family:'Barlow-Medium';
+  font-style:normal;
+  font-weight:500;
+  font-size: 20px;
+}
+#agradeciendo .floro-cont .conocer .btn-conoceme img{
+  position: absolute;
+  top: 0;
+  left: -8.5px;
+  width: 41px;
+}
+
+
+#agradeciendo-des{
+  background-color: #222473;
+}
+#agradeciendo-des .separar{
+  top: -120px;
+  z-index: 9;
+}
+#agradeciendo-des .titulo{
+  font-family:'Barlow-Bold';
+  font-style:normal;
+  font-weight:700;
+  color: white;  
+  position: absolute;
+  top: calc(50% - 26.8px);
+  left: 10%;
+  width: 80%;
+  font-size: 36px;
+  margin-bottom: 0;
+}
+#agradeciendo-des .titulo b{
+  color: #37c7f0;
+  border-bottom: 1px solid #37c7f0;
+}
+
+#agradeciendo-des #section-1 .practices_title{
+  color: #37c7f0;
+}
+#agradeciendo-des #section-1 .practices_list{
+  color: #37c7f0;
+}
+#agradeciendo-des .button-practices:hover{
+  border-color: #37c7f0 !important;
+}
+#agradeciendo-de .button-practices..isActive[data-v-a7128ece]{
+  border: 2px solid #37c7f0 !important;
+}
+#agradeciendo-de .button-practices[data-v-a7128ece]:focus{
+  border: 2px solid #37c7f0 !important;
+}
+
+#agradeciendo-des .main-practices{
+  min-height: unset;
+}
+
+#agradeciendo-des .isActive span{
+  color: #37c7f0;
+}
+
+#agradeciendo-des .img-footer{
+  bottom: -30px;
+}
+
+@media(min-width:1366px){
+  #agradeciendo .floro-cont{
+    top: 25%;
+  }
 }

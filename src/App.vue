@@ -4,6 +4,8 @@
     <Practices/>
     <Hablando/>
     <Inspirando/>
+    <Escuchando/>
+    <Agradeciendo/>
   </div>
 </template>
 
@@ -13,6 +15,8 @@
   import Practices from './components/Practices'
   import Inspirando from './components/Inspirando'
   import Hablando from './components/Hablando'
+  import Escuchando from './components/Escuchando'
+  import Agradeciendo from './components/Agradeciendo'
 
 export default {
   name: 'app',
@@ -20,7 +24,9 @@ export default {
     MainSection,
     Practices,
     Inspirando,
-    Hablando
+    Hablando,
+    Escuchando,
+    Agradeciendo
   }
 }
 </script>
