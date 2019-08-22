@@ -10,7 +10,7 @@
                     </div>
                     <div class="principal">
                         <p>Nuestros colaboradores tienen la libertad y las herramientas para comunicar sus propuestas de mejora y promover la Cultura Entel. El conocimiento que adquieren al <b>sentir como el 
-cliente</b> se transmite a otros miembros del equipo para que puedan <b>experimentar y cambiar</b>, desarrollando así la capacidad de tomar decisiones <b class="camb">para hacer las cosas increíbles.</b></p>
+cliente</b> se transmite a otros miembros del equipo para que puedan <b>experimentar y cambiar</b>, desarrollando así la capacidad de tomar decisiones <b style="color: #36c5ef;">para hacer las cosas increíbles.</b></p>
                     </div>
                 </div>
                 <!-- <div class="col-lg-1"></div> -->

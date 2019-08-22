@@ -9,7 +9,7 @@
                         <h3>Celebrando</h3>
                     </div>
                     <div class="principal">
-                        <p>En Entel, si lo haces increíble hay que celebrarlo. Sin jerarquías ni temas funcionales, el trabajo de cada colaborador habla por sí mismo, y éste a su vez comparte su conocimiento para transmitir ese sentimiento de dar lo mejor cada día.</p>
+                        <p>En Entel, <b>si lo haces increíble</b> hay que celebrarlo. Sin jerarquías ni temas funcionales, el trabajo de cada colaborador habla por sí mismo, y éste a su vez comparte su conocimiento para transmitir ese sentimiento de dar lo mejor cada día.</p>
                         <span class="camb">¡Nos transformamos!</span>
                     </div>
                 </div>

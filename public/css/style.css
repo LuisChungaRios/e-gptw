@@ -741,12 +741,12 @@ width: 30px;
 }
 /*Media Queries*/
 @media(min-width: 1600px){
-  #inspirando{
+  /* #inspirando{
     min-height: 768px;
-  }
-  #hablando{
+  } */
+  /* #hablando{
     min-height: 768px;
-  }
+  } */
 }
 @media(min-width: 1200px) and (max-width:1400px){
   #inspirando{
@@ -1743,7 +1743,7 @@ width: 30px;
   font-style:normal;
   font-weight:700;
   font-size: 24px;
-  color: #f66f01;
+  color: #37c7f0;
 }
 #reconociendo .floro-cont .texto{
   font-family:'Barlow-MediumItalic';
@@ -1757,7 +1757,7 @@ width: 30px;
   font-style:normal;
   font-weight:700;  
   font-size: 16px;
-  color: #37c7f0;
+  color: #fb5b87;
 }
 #reconociendo .floro-cont .conocer .btn-conoceme{
   background: white;
@@ -1840,3 +1840,152 @@ width: 30px;
 }
 
 /*------------- Fin celebrando --------------------*/
+
+@media(min-width: 1200px) and (max-width:1440px){
+  .floro-cont .texto{
+    font-size: 13px !important;
+  }
+  .floro-cont h5{
+    font-size: 19.5px !important;
+  }
+  .floro-cont .puesto{
+    font-size: 13px !important;
+  }
+  .floro-cont .conocer .btn-conoceme{
+    font-size: 16.25px !important;
+  }
+  .logo h3{
+    font-size: 48.75px !important;
+  }
+  .principal p{
+    font-size: 13px !important;
+  }
+  .principal .camb{
+    font-size: 19.5px !important;
+  }
+  .principal p{
+    padding-right: 30px;
+  }
+
+  #reconociendo .imagen-c img{
+    width: 287px;
+  }
+  #reconociendo .imagen-c{
+    left: calc(52.5% - 143.5px);
+  }
+  #reconociendo .floro .fondo{
+    width: 400px;
+  }
+}
+
+
+@media(min-width: 1920px){
+  .imagen-c img,
+  .floro .fondo{
+    width: unset !important;
+  }
+  .principal p{
+    padding-right: 30px;
+  }
+
+  #inspirando .imagen-c{
+    left: calc(52.5% - 448px);
+  }
+  #inspirando .floro-cont{
+    top: 50%;
+  }
+
+  #hablando .floro .fondo{
+    top: 20%;
+  }
+  #hablando .imagen-c{
+    left: calc(52.5% - 250.5px);
+  }
+  #hablando .floro-cont{
+    top: 40%;
+  }
+
+
+  #escuchando .floro .fondo{
+    top: 15%;
+  }
+  #escuchando .imagen-c{
+    bottom: -30px;
+  }
+  #escuchando .floro-cont{
+    top: 40%;
+  }
+
+
+
+  #agradeciendo .imagen-c{
+    left: calc(50% - 328px);
+  }
+  #agradeciendo .floro .fondo{
+    top: 20%;
+  }
+  #agradeciendo .floro-cont{
+    top: 40%;
+  }
+
+  #desarrollando .floro .fondo{
+    top: 20%;
+  }
+  #desarrollando .imagen-c{
+    bottom: 0px;
+  }
+
+  #desarrollando .floro-cont{
+    top: 40%;
+  }
+
+  #desarrollando .imagen-c{
+    left: calc(52.5% - 194px);
+  }
+
+  #balanceando .imagen-c{
+    left: calc(52.5% - 226px);
+  }
+  #balanceando .floro .fondo{
+    left: 14.4%;
+  }
+
+
+  #celebrando .imagen-c{
+    left: calc(52.5% - 252.5px);
+  }
+  #celebrando .floro .fondo{
+    top: 22.5%;
+    left: 15%;
+  }
+  #celebrando .floro-cont{
+    top: 40%;
+  }
+
+  #reconociendo .imagen-c{
+    left: calc(52.5% - 218.5px);
+  }
+  #reconociendo .floro .fondo{
+    left: 0px;
+  }
+  #reconociendo .floro-cont{
+    top: 37.5%;
+  }
+  #reconociendo .floro .fondo{
+    top: 20%;
+  }
+}
+
+
+
+
+
+
+
+
+@media(min-height: 1025px){
+  #celebrando{
+    min-height: 1024px;
+    max-height: 1024px;
+  }
+}
