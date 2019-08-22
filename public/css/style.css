@@ -812,7 +812,7 @@ width: 30px;
   color: black;
   min-height: 100vh;
   position: relative;
-  background-image: url(../img/hablando/banner-hablando.png);
+  /* background-image: url(../img/hablando/banner-hablando.png); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1142,3 +1142,171 @@ width: 30px;
     top: 25%;
   }
 }
+
+/*------------------------------------------*/
+
+/*2 Hablando*/
+#desarrollando figure{
+  margin: 0;
+}
+#desarrollando{
+  padding-top: 45px;
+  padding-bottom: 30px;
+  color: black;
+  min-height: 100vh;
+  position: relative;
+  background-image: url(../img/hablando/banner-hablando.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 9;
+}
+#desarrollando .logo h3{
+  color: #ff8334;
+	font-family:'Barlow-Bold';
+	font-style:normal;
+  font-weight:700;
+  font-size: 60px  
+}
+#desarrollando .principal p{
+  font-family: 'Barlow-Light';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  color: #222473;
+}
+#desarrollando .principal p b{
+  font-family: 'Barlow-Bold';
+  font-style: normal;
+  font-weight: 700;
+  color: #001843;
+}
+#desarrollando .principal .camb{
+  font-family: 'Barlow-Medium';
+  font-style: normal;
+  font-weight: 500;
+  color: #ff8334;
+  font-size: 24px;
+}
+
+#desarrollando .imagen-c{
+  position: absolute;
+  bottom: 30px;
+  left: calc(52.5% - 162.5px);
+  z-index: -9;
+}
+#desarrollando .imagen-c img{
+  position: relative;
+  z-index: -9;
+  /* width: 450px; */
+  width: 325px;
+}
+#desarrollando .floro .fondo{
+  position: relative;
+  z-index: -99;
+  /* left:23.5%; */
+}
+#desarrollando .floro-cont{
+  position: absolute;
+  z-index: 9;
+  top: 20%;
+  right: -10%;
+}
+#desarrollando .floro-cont h5{
+  font-family:'Barlow-Bold';
+  font-style:normal;
+  font-weight:700;
+  font-size: 24px;
+  color: #fff;
+}
+#desarrollando .floro-cont .texto{
+  font-family:'Barlow-MediumItalic';
+  font-style:normal;
+  font-weight:500;
+  color: #222473;
+  font-size: 16px;
+}
+#desarrollando .floro-cont .puesto{
+  font-family:'Barlow-Bold';
+  font-style:normal;
+  font-weight:700;  
+  font-size: 16px;
+  color: #222473;
+}
+#desarrollando .floro-cont .conocer .btn-conoceme{
+  background: white;
+  border-radius: 10px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 5.5px 22.5px;
+  padding-left: 40px;
+  position: relative;
+  color: #005cff;  
+  font-family:'Barlow-Medium';
+  font-style:normal;
+  font-weight:500;
+  font-size: 20px;
+}
+#desarrollando .floro-cont .conocer .btn-conoceme img{
+  position: absolute;
+  top: 0;
+  left: -8.5px;
+  width: 41px;
+}
+
+
+#desarrollando-des{
+  background-color: #222473;
+}
+#desarrollando-des .separar{
+  top: -120px;
+  z-index: 9;
+}
+#desarrollando-des .titulo{
+  font-family:'Barlow-Bold';
+  font-style:normal;
+  font-weight:700;
+  color: white;  
+  position: absolute;
+  top: calc(50% - 26.8px);
+  left: 10%;
+  width: 80%;
+  font-size: 36px;
+  margin-bottom: 0;
+}
+#desarrollando-des .titulo b{
+  color: #ff8334;
+  border-bottom: 1px solid #ff8334;
+}
+
+#desarrollando-des #section-1 .practices_title{
+  color: #ff8334;
+}
+#desarrollando-des #section-1 .practices_list{
+  color: #ff8334;
+}
+#desarrollando-des .button-practices:hover{
+  border-color: #ff8334 !important;
+}
+#desarrollando-de .button-practices..isActive[data-v-a7128ece]{
+  border: 2px solid #ff8334 !important;
+}
+#desarrollando-de .button-practices[data-v-a7128ece]:focus{
+  border: 2px solid #ff8334 !important;
+}
+
+#desarrollando-des .main-practices{
+  min-height: unset;
+}
+
+#desarrollando-des .isActive span{
+  color: #ff8334;
+}
+
+@media(min-width:1366px){
+  #desarrollando .floro-cont{
+    top: 18.25%;
+  }
+}
+/*------------- Fin escuchando --------------------*/
+

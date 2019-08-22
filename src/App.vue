@@ -6,6 +6,7 @@
     <Inspirando/>
     <Escuchando/>
     <Agradeciendo/>
+    <Desarrollando/>
   </div>
 </template>
 
@@ -17,6 +18,7 @@
   import Hablando from './components/Hablando'
   import Escuchando from './components/Escuchando'
   import Agradeciendo from './components/Agradeciendo'
+  import Desarrollando from './components/Desarrollando'
 
 export default {
   name: 'app',
@@ -26,7 +28,8 @@ export default {
     Inspirando,
     Hablando,
     Escuchando,
-    Agradeciendo
+    Agradeciendo,
+    Desarrollando
   }
 }
 </script>
