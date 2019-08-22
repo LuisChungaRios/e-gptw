@@ -65,7 +65,7 @@
                 </a>
             </li>  
             <li>
-                <a href="javascript:void(0)">
+                <a href="#celebrando">
                     <img src="img/heart8.png" alt="corazon_lleno" class="corazon_lleno">
                     <div class="texto">
                         <span class="numero">8.</span>
@@ -74,7 +74,7 @@
                 </a>
             </li> 
             <li>
-                <a href="javascript:void(0)">
+                <a href="#reconociendo">
                     <img src="img/heart9.png" alt="corazon_lleno" class="corazon_lleno">
                     <div class="texto">
                         <span class="numero">9.</span>

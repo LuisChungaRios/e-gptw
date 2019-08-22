@@ -1483,10 +1483,360 @@ width: 30px;
 #balanceando-des .img-footer{
   bottom: -30px;
 }
-@media(min-width:1366px){
+@media(min-width:1367px){
   #balanceando .floro-cont{
     top: 22.55%;
   }
 }
 /*------------- Fin balanceando --------------------*/
 
+
+
+
+/*celebrando*/
+
+#celebrando figure{
+  margin: 0;
+}
+#celebrando{
+  padding-top: 45px;
+  padding-bottom: 30px;
+  color: black;
+  min-height: 100vh;
+  position: relative;
+  background-image: url(../img/celebrando/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 9;
+}
+#celebrando .logo h3{
+  color: #2d2f8d;
+	font-family:'Barlow-Bold';
+	font-style:normal;
+  font-weight:700;
+  font-size: 60px  
+}
+#celebrando .principal p{
+  font-family: 'Barlow-Light';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  color: #222473;
+}
+#celebrando .principal p b{
+  font-family: 'Barlow-Bold';
+  font-style: normal;
+  font-weight: 700;
+  color: #001843;
+}
+#celebrando .principal .camb{
+  font-family: 'Barlow-Medium';
+  font-style: normal;
+  font-weight: 500;
+  color: #222473;
+  font-size: 24px;
+}
+
+#celebrando .imagen-c{
+  position: absolute;
+  bottom: 30px;
+  left: calc(52.5% - 175px);
+  z-index: -9;
+}
+#celebrando .imagen-c img{
+  position: relative;
+  z-index: -9;
+  width: 405px;
+}
+#celebrando .floro .fondo{
+  /* position: relative;
+  z-index: -99;
+  left:23.5%; */
+  position: relative;
+  z-index: -99;
+  left: 21%;
+  width: 498px;
+  top: 9%;
+}
+#celebrando .floro-cont{
+  position: absolute;
+  z-index: 9;
+  /* top: 25%; */
+  top: 20%;
+  right: -10%;
+}
+#celebrando .floro-cont h5{
+  font-family:'Barlow-Bold';
+  font-style:normal;
+  font-weight:700;
+  font-size: 24px;
+  color: #f66f01;
+}
+#celebrando .floro-cont .texto{
+  font-family:'Barlow-MediumItalic';
+  font-style:normal;
+  font-weight:500;
+  color: white;
+  font-size: 16px;
+}
+#celebrando .floro-cont .puesto{
+  font-family:'Barlow-Bold';
+  font-style:normal;
+  font-weight:700;  
+  font-size: 16px;
+  color: #37c7f0;
+}
+#celebrando .floro-cont .conocer .btn-conoceme{
+  background: white;
+  border-radius: 10px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 5.5px 22.5px;
+  padding-left: 40px;
+  position: relative;
+  color: #005cff;  
+  font-family:'Barlow-Medium';
+  font-style:normal;
+  font-weight:500;
+  font-size: 20px;
+}
+#celebrando .floro-cont .conocer .btn-conoceme img{
+  position: absolute;
+  top: 0;
+  left: -8.5px;
+  width: 41px;
+}
+
+
+#celebrando-des{
+  background-color: #222473;
+}
+#celebrando-des .separar{
+  top: -120px;
+  z-index: 9;
+}
+#celebrando-des .titulo{
+  font-family:'Barlow-Bold';
+  font-style:normal;
+  font-weight:700;
+  color: white;  
+  position: absolute;
+  top: calc(50% - 26.8px);
+  left: 10%;
+  width: 80%;
+  font-size: 36px;
+  margin-bottom: 0;
+}
+#celebrando-des .titulo b{
+  color: #f66f01;
+  border-bottom: 1px solid #f66f01;
+}
+
+#celebrando-des #section-1 .practices_title{
+  color: #f66f01;
+}
+#celebrando-des #section-1 .practices_list{
+  color: #f66f01;
+}
+#celebrando-des .button-practices:hover{
+  border-color: #f66f01 !important;
+}
+#celebrando-de .button-practices..isActive[data-v-a7128ece]{
+  border: 2px solid #f66f01 !important;
+}
+#celebrando-de .button-practices[data-v-a7128ece]:focus{
+  border: 2px solid #f66f01 !important;
+}
+
+#celebrando-des .main-practices{
+  min-height: unset;
+}
+
+#celebrando-des .isActive span{
+  color: #f66f01;
+}
+
+@media(min-width:1366px){
+  #celebrando .floro-cont{
+    top: 25%;
+  }
+}
+/*------------- Fin celebrando --------------------*/
+
+
+/*reconociendo*/
+
+#reconociendo figure{
+  margin: 0;
+}
+#reconociendo{
+  padding-top: 45px;
+  padding-bottom: 30px;
+  color: black;
+  min-height: 100vh;
+  position: relative;
+  background-image: url(../img/reconociendo/banner.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 9;
+}
+#reconociendo .logo h3{
+  color: #fb5b87;
+	font-family:'Barlow-Bold';
+	font-style:normal;
+  font-weight:700;
+  font-size: 60px  
+}
+#reconociendo .principal p{
+  font-family: 'Barlow-Light';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  color: #222473;
+}
+#reconociendo .principal p b{
+  font-family: 'Barlow-Bold';
+  font-style: normal;
+  font-weight: 700;
+  color: #001843;
+}
+#reconociendo .principal .camb{
+  font-family: 'Barlow-Medium';
+  font-style: normal;
+  font-weight: 500;
+  color: #222473;
+  font-size: 24px;
+}
+
+#reconociendo .imagen-c{
+  position: absolute;
+  bottom: 30px;
+  left: calc(52.5% - 175px);
+  z-index: -9;
+}
+#reconociendo .imagen-c img{
+  position: relative;
+  z-index: -9;
+  width: 337px;
+}
+#reconociendo .floro .fondo{
+  /* position: relative;
+  z-index: -99;
+  left:23.5%; */
+  position: relative;
+  z-index: -99;
+  left: 10%;
+  width: 560px;
+  top: 9%;
+}
+#reconociendo .floro-cont{
+  position: absolute;
+  z-index: 9;
+  /* top: 25%; */
+  top: 20%;
+  right: -10%;
+}
+#reconociendo .floro-cont h5{
+  font-family:'Barlow-Bold';
+  font-style:normal;
+  font-weight:700;
+  font-size: 24px;
+  color: #f66f01;
+}
+#reconociendo .floro-cont .texto{
+  font-family:'Barlow-MediumItalic';
+  font-style:normal;
+  font-weight:500;
+  color: white;
+  font-size: 16px;
+}
+#reconociendo .floro-cont .puesto{
+  font-family:'Barlow-Bold';
+  font-style:normal;
+  font-weight:700;  
+  font-size: 16px;
+  color: #37c7f0;
+}
+#reconociendo .floro-cont .conocer .btn-conoceme{
+  background: white;
+  border-radius: 10px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 5.5px 22.5px;
+  padding-left: 40px;
+  position: relative;
+  color: #005cff;  
+  font-family:'Barlow-Medium';
+  font-style:normal;
+  font-weight:500;
+  font-size: 20px;
+}
+#reconociendo .floro-cont .conocer .btn-conoceme img{
+  position: absolute;
+  top: 0;
+  left: -8.5px;
+  width: 41px;
+}
+
+
+#reconociendo-des{
+  background-color: #222473;
+}
+#reconociendo-des .separar{
+  top: -120px;
+  z-index: 9;
+}
+#reconociendo-des .titulo{
+  font-family:'Barlow-Bold';
+  font-style:normal;
+  font-weight:700;
+  color: white;  
+  position: absolute;
+  top: calc(50% - 26.8px);
+  left: 10%;
+  width: 80%;
+  font-size: 36px;
+  margin-bottom: 0;
+}
+#reconociendo-des .titulo b{
+  color: #f66f01;
+  border-bottom: 1px solid #f66f01;
+}
+
+#reconociendo-des #section-1 .practices_title{
+  color: #f66f01;
+}
+#reconociendo-des #section-1 .practices_list{
+  color: #f66f01;
+}
+#reconociendo-des .button-practices:hover{
+  border-color: #f66f01 !important;
+}
+#reconociendo-de .button-practices..isActive[data-v-a7128ece]{
+  border: 2px solid #f66f01 !important;
+}
+#reconociendo-de .button-practices[data-v-a7128ece]:focus{
+  border: 2px solid #f66f01 !important;
+}
+
+#reconociendo-des .main-practices{
+  min-height: unset;
+}
+
+#reconociendo-des .isActive span{
+  color: #f66f01;
+}
+
+@media(min-width:1366px){
+  #reconociendo .floro-cont{
+    top: 25%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1366px){
+
+}
+
+/*------------- Fin celebrando --------------------*/
