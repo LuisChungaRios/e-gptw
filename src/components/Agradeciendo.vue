@@ -2,7 +2,7 @@
 <div>
     <div id="agradeciendo">
         <div class="container" style="">
-            <div class="row">
+            <div class="row mi-fila">
                 <div class="offset-1 col-lg-4">
                     <div class="logo">
                         <img src="img/agradeciendo/logo.png" alt="">

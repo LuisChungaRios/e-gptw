@@ -2,8 +2,8 @@
 <div>
     <div id="reconociendo">
         <div class="container" style="">
-            <div class="row">
-                <div class="offset-1 col-lg-4 offset-xl-1 col-xl-4">
+            <div class="row reconociendo mi-fila">
+                <div class="offset-1 offset-lg-2 col-lg-4 offset-xl-1 col-xl-4">
                     <div class="logo">
                         <img src="img/reconociendo/logo.png" alt="">
                         <h3>Reconociendo</h3>
