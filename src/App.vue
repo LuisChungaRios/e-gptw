@@ -10,7 +10,7 @@
     <Balanceando/>
     <Celebrando/>
     <Reconociendo/>
-    <abc/>
+    //- <abc/>
   </div>
 </template>
 
