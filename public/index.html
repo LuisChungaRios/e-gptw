@@ -7,6 +7,7 @@
     <link rel="icon" href="img/favicon.jpeg">
     <title>Elovers</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/lity.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -17,12 +18,26 @@
     <!-- built files will be auto injected -->
     <script src="js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/lity.js"></script>
     <script>
       $(document).ready(function(){
         $("#navegador  a").click(function(){
           $("#navegador a.active").removeClass("active");
           $(this).addClass("active");
         });
+
+
+
+        $ancho = document.querySelector('#abc .floro .fondo').naturalWidth;
+/*
+        console.log($ancho);
+
+        $pantalla = $('html').width() + 17;
+
+        console.log($pantalla);
+
+*/
+
       });
     </script>
     <style>
@@ -91,6 +106,47 @@
 #reconociendo-des .isActive:focus{
   border: 2px solid #f66f01 !important;
   color: #f66f01;
+}
+
+#inline-reconociendo{
+  padding-top: 90px;
+  padding-bottom: 30px;
+}
+#inline-reconociendo h4,
+#inline-reconociendo p,
+#inline-reconociendo p b {
+    color: #005cff;
+}
+#inline-reconociendo h4{
+  font-family: 'Barlow-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  width: 290px;
+}
+#inline-reconociendo .cargo{
+  font-family: 'Barlow-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+#inline-reconociendo .heart{
+  bottom: 0;
+  position: absolute;
+}
+
+
+#inline-reconociendo .img-persona img{
+  margin-bottom: -30px;
+    margin-left: -60px;
+}
+#inline-reconociendo .descr{
+  font-family: 'Barlow-Light';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
 }
     </style>
   </body>

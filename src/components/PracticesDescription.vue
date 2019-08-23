@@ -22,7 +22,7 @@
         <p class="cargo">Ejecutiva Canal Elité <br>
           Área: Regional Consumidores <br>
           Lima - Comercia</p>
-        <button class="btn-conoceme"><img src="img/btn-corazon.png" alt="" class="btn-img-corazon">¡Conóceme!</button>
+        <button class="btn-conoceme" href="#inline" data-lity><img src="img/btn-corazon.png" alt="" class="btn-img-corazon">¡Conóceme!</button>
       </div>
       <img src="img/nicole.png" class="img-nicol" alt="">
     </div>
@@ -31,16 +31,19 @@
       <h2 class="bottom-text">Buenas <span>Prácticas</span></h2>
       <img src="img/reclutando_bottom.png" class="img-bottom"   alt="">
     </div>
+    <Popup/>
 
   </div>
 </template>
 
 <script>
   import Navegador from './Navegador';
+  import Popup from './Popup'
   export default {
     name: "PracticesDescription",
     components: {
-      Navegador
+      Navegador,
+      Popup
     }
   }
 </script>

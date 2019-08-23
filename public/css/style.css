@@ -22,6 +22,13 @@ width: 30px;
     font-family: 'Barlow-Medium';
      src: url("./fonts/Barlow/Barlow-Medium.ttf");
    }
+
+   @font-face{
+     font-family: 'Barlow-SemiBold';
+     src: url('./fonts/Barlow/Barlow-SemiBold.ttf')
+   }
+
+
  :root{
  
    --primary-color: #005cff;
@@ -1842,7 +1849,14 @@ width: 30px;
 
 /*------------- Fin celebrando --------------------*/
 
-@media(min-width: 1200px) and (max-width:1399px){
+@media(min-width:992px) and (max-width: 1199px){
+  .mi-fila{
+    padding: 0 !important;
+  }
+}
+
+/* @media(min-width: 1200px) and (max-width:1399px){ */
+@media(min-width: 992px) and (max-width:1399px){
   .floro-cont .texto{
     font-size: 13px !important;
   }
@@ -1916,6 +1930,9 @@ width: 30px;
     width: 510px;
   }
 
+  #agradeciendo .floro-cont{
+    top: 20%;
+  }
   #agradeciendo .imagen-c img{
     width: 430.83px;
   }
@@ -2135,7 +2152,7 @@ width: 30px;
 
 
 /* hasta 1399px  si le reducimos el alto*/
-@media(min-width: 1920px) and (max-height: 978px){
+@media(min-width: 1920px) and (max-height: 977px){
   #reconociendo,
   #celebrando,
   #balanceando,
@@ -2182,3 +2199,223 @@ width: 30px;
       min-height: 768px;
     }
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*abc*/
+
+  #abc figure{
+    margin: 0;
+  }
+  #abc{
+    height: 100vh;
+    padding-top: 90px;
+    padding-bottom: 30px;
+    color: black;
+    min-height: 100vh;
+    position: relative;
+    background-image: url(../img/reconociendo/banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 9;
+  }
+  #abc .container.principal-h,
+  #abc .row.principal-h{
+    height: 100%;
+  }
+
+  #abc .imagen-c .imagen-tamano{
+      width: 437px;
+      position: absolute;
+      bottom: 0;
+  }
+  #abc .imagen-c .imagen-tamano img{
+    width: 100%;
+}
+
+  #abc .logo h3{
+    color: #fb5b87;
+    font-family:'Barlow-Bold';
+    font-style:normal;
+    font-weight:700;
+    font-size: 60px;
+    padding: 45px 0px 75px 0px;
+  }
+  #abc .principal p{
+    font-family: 'Barlow-Light';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    color: #222473;
+    padding-right: 0px;
+  }
+  #abc .principal p b{
+    font-family: 'Barlow-Bold';
+    font-style: normal;
+    font-weight: 700;
+    color: #001843;
+  }
+  #abc .principal .camb{
+    font-family: 'Barlow-Medium';
+    font-style: normal;
+    font-weight: 500;
+    color: #222473;
+    font-size: 24px;
+  }
+
+  /* #abc .floro .fondo{
+    position: absolute;
+    z-index: -99;
+    left: -10%;
+    top: 10%;
+  } */
+
+  #abc .floro .imagen-texto{
+    width: 610px;
+    position: absolute;
+    z-index: -99;
+    left: -10%;
+    top: 10%;
+  }
+   #abc .floro .fondo{  
+     width: 100%;
+  }
+
+  #abc .floro-cont{
+    position: relative;
+    top: 22.5%;
+  }
+  #abc .floro-cont h5{
+    font-family:'Barlow-Bold';
+    font-style:normal;
+    font-weight:700;
+    font-size: 24px;
+    color: #37c7f0;
+  }
+  #abc .floro-cont .texto{
+    font-family:'Barlow-MediumItalic';
+    font-style:normal;
+    font-weight:500;
+    color: white;
+    font-size: 16px;
+    padding-right: 0px !important;
+  }
+  #abc .floro-cont .puesto{
+    font-family:'Barlow-Bold';
+    font-style:normal;
+    font-weight:700;  
+    font-size: 16px;
+    color: #fb5b87;
+  }
+  #abc .floro-cont .conocer .btn-conoceme{
+    background: white;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 4.5px 22.5px;
+    padding-left: 40px;
+    position: relative;
+    color: #005cff;  
+    font-family:'Barlow-Medium';
+    font-style:normal;
+    font-weight:500;
+    font-size: 24px;
+  }
+  #abc .floro-cont .conocer .btn-conoceme img{
+    position: absolute;
+    top: -1px;
+    left: -8.5px;
+    width: 47px;
+  }
+  
+  
+  #abc-des{
+    background-color: #222473;
+  }
+  #abc-des .separar{
+    top: -120px;
+    z-index: 9;
+  }
+  #abc-des .titulo{
+    font-family:'Barlow-Bold';
+    font-style:normal;
+    font-weight:700;
+    color: white;  
+    position: absolute;
+    top: calc(50% - 26.8px);
+    left: 10%;
+    width: 80%;
+    font-size: 36px;
+    margin-bottom: 0;
+    padding-left: 10%;
+  }
+  #abc-des .titulo b{
+    color: #f66f01;
+    border-bottom: 1px solid #f66f01;
+  }
+  
+  #abc-des #section-1 .practices_title{
+    color: #f66f01;
+  }
+  #abc-des #section-1 .practices_list{
+    color: #f66f01;
+  }
+  #abc-des .button-practices:hover{
+    border-color: #f66f01 !important;
+  }
+  #abc-de .button-practices..isActive[data-v-a7128ece]{
+    border: 2px solid #f66f01 !important;
+  }
+  #abc-de .button-practices[data-v-a7128ece]:focus{
+    border: 2px solid #f66f01 !important;
+  }
+  
+  #abc-des .main-practices{
+    min-height: unset;
+  }
+  
+  #abc-des .isActive span{
+    color: #f66f01;
+  }
+
+
+
+  
+  @media (max-height: 977px) and (min-width: 1920px){
+  #abc {
+      min-height: 1014px;
+  }
+}
+
+@media(min-width:1200px) and (max-width: 1399px){
+  #abc .imagen-c .imagen-tamano img{
+    width: 80%;
+  }
+  #abc .floro .fondo{
+    width: 80%;
+  }
+}
+
+
+
+#inline .inline-reconociendo h4,
+#inline .inline-reconociendo p{
+    color: #005cff;  
+}

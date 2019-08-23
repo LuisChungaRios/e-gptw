@@ -33,7 +33,7 @@
                             Área: Experiencia del Cliente<br>
                             Multicanal y Operaciones</p>
                         <div class="conocer text-right">
-                            <a href="javascript:void(0)" class="btn-conoceme">
+                            <a href="#inline" class="btn-conoceme"  data-lity>
                             <img src="img/btn-corazon.png" alt="corazon">¡Conóceme!</a>
                         </div>
                     </div>
@@ -63,16 +63,20 @@
             </div>
         </div>
     </div>
+    <Popup/>
 </div>    
 </template>
 <script>
  import Navegador from './Navegador'
  import  EscuchandoDescription from './EscuchandoDescription'
+ import Popup from './Popup'
+
 export default {
     name: "Escuchando",
     components: {
         Navegador,
-      EscuchandoDescription
+      EscuchandoDescription,
+      Popup
     }
 }
 </script>

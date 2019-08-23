@@ -1,8 +1,8 @@
 <template>
 <div>
-    <div id="reconociendo">
-        <div class="container" style="">
-            <div class="row reconociendo mi-fila">
+    <div id="abc">
+        <div class="container principal-h" style="">
+            <div class="row principal-h mi-fila">
                 <div class="offset-1 offset-lg-2 col-lg-4 offset-xl-1 col-xl-4">
                     <div class="logo">
                         <img src="img/reconociendo/logo.png" alt="">
@@ -13,13 +13,15 @@
                         <span class="camb">¡Somos Entel Lovers!</span>
                     </div>
                 </div>
-                <!-- <div class="col-lg-1"></div> -->
                 <div class="col-lg-1 col-xl-1 imagen-c">
-                    <!-- 501 x 621 -->
-                    <img src="img/reconociendo/persona.png" alt="">
+                    <div class="imagen-tamano">
+                        <img src="img/reconociendo/persona.png" alt="">
+                    </div>
                 </div>
-                <div class="col-lg-5 col-xl-5 floro">
-                    <img src="img/reconociendo/texto.png" alt="" class="fondo">
+                <div class="col-lg-5 offset-xl-1 col-xl-5 floro">
+                    <div class="imagen-texto">
+                        <img src="img/reconociendo/texto.png" alt="" class="fondo">
+                    </div>
                     <div class="floro-cont">
                         <p class="text-right texto">
                             “Entel me transformó, me sacó de la<br>
@@ -37,7 +39,7 @@
                             Área: TI y Procesos<br>
                         </p>
                         <div class="conocer text-right">
-                            <a href="#inline" class="btn-conoceme" data-lity>
+                            <a href="javascript:void(0)" class="btn-conoceme">
                             <img src="img/btn-corazon.png" alt="corazon">¡Conóceme!</a>
                         </div>
                     </div>
@@ -45,18 +47,18 @@
             </div>
         </div>
     </div>
-    <div id="reconociendo-des">
+    <div id="abc-des">
         <div class="container" style="height: 0px;">
             <div class="row">
-                <div class="col-lg-12 col-xl-12 separar">
+                <div class="col-lg-12 col-xl-12 separar text-center">
                     <img src="img/reclutando_bottom.png" alt="" class="img-fluid">
-                    <p class="titulo">Buenas <b>Prácticas</b></p>                 
+                    <p class="titulo text-left">Buenas <b>Prácticas</b></p>                 
                 </div>
             </div>
         </div>
 
         <!-- Codigo -->
-      <ReconociendoDescription/>
+      <!-- <ReconociendoDescription/> -->
 
 <!-- Fin Codigo -->
         <div class="container">
@@ -67,19 +69,5 @@
             </div>
         </div>
     </div>
-    <Popup/>
 </div>    
 </template>
-<script>
- import Navegador from './Navegador'
- import  ReconociendoDescription from './ReconociendoDescription'
- import Popup from './Popup'
-export default {
-    name: "Reconociendo",
-    components: {
-        Navegador,
-      ReconociendoDescription,
-      Popup
-    }
-}
-</script>

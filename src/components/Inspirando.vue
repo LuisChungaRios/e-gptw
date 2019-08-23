@@ -25,7 +25,7 @@ cliente</b> se transmite a otros miembros del equipo para que puedan <b>experime
                         <h5 class="text-right">Jimmy Arias<br/>(38 años)</h5>
                         <p class="text-right puesto">Asesor Integral<br>Área: Regional<br>Consumidores Lima</p>
                         <div class="conocer text-right">
-                            <a href="javascript:void(0)" class="btn-conoceme">
+                            <a href="#inline" class="btn-conoceme" data-lity>
                             <img src="img/btn-corazon.png" alt="corazon">¡Conóceme!</a>
                         </div>
                     </div>
@@ -37,7 +37,7 @@ cliente</b> se transmite a otros miembros del equipo para que puedan <b>experime
         <div class="container" style="height: 0px;">
             <div class="row">
                 <div class="col-lg-12 separar">
-                    <img src="img/hablando/separar.png" alt="" class="img-fluid">
+                    <img src="img/hablando/separar.png" alt="" class="img-fluid" >
                     <p class="titulo">Buenas <b>Prácticas</b></p>                 
                 </div>
             </div>
@@ -56,16 +56,19 @@ cliente</b> se transmite a otros miembros del equipo para que puedan <b>experime
             </div>
         </div>
     </div>
+    <Popup/>
 </div>    
 </template>
 <script>
  import Navegador from './Navegador'
  import  inspirandoDescription from './InspirandoDescription'
+ import Popup from './Popup'
 export default {
     name: "Inspirando",
     components: {
         Navegador,
-      inspirandoDescription
+      inspirandoDescription,
+      Popup
     }
 }
 </script>

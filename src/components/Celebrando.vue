@@ -37,7 +37,7 @@
                             Consumidores<br>
                             Lima - Comercial </p>
                         <div class="conocer text-right">
-                            <a href="javascript:void(0)" class="btn-conoceme">
+                            <a href="#inline" class="btn-conoceme" data-lity>
                             <img src="img/btn-corazon.png" alt="corazon">¡Conóceme!</a>
                         </div>
                     </div>
@@ -67,16 +67,19 @@
             </div>
         </div>
     </div>
+    <Popup/>
 </div>    
 </template>
 <script>
  import Navegador from './Navegador'
  import  CelebrandoDescription from './CelebrandoDescription'
+ import Popup from './Popup'
 export default {
     name: "Celebrando",
     components: {
         Navegador,
-      CelebrandoDescription
+      CelebrandoDescription,
+      Popup
     }
 }
 </script>

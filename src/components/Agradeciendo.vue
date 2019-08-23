@@ -36,7 +36,7 @@
                             Área: Regional<br>
                             Consumidores Lima</p>
                         <div class="conocer text-right">
-                            <a href="javascript:void(0)" class="btn-conoceme">
+                            <a href="#inline" class="btn-conoceme"  data-lity>
                             <img src="img/btn-corazon.png" alt="corazon">¡Conóceme!</a>
                         </div>
                     </div>

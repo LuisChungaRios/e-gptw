@@ -34,7 +34,7 @@
                         <h5 class="text-right">Fernando García<br/>(47 años)</h5>
                         <p class="text-right puesto">Vicepresidente de TI y<br>Procesos<br>Área: TI y Procesos</p>
                         <div class="conocer text-right">
-                            <a href="javascript:void(0)" class="btn-conoceme">
+                            <a href="#inline" class="btn-conoceme" data-lity>
                             <img src="img/btn-corazon.png" alt="corazon">¡Conóceme!</a>
                         </div>
                     </div>
@@ -64,16 +64,19 @@
             </div>
         </div>
     </div>
+    <Popup/>
 </div>    
 </template>
 <script>
  import Navegador from './Navegador'
  import  HablandoDescription from './HablandoDescription'
+ import Popup from './Popup'
 export default {
     name: "Hablando",
     components: {
         Navegador,
-      HablandoDescription
+      HablandoDescription,
+      Popup
     }
 }
 </script>
