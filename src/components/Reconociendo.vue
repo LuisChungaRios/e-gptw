@@ -71,15 +71,15 @@
 </div>    
 </template>
 <script>
- import Navegador from './Navegador'
- import  ReconociendoDescription from './ReconociendoDescription'
- import Popup from './Popup'
-export default {
-    name: "Reconociendo",
-    components: {
-        Navegador,
-      ReconociendoDescription,
-      Popup
+    import Navegador from './Navegador'
+    import  ReconociendoDescription from './ReconociendoDescription'
+    import Popup from './Popup'
+    export default {
+        name: "Reconociendo",
+        components: {
+            Navegador,
+            ReconociendoDescription,
+            Popup
+        }
     }
-}
 </script>

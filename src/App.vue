@@ -2,13 +2,21 @@
   <div class="">
     <!-- <MainSection/> -->
     <Practices/>
+    <Intermedio1/>
     <Hablando/>
+    <Intermedio2/>
     <Inspirando/>
+    <Intermedio3/>
     <Escuchando/>
+    <Intermedio4/>
     <Agradeciendo/>
+    <Intermedio5/>
     <Desarrollando/>
+    <Intermedio6/>
     <Balanceando/>
+    <Intermedio7/>
     <Celebrando/>
+    <Intermedio8/>
     <Reconociendo/>
     //- <abc/>
   </div>
@@ -26,7 +34,15 @@
   import Balanceando from './components/Balanceando'
   import Celebrando from './components/Celebrando'
   import Reconociendo from './components/Reconociendo'
-  import abc from './components/abc'
+  // import abc from './components/abc'
+  import Intermedio1 from './components/Intermedio1'
+  import Intermedio2 from './components/Intermedio2'
+  import Intermedio3 from './components/Intermedio3'
+  import Intermedio4 from './components/Intermedio4'
+  import Intermedio5 from './components/Intermedio5'  
+  import Intermedio6 from './components/Intermedio6'
+  import Intermedio7 from './components/Intermedio7'
+  import Intermedio8 from './components/Intermedio8'
 
 export default {
   name: 'app',
@@ -41,7 +57,15 @@ export default {
     Balanceando,
     Celebrando,
     Reconociendo,
-    abc
+    Intermedio1,
+    Intermedio2,
+    Intermedio3,
+    Intermedio4,
+    Intermedio5,
+    Intermedio6,
+    Intermedio7,
+    Intermedio8
+    // abc
   }
 }
 </script>

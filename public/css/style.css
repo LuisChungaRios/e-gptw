@@ -2419,3 +2419,52 @@ width: 30px;
 #inline .inline-reconociendo p{
     color: #005cff;  
 }
+
+
+
+
+/*Toda la pantalla*/
+/* #intermedio1,
+#intermedio2,
+#intermedio3,
+#intermedio4,
+#intermedio5,
+#intermedio6,
+#intermedio7,
+#intermedio8{
+  height: 100vh;
+}
+
+#intermedio1 .intermedio1,
+#intermedio2 .intermedio2,
+#intermedio3 .intermedio3,
+#intermedio4 .intermedio4,
+#intermedio5 .intermedio5,
+#intermedio5 .intermedio6,
+#intermedio5 .intermedio7,
+#intermedio5 .intermedio8{
+  height: 100%;
+}
+.row.intermedio1,
+.row.intermedio2,
+.row.intermedio3,
+.row.intermedio4,
+.row.intermedio5,
+.row.intermedio6,
+.row.intermedio7,
+.row.intermedio8{
+  align-items: center;
+}
+@media(min-width: 992px) and (max-width:1399px){
+  #intermedio1,
+  #intermedio2,
+  #intermedio3,
+  #intermedio4,
+  #intermedio5,
+  #intermedio6,
+  #intermedio7,
+  #intermedio8{
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+} */
