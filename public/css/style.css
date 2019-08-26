@@ -1972,9 +1972,9 @@ width: 30px;
     width: 669.11px;
     bottom: -30px;
   }
-  /* #inspirando .floro-cont{
+  #inspirando .floro-cont{
     top: 25%;
-  } */
+  }
 
 
   .mi-fila{
@@ -1982,7 +1982,7 @@ width: 30px;
   }
 }
 
-@media(min-width: 992px) and (max-width: 1199px){
+/* @media(min-width: 992px) and (max-width: 1199px){
   #inspirando .floro-cont{
     top: 50%;
     right: 15%;
@@ -2020,7 +2020,11 @@ width: 30px;
   #inspirando .imagen-c{
     left: calc(56% - 334.555px);
   }
-}
+} */
+
+
+
+
 /* @media(min-width: 1400px) and (max-width: 1679px){
   #reconociendo,
   #celebrando,
