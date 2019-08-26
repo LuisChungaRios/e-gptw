@@ -18,6 +18,8 @@
     <Celebrando/>
     <Intermedio8/>
     <Reconociendo/>
+    <Final/>
+    <Pie/>
     //- <abc/>
   </div>
 </template>
@@ -43,6 +45,8 @@
   import Intermedio6 from './components/Intermedio6'
   import Intermedio7 from './components/Intermedio7'
   import Intermedio8 from './components/Intermedio8'
+  import Final from './components/Final'
+  import Pie from './components/Pie'
 
 export default {
   name: 'app',
@@ -64,7 +68,9 @@ export default {
     Intermedio5,
     Intermedio6,
     Intermedio7,
-    Intermedio8
+    Intermedio8,
+    Final,
+    Pie
     // abc
   }
 }

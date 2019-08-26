@@ -9,10 +9,10 @@
                     </h6>
                     <ul class="list-amamos row align-items-center">
                         <li class="col">
-                            <img src="img/intermedios/int7-icon1.png" alt="">
+                            <img src="img/intermedios/int7-icon1.png" alt="" class="img-fluid imagen_1">
                         </li>
                         <li class="col">
-                            <img src="img/intermedios/int5-icon1.png" alt="">
+                            <img src="img/intermedios/int5-icon1.png" alt="" class="img-fluid imagen_2">
                         </li>
                         <li class="col">
                             <p class="tercero">YO SOY SOMOS</p>
@@ -22,7 +22,7 @@
                     <div class="logo-entel">
                         <div class="btn-corazon">
                             <img src="img/intermedios/int7-icon2.png" alt="" class="img-fluid">
-                            <p>Conexión emocional <span class="segunda">sólida y sostenible</span> entre
+                            <p class="w-100">Conexión emocional <span class="segunda">sólida y sostenible</span> entre
                             <span class="primero d-block">empresa y colaborador</span></p>
                         </div>
                     </div>
@@ -35,6 +35,14 @@
 
 
 <style lang="scss" scoped>
+@function resp_xl($tamano_xl){
+    $rxl: $tamano_xl - $tamano_xl*0.2;
+    @return $rxl;
+}
+@function resp_md($tamano_md){
+    $rmd: $tamano_md - $tamano_md*0.4;
+    @return $rmd;
+}
 #intermedio7{
     background-image: url('../../public/img/intermedios/banner7.jpg');
     background-repeat: no-repeat;
@@ -118,4 +126,57 @@
     }
 }
 
+@media(min-width: 1200px) and (max-width: 1366px){
+    #intermedio7{
+        padding-top: resp_xl(105px);
+        padding-bottom: resp_xl(105px);
+
+        .titulo{
+            padding-bottom: resp_xl(75px);
+            span{
+                font-size: resp_xl(46.45px);
+            }
+            span:nth-child(2){         
+                line-height: resp_xl(40px);
+            }
+        }
+        .list-amamos{
+            padding-bottom: resp_xl(45px);
+            .tercero{
+                font-size: resp_xl(60px);
+                line-height: resp_xl(56px);
+            }
+        }
+        
+        .logo-entel{
+            width: 100%;
+            margin-left: 0%;
+            padding-bottom: resp_xl(60px);
+        }
+        .btn-corazon{
+            border-radius: resp_xl(75px);
+            img{
+                padding-left: resp_xl(7.5px);
+                width: resp_xl(133px);
+            }
+        }
+        .logo-entel p{
+            font-size: resp_xl(30px);
+            // line-height: 30px;        
+            .primero{
+                font-size: resp_xl(48px);
+                line-height: resp_xl(42px);
+            }
+            .segunda{
+                font-size: resp_xl(30px);
+            }
+        }
+        .imagen_1{
+            width: resp_xl(183px);
+        }
+        .imagen_2{
+            width: resp_xl(166px);
+        }
+    }
+}
 </style>

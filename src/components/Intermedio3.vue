@@ -16,6 +16,14 @@
 
 
 <style lang="scss" scoped>
+@function resp_xl($tamano_xl){
+    $rxl: $tamano_xl - $tamano_xl*0.2;
+    @return $rxl;
+}
+@function resp_md($tamano_md){
+    $rmd: $tamano_md - $tamano_md*0.4;
+    @return $rmd;
+}
 #intermedio3{
     background-image: url('../../public/img/intermedios/banner3.jpg');
     background-repeat: no-repeat;
@@ -50,4 +58,48 @@
     }
 }
 
+@media(min-width: 1200px) and (max-width: 1366px){
+    #intermedio3{
+        padding-top: resp_xl(105px);
+        padding-bottom: resp_xl(105px);
+        .logo-entel{
+            padding-bottom: resp_xl(60px);
+            img{
+                width: resp_xl(144px);
+            }
+        }
+        .comunidad{
+            padding-bottom: resp_xl(60px);
+            width: resp_xl(984px);
+        }
+        p{
+            padding: resp_xl(45px);
+            span{
+                font-size: resp_xl(72px);
+            }
+        }
+    }
+}
+@media(min-width: 992px) and (max-width: 1199px){
+    #intermedio3{
+        padding-top: resp_md(105px);
+        padding-bottom: resp_md(105px);
+        .logo-entel{
+            padding-bottom: resp_md(60px);
+            img{
+                width: resp_md(144px);
+            }
+        }
+        .comunidad{
+            padding-bottom: resp_md(60px);
+            width: resp_md(984px);
+        }
+        p{
+            padding: resp_md(45px);
+            span{
+                font-size: resp_md(72px);
+            }
+        }
+    }
+}
 </style>

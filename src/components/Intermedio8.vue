@@ -5,10 +5,10 @@
                 <div class="offset-lg-2 col-lg-8 offset-xl-2 col-xl-8 text-center">
                     <ul class="list-amamos row align-items-center">
                         <li class="col">
-                            <img src="img/intermedios/int8-icon1.png" alt="">
+                            <img src="img/intermedios/int8-icon1.png" alt="" class="img-fluid imagen_1">
                         </li>
                         <li class="col">
-                            <img src="img/intermedios/int5-icon1.png" alt="">
+                            <img src="img/intermedios/int5-icon1.png" alt="" class="img-fluid imagen_2">
                         </li>
                     </ul>
 
@@ -23,6 +23,14 @@
 
 
 <style lang="scss" scoped>
+@function resp_xl($tamano_xl){
+    $rxl: $tamano_xl - $tamano_xl*0.2;
+    @return $rxl;
+}
+@function resp_md($tamano_md){
+    $rmd: $tamano_md - $tamano_md*0.4;
+    @return $rmd;
+}
 #intermedio8{
     background-image: url('../../public/img/intermedios/banner7.jpg');
     background-repeat: no-repeat;
@@ -81,6 +89,48 @@
             color: #e5648b;
             font-size: 23.68;
             line-height: 28px;
+        }
+    }
+}
+
+
+@media(min-width: 1200px) and (max-width: 1366px){
+    #intermedio8{
+        padding-top: resp_xl(105px);
+        padding-bottom: resp_xl(105px);
+
+        .titulo{
+            padding-bottom: resp_xl(75px);
+            span{
+                font-size: resp_xl(46.45px);
+            }
+            span:nth-child(2){
+                line-height: resp_xl(40px);
+            }
+        }
+        .list-amamos{
+            padding-bottom: resp_xl(45px);
+            .tercero{
+                font-size: resp_xl(60px);
+                line-height: resp_xl(56px);
+            }
+        }
+        .logo-entel{
+            padding-bottom: resp_xl(60px);
+        }    
+        .logo-entel p{
+            font-size: resp_xl(24px);
+            line-height: resp_xl(26px);     
+            .primero{
+                font-size: resp_xl(23.68);
+                line-height: resp_xl(28px);
+            }
+        }
+        .imagen_1{
+            width: resp_xl(297px);
+        }
+        .imagen_2{
+            width: resp_xl(166px);
         }
     }
 }
