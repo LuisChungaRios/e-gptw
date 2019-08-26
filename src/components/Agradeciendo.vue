@@ -36,7 +36,7 @@
                             Área: Regional<br>
                             Consumidores Lima</p>
                         <div class="conocer text-right">
-                            <a href="#inline" class="btn-conoceme"  data-lity>
+                            <a href="#inlineJimmy" class="btn-conoceme"  data-lity>
                             <img src="img/btn-corazon.png" alt="corazon">¡Conóceme!</a>
                         </div>
                     </div>
@@ -56,15 +56,6 @@
 
         <!-- Codigo -->
       <AgradeciendoDescription/>
-
-<!-- Fin Codigo -->
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                                        
-                </div>
-            </div>
-        </div>
     </div>
 </div>    
 </template>

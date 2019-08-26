@@ -25,7 +25,7 @@ cliente</b> se transmite a otros miembros del equipo para que puedan <b>experime
                         <h5 class="text-right">Jimmy Arias<br/>(38 años)</h5>
                         <p class="text-right puesto">Asesor Integral<br>Área: Regional<br>Consumidores Lima</p>
                         <div class="conocer text-right">
-                            <a href="#inline" class="btn-conoceme" data-lity>
+                            <a href="#inlineJimmy" class="btn-conoceme" data-lity>
                             <img src="img/btn-corazon.png" alt="corazon">¡Conóceme!</a>
                         </div>
                     </div>
@@ -42,21 +42,40 @@ cliente</b> se transmite a otros miembros del equipo para que puedan <b>experime
                 </div>
             </div>
         </div>
-
-        <!-- Codigo -->
       <inspirandoDescription/>
 
-
-<!-- Fin Codigo -->
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                                        
+        <div id="inlineJimmy" style="background:#fff;border-radius: 5px;" class="lity-hide">
+            <div class="container" id="inline-reconociendo">
+                <div class="row">
+                    <div class="offset-1 col-3">
+                        <h4>Jimmy Arias (38)</h4>
+                        <p class="cargo">Asesor Integral<br>
+                                        Área: Regional<br> 
+                                        Consumidores Lima</p>
+                        <p class="descr">
+                            ¡Hola, soy Jimmy! <img src="img/popup/emoji3.png" alt=""> Tengo 38
+                            años, soltero, estudié Ciencias de
+                            la Comunicación <img src="img/popup/emoji4.png" alt=""> y trabajo en
+                            <b>Entel</b> desde la época de Nextel.
+                            Hace 13 años bailo en un grupo de
+                            danzas caporales, eso me relaja y
+                            me permite <b>conocer gente.</b>
+                        </p>
+                    </div>
+                    <div class="offset-1 col-5">
+                        <div class="img-persona">
+                            <img src="img/popup/persona5.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-1">
+                        <img src="img/popup/corazon.png" alt="" class="heart">
+                    </div>
                 </div>
             </div>
-        </div>
+        </div> 
+
     </div>
-    <Popup/>
+    <!-- <Popup/> -->
 </div>    
 </template>
 <script>

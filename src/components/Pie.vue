@@ -23,7 +23,6 @@
                         <p class="texto_1">Y en este camino de experiencias memorables, un <span class="fuerte1">Entel Lover…</span></p>
 
                         <p class="texto_2">Siente como su cliente, lo hace <span class="fuerte2">increíble</span>, <span class="fuerte3">experimenta y cambia</span>, es parte de la <span class="fuerte1">solución</span> y es un <span class="fuerte1">líder transformador</span> que, a la vez, se <span class="fuerte4">transforma constantemente.</span></p>
-
                         <!-- <figure class="entel">
                             <img src="img/secc_final/entel.png" alt="">
                         </figure> -->
@@ -54,6 +53,7 @@ $fuerte1: #f5f4f3;
 $fuerte2: #36c4ed;
 $fuerte3: #42e8b4;
 $fuerte4: #ff82a4;
+$colorEntel: #0066c5;
 
 $light: 'Barlow-Light';
 $bold: 'Barlow-Bold';
@@ -79,7 +79,7 @@ $bold: 'Barlow-Bold';
         padding-bottom: fuente(120px);
     }
     .container2{
-        // background-color: #0066c5;
+        background-color: $colorEntel;
         // padding-top: fuente(120px);
     }
     .container3{
@@ -144,7 +144,7 @@ $bold: 'Barlow-Bold';
 @media(min-width: 1200px) and (max-width:1366px){
     #footer {
         .container2{
-            background-color: #0066c5;
+            background-color: $colorEntel;
         }
         .valores{
             img{
@@ -161,7 +161,7 @@ $bold: 'Barlow-Bold';
 @media(min-width: 992px) and (max-width:1199px){
     #footer {
         .container2{
-            background-color: #0066c5;
+            background-color: $colorEntel;
         }
         .valores{
             img{

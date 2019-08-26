@@ -1972,15 +1972,54 @@ width: 30px;
     width: 669.11px;
     bottom: -30px;
   }
-  #inspirando .floro-cont{
+  /* #inspirando .floro-cont{
     top: 25%;
-  }
+  } */
 
 
   .mi-fila{
     padding: 0 8%;
   }
+}
 
+@media(min-width: 992px) and (max-width: 1199px){
+  #inspirando .floro-cont{
+    top: 50%;
+    right: 15%;
+  }
+}
+
+@media(min-width:1200px) and (max-width: 1366px){
+  #inspirando .floro-cont{
+    top: 50%;
+  }
+  #celebrando .floro .fondo{
+    top: 25%;
+  }
+  #celebrando .floro-cont{
+    top: 41%;
+  }
+  #agradeciendo .floro .fondo{
+    top: 25%;
+  }
+  #agradeciendo .floro-cont{
+    top: 45%;
+  } 
+  #escuchando .floro .fondo{
+    top: 10%;
+  }
+  #escuchando .floro-cont{
+    top: 40%;
+  }    
+  #hablando .floro .fondo{
+    top: 25%;
+  }
+  #hablando .floro-cont{
+    top: 40%;
+  }
+  #inspirando .imagen-c{
+    left: calc(56% - 334.555px);
+  }
 }
 /* @media(min-width: 1400px) and (max-width: 1679px){
   #reconociendo,
@@ -2093,12 +2132,6 @@ width: 30px;
 }
 
 
-
-
-
-
-
-
 /* @media(min-height: 1025px){
   #celebrando{
     min-height: unset;
@@ -2199,21 +2232,6 @@ width: 30px;
       min-height: 768px;
     }
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2412,9 +2430,6 @@ width: 30px;
     width: 80%;
   }
 }
-
-
-
 #inline .inline-reconociendo h4,
 #inline .inline-reconociendo p{
     color: #005cff;  

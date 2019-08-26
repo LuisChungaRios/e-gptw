@@ -33,7 +33,7 @@
                             Área: Experiencia del Cliente<br>
                             Multicanal y Operaciones</p>
                         <div class="conocer text-right">
-                            <a href="#inline" class="btn-conoceme"  data-lity>
+                            <a href="#inlineValeria" class="btn-conoceme"  data-lity>
                             <img src="img/btn-corazon.png" alt="corazon">¡Conóceme!</a>
                         </div>
                     </div>
@@ -50,20 +50,45 @@
                 </div>
             </div>
         </div>
-
-        <!-- Codigo -->
       <EscuchandoDescription/>
 
-<!-- Fin Codigo -->
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                                        
+        <div id="inlineValeria" style="background:#fff;border-radius: 5px;" class="lity-hide">
+            <div class="container" id="inline-reconociendo">
+                <div class="row">
+                    <div class="offset-1 col-3">
+                        <h4>Valeria Madueño (36)</h4>
+                        <p class="cargo">Jefe de Canales On Line<br>
+                                        Área: Experiencia del Cliente<br> 
+                                        Multicanal y Operaciones</p>
+                        <p class="descr">
+                            ¡Hola, soy Valeria! Soy publicista, tengo 
+                            35 años y junto con 2 amigas tengo el blog 
+                            Viajeras CAV con más de 23 mil
+                            seguidores y tiene como objetivo <b>difundir</b> 
+                            todos los lugares bonitos del Perú <img src="img/popup/emoji7.png" alt=""> y
+                            de esta manera apoyar el turismo en el
+                            país. ¡El reto está en viajar, sin pedir
+                            vacaciones! Llevo 4 años trabajando en
+                            <b>Entel</b> y... ¡soy una <b>e-lover</b> total! <img src="img/popup/emoji8.png" alt="">                       
+                        </p>
+                    </div>
+                    <div class="offset-1 col-5">
+                        <div class="img-persona">
+                            <img src="img/popup/persona3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-1">
+                        <img src="img/popup/corazon.png" alt="" class="heart">
+                    </div>
                 </div>
             </div>
-        </div>
+        </div>      
+
+
+
+
     </div>
-    <Popup/>
+    <!-- <Popup/> -->
 </div>    
 </template>
 <script>

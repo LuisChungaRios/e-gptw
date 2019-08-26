@@ -37,7 +37,7 @@
                             Área: TI y Procesos<br>
                         </p>
                         <div class="conocer text-right">
-                            <a href="#inline" class="btn-conoceme" data-lity>
+                            <a href="#inlineFernando" class="btn-conoceme" data-lity>
                             <img src="img/btn-corazon.png" alt="corazon">¡Conóceme!</a>
                         </div>
                     </div>
@@ -57,15 +57,7 @@
 
         <!-- Codigo -->
       <ReconociendoDescription/>
-
-<!-- Fin Codigo -->
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                                        
-                </div>
-            </div>
-        </div>
+      
     </div>
     <Popup/>
 </div>    

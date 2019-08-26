@@ -40,7 +40,7 @@
                             Área: TDE <br>
                             (Transformación Digital Entel)</p>
                         <div class="conocer text-right">
-                            <a href="#inline" class="btn-conoceme" data-lity>
+                            <a href="#inlineMarcela" class="btn-conoceme" data-lity>
                             <img src="img/btn-corazon.png" alt="corazon">¡Conóceme!</a>
                         </div>
                     </div>
@@ -61,14 +61,41 @@
         <!-- Codigo -->
       <BalanceandoDescription/>
 
-<!-- Fin Codigo -->
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                                        
+        <div id="inlineMarcela" style="background:#fff;border-radius: 5px;" class="lity-hide">
+            <div class="container" id="inline-reconociendo">
+                <div class="row">
+                    <div class="offset-1 col-3">
+                        <h4>Marcela Parodi  (40)</h4>
+                        <p class="cargo">Coordinadora de Gestión del
+                                        Cambio y Comunicaciones
+                                        Área: TDE (Transformación
+                                        Digital Entel)
+                                        </p>
+                        <p class="descr">
+                            ¡Hola, soy Marcela! Trabajo en
+                            <b>Entel</b> desde hace 12 años cuando
+                            era Nextel. Tengo 40 años, casada
+                            con 1 hija <img src="img/popup/emoji10.png" alt="">. Estudié
+                            Administración de Empresas.
+                            Me <b>encanta</b> coleccionar shots de
+                            países del mundo <img src="img/popup/emoji9.png" alt=""> y tengo más
+                            de 80, incluso de lugares donde 
+                            nunca he viajado.            
+                        </p>
+                    </div>
+                    <div class="offset-1 col-5">
+                        <div class="img-persona">
+                            <img src="img/popup/persona2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-1">
+                        <img src="img/popup/corazon.png" alt="" class="heart">
+                    </div>
                 </div>
             </div>
-        </div>
+        </div>      
+
+
     </div>
 </div>    
 </template>

@@ -34,7 +34,7 @@
                         <h5 class="text-right">Fernando García<br/>(47 años)</h5>
                         <p class="text-right puesto">Vicepresidente de TI y<br>Procesos<br>Área: TI y Procesos</p>
                         <div class="conocer text-right">
-                            <a href="#inline" class="btn-conoceme" data-lity>
+                            <a href="#inlineFernando" class="btn-conoceme" data-lity>
                             <img src="img/btn-corazon.png" alt="corazon">¡Conóceme!</a>
                         </div>
                     </div>
@@ -51,20 +51,40 @@
                 </div>
             </div>
         </div>
-
-        <!-- Codigo -->
       <HablandoDescription/>
 
-<!-- Fin Codigo -->
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                                        
+        <div id="inlineFernando" style="background:#fff;border-radius: 5px;" class="lity-hide">
+            <div class="container" id="inline-reconociendo">
+                <div class="row">
+                    <div class="offset-1 col-3">
+                        <h4>Fernando García (47)</h4>
+                        <p class="cargo">Vicepresidente de TI y Procesos<br>
+                        Área: TI y Procesos</p>
+                        <p class="descr">
+                            Tengo 47 años, casado con 2 hijos <img src="img/popup/emoji5.png" alt="">
+                            y soy ingeniero industrial. Me gusta
+                            coleccionar corchos de botellas de
+                            vino <img src="img/popup/emoji6.png" alt=""> y espero algún día <b>lograr</b>
+                            tener la cantidad necesaria para
+                            hacer la mesa de mis sueños, y que
+                            mejor con corchos que contienen
+                            <b>momentos</b> vividos muy <b>especiales.</b>
+                        </p>
+                    </div>
+                    <div class="offset-1 col-5">
+                        <div class="img-persona">
+                            <img src="img/popup/persona4.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-1">
+                        <img src="img/popup/corazon.png" alt="" class="heart">
+                    </div>
                 </div>
             </div>
         </div>
+
     </div>
-    <Popup/>
+    <!-- <Popup/> -->
 </div>    
 </template>
 <script>

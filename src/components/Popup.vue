@@ -9,7 +9,15 @@
                         Consumidores<br>
                         Lima - Comercial</p>
                     <p class="descr">
-                        ¡Hola, soy Nicole! Tengo 25 años y soy  administradora de empresas. Trabajo en <b>Entel</b> desde el 2014, me fui y regresé el 2017.  Los fines de semana bailo y desde hace algunos años participo de la academia Stiletto. Me considero una Doglover, <b>amo</b> la playa <img src="img/popup/emoji2.png" alt="">, a mi perro <img src="img/popup/emoji1.png" alt=""> y a <b>Entel. #EntelLovers</b>                             
+                        ¡Hola, soy Nicole! Tengo 25 años y 
+                        soy  administradora de empresas. 
+                        Trabajo en <b>Entel</b> desde el 2014, me
+                        fui y regresé el 2017. Los fines de
+                        semana bailo y desde hace algunos
+                        años participo de la academia
+                        Stiletto. Me considero una 
+                        Doglover, <b>amo</b> la playa <img src="img/popup/emoji2.png" alt="">, a mi 
+                        perro <img src="img/popup/emoji1.png" alt=""> y a <b>Entel. #EntelLovers</b>
                     </p>
                 </div>
                 <div class="offset-1 col-5">
