@@ -22,13 +22,13 @@
                     <img src="img/celebrando/texto.png" alt="" class="fondo">
                     <div class="floro-cont">
                         <p class="text-right texto">
-                            “Lo que más me gusta de las
-                            celebraciones es que todas las
-                            áreas compartimos más, nos
-                            conocemos más, y yo puedo
-                            participar de las actividades.
-                            Por eso en el Fest Entel de
-                            agosto voy a participar bailando
+                            “Lo que más me gusta de las<br>
+                            celebraciones es que todas las<br>
+                            áreas compartimos más, nos<br>
+                            conocemos más, y yo puedo<br>
+                            participar de las actividades.<br>
+                            Por eso en el Fest Entel de<br>
+                            agosto voy a participar bailando<br>
                             <img src="img/celebrando/emoji.png"/> ”. </p>
                         <h5 class="text-right">Nicole Marini<br>(25)</h5>
                         <p class="text-right puesto">
