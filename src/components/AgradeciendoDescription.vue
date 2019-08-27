@@ -15,8 +15,8 @@
               img(src="/img/agradeciendo/carpeta.png" v-if="practice.name == itemFocus.name" )
               img(src="/img/folder_blank.png" v-else )
 
-              span(v-if="practice.name.length > 12") {{practice.name.substring(0,9)}}...
-              span(v-else) {{practice.name}}
+              span(v-if="practice.name.length > 10") {{practice.name.substring(0,7).toUpperCase()}}...
+              span(v-else) {{practice.name.toUpperCase()}}
 
     .card-carousel--nav__right(
       @click="moveCarousel(1)"
@@ -41,8 +41,8 @@
     data() {
       return {
         currentOffset: 0,
-        windowSize: 3,
-        paginationFactor: 30,
+        windowSize: 6,
+        paginationFactor: 600,
         itemFocus: {}
 
       }
@@ -52,7 +52,7 @@
 
       ...mapState({
 
-        practices: state => state.inspirando
+        practices: state => state.agradeciendo
       }),
       atEndOfList() {
         return this.currentOffset <= (this.paginationFactor * -1) * (this.practices.length - this.windowSize);
