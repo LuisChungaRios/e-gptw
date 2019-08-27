@@ -2,7 +2,7 @@
     <div id="navegador" class="lista">
         <ul>
             <li class="btn-ancla">
-                <a href="#section-1" class="active nav-link">
+                <a href="#section-1" class="nav-link">
                     <img src="img/corazon/heart1.png" alt="corazon_lleno" class="corazon_lleno">
                     <div class="texto">
                         <span class="numero">1.</span>

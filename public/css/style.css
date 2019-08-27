@@ -326,6 +326,7 @@ width: 30px;
 	/* padding-left: 27px; */
   color: #222473;
   padding-left: 33px;
+  transition: all 0.5s;
 }
 #navegador .active .texto{
 	background: #2d2f8d;
