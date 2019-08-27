@@ -334,8 +334,8 @@ width: 30px;
 }		
 #navegador .corazon_lleno{
 	position: absolute;
-	top:-7.5px;
-	padding: 12.5px;
+  top: 2.5px;
+  padding: 7.5px;
 	background: #2d2f8d;
 	border-radius: 50%;
 	visibility: hidden;

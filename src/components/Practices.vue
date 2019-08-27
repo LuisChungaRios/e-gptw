@@ -265,6 +265,11 @@
   .btn {
     transition: none;
   }
+  .card-carousel--nav__left,
+  .card-carousel--nav__right{
+    margin-top: 7px;
+  }
+
 
 
 </style>
