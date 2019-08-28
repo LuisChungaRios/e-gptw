@@ -15,7 +15,7 @@
               img(src="/img/desarrollando/carpeta.png" v-if="practice.name == itemFocus.name" )
               img(src="/img/folder_blank.png" v-else )
 
-              span(v-if="practice.name.length > 9") {{practice.name.substring(0,9).toUpperCase()}}...
+              span(v-if="practice.name.length > 9") {{practice.name.substring(0,8).toUpperCase()}}...
               span(v-else) {{practice.name.toUpperCase()}}
 
     .card-carousel--nav__right(

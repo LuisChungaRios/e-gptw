@@ -5,7 +5,7 @@
         <div class="">
           <h2 class="practices_title">{{  data.title  }}</h2>
 
-          <p class="practices_title_description">{{ data.content }}</p>
+          <p class="practices_title_description" v-html="data.content"></p>
           <ul>
            <template v-if="data.list.lenght > 0">
              <div>

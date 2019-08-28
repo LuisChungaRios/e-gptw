@@ -3,9 +3,9 @@
     <div class="row main-practices__content" style="margin: 0">
       <div class="offset-1 col-6 d-flex justify-content-center">
         <div class="">
-          <h2 class="practices_title">{{  data.title  }}</h2>
+          <h2 class="practices_title" >{{data.title}}</h2>
 
-          <p class="practices_title_description">{{ data.content }}</p>
+          <p class="practices_title_description" v-html="data.content"></p>
         <template v-if="data.list.lenght > 0">
              <div>
                 <li  class="practices_list" v-for="(item, itemKey) in data.list"  :key="data.item">{{ (itemKey + 1) }}  {{   item.name }}  </li>
