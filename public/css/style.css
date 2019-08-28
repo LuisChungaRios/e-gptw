@@ -355,7 +355,7 @@ width: 30px;
   color: #222473;
 }
 #navegador .active span{
-  color: #fff;
+  color: #fff !important;
 }
 #navegador .descripcion{
 	width: 100px;
@@ -2444,7 +2444,7 @@ width: 30px;
 
 
 /*Toda la pantalla*/
-/* #intermedio1,
+#intermedio1,
 #intermedio2,
 #intermedio3,
 #intermedio4,
@@ -2475,7 +2475,7 @@ width: 30px;
 .row.intermedio8{
   align-items: center;
 }
-@media(min-width: 992px) and (max-width:1399px){
+/* @media(min-width: 992px) and (max-width:1399px){
   #intermedio1,
   #intermedio2,
   #intermedio3,
