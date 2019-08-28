@@ -6,7 +6,9 @@
                 <div class="offset-1 col-lg-4">
                     <div class="logo">
                         <img src="img/inspirando/logo.png" alt="">
-                        <h3>Inspirando</h3>
+                        <h3 class="titulop">Inspirando
+                            <span class="titulo_sombra">Inspi<br>rando</span>
+                        </h3>
                     </div>
                     <div class="principal">
                         <p>En Entel potenciamos las capacidades de nuestros colaboradores y trabajamos por crear un ambiente de <b>igualdad</b>, motivándolos a alcanzar sus metas sin obstáculos y generando buenas prácticas simples y expansivas que den como resultado el crecimiento de cada miembro del equipo. La <b>perseverancia</b> y sus resultados inspiran a cada miembro del equipo a comprometerse hasta lograr que nuestro equipo lo haga increíble. <br/><span>¡Sentimos el cambio!</span></p>
@@ -100,3 +102,80 @@ export default {
     }
 }
 </script>
+
+
+<style lang="scss" scoped>
+%fuenteLight {
+  font-family: 'Barlow-Light';
+  font-style: normal;
+  font-weight: 200;
+}
+%fuenteRegular{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+}
+%fuenteMedium{
+  font-family: 'Barlow-Medium';
+  font-style: normal;
+  font-weight: 500;
+}
+%fuenteMediumItalic{
+  font-family: 'Barlow-MediumItalic';
+  font-style: normal;
+  font-weight: 500;
+}
+%fuenteSemiBold{
+  font-family: 'Barlow-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+}
+%fuenteBold {
+  font-family: 'Barlow-Bold';
+  font-style: normal;
+  font-weight: 700;
+}
+$c_sombra: #6adeff;
+$font-size: 134.68px;
+
+@function convRem($x,$padre: 16px){
+    $r: ($x/$padre) * 1rem;
+    @return $r;
+}
+
+@function respxl($numero){
+    $r: $numero - $numero*0.45;
+    @return $r;
+}
+
+.titulop{
+    position: relative;
+    margin-bottom: 0;
+    margin-top: convRem(60px);
+    margin-bottom: convRem(90px);
+}
+.titulo_sombra{
+    @extend %fuenteBold;
+    color: $c_sombra;
+    font-size: convRem($font-size);
+    position: absolute;
+    left: convRem(0px);
+    top: convRem(-95px);
+    line-height: convRem(119.68px);
+    z-index: -9;
+}
+@media(min-width: 1200px) and (max-width: 1366px){
+    .titulop{
+        margin-bottom: 0;
+        margin-top: convRem(respxl(60px));
+        margin-bottom: convRem(respxl(90px));
+    }
+    .titulo_sombra{
+        font-size: convRem(respxl($font-size));
+        // top: convRem(respxl(-95px));
+        top:  -2.5rem;
+        line-height: convRem(respxl(119.68px));
+    }    
+}
+
+</style>

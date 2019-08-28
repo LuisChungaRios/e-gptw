@@ -6,7 +6,7 @@
                 <div class="offset-1 col-lg-4">
                     <div class="logo">
                         <img src="img/celebrando/logo.png" alt="">
-                        <h3>Celebrando</h3>
+                        <h3 class="titulop">Celebrando<span class="titulo_sombra">Cele<br>brando</span></h3>
                     </div>
                     <div class="principal">
                         <p>En Entel, <b>si lo haces increíble</b> hay que celebrarlo. Sin jerarquías ni temas funcionales, el trabajo de cada colaborador habla por sí mismo, y éste a su vez comparte su conocimiento para transmitir ese sentimiento de dar lo mejor cada día.</p>
@@ -74,3 +74,65 @@ export default {
     }
 }
 </script>
+
+<style lang="scss" scoped>
+%fuenteLight {
+  font-family: 'Barlow-Light';
+  font-style: normal;
+  font-weight: 200;
+}
+%fuenteRegular{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+}
+%fuenteMedium{
+  font-family: 'Barlow-Medium';
+  font-style: normal;
+  font-weight: 500;
+}
+%fuenteMediumItalic{
+  font-family: 'Barlow-MediumItalic';
+  font-style: normal;
+  font-weight: 500;
+}
+%fuenteSemiBold{
+  font-family: 'Barlow-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+}
+%fuenteBold {
+  font-family: 'Barlow-Bold';
+  font-style: normal;
+  font-weight: 700;
+}
+$c_sombra: #2d2f8d;
+$font-size: 120.68px;
+
+@function convRem($x,$padre: 16px){
+    $r: ($x/$padre) * 1rem;
+    @return $r;
+}
+
+.titulop{
+    position: relative;
+    margin-bottom: 0;
+    margin-top: convRem(60px);
+    margin-bottom: convRem(75px);
+}
+.titulo_sombra{
+    @extend %fuenteBold;
+    color: $c_sombra;
+    font-size: convRem($font-size);
+    position: absolute;
+    left: convRem(0px);
+    top: convRem(-60px);
+    line-height: convRem(87.5px);
+    z-index: -9;
+    opacity: .2;
+}
+/*
+    line-height: 87.5px;
+    top: -60px;
+*/
+</style>

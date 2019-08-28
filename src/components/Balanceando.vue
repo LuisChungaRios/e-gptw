@@ -6,7 +6,7 @@
                 <div class="offset-1 col-lg-4">
                     <div class="logo">
                         <img src="img/balanceando/logo.png" alt="">
-                        <h3>Balanceando</h3>
+                        <h3 class="titulop">Balanceando<span class="titulo_sombra">Balan<br>ceando</span></h3>
                     </div>
                     <div class="principal">
                         <p>Para nosotros el desarrollo personal y profesional de cada colaborador es de vital importancia. Por este motivo contamos con buenas prácticas que aportan al balance entre lo personal y laboral de nuestro equipo, motivándolos a <b>experimentar y cambiar</b> su desempeño en pro de una mejora en su trabajo.</p>
@@ -110,3 +110,69 @@ export default {
     }
 }
 </script>
+
+<style lang="scss" scoped>
+%fuenteLight {
+  font-family: 'Barlow-Light';
+  font-style: normal;
+  font-weight: 200;
+}
+%fuenteRegular{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+}
+%fuenteMedium{
+  font-family: 'Barlow-Medium';
+  font-style: normal;
+  font-weight: 500;
+}
+%fuenteMediumItalic{
+  font-family: 'Barlow-MediumItalic';
+  font-style: normal;
+  font-weight: 500;
+}
+%fuenteSemiBold{
+  font-family: 'Barlow-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+}
+%fuenteBold {
+  font-family: 'Barlow-Bold';
+  font-style: normal;
+  font-weight: 700;
+}
+$c_sombra: #0470d4;
+$font-size: 132.01px;
+
+@function convRem($x,$padre: 16px){
+    $r: ($x/$padre) * 1rem;
+    @return $r;
+}
+
+.titulop{
+    position: relative;
+    margin-bottom: 0;
+    margin-top: convRem(60px);
+    margin-bottom: convRem(75px);
+}
+.titulo_sombra{
+    @extend %fuenteBold;
+    color: $c_sombra;
+    font-size: convRem($font-size);
+    position: absolute;
+    left: convRem(0px);
+    top: convRem(-60px);
+    line-height: convRem(87.5px);
+    z-index: -9;
+    // opacity: .2;
+}
+.camb{
+    display: inline-block;
+    margin-top: 45px;
+}
+/*
+    line-height: 87.5px;
+    top: -60px;
+*/
+</style>

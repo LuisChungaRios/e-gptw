@@ -6,7 +6,9 @@
                 <div class="offset-1 col-lg-4">
                     <div class="logo">
                         <img src="img/escuchando/logo.png" alt="">
-                        <h3>Escuchando</h3>
+                        <h3 class="titulop">Escuchando
+                            <span class="titulo_sombra">Escu<br>chando</span>
+                        </h3>
                     </div>
                     <div class="principal">
                         <p>Conocemos la importancia de que cada colaborador pueda expresarse. Escuchar es entender e interiorizar cada palabra que nos es transmitida, <b>experimentando</b> con el mensaje para generar soluciones que aporten valor. La clave está en tomar los aciertos y errores para convertirlos en aprendizajes, considerando los diferentes puntos de vista de cada miembro del equipo y <b>pensando como el cliente.</b> <br><span class="camb">¡El cambio continúa!</span></p>
@@ -105,3 +107,97 @@ export default {
     }
 }
 </script>
+
+
+<style lang="scss" scoped>
+%fuenteLight {
+  font-family: 'Barlow-Light';
+  font-style: normal;
+  font-weight: 200;
+}
+%fuenteRegular{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+}
+%fuenteMedium{
+  font-family: 'Barlow-Medium';
+  font-style: normal;
+  font-weight: 500;
+}
+%fuenteMediumItalic{
+  font-family: 'Barlow-MediumItalic';
+  font-style: normal;
+  font-weight: 500;
+}
+%fuenteSemiBold{
+  font-family: 'Barlow-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+}
+%fuenteBold {
+  font-family: 'Barlow-Bold';
+  font-style: normal;
+  font-weight: 700;
+}
+$c_sombra: #3ed8a8;
+$font-size: 132.01px;
+
+@function convRem($x,$padre: 16px){
+    $r: ($x/$padre) * 1rem;
+    @return $r;
+}
+@function respxl($numero){
+    $r: $numero - $numero*0.45;
+    @return $r;
+}
+
+.titulop{
+    position: relative;
+    margin-bottom: 0;
+    margin-top: convRem(60px);
+    margin-bottom: convRem(90px);
+}
+
+.titulo_sombra{
+    @extend %fuenteBold;
+    color: $c_sombra;
+    font-size: convRem($font-size);
+    position: absolute;
+    left: convRem(0px);
+    top: convRem(-60px);
+    line-height: convRem(90px);
+    z-index: -9;
+}
+
+.camb{
+    display: inline-block;
+    margin-top: 30px;
+}
+
+@media(min-width: 1200px) and (max-width: 1366px){
+    .titulop{
+        position: relative;
+        margin-bottom: 0;
+        margin-top: convRem(60px);
+        margin-bottom: convRem(90px);
+    }
+
+    .titulo_sombra{
+        @extend %fuenteBold;
+        color: $c_sombra;
+        font-size: convRem($font-size);
+        position: absolute;
+        left: convRem(0px);
+        top: convRem(-60px);
+        line-height: convRem(90px);
+        z-index: -9;
+    }
+
+    .camb{
+        display: inline-block;
+        margin-top: 30px;
+    }
+}
+
+</style>

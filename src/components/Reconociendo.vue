@@ -6,7 +6,7 @@
                 <div class="offset-1 offset-lg-2 col-lg-4 offset-xl-1 col-xl-4">
                     <div class="logo">
                         <img src="img/reconociendo/logo.png" alt="">
-                        <h3>Reconociendo</h3>
+                        <h3 class="titulop">Reconociendo<span class="titulo_sombra">Recono<br>ciendo</span></h3>
                     </div>
                     <div class="principal">
                         <p>Experimentar y cambiar es parte de un proceso evolutivo que toma la experiencia del entorno y la aplica para generar un valor que ayude a superar dificultades. Un líder transformador genera un cambio positivo en su equipo y crecen juntos. </p>
@@ -57,7 +57,7 @@
 
         <!-- Codigo -->
       <ReconociendoDescription/>
-      
+
     </div>
     <Popup/>
 </div>    
@@ -75,3 +75,71 @@
         }
     }
 </script>
+
+<style lang="scss" scoped>
+%fuenteLight {
+  font-family: 'Barlow-Light';
+  font-style: normal;
+  font-weight: 200;
+}
+%fuenteRegular{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+}
+%fuenteMedium{
+  font-family: 'Barlow-Medium';
+  font-style: normal;
+  font-weight: 500;
+}
+%fuenteMediumItalic{
+  font-family: 'Barlow-MediumItalic';
+  font-style: normal;
+  font-weight: 500;
+}
+%fuenteSemiBold{
+  font-family: 'Barlow-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+}
+%fuenteBold {
+  font-family: 'Barlow-Bold';
+  font-style: normal;
+  font-weight: 700;
+}
+// $c_sombra: #ffebdf;
+$c_sombra: #fb5b87;
+$font-size: 93.5px;
+
+@function convRem($x,$padre: 16px){
+    $r: ($x/$padre) * 1rem;
+    @return $r;
+}
+
+.titulop{
+    position: relative;
+    margin-bottom: 0;
+    margin-top: convRem(30px);
+    margin-bottom: convRem(90px);
+}
+.titulo_sombra{
+    @extend %fuenteBold;
+    color: $c_sombra;
+    font-size: convRem($font-size);
+    position: absolute;
+    left: convRem(0px);
+    top: convRem(-30px);
+    line-height: convRem(67.5px);
+    z-index: -9;
+    opacity: .2;
+}
+.camb{
+    display: inline-block;
+    margin-top: 15px;    
+}
+/*
+    top: -30px;
+    line-height: 67.5px;
+
+*/
+</style>

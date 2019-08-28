@@ -1,6 +1,6 @@
 <template lang="pug">
   <div class="">
-    <!-- <MainSection/> -->
+    <MainSection/>
     <Practices/>
     <Intermedio1/>
     <Hablando/>

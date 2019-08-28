@@ -6,7 +6,9 @@
                 <div class="offset-1 col-lg-4">
                     <div class="logo">
                         <img src="img/hablando/simbolo.png" alt="">
-                        <h3>Hablando</h3>
+                        <h3 class="titulop">Hablando
+                        <span class="titulo_sombra">Ha<br>blan<br>do</span>
+                        </h3>
                     </div>
                     <div class="principal">
                         <p>Nuestros colaboradores tienen la libertad y las herramientas para comunicar sus propuestas de mejora y promover la Cultura Entel. El conocimiento que adquieren al <b>sentir como el 
@@ -91,3 +93,83 @@ export default {
     }
 }
 </script>
+
+<style lang="scss" scoped>
+%fuenteLight {
+  font-family: 'Barlow-Light';
+  font-style: normal;
+  font-weight: 200;
+}
+%fuenteRegular{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+}
+%fuenteMedium{
+  font-family: 'Barlow-Medium';
+  font-style: normal;
+  font-weight: 500;
+}
+%fuenteMediumItalic{
+  font-family: 'Barlow-MediumItalic';
+  font-style: normal;
+  font-weight: 500;
+}
+%fuenteSemiBold{
+  font-family: 'Barlow-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+}
+%fuenteBold {
+  font-family: 'Barlow-Bold';
+  font-style: normal;
+  font-weight: 700;
+}
+$c_sombra: #edfbff;
+$font-size: 132.01px;
+
+@function convRem($x,$padre: 16px){
+    $r: ($x/$padre) * 1rem;
+    @return $r;
+}
+@function respxl($numero){
+    $r: $numero - $numero*0.45;
+    @return $r;
+}
+
+
+.titulop{
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-bottom: convRem(120px);
+}
+
+.titulo_sombra{
+    @extend %fuenteBold;
+    color: $c_sombra;
+    font-size: convRem($font-size);
+    position: absolute;
+    // left: convRem(0px);
+    left: 30%;
+    top: convRem(-122px);
+    line-height: convRem(94px);
+    z-index: -9;
+}
+
+@media(min-width: 1200px) and (max-width: 1366px){
+    .titulop{
+        // position: relative;
+        // margin-bottom: 0;
+        // margin-top: 0;
+        margin-bottom: convRem(respxl(120px));
+    }
+
+    .titulo_sombra{
+        font-size: convRem(respxl($font-size));
+        top: convRem(respxl(-122px)) ;
+        line-height: convRem(respxl(94px));
+    }    
+}
+
+</style>

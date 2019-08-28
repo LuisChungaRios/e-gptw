@@ -6,7 +6,8 @@
                 <div class="offset-1 col-lg-4">
                     <div class="logo">
                         <img src="img/agradeciendo/logo.png" alt="">
-                        <h3>Agradeciendo</h3>
+                        <h3 class="titulop">Agradeciendo
+                            <span class="titulo_sombra">Agrade<br>ciendo</span></h3>
                     </div>
                     <div class="principal">
                         <p>Agradecemos el compromiso y excelencia de cada colaborador con reconocimiento profesional. La iniciativa de <b>experimentar</b> da resultados y en Entel manifestamos la gratitud ante el esfuerzo aplicado. Por ese motivo <b>pensamos como cliente interno</b>, sentimos como siente el colaborador demostrando que ambos tenemos un objetivo compartido. <span class="camb">¡Avanzamos hacia la transformación!</span></p>
@@ -70,3 +71,67 @@ export default {
     }
 }
 </script>
+
+<style lang="scss" scoped>
+%fuenteLight {
+  font-family: 'Barlow-Light';
+  font-style: normal;
+  font-weight: 200;
+}
+%fuenteRegular{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+}
+%fuenteMedium{
+  font-family: 'Barlow-Medium';
+  font-style: normal;
+  font-weight: 500;
+}
+%fuenteMediumItalic{
+  font-family: 'Barlow-MediumItalic';
+  font-style: normal;
+  font-weight: 500;
+}
+%fuenteSemiBold{
+  font-family: 'Barlow-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+}
+%fuenteBold {
+  font-family: 'Barlow-Bold';
+  font-style: normal;
+  font-weight: 700;
+}
+$c_sombra: #2d2f8d;
+$font-size: 120.68px;
+
+@function convRem($x,$padre: 16px){
+    $r: ($x/$padre) * 1rem;
+    @return $r;
+}
+
+.titulop{
+    position: relative;
+    margin-bottom: 0;
+    margin-top: convRem(60px);
+    margin-bottom: convRem(90px);
+}
+.titulo_sombra{
+    @extend %fuenteBold;
+    color: $c_sombra;
+    font-size: convRem($font-size);
+    position: absolute;
+    left: convRem(0px);
+    top: convRem(-75px);
+    line-height: convRem(105px);
+    z-index: -9;
+    opacity: .2;
+}
+/*
+    opacity: .2;
+    line-height: 105px;
+    top: -75px;
+
+*/
+</style>

@@ -6,7 +6,9 @@
                 <div class="offset-1 col-lg-4">
                     <div class="logo">
                         <img src="img/desarrollando/logo.png" alt="">
-                        <h3>Desarrollando</h3>
+                        <h3 class="titulop">Desarrollando
+                            <span class="titulo_sombra">Desa<br>rrollando</span>
+                        </h3>
                     </div>
                     <div class="principal">
                         <p><b>Un líder orienta con visión integral</b> y acelera el desarrollo del equipo. Brinda una señal integral y de empoderamiento para priorizar y tomar decisiones acertadas. Por eso, capacitamos constantemente a nuestros colaboradores buscando que ellos promuevan el desarrollo de cada miembro de su equipo y compartan sus conocimientos y motivación para asumir nuevas responsabilidades.</p>
@@ -73,3 +75,66 @@ export default {
     }
 }
 </script>
+
+<style lang="scss" scoped>
+%fuenteLight {
+  font-family: 'Barlow-Light';
+  font-style: normal;
+  font-weight: 200;
+}
+%fuenteRegular{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+}
+%fuenteMedium{
+  font-family: 'Barlow-Medium';
+  font-style: normal;
+  font-weight: 500;
+}
+%fuenteMediumItalic{
+  font-family: 'Barlow-MediumItalic';
+  font-style: normal;
+  font-weight: 500;
+}
+%fuenteSemiBold{
+  font-family: 'Barlow-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+}
+%fuenteBold {
+  font-family: 'Barlow-Bold';
+  font-style: normal;
+  font-weight: 700;
+}
+$c_sombra: #ffebdf;
+$font-size: 93.5px;
+
+@function convRem($x,$padre: 16px){
+    $r: ($x/$padre) * 1rem;
+    @return $r;
+}
+
+.titulop{
+    position: relative;
+    margin-bottom: 0;
+    margin-top: convRem(60px);
+    margin-bottom: convRem(90px);
+}
+.titulo_sombra{
+    @extend %fuenteBold;
+    color: $c_sombra;
+    font-size: convRem($font-size);
+    position: absolute;
+    left: convRem(0px);
+    top: convRem(-30px);
+    line-height: convRem(67.5px);
+    z-index: -9;
+    // opacity: .2;
+}
+/*
+    top: -30px;
+    line-height: 67.5px;
+
+*/
+</style>

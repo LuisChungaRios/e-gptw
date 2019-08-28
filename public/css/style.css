@@ -540,6 +540,8 @@ width: 30px;
 #inspirando{
   padding-top: 45px;
   padding-bottom: 30px;
+  /* padding-top: 60px;
+  padding-bottom: 60px; */
   color: black;
   min-height: 100vh;
   position: relative;
@@ -582,7 +584,8 @@ width: 30px;
 
 #inspirando .imagen-c{
   position: absolute;
-  bottom: 30px;
+  /* bottom: 30px; */
+  bottom: 0px;
   /* left: calc(52.5% - 225px); */
   left: calc(58% - 360px);
   /* left: calc(43% - 360px); */
@@ -1714,7 +1717,7 @@ width: 30px;
   font-family: 'Barlow-Medium';
   font-style: normal;
   font-weight: 500;
-  color: #222473;
+  color:#fb5b87;
   font-size: 24px;
 }
 
@@ -2045,14 +2048,15 @@ width: 30px;
     width: unset !important;
   }
   .principal p{
-    padding-right: 30px;
+    /* padding-right: 30px; */
+    padding-right: 40.5px;
   }
 
   #inspirando .imagen-c{
     left: calc(52.5% - 448px);
   }
   #inspirando .floro-cont{
-    top: 50%;
+    top: 40%;
   }
 
   #hablando .floro .fondo{
@@ -2444,7 +2448,7 @@ width: 30px;
 
 
 /*Toda la pantalla*/
-#intermedio1,
+/* #intermedio1,
 #intermedio2,
 #intermedio3,
 #intermedio4,
@@ -2474,7 +2478,7 @@ width: 30px;
 .row.intermedio7,
 .row.intermedio8{
   align-items: center;
-}
+} */
 /* @media(min-width: 992px) and (max-width:1399px){
   #intermedio1,
   #intermedio2,
