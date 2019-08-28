@@ -1,25 +1,25 @@
 <template lang="pug">
   <div class="">
     <MainSection/>
-    <Practices/>
-    <Intermedio1/>
-    <Hablando/>
-    <Intermedio2/>
-    <Inspirando/>
-    <Intermedio3/>
-    <Escuchando/>
-    <Intermedio4/>
-    <Agradeciendo/>
-    <Intermedio5/>
-    <Desarrollando/>
-    <Intermedio6/>
-    <Balanceando/>
-    <Intermedio7/>
-    <Celebrando/>
-    <Intermedio8/>
-    <Reconociendo/>
-    <Final/>
-    <Pie/>
+    //- <Practices/>
+    //- <Intermedio1/>
+    //- <Hablando/>
+    //- <Intermedio2/>
+    //- <Inspirando/>
+    //- <Intermedio3/>
+    //- <Escuchando/>
+    //- <Intermedio4/>
+    //- <Agradeciendo/>
+    //- <Intermedio5/>
+    //- <Desarrollando/>
+    //- <Intermedio6/>
+    //- <Balanceando/>
+    //- <Intermedio7/>
+    //- <Celebrando/>
+    //- <Intermedio8/>
+    //- <Reconociendo/>
+    //- <Final/>
+    //- <Pie/>
     //- <abc/>
   </div>
 </template>
