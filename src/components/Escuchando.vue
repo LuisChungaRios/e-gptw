@@ -26,10 +26,10 @@
                             “Te voy a hablar del líder que quiero<br>
                             ser: un líder Entel es aquel que<br>
                             siempre escucha a su equipo y lo<br>
-                            motiva a expresarse, les da la<br>
+                            motiva a expresarse, le da la<br>
                             confianza y lo empodera para lograr<br>
                             cosas increíbles <img src="img/escuchando/emoji.png "/> ”. </p>
-                        <h5 class="text-right">Valeria Madueño (36)</h5>
+                        <h5 class="text-right">Valeria Madueño (35)</h5>
                         <p class="text-right puesto">
                             Jefe de Canales On Line<br>
                             Área: Experiencia del Cliente<br>
@@ -58,10 +58,8 @@
             <div class="container" id="inline-reconociendo">
                 <div class="row">
                     <div class="offset-1 col-3">
-                        <h4>Valeria Madueño (36)</h4>
-                        <p class="cargo">Jefe de Canales On Line<br>
-                                        Área: Experiencia del Cliente<br> 
-                                        Multicanal y Operaciones</p>
+                        <h4>Valeria Madueño (35)</h4>
+                        <p class="cargo">Jefe de Canales On Line<br>Área: Experiencia del Cliente<br>Multicanal y Operaciones</p>
                         <p class="descr">
                             ¡Hola, soy Valeria! Soy publicista, tengo 
                             35 años y junto con 2 amigas tengo el blog 

@@ -34,7 +34,7 @@
                             de nosotros y de darnos la<br>
                             oportunidad de crecer <img src="img/inspirando/emoji.png "/>”. </p>
                         <h5 class="text-right">Fernando García<br/>(47 años)</h5>
-                        <p class="text-right puesto">Vicepresidente de TI y<br>Procesos<br>Área: TI y Procesos</p>
+                        <p class="text-right puesto">Vicepresidente de TI y<br>Operaciones<br>Área: TI y Operaciones</p>
                         <div class="conocer text-right">
                             <a href="#inlineFernando" class="btn-conoceme" data-lity>
                             <img src="img/btn-corazon.png" alt="corazon">¡Conóceme!</a>
@@ -60,8 +60,7 @@
                 <div class="row">
                     <div class="offset-1 col-3">
                         <h4>Fernando García (47)</h4>
-                        <p class="cargo">Vicepresidente de TI y Procesos<br>
-                        Área: TI y Procesos</p>
+                        <p class="cargo">Vicepresidente de TI y Operaciones<br>Área: TI y Operaciones</p>
                         <p class="descr">
                             Tengo 47 años, casado con 2 hijos <img src="img/popup/emoji5.png" alt="">
                             y soy ingeniero industrial. Me gusta

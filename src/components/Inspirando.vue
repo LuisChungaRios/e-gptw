@@ -51,9 +51,7 @@ cliente</b> se transmite a otros miembros del equipo para que puedan <b>experime
                 <div class="row">
                     <div class="offset-1 col-3">
                         <h4>Jimmy Arias (38)</h4>
-                        <p class="cargo">Asesor Integral<br>
-                                        Área: Regional<br> 
-                                        Consumidores Lima</p>
+                        <p class="cargo">Asesor Integral<br>Área: Regional<br>Consumidores Lima</p>
                         <p class="descr">
                             ¡Hola, soy Jimmy! <img src="img/popup/emoji3.png" alt=""> Tengo 38
                             años, soltero, estudié Ciencias de

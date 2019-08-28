@@ -7,10 +7,10 @@
       <div class="practices-description__content">
         <img src="img/icon_3.png" alt="">
         <h1 class="text-blue title">Reclutando</h1>
-        <p class="text-blue">En <span class="decore-white">Entel</span>  buscamos que nuestro equipo se sientan parte de la solución
-          desde el proceso de reclutamiento, mostrandoles el <span class="decore-white">valor</span>  que tienen cada uno de ellos para
+        <p class="text-blue">En <span class="decore-white">Entel</span>  buscamos que nuestro equipo se sienta parte de la solución
+          desde el proceso de reclutamiento, mostrándole el <span class="decore-white">valor</span>  que tiene cada uno de ellos para
           lograr un objetivo en común. Esta es una primera impresión que se convierte en el <span class="decore-white">inicio del
-            latido</span>  que emitimos para convertir a nuesros colaboradores en <span class="decore-white">Entel Lovers.</span> </p>
+            latido</span>  que emitimos para convertir a nuestros colaboradores en <span class="decore-white">Entel Lovers.</span> </p>
         <h4 class="text-blue frase">¡Empieza la transformación!</h4>
       </div>
       <div class="conoceme_mas">
@@ -21,7 +21,7 @@
         <h5 class="name">Nicole Marini (25)</h5>
         <p class="cargo">Ejecutiva Canal Elité <br>
           Área: Regional Consumidores <br>
-          Lima - Comercia</p>
+          Lima - Comercial</p>
         <button class="btn-conoceme" href="#inline" data-lity><img src="img/btn-corazon.png" alt="" class="btn-img-corazon">¡Conóceme!</button>
       </div>
       <img src="img/nicole.png" class="img-nicol" alt="">

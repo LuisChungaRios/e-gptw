@@ -35,7 +35,7 @@ export default new Vuex.Store({
             name: 'Experimenta y Cambia'
           },
           {
-            name: 'Se parte de la Solución'
+            name: 'Sé parte de la Solución'
           },
           {
             name: 'Siente como tu cliente'
@@ -546,12 +546,7 @@ export default new Vuex.Store({
       {
         name: 'Comunícate',
         title: 'Comunícate',
-        content: `En este espacio de comunicación, Ramiro Lafarga . Gerente General, se encarga de
-        transmitir de una forma claro y directa toda la información clave relacionada al
-        negocio y a todos los líderes de Entel. Además, contamos con la presentación de los
-        Vicepresidentes y Gerentes Centrales quienes comparten los avances respectivos a
-        sus equipos, demostrando así que son parte de la solución. Este evento tiene
-        frecuencia trimestral y una asistencia aproximada de 270 líderes.`,
+        content: `En este espacio de comunicación, Ramiro Lafarga, nuestro Gerente General, se encarga de transmitir de una forma clara y directa toda la información clave relacionada al negocio a todos los líderes de Entel. Además, contamos con la presentación de Vicepresidentes y Gerentes Centrales quienes comparten los avances respectivos a sus equipos, demostrando así que son parte de la solución. Esta buena práctica tiene frecuencia trimestral y una asistencia aproximada de 270 líderes.`,
         links: {
           documents: 'https://issuu.com/hablando.elovers/docs/comun_cate_entel.pptx',
           videos: 'https://youtu.be/oPqdMjyXOgw',
@@ -619,13 +614,7 @@ export default new Vuex.Store({
       {
         name: 'Reuniones comerciales en el cine',
         title: 'Reuniones comerciales en el cine',
-        content: `En Entel experimentamos con nuevas formar de comunicar a nuestro equipo los
-        indicadores de negocio y las metas alcanzadas. Y para hacer más ágil y dinámica la
-        actividad, cambiamos la manera de contarlo, por este motivo los mercados se reúnen
-        una vez al mes; pero no de una reunión tradicional, ¡Se realiza en el cine! Cada
-        encuentro tiene una temática de película o serie y se premia a los Top Performers del
-        mes. Además, se invita a socios de negocio como Huawei o LG, los cuales presentan
-        las últimas novedades en tecnología.`,
+        content: `En Entel experimentamos con nuevas formar de comunicar a nuestro equipo los indicadores de negocio y las metas alcanzadas. Y para hacer más ágil y dinámica la actividad, cambiamos la manera de contarlo. Por este motivo, los mercados se reúnen una vez al mes pero no es una reunión tradicional. ¡Se realiza en el cine!, y cada encuentro tiene una temática de película o serie y se premia a los Top Performers del mes. Además, se invita a socios de negocio como Huawei o LG, los cuales presentan las últimas novedades en tecnología. #EntelLovers comunicándose de una manera distinta y experimentando. `,
         links: {
           documents: 'https://issuu.com/hablando.elovers/docs/reuniones_comerciales.pptx',
           videos:'#',
@@ -638,21 +627,9 @@ export default new Vuex.Store({
       {
         name: 'INFLUENCERS ENTEL',
         title: 'INFLUENCERS ENTEL',
-        content: `ELos influencers de Entel son un grupo de colaboradores #EntelLovers con gran
-        influencia en sus equipos, son agentes transformadores que contribuyen con la gestión
-        de Comunicación Interna, difundiendo y reforzando los mensajes transversales de
-        la empresa y levantando necesidades y opiniones que pueden ser canalizadas con
-        agilidad. Además, participan de los espacios de comunicación para líderes y reciben
-        capacitación para su desarrollo personal. Ellos son la fuerza que emite señales que
-        hacen sentir a cada colaborador lo que es ser un Entel Lover.<br>
+        content: `Los influencers Entel son un grupo de colaboradores #EntelLovers con gran influencia en sus equipos, son agentes transformadores que contribuyen con la gestión de Comunicación Interna, difundiendo y reforzando mensajes transversales de la empresa y levantando necesidades y opiniones que pueden ser canalizadas con agilidad. Además, participan de los espacios de comunicación para líderes y reciben capacitación para su desarrollo personal. Ellos son la fuerza que emite señales que hacen sentir a cada colaborador lo que es ser un #EntelLover.<br>
         <b>CANALES MEDIÁTICOS</b><br>
-        En Entel contamos con una comunicación simple, clara y digital, por eso Workplace es
-        nuestro principal canal de comunicación interna. A través de esta plataforma,
-        mantenemos informados a los colaboradores respecto a cambios de puesto,campañas
-        internas, beneficios, logros alcanzados, entre otros. Al mismo tiempo, nos permite
-        conocer a los colaboradores a través de la interacción, distinguiendo así es como las
-        señales de losEntel Lovers llegan a sus compañeros, involucrándolos con la marca
-        para hacerextraordinario lo que hacen.
+        En Entel contamos con una comunicación simple, clara y digital, por eso Workplace es nuestro principal canal de comunicación interna. A través de esta plataforma, mantenemos informados a los colaboradores respecto a cambios de puesto, campañas internas, beneficios, logros alcanzados, entre otros. Al mismo tiempo, nos permite conocer a los colaboradores a través de la interacción, distinguiendo así como es que las señales de los Entel Lovers llegan a sus compañeros, involucrándolos con la marca para hacer extraordinario lo que hacen.
         
         `,
         links: {
@@ -667,11 +644,7 @@ export default new Vuex.Store({
       {
         name: 'E-TREND',
         title: 'E-TREND',
-        content: `E-Trend es el perfil administrador de toda la compañía y que es gestionado porun
-        community manager tercerizado en coordinación con el área de Comunicación interna.
-        Este perfil es visualizado por todos los colaboradores y a través de su muro comunica
-        los mensajes transversales y comparte contenidos de otros grupos públicos para
-        generar mayor alcance de la información.
+        content: `E-Trend es el perfil administrador de toda la compañía y que es gestionado por un community manager tercerizado en coordinación con el área de Comunicación interna. Este perfil es visualizado por todos los colaboradores y a través de su muro comunica los mensajes transversales y comparte contenidos de otros grupos públicos para generar mayor alcance de la información.
         
         `,
         links: {
@@ -826,7 +799,7 @@ export default new Vuex.Store({
       {
         name: 'Nuevo proposíto',
         title: 'Nuevo proposíto',
-        content: `Existimos para acercar las infinitas posibilidades que da la tecnología y así transformar responsablemente la sociedad`,
+        content: `Existimos para acercar las infinitas posibilidades que da la tecnología y así transformar responsablemente la sociedad.`,
         links: {
           documents: 'https://issuu.com/entellovers/docs/sin_t_tulo-1',
           videos: '#',
@@ -840,7 +813,27 @@ export default new Vuex.Store({
       {
         name: 'Nuevos pilares culturales',
         title: 'Nuevos pilares culturales',
-        content: `La nueva cultura también se transformó, junto con los pilares de nuestra empresa:`,
+        content: `Refrescamos las bases de nuestra cultura alineandola a nuestro nuevo propósito, plan estratégico y a nuestra renovada cultura de trabajo que se caracteriza por ser ágil, liviana y digital. Una filosofía fresca que conecta mejor con nuestros colaboradores y con nuestro core. ¡Nos transformamos constantemente! <br>
+        ¿Por qué tenemos que cambiar constantemente? Por qué estamos en una Industria cambiante donde la experiencia es nuestro diferenciador por eso necesitamos mayor <b>AGILIDAD</b>. <br>
+        <b>+ aprendizaje</b> <br>
+        <b>+ velocidad respuesta</b><br>
+        <ul>
+          <li><b>Clientes en el centro:</b>tener una visión común de las necesidades del cliente en su Journey y ponerlo en el centro de las decisiones. Fortalecer la empatía con él y buscar siempre.</li>
+          <li><b>Asumir riesgos:</b>perder el miedo a experimentar, asumir el riesgo y adaptarse al cambio. Ser ambicioso buscando desafíos grandes pero caminar en pasos cortos y rápidos.
+          </li>
+          <li><b>Romper silos:</b>generar colaboración desde el corazón, conectando a las personas con su misión de vida y cambiar el marco mental de este juego se gana compitiendo a este juego se gana sumándole al otro. 
+          </li>
+          Sobre estos 3 ejes aterrizamos y empaquetamos nuestros nuevos pilares culturales y en el centro está La Señal que Transforma: el latido que une a los 2, 815 colaboradores de Entel, nuestros #EntelLovers internos a nivel nacional. Esta señal, nuestro latido, emite mensajes, emociones y comportamientos que parten de nuestros pilares culturales y se irradian hacia nuestros clientes para convertirlos en verdaderos fans. Esta es nuestra cultura, nuestra identidad. <br>
+
+          Un colaborador Entel es esto y mucho más pero sobre todo se caracteriza por su amor por las personas y por su gran capacidad de servicio. Servirnos unos a otros para servir mejor a nuestros clientes, brindando una experiencia distintiva que deje huella y que logre transformar el mercado y en ese efecto multiplicador, logramos transformar al Perú. <br>
+
+          ¡Estamos muy motivados por seguir activando nuestros nuevos pilares, nuestra nueva forma de hacer las cosas, nuestra nueva forma de trabajar: nuestra nueva identidad!
+
+        </ul>
+        
+        
+        
+        `,
         links: {
           videos:'https://youtu.be/M6XBiMy5maI',
           documents: 'https://issuu.com/inspirando.elovers/docs/nuevos_pilares.pptx',
@@ -930,7 +923,7 @@ export default new Vuex.Store({
         
         `,
         links: {
-          documents: ' https://issuu.com/inspirando.elovers/docs/entel__.ppt',
+          documents: ' https://issuu.com/inspirando.elovers/docs/entel__.pptx',
           videos: 'https://www.youtube.com/playlist?list=PLGy3YHNBg96OgygEJIbAxpW5wdLLrSQVb',
           otherFiles: '#'
         },
@@ -939,8 +932,8 @@ export default new Vuex.Store({
         ]
       },
       {
-        name: 'Entel lovers',
-        title: 'Entel lovers',
+        name: 'Entel Lovers',
+        title: 'Entel Lovers',
         content: `¿Quién es un Entel Lover? Si tenemos que explicarlo, podemos decir que es una
         filosofía que integra a toda nuestra organización para trabajar iniciativas pro cliente
         que aseguran una experiencia de calidad y satisfacción total de cara a nuestros
@@ -952,7 +945,7 @@ export default new Vuex.Store({
         Para lograr estas acciones es que trabajamos de manera transversal a toda la
         compañía con la participación de las diferentes áreas, en el desarrollo de acciones,
         iniciativas y estrategias enfocadas en 4 drivers: Servicio al Cliente, Marca, Cultura y
-        Colaboradores`,
+        Colaboradores.`,
         links: {
           documents: 'https://issuu.com/inspirando.elovers/docs/entel_lovers.pptx',
           videos:'https://youtu.be/7Mf8_GzW9BA',
@@ -1546,7 +1539,7 @@ export default new Vuex.Store({
         transmitan un mensaje sea claro y directo, es necesario reforzarlo con la pasión que
         les permita ser expresivos. Por eso, cada área cuenta con un presupuesto destinado
         para celebrar un día de integración con todo el equipo. Pueden elegir la actividad que
-        más prefieran y tomar un día laborar para compartir con sus compañeros. Parrilladas,
+        más prefieran y tomar un día laborable para compartir con sus compañeros. Parrilladas,
         Karaoke, Bowling… ¡todo es válido! Pueden disfrutar de este beneficio tanto Lima
         como Regiones.
         `,
@@ -3049,7 +3042,7 @@ export default new Vuex.Store({
         inmediato al momento de realizar la evaluación.</li>
         </ul>
         ¿Cuándo se hace?<br>
-        Durante los 15 días posteriores a la evaluación del jefe.
+        Durante los 15 días posteriores a la evaluación del jefe. <br>
        <b> d) Etapa 4. Feedback y Cierre de Proceso</b> <br>
         ¿En qué consiste?<br>
         En esta etapa el jefe inmediato tiene una sesión de feedback presencial con su
@@ -3280,27 +3273,7 @@ export default new Vuex.Store({
       
         ]
       },
-      {
-        name: `CAPACITACIÓN PARA LA CONVERGENCIA
-        EMPRESAS FIJO Y MÓVIL`,
-        title: `CAPACITACIÓN PARA LA CONVERGENCIA
-        EMPRESAS FIJO Y MÓVIL`,
-        content: `En el 2019 se concretó la unificación de Entel y Americatel, lo que implicó activar
-        programas de capacitación para asegurar la convergencia de la fuerza de ventas de
-        Empresas Fijo (Americatel) y Empresas Móvil.<br>
-        Los planes trabajados para asegurar la convergencia y una saludable integración son:<br>
-        A. Programa de Inducción Empresas Fijo: Capacitación y entrenamiento para los
-        nuevos colaboradores que asumen el cargo de Ejecutivo de Ventas Fijo.
-        `,
-        links: {
-          documents: '#',
-          videos:'#',
-          otherFiles: '#'
-        },
-        list: [
-      
-        ]
-      },
+   
       {
         name: `CAPACITACIÓN PARA LA CONVERGENCIA
         EMPRESAS FIJO Y MÓVIL`,

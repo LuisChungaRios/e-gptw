@@ -5,9 +5,7 @@
                 <div class="offset-1 col-3">
                     <h4>Nicole Marini (25)</h4>
                     <p class="cargo">Ejecutiva Canal Elité<br>
-                        Área: Regional<br>
-                        Consumidores<br>
-                        Lima - Comercial</p>
+                        Área: Regional<br>Consumidores<br>Lima - Comercial</p>
                     <p class="descr">
                         ¡Hola, soy Nicole! Tengo 25 años y 
                         soy  administradora de empresas. 
