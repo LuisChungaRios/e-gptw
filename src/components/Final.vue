@@ -101,6 +101,15 @@ $f_semi: 'Barlow-SemiBold';
     $r: $x - ($x * 0.4);
     @return $r;
 }
+
+@function convRem($x,$padre: 16px){
+    $r: ($x/$padre) * 1rem;
+    @return $r;
+}
+@function respxl($numero){
+    $r: $numero - $numero*0.45;
+    @return $r;
+}
 #final{
     padding-bottom: $p_bottom;
     .fila-1{
@@ -264,6 +273,25 @@ $f_semi: 'Barlow-SemiBold';
     }
 }
 @media(max-width: 1366px){
+    #final .fila-1 .text_principal{
+        font-size: fuente(respxl(36px));
+        line-height: fuente(respxl(35px));
+        padding-bottom: fuente(respxl(36px));
+    }
+    #final .fila-1 .text_titulo{
+        font-size: respxl(3.75rem);
+        line-height: respxl(3.8125rem);
+        padding-bottom: respxl(3.75rem);
+    }
+    #final .fila-1 .text_des{
+        font-size: respxl(1.5rem);
+        line-height: respxl(2.125rem);
+        padding-right: respxl(3.75rem);
+    }
+    #final .fila-1 .text_des .fuerte{
+        font-size: respxl(1.875rem);
+        line-height: respxl(1.9375rem);
+    }
     // #final .fila-3 .figura2{
     //     max-width: fuente(reducirImagen(724px));
     // }
