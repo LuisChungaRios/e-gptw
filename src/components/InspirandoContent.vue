@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="row main-practices__content" style="margin: 0">
-      <div class="offset-1 col-6 d-flex justify-content-center">
+      <div class="offset-lg-2 col-lg-5 col-6 offset-xl-1 col-xl-6 d-flex justify-content-center di">
         <div class="">
           <h2 class="practices_title" >{{data.title}}</h2>
 
@@ -13,7 +13,7 @@
            </template>
         </div>
       </div>
-      <div class="col-4 download-files">
+      <div class="col-lg-4 col-xl-4 download-files">
         <p class="text-right evidencia">Evidencias:</p>
         <a :href="data.links.documents"  v-if="data.links.documents != '#'" target="_blank" class="btn practices_documents" @click.prevent="newWindow(data.links.documents)"> Documentos </a>
         <a :href="data.links.videos"     v-if="data.links.videos != '#'" target="_blank" class="btn practices_videos" @click.prevent="newWindow(data.links.videos)"> Videos </a>
