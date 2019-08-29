@@ -354,7 +354,10 @@
   /* font-size:16px; */
   font-size: 14px;
   display: inline-block;
-  color: #222473;
+  /* color: #222473; */
+  color: #fff;
+  text-shadow: -1px 1px 5px #00000080;
+  
 }
 #navegador .active span{
   color: #fff !important;
@@ -2506,7 +2509,7 @@
 
 @media(min-width: 1200px) and (max-width:1366px){
   .separar{
-    top: -100px !important;
+    top: -90px !important;
   }
 }
 
