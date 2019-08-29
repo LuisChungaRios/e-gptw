@@ -41,8 +41,8 @@
     data() {
       return {
         currentOffset: 0,
-        windowSize: 6,
-        paginationFactor: 450,
+        windowSize: 5,
+        paginationFactor: 370,
         itemFocus: {}
 
       }

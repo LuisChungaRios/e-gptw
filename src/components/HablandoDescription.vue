@@ -43,7 +43,7 @@
       return {
         currentOffset: 0,
         windowSize: 5,
-        paginationFactor: 280,
+        paginationFactor: 200,
         itemFocus: {}
 
       }
