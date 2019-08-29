@@ -2572,5 +2572,30 @@
   @media(max-width: 1199px){
     .separar{
       top: -80px !important;
-    }  
+    }
+    .container_reclutando{
+      max-height: 670px;
+    }
+    #inspirando{
+      max-height: 670px;
+      min-height: 670px;
+    }
+    #hablando,#escuchando,#agradeciendo,#desarrollo,#balanceando,#celebrando,#reconociendo{
+      max-height: 670px;
+      min-height: 670px;
+    }    
   }
+/* 
+  @media(min-width:1200px) and (max-width:1366px){
+    .container_reclutando{
+      max-height: 768px;
+    }
+    #inspirando{
+      max-height: 768px;
+      min-height: 768px;
+    }
+    #hablando,#escuchando,#agradeciendo,#desarrollo,#balanceando,#celebrando,#reconociendo{
+      max-height: 768px;
+      min-height: 768x;
+    }   
+  } */
