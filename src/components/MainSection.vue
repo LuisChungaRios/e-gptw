@@ -4,7 +4,7 @@
     <img src="img/logo_01.png" alt="persona" style="width:41.67vw;position: absolute;top: 0;right: 0">
     <img src="img/_background-2.png" alt="background-2" style="width: 100%;position: absolute;z-index: -10;left:0;opacity:0.7;" class="background">
     <div class="container vh-100">
-      <div class="row align-items-center row_logos">
+      <div class="row align-items-center row_logos mi-fila">
         <div class="offset-1 col-3 offset-lg-2 col-lg-2 offset-xl-1 col-xl-3">
           <figure>
             <img src="img/logo_main.png" alt="" class="logo img-fluid">
@@ -18,7 +18,7 @@
       </div>
       <div class="row main2">
         <div class="col-2 col-xl-1">
-            <!-- <Navegador/> -->
+            <Navegador/>
         </div>
         <div class="col-6 col-xl-6">
           <h2>La señal que</h2>
@@ -54,7 +54,7 @@
       </div>
     </div>
     <div class="container cont2">
-      <div class="row align-items-center">
+      <div class="row align-items-center mi-fila">
         <div class="col-3 offset-lg-1 col-lg-2 offset-xl-0 col-xl-3">
           <figure class="text-xl-center">
             <img src="img/logo_entel_blanco_2.png" alt="" class="img-fluid avatar4">

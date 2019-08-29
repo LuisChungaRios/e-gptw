@@ -2503,3 +2503,16 @@
     padding-bottom: 30px !important;
   }
 } */
+
+@media(min-width: 1200px) and (max-width:1366px){
+  .separar{
+    top: -100px !important;
+  }
+}
+
+@media(max-width:1366px){
+  #navegador{
+    transform: scale(.9);
+    left: -22px;
+  }
+}
