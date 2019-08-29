@@ -3,7 +3,7 @@
     <div id="desarrollando">
         <div class="container" style="">
             <div class="row mi-fila">
-                <div class="offset-1 col-lg-4">
+                <div class="offset-xl-1 col-xl-4 offset-lg-2 col-lg-4">
                     <div class="logo">
                         <img src="img/desarrollando/logo.png" alt="">
                         <h3 class="titulop">Desarrollando
@@ -16,11 +16,11 @@
                     </div>
                 </div>
                 <!-- <div class="col-lg-1"></div> -->
-                <div class="col-lg-1 imagen-c">
+                <div class="col-xl-1 col-lg-1 imagen-c">
                     <!-- 501 x 621 -->
                     <img src="img/desarrollando/persona.png" alt="">
                 </div>
-                <div class="col-lg-5 floro">
+                <div class="col-xl-5 col-lg-4 floro">
                     <img src="img/desarrollando/texto.png" alt="" class="fondo">
                     <div class="floro-cont">
                         <p class="text-right texto">
@@ -48,7 +48,7 @@
     <div id="desarrollando-des">
         <div class="container" style="height: 0px;">
             <div class="row mi-fila">
-                <div class="col-lg-12 separar offset-xl-1 col-xl-10">
+                <div class="offset-lg-2 col-lg-8 separar offset-xl-1 col-xl-10">
                     <img src="img/reclutando_bottom.png" alt="" class="img-fluid">
                     <p class="titulo">Buenas <b>Prácticas</b></p>                 
                 </div>
@@ -156,5 +156,22 @@ $font-size: 93.5px;
         font-size: 28px;
     }
 
+}
+@media(max-width: 1199px){
+    .principal{
+        padding-right: 30px;
+    }
+    #desarrollando .imagen-c{
+        left: calc(55.5% - 127.41px);
+    }
+    #desarrollando .imagen-c img{
+            width: 248.82px;
+    }
+    #desarrollando .floro .fondo{
+        width: 440px;
+        top: 4%;
+        left: -9%;
+    }
+    
 }
 </style>

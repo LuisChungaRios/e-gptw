@@ -3,7 +3,7 @@
     <div id="inspirando">
         <div class="container" style="">
             <div class="row mi-fila">
-                <div class="offset-1 col-lg-4">
+                <div class="offset-xl-1 col-xl-4 offset-lg-2 col-lg-4">
                     <div class="logo">
                         <img src="img/inspirando/logo.png" alt="">
                         <h3 class="titulop">Inspirando
@@ -14,13 +14,13 @@
                         <p>En Entel potenciamos las capacidades de nuestros colaboradores y trabajamos por crear un ambiente de <b>igualdad</b>, motivándolos a alcanzar sus metas sin obstáculos y generando buenas prácticas simples y expansivas que den como resultado el crecimiento de cada miembro del equipo. La <b>perseverancia</b> y sus resultados inspiran a cada miembro del equipo a comprometerse hasta lograr que nuestro equipo lo haga increíble. <br/><span>¡Sentimos el cambio!</span></p>
                     </div>
                 </div>
-                <div class="col-lg-1"></div>
-                <div class="col-lg-1 imagen-c">
+                <div class="col-xl-1 col-lg-1"></div>
+                <div class="col-xl-1 col-lg-1 imagen-c">
                     <!-- 501 x 621 -->
                     <img src="img/inspirando/fernando_.png" alt="">
                     <!-- <img src="img/inspirando/men.png" alt="">    -->
                 </div>
-                <div class="offset-lg-1 col-lg-4 floro">
+                <div class="offset-lg-0 col-lg-4 offset-xl-1 col-xl-4 floro">
                     <!-- <img src="img/inspirando/texto.png" alt="" class="fondo"> -->
                     <div class="floro-cont">
                         <p class="text-right texto">
@@ -47,7 +47,7 @@
     <div id="inspirando-des">
         <div class="container" style="height: 0px;">
             <div class="row mi-fila">
-                <div class="col-lg-12 separar col-xl-10 offset-xl-1">
+                <div class="separar col-xl-10 offset-xl-1 offset-lg-2 col-lg-8">
                     <img src="img/hablando/separar.png" alt="" class="img-fluid">
                     <p class="titulo">Buenas <b>Prácticas</b></p>                 
                 </div>
@@ -180,4 +180,31 @@ $font-size: 134.68px;
     }
 }
 
+@media(max-width: 1199px){
+    #inspirando .imagen-c img{
+        width: 613.11px;
+    }
+    #inspirando .imagen-c{
+        left: calc(65% - 316px);
+        bottom: 21px;
+    }
+    #inspirando .principal p{
+        font-size: 12px;
+    }
+    #inspirando .floro-cont .texto{
+        line-height: 1.35;
+    }
+    #inspirando .floro-cont h5{
+        line-height: 1;
+    }
+    #inspirando .floro-cont .puesto{
+        line-height: 1.15;
+    }
+    #inspirando .floro-cont{
+        top: 27%;
+    }
+    #inspirando .principal{
+        padding-right: 1.5rem;
+    }
+}
 </style>

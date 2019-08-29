@@ -73,7 +73,14 @@ $bold: 'Barlow-Bold';
     $r: $x - ($x * 0.3);
     @return $r;
 }
-
+@function convRem($x,$padre: 16px){
+    $r: ($x/$padre) * 1rem;
+    @return $r;
+}
+@function respxl($numero){
+    $r: $numero - $numero*0.45;
+    @return $r;
+}
 #footer{
     .container1{
         padding-bottom: fuente(120px);
@@ -141,7 +148,7 @@ $bold: 'Barlow-Bold';
         }
     }
 }
-@media(min-width: 1200px) and (max-width:1366px){
+@media(max-width:1366px){
     #footer {
         .container2{
             background-color: $colorEntel;
@@ -158,7 +165,7 @@ $bold: 'Barlow-Bold';
         }          
     }
 }
-@media(min-width: 992px) and (max-width:1199px){
+@media(max-width:1199px){
     #footer {
         .container2{
             background-color: $colorEntel;
@@ -174,5 +181,21 @@ $bold: 'Barlow-Bold';
             }
         }          
     }
+    #footer .entel{
+    padding-top: respxl(10rem);
+    padding-bottom: respxl(10rem);
+    }
+    #footer .texto_1{
+            padding-bottom: respxl(2.8125rem);
+    }
+    #footer .texto_1{
+                font-size: 1.2rem;
+    }
+        #footer .texto_2{
+                font-size: 1.2rem;
+    }
+    // #footer .texto_1 span, #footer .texto_2 span{
+    //     font-size: 1.9rem;
+    // }
 }
 </style>

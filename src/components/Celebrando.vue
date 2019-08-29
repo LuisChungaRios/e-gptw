@@ -3,7 +3,7 @@
     <div id="celebrando">
         <div class="container" style="">
             <div class="row mi-fila">
-                <div class="offset-1 col-lg-4">
+                <div class="offset-xl-1 col-xl-4 offset-lg-2 col-lg-4">
                     <div class="logo">
                         <img src="img/celebrando/logo.png" alt="">
                         <h3 class="titulop">Celebrando<span class="titulo_sombra">Cele<br>brando</span></h3>
@@ -14,11 +14,11 @@
                     </div>
                 </div>
                 <!-- <div class="col-lg-1"></div> -->
-                <div class="col-lg-1 imagen-c">
+                <div class="col-xl-1 col-lg-1 imagen-c">
                     <!-- 501 x 621 -->
                     <img src="img/celebrando/persona.png" alt="">
                 </div>
-                <div class="col-lg-5 floro">
+                <div class="col-xl-5 col-lg-4 floro">
                     <img src="img/celebrando/texto.png" alt="" class="fondo">
                     <div class="floro-cont">
                         <p class="text-right texto">
@@ -48,7 +48,7 @@
     <div id="celebrando-des">
         <div class="container" style="height: 0px;">
             <div class="row mi-fila">
-                <div class="col-lg-12 separar offset-xl-1 col-xl-10">
+                <div class="offset-lg-2 col-lg-8 separar offset-xl-1 col-xl-10">
                     <img src="img/reclutando_bottom.png" alt="" class="img-fluid">
                     <p class="titulo">Buenas <b>Prácticas</b></p>                 
                 </div>
@@ -152,5 +152,17 @@ $font-size: 120.68px;
         font-size: 28px;
     }
 
+}
+@media(max-width: 1199px){
+#celebrando .imagen-c{
+    left: calc(59.5% - 165.83px);
+}
+#celebrando .imagen-c img{
+        width: 319.66px;
+}
+#celebrando .floro .fondo{
+        left: 0%;
+        top: 4%;
+}
 }
 </style>

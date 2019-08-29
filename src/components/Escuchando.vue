@@ -3,7 +3,7 @@
     <div id="escuchando">
         <div class="container" style="">
             <div class="row mi-fila">
-                <div class="offset-1 col-lg-4">
+                <div class="offset-xl-1 col-xl-4 offset-lg-2 col-lg-4">
                     <div class="logo">
                         <img src="img/escuchando/logo.png" alt="">
                         <h3 class="titulop">Escuchando
@@ -15,11 +15,11 @@
                     </div>
                 </div>
                 <!-- <div class="col-lg-1"></div> -->
-                <div class="col-lg-1 imagen-c">
+                <div class="col-xl-1 col-lg-1 imagen-c">
                     <!-- 501 x 621 -->
                     <img src="img/escuchando/persona.png" alt="">
                 </div>
-                <div class="col-lg-5 floro">
+                <div class="col-xl-5 col-lg-4 floro">
                     <img src="img/escuchando/texto.png" alt="" class="fondo">
                     <div class="floro-cont">
                         <p class="text-right texto">
@@ -46,7 +46,7 @@
     <div id="escuchando-des">
         <div class="container" style="height: 0px;">
             <div class="row mi-fila">
-                <div class="col-lg-12 separar offset-xl-1 col-xl-10">
+                <div class="offset-lg-2 col-lg-8 separar offset-xl-1 col-xl-10">
                     <img src="img/escuchando/separar.png" alt="" class="img-fluid">
                     <p class="titulo">Buenas <b>Prácticas</b></p>                 
                 </div>
@@ -195,5 +195,22 @@ $font-size: 132.01px;
         font-size: 28px;
     }
 }
+@media(max-width: 1199px){
+    .principal{
+            padding-right: 2rem;
+    }
+    #escuchando .imagen-c{
+        left: calc(57.5% - 145.14px)
+    }
+    #escuchando .imagen-c img{
+            width: 290.28px;
+            bottom: -30px;
+    }
+    #escuchando .floro .fondo{
+            width: 337px;
+    left: 7.5%;
+    }
+}
+
 
 </style>

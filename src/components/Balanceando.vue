@@ -3,7 +3,7 @@
     <div id="balanceando">
         <div class="container" style="">
             <div class="row mi-fila">
-                <div class="offset-1 col-lg-4">
+                <div class="offset-xl-1 col-xl-4 offset-lg-2 col-lg-4">
                     <div class="logo">
                         <img src="img/balanceando/logo.png" alt="">
                         <h3 class="titulop">Balanceando<span class="titulo_sombra">Balan<br>ceando</span></h3>
@@ -14,11 +14,11 @@
                     </div>
                 </div>
                 <!-- <div class="col-lg-1"></div> -->
-                <div class="col-lg-1 imagen-c">
+                <div class="col-xl-1 col-lg-1 imagen-c">
                     <!-- 501 x 621 -->
                     <img src="img/balanceando/persona.png" alt="">
                 </div>
-                <div class="col-lg-5 floro">
+                <div class="col-xl-5 col-lg-4 floro">
                     <img src="img/balanceando/texto.png" alt="" class="fondo">
                     <div class="floro-cont">
                         <p class="text-right texto">
@@ -51,7 +51,7 @@
     <div id="balanceando-des">
         <div class="container" style="height: 0px;">
             <div class="row mi-fila">
-                <div class="col-lg-12 separar offset-xl-1 col-xl-10">
+                <div class="offset-lg-2 col-lg-8 separar offset-xl-1 col-xl-10">
                     <img src="img/balanceando/separador.png" alt="" class="img-fluid">
                     <p class="titulo">Buenas <b>Prácticas</b></p>                 
                 </div>
@@ -197,6 +197,16 @@ $font-size: 132.01px;
     #balanceando-des .titulo{
         font-size: 28px;
     }
-
+}
+@media(max-width: 1199px){
+    #balanceando .imagen-c{
+        left: calc(57.5% - 148.43px);
+    }
+    #balanceando .imagen-c img{
+            width: 287.85px;
+    }
+    #balanceando .floro .fondo{
+        left: 0%;
+    }
 }
 </style>
