@@ -47,8 +47,8 @@
     </div>
     <div id="reconociendo-des">
         <div class="container" style="height: 0px;">
-            <div class="row">
-                <div class="col-lg-12 col-xl-12 separar offset-xl-1 col-xl-10">
+            <div class="row mi-fila">
+                <div class="col-lg-12 separar offset-xl-1 col-xl-10">
                     <img src="img/reclutando_bottom.png" alt="" class="img-fluid">
                     <p class="titulo">Buenas <b>Prácticas</b></p>                 
                 </div>
@@ -115,6 +115,10 @@ $font-size: 93.5px;
     $r: ($x/$padre) * 1rem;
     @return $r;
 }
+@function respxl($numero){
+    $r: $numero - $numero*0.45;
+    @return $r;
+}
 
 .titulop{
     position: relative;
@@ -142,4 +146,19 @@ $font-size: 93.5px;
     line-height: 67.5px;
 
 */
+@media(max-width:1366px){
+    .titulop{
+        margin-top: convRem(respxl(30px));
+        margin-bottom: convRem(respxl(90px));
+    }
+    .titulo_sombra{
+        font-size: 4.214062rem;
+        top: -2.03125rem;
+        line-height: 3.320313rem;
+    }
+    .camb{
+        margin-top: 15px;    
+    }    
+
+}
 </style>

@@ -47,8 +47,8 @@
     </div>
     <div id="agradeciendo-des">
         <div class="container" style="height: 0px;">
-            <div class="row">
-                <div class="col-lg-12 separar">
+            <div class="row mi-fila">
+                <div class="col-lg-12 separar offset-xl-1 col-xl-10">
                     <img src="img/agradeciendo/separar.png" alt="" class="img-fluid">
                     <p class="titulo">Buenas <b>Prácticas</b></p>                 
                 </div>
@@ -110,6 +110,10 @@ $font-size: 120.68px;
     $r: ($x/$padre) * 1rem;
     @return $r;
 }
+@function respxl($numero){
+    $r: $numero - $numero*0.45;
+    @return $r;
+}
 
 .titulop{
     position: relative;
@@ -134,4 +138,24 @@ $font-size: 120.68px;
     top: -75px;
 
 */
+@media(max-width:1366px){
+    .titulop{
+        margin-top: convRem(respxl(60px));
+        margin-bottom: convRem(respxl(90px));
+    }
+    .titulo_sombra{
+        font-size: convRem(respxl($font-size));
+        top: convRem(respxl(-75px));
+        line-height: convRem(respxl(105px));
+        z-index: -9;
+        opacity: .2;
+    }
+    #agradeciendo .principal p .camb{
+        margin-top: convRem(respxl(30px));
+    }
+    #agradeciendo-des .titulo{        
+        font-size: 28px;
+    }
+
+}
 </style>

@@ -2515,4 +2515,39 @@
     transform: scale(.9);
     left: -22px;
   }
+  #inspirando .imagen-c{
+    /* left: calc(64% - 334.555px); */
+    left: calc(60% - 316px);
+    bottom: -5px;
+  }
+  #inspirando .imagen-c img{
+    width: 632.11px;
+  }
+  .btn-conoceme img{
+    top: -1px !important;
+    left: -6.5px !important;
+    width: 36px !important;    
+  }
+
+
+  #reconociendo .imagen-c img{
+    width: 407px;
+  }
+  #reconociendo .imagen-c{
+    left: calc(47.5% - 205.5px);
+  }
+  #reconociendo .floro .fondo{
+    width: 458px;
+    left: 14.045%;
+    top: 6%;
+  }
+  /* #reconociendo .floro .fondo{
+    /* top: -4%; */
+   
+  } */
+
+  #reconociendo .floro-cont{
+    /* top: 25%; */
+  }
+
 }

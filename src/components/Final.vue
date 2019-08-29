@@ -263,7 +263,7 @@ $f_semi: 'Barlow-SemiBold';
         // }
     }
 }
-@media(min-width: 1200px) and (max-width: 1366px){
+@media(max-width: 1366px){
     // #final .fila-3 .figura2{
     //     max-width: fuente(reducirImagen(724px));
     // }
@@ -274,7 +274,7 @@ $f_semi: 'Barlow-SemiBold';
         max-width: fuente(reducirImagen(126px));
     }
 }
-@media(min-width: 992px) and (max-width: 1199px){
+@media(max-width: 992px){
     // #final .fila-3 .figura2{
     //     max-width: fuente(reducirImagenlg(724px));
     // }

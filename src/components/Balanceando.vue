@@ -50,8 +50,8 @@
     </div>
     <div id="balanceando-des">
         <div class="container" style="height: 0px;">
-            <div class="row">
-                <div class="col-lg-12 separar">
+            <div class="row mi-fila">
+                <div class="col-lg-12 separar offset-xl-1 col-xl-10">
                     <img src="img/balanceando/separador.png" alt="" class="img-fluid">
                     <p class="titulo">Buenas <b>Prácticas</b></p>                 
                 </div>
@@ -149,6 +149,10 @@ $font-size: 132.01px;
     $r: ($x/$padre) * 1rem;
     @return $r;
 }
+@function respxl($numero){
+    $r: $numero - $numero*0.45;
+    @return $r;
+}
 
 .titulop{
     position: relative;
@@ -175,4 +179,24 @@ $font-size: 132.01px;
     line-height: 87.5px;
     top: -60px;
 */
+@media(max-width: 1366px){
+    .titulop{
+        margin-top: convRem(respxl(60px));
+        margin-bottom: convRem(respxl(75px));
+    }
+    .titulo_sombra{
+        font-size: convRem(respxl($font-size));
+        // top: convRem(respxl(-60px));
+        // line-height: convRem(respxl(87.5px));
+        top: -2.9rem;
+        line-height: 4.007813rem;        
+    }
+    .camb{
+        margin-top: respxl(45px);
+    } 
+    #balanceando-des .titulo{
+        font-size: 28px;
+    }
+
+}
 </style>
