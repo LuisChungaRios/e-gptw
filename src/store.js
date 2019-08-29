@@ -712,7 +712,7 @@ export default new Vuex.Store({
         `,
         links: {
           documents: 'https://issuu.com/hablando.elovers/docs/livestream.pptx',
-          videos:'#',
+          videos:'https://youtu.be/_f33M86g_ss',
           otherFiles: '#'
         },
         list: [
@@ -946,7 +946,7 @@ export default new Vuex.Store({
         
         `,
         links: {
-          documents: ' https://issuu.com/inspirando.elovers/docs/entel__.pptx',
+          documents: 'https://issuu.com/inspirando.elovers/docs/entel__.pptx',
           videos: 'https://www.youtube.com/playlist?list=PLGy3YHNBg96OgygEJIbAxpW5wdLLrSQVb',
           otherFiles: '#'
         },
@@ -1246,7 +1246,7 @@ export default new Vuex.Store({
         `,
         links: {
           documents: 'https://issuu.com/escuchando.elovers/docs/livestream_con_ramiro.pptx',
-          videos:'#',
+          videos:'https://youtu.be/_f33M86g_ss',
           otherFiles: '#'
         },
         list: [
@@ -1265,7 +1265,7 @@ export default new Vuex.Store({
         `,
         links: {
           documents: 'https://issuu.com/escuchando.elovers/docs/en_personas_con_aldo.pptx',
-          videos:'https://youtu.be/yeUuvGZsvuA',
+          videos:'https://www.youtube.com/watch?v=yeUuvGZsvuA&feature=youtu.be',
           otherFiles: '#'
         },
         list: [
@@ -1606,24 +1606,7 @@ export default new Vuex.Store({
       
         ]
       },
-      {
-        name: 'WORKCHAT',
-        title: 'WORKCHAT',
-        content: `Digitalizamos aún más el WorkPlace y ahora cuenta con su propia mensajería instantánea,
-        WorkChat, el cual permite a los colaboradores crear grupos de trabajo, compartir archivos,
-        crear encuestas, entre otros. Por este mismo medio, la VP de TI y Operaciones, ha
-        implementado un chatbot que está en constante desarrollo y aprendizaje llamada Tiare, para
-        consultas relacionadas a soporte técnico.
-        `,
-        links: {
-          documents: 'https://issuu.com/hablando.elovers/docs/chat.pptx',
-          videos:'#',
-          otherFiles: '#'
-        },
-        list: [
-      
-        ]
-      },
+    
     ]
   
     ,
@@ -2135,8 +2118,8 @@ export default new Vuex.Store({
         ]
       },
       {
-        name: 'HEROES ENTEL',
-        title: 'HEROES ENTEL',
+        name: 'HÉROES ENTEL',
+        title: 'HÉROES ENTEL',
         content: `El programa Héroes Entel está conformado por colaboradores voluntarios que aportan
         su tiempo y compromiso a acciones en beneficio de la comunidad. Dedican su tiempo
         libre a diferentes actividades como remodelar espacios, talleres para contar cuentos a
@@ -3507,7 +3490,7 @@ export default new Vuex.Store({
         procesos de cambio, innovaciones o transformaciones.
         `,
         links: {
-          documents: 'https://issuu.com/desarrollando.elovers/docs/desarrollo_gerencial.pptx',
+          documents: 'https://issuu.com/entellovers/docs/programa_de_desarrollo_gerencial.pptx',
           videos:'#',
           otherFiles: '#'
         },
@@ -3525,7 +3508,7 @@ export default new Vuex.Store({
         informe que arroje un Plan de Desarrollo Individual (PDI).
         `,
         links: {
-          documents: 'https://issuu.com/desarrollando.elovers/docs/desarroollo_individual.pptx',
+          documents: 'https://issuu.com/entellovers/docs/tht_pdi__plan_de_desarrollo_individual_.pptx',
           videos:'#',
           otherFiles: '#'
         },
