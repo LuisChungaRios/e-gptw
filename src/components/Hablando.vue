@@ -47,7 +47,7 @@
     <div id="inspirando-des">
         <div class="container" style="height: 0px;">
             <div class="row">
-                <div class="col-lg-12 separar">
+                <div class="col-lg-12 separar col-xl-10 offset-xl-1">
                     <img src="img/hablando/separar.png" alt="" class="img-fluid">
                     <p class="titulo">Buenas <b>Prácticas</b></p>                 
                 </div>

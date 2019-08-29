@@ -48,7 +48,7 @@
     <div id="reconociendo-des">
         <div class="container" style="height: 0px;">
             <div class="row">
-                <div class="col-lg-12 col-xl-12 separar">
+                <div class="col-lg-12 col-xl-12 separar offset-xl-1 col-xl-10">
                     <img src="img/reclutando_bottom.png" alt="" class="img-fluid">
                     <p class="titulo">Buenas <b>Prácticas</b></p>                 
                 </div>

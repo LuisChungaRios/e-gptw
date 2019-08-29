@@ -207,7 +207,7 @@ left: -30px;
    width: 41px;
 }
 
-@media(min-width: 1200px) and (max-width:1366px){
+@media(max-width:1366px){
 .img-nicol{
   width: 595px;
 }
