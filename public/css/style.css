@@ -330,6 +330,14 @@
   padding-left: 33px;
   transition: all 0.5s;
 }
+@media(max-width: 1199px){
+  #navegador .texto{
+    width: 100%;
+    /* height: 29.7px; */
+    padding-right: 0px;
+  }
+}
+
 #navegador .active .texto{
 	background: #2d2f8d;
   border-right: 5px solid #eb8ca5;
@@ -367,6 +375,11 @@
 	max-width: 120px;
     visibility: hidden;
     padding-left: 7.5px;
+}
+@media(max-width: 1199px){
+  #navegador .descripcion{
+    width: unset;
+  }
 }
 #navegador .active .descripcion{
 	visibility: visible;
@@ -747,7 +760,12 @@
 }
 
 
-.row.main-practices__content .offset-1{
+/* .row.main-practices__content .offset-1{
+  overflow-y: scroll;
+  min-height: 395px;
+  max-height: 395px;
+} */
+.row.main-practices__content .di {
   overflow-y: scroll;
   min-height: 395px;
   max-height: 395px;
