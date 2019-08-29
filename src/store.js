@@ -794,6 +794,29 @@ export default new Vuex.Store({
       
         ]
       },
+      {
+        name: 'TOUR CCHH',
+        title: 'TOUR CCHH',
+        content: `El Tour de Capital Humano / Tour CCHH, es un espacio vivo de comunicación donde los
+        representantes del área de Capital Humano se dirigen a todas las tiendas en Lima y Regiones
+        durante 4 semanas para entrar en contacto directo con cada Entel Lover. El Tour tiene como
+        objetivo conectar a los colaboradores con Entel, haciéndolos sentir que siempre están
+        presentes como parte de una gran unidad. Consiste en llevar información de interés general,
+        realizamos reconocimientos y estamos a disposición de los colaboradores de la tienda para
+        escucharlos. Antes, levantamos información para saber qué temas les gustaría tratar y lo
+        consideramos en la presentación, porque ellos también son parte de la solución. Durante el
+        2018 el mensaje central fue: “Crecer depende ti” y abordamos temas de cambios de puesto
+        interno, aprendizaje, desarrollo, entre otros.
+        `,
+        links: {
+          documents: '#',
+          videos:'#',
+          otherFiles: '#'
+        },
+        list: [
+      
+        ]
+      },
     ],
     inspirando: [
       {
@@ -1012,6 +1035,199 @@ export default new Vuex.Store({
         list: [
       
         ]
+      },
+      {
+        name: 'Entel Dog Lover',
+        title: 'Entel Dog Lover',
+        content: `Quién mejor que un Entel Lover para hablar de amor, amor por nuestro planeta y el bienestar
+        de todos los que vivimos en él. Por eso, desde este año hemos habilitado nuestras políticas y
+        nuestros ambientes para recibir a las mascotas en las tiendas. Somos la primera empresa del
+        rubro de Telecomunicaciones en Perú que permite el ingreso a mascotas en nuestras tiendas,
+        declarándonos una empresa 100% Pet Friendly y “Dog Lovers” totales.<br>
+        Las primeras tiendas en donde se inició esta iniciativa fueron las de Larco y Comandante
+        Espinar (Miraflores) y la de San Borja y en los próximos meses lo replicaremos en más tiendas.
+        Por qué sabemos lo importante que son para nuestros clientes sus amigos de cuatro patas.
+        Por ello, y sabiendo que a veces es difícil dejarlos solos en casa, decidimos acondicionar
+        nuestras instalaciones para poder recibirlos en un ambiente seguro y cómodo para todos.<br>
+        Entre nuestros aliados estratégicos se encuentra Matchcota, organización que busca aumentar
+        el número de adopciones de perros en la ciudad, al igual que el apoyo del Departamento de la
+        Policía Canina, quienes brindan durante las capacitaciones necesarias a los colaboradores de
+        las tiendas para actuar de manera correcta y segura.También hemos llevado a perritos en
+        adopción a todos nuestros locales para sensibilizar a los colaboradores y conseguirles un
+        hogar. ¡Logramos transformar los corazones de personas adoptando a 9 perritos y pronto
+        serán más!
+        `,
+        links: {
+          documents: '#',
+          videos:'#',
+          otherFiles: '#'
+        },
+        list: [
+      
+        ]
+      },
+      {
+        name: 'PREC con Ramiro',
+        title: 'PREC con Ramiro',
+        content: `Ramiro Lafarga, nuestro Gerente General, tiene su propia filosofía llamada PREC y se encarga
+        de contagiarnos a todos de ella para experimentar y cambiar. En cada reunión que tiene con
+        líderes busca la manera dinámica de motivarnos, invitarnos a cometer errores (pero aprender
+        rápido), trabajar con pasión, embarrarse y meterse en el día a día. Emite la señal que nlos
+        convierte en más que líderes,nos vuelve transformadores.<br>
+        P: PRIORIZAR <br>
+        <ul>
+          <li>Importante y urgente</li>
+          <li>Planificar el cambio</li>
+          <li>Ser eficiente en tiempos y reuniones</li>
+          <li>Priorizar mi agenda y la de mi equipo</li>
+          <li>Voy por objetivos</li>
+        </ul><br>
+        R: RETROALIMENTAR <br>
+        <ul>
+          <li>Dar y pedir</li>
+          <li>Para abajo, arriba y al costado</li>
+          <li>Compartir reconocimientos y buscar mejoras</li>
+          <li>Socializar problemas</li>
+          <li>F2F o P2P antes que Mail 2 Mail</li>
+          <li>¡Comunicar!</li>
+        </ul><br>
+        E: EMBARRARSE <br>
+        <ul>
+          <li>Clientes: ellos son todo</li>
+          <li>Primera Línea</li>
+          <li>Todo mi equipo (no solo Reports)</li>
+          <li>Sentido de urgencia</li>
+         
+        </ul><br>
+        C: CAMBIAR: busco mis breaking points <br>
+        <ul>
+          <li>Pienso en mi legado</li>
+          <li>Estoy para liderar el cambio (no para sufrirlo)</li>
+          <li>Innovación siempre.</li>
+          <li>Me equivoco, aprendo. sigo</li>
+          <li>No estoy solo. Soy equipo</li>
+         
+        </ul><br>
+        `,
+        links: {
+          documents: '#',
+          videos:'#',
+          otherFiles: '#'
+        },
+        list: [
+      
+        ]
+      }
+      ,
+      {
+        name: 'TrasciendELover',
+        title: 'TrasciendELover',
+        content: `En Entel entendemos que tenemos motivaciones dentro y fuera de la empresa y ¡nosotros
+        promovemos todas ellas! En nuestro equipo tenemos líderes que son mentores, catedráticos,
+        expositores, panelistas, entre otros oficios y roles dentro de la sociedad, en donde contribuyen
+        entregando lo mejor de ellos de manera desinteresada.<br>
+        Porque en Entel aprendemos a trascender y que para trascender hay que servir. El servicio
+        desinteresado está en el ADN de nuestros Entel Lovers y es por eso que brindamos una
+        experiencia distintiva a nuestros clientes, pero vamos más allá impulsados por el amor por las
+        personas y el amor por nuestro país: compartimos conocimiento, expertise y experiencia
+        brindando nuestro tiempo y knowhow para inspirar a otros grupos de nuestra sociedad.<br>
+        Así, Entel trasciende junto a sus #EntelLovers. Porqué el amor por las personas es lo más
+        importante y cada vez que un colaborador nuestro destaca en otro ámbito, lo celebramos y nos
+        sentimos orgullosos por su desarrollo. ¡Nos transformamos para inspirar a otros!
+        `,
+        links: {
+          documents: '#',
+          videos:'#',
+          otherFiles: '#'
+        },
+        list: [
+      
+        ]
+      },
+      {
+        name: 'TrasciendEntel',
+        title: 'TrasciendEntel',
+        content: `En Entel nos enfocamos en hacer las cosas increíble por eso durante 2018 nuestra
+        gestión recibió diferentes reconocimientos en sostenibilidad, reputación, calidad,
+        publicidad y clima laboral. Entre estos reconocimientos y distinciones podemos
+        resaltar:<br>
+        <ul>
+        <li>1° lugar en el premio Mejor Experiencia de Cliente del estudio Best Costumer
+        Experience (BCX), en el sector de telecomunicaciones.</li>
+        <li>Distintivo Empresa Socialmente Responsable de Perú 2021, obtenido por
+        segundo año consecutivo.1° lugar en Empresas con mejor reputación
+        corporativa Merco Empresas 2018 en el sector de telecomunicaciones, así
+        como el 9° puesto en el resultado global, habiendo subido 16 posiciones en
+        comparación con el año anterior.</li>
+        <li>31° puesto en el ranking Merco Responsabilidad y Gobierno Corporativo 2018
+        habiendo subido dos posiciones con respecto al 2017.</li>
+        <li>10° puesto en el ranking Great Place to Work.</li>
+        <li>Ingresamos al ranking Empresas Más Admiradas (EMA 2018) por Price
+        Waterhouse Coopers. Nos convertimos en la primera operadora de
+        telecomunicaciones en ingresar al ranking en sus siete años de existencia.</li>
+        <li>13° puesto en el ranking Merco Talento 2018, habiendo subido 4 ubicaciones
+        con respecto a 2017.</li>
+        </ul><br>
+        Effies Categoría Internet y Telecom<br>
+        <ul>
+          <li>Effie Oro: Entel Perú – McCann. Campaña “Disculpas ilimitadas”.</li>
+          <li>Effie Plata: Entel Perú – McCann. Campaña “Migra y recárgate”.</li>
+        </ul><br>
+        Effie Categoría Promociones de Servicios<br>
+        <ul>
+          <li>Effie Oro: Entel Perú – Alegría Buenos Aires. Campaña “Migra con mamá, tu
+          fan n.° 1”.</li>
+          <li>Effie Plata: Entel Perú – McCann. Campaña “Disculpas ilimitadas”.</li>
+          <li>Effie Bronce: Entel Perú – McCann. Campaña “Migra y recárgate”.</li>
+        </ul><br>
+        Nuestros Entel Lovers lo seguirán haciendo increíble activando el liderazgo
+        transformador y emitiendo más fuerte ese latido que sigue la ruta de la experiencia del
+        colaborador que conecta con el corazón de todos nuestros clientes. ¡Vamos por más!
+        `,
+        links: {
+          documents: '#',
+          videos:'#',
+          otherFiles: '#'
+        },
+        list: [
+      
+        ]
+      },
+      {
+        name: 'Hackaton Entel 2019',
+        title: 'Hackaton Entel 2019',
+        content: `En Entel somos digitales, y como tales contamos con un evento tecnológico donde
+        convocamos a diversos Entel Lovers de perfil técnico quienes participan en un desafío
+        
+        durante un tiempo determinado, en el cual deberán para desarrollar nuevas ideas según
+        el reto asignado: resolver un problema o diseñar un nuevo producto o proceso. Nuestro
+        equipo técnico ama lo que hace, el resultado es usualmente una solución tecnológica (HW y/o
+        SW).<br>
+        A través de una dinámica horizontal e intensiva, los participantes complementan
+        experiencias y habilidades individuales con el propósito de desarrollar soluciones concretas y
+        transformadoras.<br>
+       
+        <ul>
+          <li>Convocatoria: 500 inscritos.</li>
+          <li>Cantidad de ideas: 50 ideas.</li>
+          <li>Objetivos Cumplidos:</li>
+        </ul><br>
+        
+          <liSe publica la convocatoria en 5 entidades de estudios entre universidades e institutos.</li>
+          <li>Hay una base de datos de los inscritos y convocados del evento que tengan perfil
+          técnico.</li>
+          <li>Alguna de las 3 propuestas ganadoras responden a los retos establecidos (nuevas
+            tec: IoT, AI, Cloud).</li>
+      
+        `,
+        links: {
+          documents: '#',
+          videos:'#',
+          otherFiles: '#'
+        },
+        list: [
+      
+        ]
       }
     ]
     ,
@@ -1049,7 +1265,7 @@ export default new Vuex.Store({
         `,
         links: {
           documents: 'https://issuu.com/escuchando.elovers/docs/en_personas_con_aldo.pptx',
-          videos:'https://youtu.be/wdopLE9l9E4',
+          videos:'https://youtu.be/yeUuvGZsvuA',
           otherFiles: '#'
         },
         list: [
@@ -1150,6 +1366,29 @@ export default new Vuex.Store({
         `,
         links: {
           documents: 'https://issuu.com/hablando.elovers/docs/chat.pptx',
+          videos:'#',
+          otherFiles: '#'
+        },
+        list: [
+      
+        ]
+      },
+      {
+        name: 'TOUR CCHH',
+        title: 'TOUR CCHH',
+        content: `El Tour de Capital Humano / Tour CCHH, es un espacio vivo de comunicación donde los
+        representantes del área de Capital Humano se dirigen a todas las tiendas en Lima y Regiones
+        durante 4 semanas para entrar en contacto directo con cada Entel Lover. El Tour tiene como
+        objetivo conectar a los colaboradores con Entel, haciéndolos sentir que siempre están
+        presentes como parte de una gran unidad. Consiste en llevar información de interés general,
+        realizamos reconocimientos y estamos a disposición de los colaboradores de la tienda para
+        escucharlos. Antes, levantamos información para saber qué temas les gustaría tratar y lo
+        consideramos en la presentación, porque ellos también son parte de la solución. Durante el
+        2018 el mensaje central fue: “Crecer depende ti” y abordamos temas de cambios de puesto
+        interno, aprendizaje, desarrollo, entre otros.
+        `,
+        links: {
+          documents: '#',
           videos:'#',
           otherFiles: '#'
         },
@@ -1377,7 +1616,7 @@ export default new Vuex.Store({
         consultas relacionadas a soporte técnico.
         `,
         links: {
-          documents: '#',
+          documents: 'https://issuu.com/hablando.elovers/docs/chat.pptx',
           videos:'#',
           otherFiles: '#'
         },
@@ -2250,7 +2489,7 @@ export default new Vuex.Store({
         ¡Cómo no vamos a estar relajados y llenos de energías con estos engreimientos!
         `,
         links: {
-          documents: 'https://issuu.com/balanceando.elovers/docs/vive_entel.pptx',
+          documents: 'https://issuu.com/balanceando.elovers/docs/relajate_entel.pptx',
           videos:'#',
           otherFiles: '#'
         },
@@ -2397,7 +2636,7 @@ export default new Vuex.Store({
         Beneficios.
         `,
         links: {
-          documents: 'https://issuu.com/balanceando.elovers/docs/campeonato.pptx',
+          documents: 'https://issuu.com/balanceando.elovers/docs/alquiler_de_espacios_deportivos.pptx',
           videos:'#',
           otherFiles: '#'
         },
@@ -2583,7 +2822,7 @@ export default new Vuex.Store({
         cliente.
         `,
         links: {
-          documents: '#',
+          documents: 'https://issuu.com/balanceando.elovers/docs/convenio_upc.pptx',
           videos:'#',
           otherFiles: '#'
         },
@@ -2632,7 +2871,7 @@ export default new Vuex.Store({
         `,
         links: {
           documents: '#',
-          videos:'https://youtu.be/L8uYXkXd-6Q',
+          videos:'https://www.youtube.com/watch?v=jKZwX2YO_0o&t=1s',
           otherFiles: '#'
         },
         list: [
@@ -2707,9 +2946,9 @@ export default new Vuex.Store({
         ]
       },
       {
-        name: `ENTEL 10 LA CARRERA QUE DURA 10 AÑOS_
+        name: `ENTEL 10 LA CARRERA QUE DURA 10 AÑOS 
         OCHENTERA`,
-        title: `ENTEL 10 LA CARRERA QUE DURA 10 AÑOS_
+        title: `ENTEL 10 LA CARRERA QUE DURA 10 AÑOS 
         OCHENTERA`,
         content: `En el 2018, más de 10 mil personas recorrieron el cuarto tramo Entel (10), en nuestra
         primera carrera temática, la cual propició la participación activa de nuestros
@@ -2797,7 +3036,7 @@ export default new Vuex.Store({
         información en línea y una mejor experiencia.
         `,
         links: {
-          documents: '#',
+          documents: 'https://issuu.com/balanceando.elovers/docs/worktime.pptx',
           videos:'#',
           otherFiles: '#'
         },
@@ -2816,7 +3055,7 @@ export default new Vuex.Store({
         está siendo utilizado por el 65% de nuestro personal fiscalizado.
         `,
         links: {
-          documents: '#',
+          documents: 'https://issuu.com/home/published/horario_entel.pptx',
           videos:'#',
           otherFiles: '#'
         },
@@ -2849,6 +3088,27 @@ export default new Vuex.Store({
         que ellos y sus familiares tengan nuevos beneficios accediendo a la compra de líneas
         adicionales y renovación de equipos. El acceso para la adquisición de estos productos
         es a través de la web www.entelconvienne.pe
+        `,
+        links: {
+          documents: 'https://issuu.com/balanceando.elovers/docs/entel_conviene.pptx',
+          videos:'#',
+          otherFiles: '#'
+        },
+        list: [
+      
+        ]
+      },
+      {
+        name: `HORARIO FLEX`,
+        title: `HORARIO FLEX`,
+        content: `Ahora nuestros Entel Lovers pueden gestionar su horario de manera más flexible. Ya
+        no tenemos un horario de trabajo fijo, ahora tenemos un rango de ingreso de 7:30 a.m.
+        a 8:30 a.m. y podemos salir luego de 8.5 horas de trabajo por día. Con esto
+        mantenemos el beneficio de trabajar 42.5 horas a la semana y brindamos flexibilidad
+        diaria a nuestros colaboradores, minimizando los impactos negativos del tráfico y
+        contribuyendo con un mejor balance vida-trabajo. Este nuevo horario aplica a todo
+        nuestro personal administrativo, quienes son el 65% de nuestro personal fiscalizado.<br>
+        ¡Por qué somos flexibles, experimentamos y cambiamos!
         `,
         links: {
           documents: '#',
@@ -3247,7 +3507,7 @@ export default new Vuex.Store({
         procesos de cambio, innovaciones o transformaciones.
         `,
         links: {
-          documents: '#',
+          documents: 'https://issuu.com/desarrollando.elovers/docs/desarrollo_gerencial.pptx',
           videos:'#',
           otherFiles: '#'
         },
@@ -3265,7 +3525,7 @@ export default new Vuex.Store({
         informe que arroje un Plan de Desarrollo Individual (PDI).
         `,
         links: {
-          documents: '#',
+          documents: 'https://issuu.com/desarrollando.elovers/docs/desarroollo_individual.pptx',
           videos:'#',
           otherFiles: '#'
         },
@@ -3292,7 +3552,7 @@ export default new Vuex.Store({
         lanzan cada 15 días a través de la herramienta de aprendizaje SuccessFactors
         `,
         links: {
-          documents: '#',
+          documents: 'https://issuu.com/desarrollando.elovers/docs/capacitando.pptx',
           videos:'#',
           otherFiles: '#'
         },
@@ -3315,7 +3575,7 @@ export default new Vuex.Store({
         la toma de decisiones en sus respectivas gestiones.
         `,
         links: {
-          documents: '#',
+          documents: 'https://issuu.com/home/published/financiero.pptx',
           videos:'#',
           otherFiles: '#'
         },
@@ -3330,7 +3590,7 @@ export default new Vuex.Store({
         proveedores. La negociación debe ser un reflejo de nuestra cultura.
         `,
         links: {
-          documents: '#',
+          documents: 'https://issuu.com/home/published/taller_negociacion_publicacion_wp.pptx',
           videos:'#',
           otherFiles: '#'
         },
@@ -3354,7 +3614,7 @@ export default new Vuex.Store({
         adecuar nuestros tiempos de estudio.
         `,
         links: {
-          documents: '#',
+          documents: 'https://issuu.com/desarrollando.elovers/docs/portal.pptx',
           videos:'#',
           otherFiles: '#'
         },
@@ -3382,7 +3642,7 @@ export default new Vuex.Store({
         que enriquecen nuestra habilidad de servicio, de liderazgo y demás:
         `,
         links: {
-          documents: '#',
+          documents: 'https://issuu.com/desarrollando.elovers/docs/cursos_externos_final.pptx',
           videos:'#',
           otherFiles: '#'
         },
@@ -3398,7 +3658,7 @@ export default new Vuex.Store({
         content: `
         `,
         links: {
-          documents: '#',
+          documents: 'https://issuu.com/home/published/desarrollo_de_habilidades.pptx',
           videos:'#',
           otherFiles: '#'
         },
@@ -3417,6 +3677,51 @@ export default new Vuex.Store({
         industria y como ha cambiado la forma de trabajar en las organizaciones ágiles.
         `,
         links: {
+          documents: 'https://issuu.com/desarrollando.elovers/docs/_ltimo.pptx',
+          videos:'#',
+          otherFiles: '#'
+        },
+        list: [
+      
+        ]
+      },
+      {
+        name: `AGILIDAD ENTEL`,
+        title: `AGILIDAD ENTEL`,
+        content: `
+        Nuestra forma de trabajar es ágil, liviana y digital por eso desde este 2019 trabajamos
+        formando células ágiles compuestas por hasta 10 colaboradores de diferentes áreas y
+        niveles. Somos ágiles y nos adaptamos a los cambios porque son permanentes en el
+        mercado de Telecomunicaciones.<br>
+        Cada célula ágil cuenta con un Product Owner y Scrum Master, compuesta por 9 Entel
+        Lovers de distintas especialidades y experiencias. El Product Owner representa la voz
+        del cliente y el Scrum Master facilita la metodología. La célula ágil la conforma un
+        equipo que se caracteriza por tener muy buenas relaciones interpersonales, todos son
+        muy proactivos y creativos. Porque la clave es que nuestro trabajo siga la ruta de
+        innovación que esperamos.<br>
+        Tenemos una célula de captura y otra de ingresos. El objetivo de la célula de captura
+        es elaborar e implementar la estrategia comercial de crecimiento de base prepago a
+        través de la venta de calidad y valor. El objetivo de la célula de ingresos es elaborar e
+        implementar la estrategia de generación de ingresos y retención de la base prepago.
+        Contamos con 7 células actualmente y producto de esta forma y metodología
+        innovadora de trabajo, estamos creando nuevos servicios para nuestros clientes. Nos
+        movemos ágiles y livianos, y para lograrlo entendimos que esto era solo el inicio de
+        una forma de trabajo escalable y decidimos comprenderla desde la experiencia.<br>
+        Experimentamos lo que significaba trabajar de esta manera, y así conocer las posibles
+        resistencias, obstáculos y nuevos desafíos que nos trae esta forma de trabajo desde
+        aspectos estructurales hasta cambios en los paradigmas que hasta hoy nos han hecho
+        exitosos. Esto nos ayuda a estar mejor preparados para extender la agilidad en todas
+        sus formas.<br>
+        Adoptar la agilidad es nuestro objetivo diario y el resultado de experimentar y cambiar
+        se ve reflejado en proyectos como Entel Pay, Mercado Hogar, entre otros.
+        Seguiremos trabajando de esta manera hasta se convierta en nuestra única forma de
+        trabajar. Agilidad para emitir la señal que transforma a nuestros clientes a través de
+        productos y servicios innovadores que contribuyan a la evolución del mercado de
+        Telecomunicaciones en Perú.<br>
+        ¡Un Entel Lover es siempre ágil, liviano y digital alcanzando resultados
+        innovadores y haciéndolo increíble!
+        `,
+        links: {
           documents: '#',
           videos:'#',
           otherFiles: '#'
@@ -3425,6 +3730,67 @@ export default new Vuex.Store({
       
         ]
       },
+      {
+        name: 'TrasciendELover',
+        title: 'TrasciendELover',
+        content: `En Entel entendemos que tenemos motivaciones dentro y fuera de la empresa y ¡nosotros
+        promovemos todas ellas! En nuestro equipo tenemos líderes que son mentores, catedráticos,
+        expositores, panelistas, entre otros oficios y roles dentro de la sociedad, en donde contribuyen
+        entregando lo mejor de ellos de manera desinteresada.<br>
+        Porque en Entel aprendemos a trascender y que para trascender hay que servir. El servicio
+        desinteresado está en el ADN de nuestros Entel Lovers y es por eso que brindamos una
+        experiencia distintiva a nuestros clientes, pero vamos más allá impulsados por el amor por las
+        personas y el amor por nuestro país: compartimos conocimiento, expertise y experiencia
+        brindando nuestro tiempo y knowhow para inspirar a otros grupos de nuestra sociedad.<br>
+        Así, Entel trasciende junto a sus #EntelLovers. Porqué el amor por las personas es lo más
+        importante y cada vez que un colaborador nuestro destaca en otro ámbito, lo celebramos y nos
+        sentimos orgullosos por su desarrollo. ¡Nos transformamos para inspirar a otros!
+        `,
+        links: {
+          documents: '#',
+          videos:'#',
+          otherFiles: '#'
+        },
+        list: [
+      
+        ]
+      },
+      {
+        name: 'Hackaton Entel 2019',
+        title: 'Hackaton Entel 2019',
+        content: `En Entel somos digitales, y como tales contamos con un evento tecnológico donde
+        convocamos a diversos Entel Lovers de perfil técnico quienes participan en un desafío
+        
+        durante un tiempo determinado, en el cual deberán para desarrollar nuevas ideas según
+        el reto asignado: resolver un problema o diseñar un nuevo producto o proceso. Nuestro
+        equipo técnico ama lo que hace, el resultado es usualmente una solución tecnológica (HW y/o
+        SW).<br>
+        A través de una dinámica horizontal e intensiva, los participantes complementan
+        experiencias y habilidades individuales con el propósito de desarrollar soluciones concretas y
+        transformadoras.<br>
+       
+        <ul>
+          <li>Convocatoria: 500 inscritos.</li>
+          <li>Cantidad de ideas: 50 ideas.</li>
+          <li>Objetivos Cumplidos:</li>
+        </ul><br>
+        
+          <liSe publica la convocatoria en 5 entidades de estudios entre universidades e institutos.</li>
+          <li>Hay una base de datos de los inscritos y convocados del evento que tengan perfil
+          técnico.</li>
+          <li>Alguna de las 3 propuestas ganadoras responden a los retos establecidos (nuevas
+            tec: IoT, AI, Cloud).</li>
+      
+        `,
+        links: {
+          documents: '#',
+          videos:'#',
+          otherFiles: '#'
+        },
+        list: [
+      
+        ]
+      }
     
     ]
   
