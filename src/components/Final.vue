@@ -2,7 +2,7 @@
     <div id="final" class="container-fluid">
         <div class="container proposito">
             <div class="row fila-1">
-                <div class="offset-lg-1 col-lg-5 col-xl-6 caja">
+                <div class="offset-lg-1 col-lg-5 offset-xl-0 col-xl-6 caja">
                     <figure class="corazon">
                         <img src="img/secc_final/img-2.png" alt="" class="banner img-fluid">
                     </figure>
@@ -17,7 +17,7 @@
 
             </div>
             <div class="row fila-2">
-                <div class="col-xl-4 offset-lg-1 col-lg-2">
+                <div class="col-xl-4 offset-xl-0 offset-lg-1 col-lg-2">
                     <img src="img/secc_final/banner2.png" alt="" class="banner2">
                     <figure class="pr-5">
                         <img src="img/secc_final/img-3.png" alt="" class="figura1 img-fluid">
@@ -37,7 +37,7 @@
         <div class="capita_humano">
             <div class="container">
                 <div class="row fila-3">
-                    <div class="col-xl-6 offset-lg-1 col-lg-5">
+                    <div class="offset-xl-0 col-xl-6 offset-lg-1 col-lg-5">
                         <h5 class="titulo">
                             <span class="titulo_sombra">Capital Humano</span>
                             Capital Humano
@@ -108,6 +108,10 @@ $f_semi: 'Barlow-SemiBold';
 }
 @function respxl($numero){
     $r: $numero - $numero*0.45;
+    @return $r;
+}
+@function respmd($numero){
+    $r: $numero - $numero*0.2;
     @return $r;
 }
 #final{
@@ -274,6 +278,71 @@ $f_semi: 'Barlow-SemiBold';
 }
 @media(max-width: 1366px){
     #final .fila-1 .text_principal{
+        font-size: fuente(respmd(36px));
+        line-height: fuente(respmd(35px));
+        padding-bottom: fuente(respmd(36px));
+    }
+    #final .fila-1 .text_titulo{
+        font-size: respmd(3.75rem);
+        line-height: respmd(3.8125rem);
+        padding-bottom: respmd(3.75rem);
+    }
+    #final .fila-1 .text_des{
+        font-size: respmd(1.5rem);
+        line-height: respmd(2.125rem);
+        padding-right: respmd(3.75rem);
+    }
+    #final .fila-1 .text_des .fuerte{
+        font-size: respmd(1.875rem);
+        line-height: respmd(1.9375rem);
+    }
+    #final .fila-2 .figura1{
+        max-width: fuente(reducirImagen(272px));
+    }
+    #final .fila-1 .corazon img{
+        max-width: fuente(reducirImagen(126px));
+    }
+    #final .fila-2 .titulo_sombra{
+        font-size: respmd(123.19px);
+        line-height: 1;
+    }
+    #final .fila-2 .titulo{
+        font-size: respmd(60px);
+    }
+    #final .fila-2 .texto1{
+        font-size: respmd(24px);
+        line-height: 1.2;
+        padding-left: 60px;
+    }
+    #final .fila-2 .texto1 span{
+        font-size: respmd(24px);
+        line-height: 1.2;
+    }
+
+    #final .fila-3 .titulo{
+        font-size: respmd(3.75rem);
+        padding-bottom: respmd(7.5rem);
+
+    }
+    #final .fila-3 .titulo .titulo_sombra{
+        font-size: respmd(7.699375rem);
+        top: -4.5rem;
+    }
+
+    #final .fila-3{
+        padding-top:respmd(9.375rem);
+        padding-bottom: respmd(9.375rem);
+    }
+    #final .fila-2{
+        padding-bottom: respmd(12.8125rem);
+    }
+    #final .fila-3 .text_principal{
+        font-size: respmd(1.5rem);
+        padding-bottom: respmd(1.40625rem);
+    }
+}
+@media(max-width: 1199px){
+    #final .fila-1 .text_principal{
         font-size: fuente(respxl(36px));
         line-height: fuente(respxl(35px));
         padding-bottom: fuente(respxl(36px));
@@ -339,13 +408,6 @@ $f_semi: 'Barlow-SemiBold';
 
 
 }
-@media(max-width: 992px){
-    // #final .fila-2 .figura1{
-    //     max-width: fuente(reducirImagenlg(272px));
-    // }    
-    // #final .fila-1 .corazon img{
-    //     max-width: fuente(reducirImagenlg(126px));
-    // }
-}
+
 
 </style>
