@@ -1,7 +1,7 @@
 <template>
     <div id="intermedio3">
         <div class="container intermedio3">
-            <div class="row intermedio3">
+            <div class="row intermedio3 mi-fila">
                 <div class="offset-lg-0 col-lg-12 offset-xl-0 col-xl-12 text-center">
                     <div class="logo-entel">
                         <img src="img/intermedios/int3-icon2.png" alt="" class="img-fluid">

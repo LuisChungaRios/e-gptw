@@ -1,7 +1,7 @@
 <template>
     <div id="intermedio7">
         <div class="container intermedio7">
-            <div class="row intermedio7">
+            <div class="row intermedio7 mi-fila">
                 <div class="offset-lg-2 col-lg-8 offset-xl-2 col-xl-8 text-center">
                     <h6 class="titulo">
                         <span>Identidad de marca interna </span>

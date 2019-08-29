@@ -9,7 +9,7 @@
                 <img src="img/secc_final/img-4.png" alt="" class="img-fluid">
             </figure>
             <div class="container">
-                <div class="row">
+                <div class="row mi-fila">
                     <div class="offset-lg-3 col-lg-6">
 
                     </div>
@@ -18,7 +18,7 @@
         </div>
         <div class="container-fluid container2">
             <div class="container">
-                <div class="row fila2">
+                <div class="row fila2 mi-fila">
                     <div class="offset-lg-2 col-lg-8 text-center">
                         <p class="texto_1">Y en este camino de experiencias memorables, un <span class="fuerte1">Entel Lover…</span></p>
 
@@ -32,7 +32,7 @@
         </div>
         <div class="container-fluid container3">
             <div class="container">
-                <div class="row">
+                <div class="row mi-fila">
                     <div class="col-12 text-center">
                         <figure class="entel">
                             <img src="img/secc_final/entel.png" alt="" class="img-fluid">

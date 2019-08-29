@@ -1,6 +1,6 @@
 <template>
 <div class="container">
-  <div class="row main-practices__content" style="margin: 0">
+  <div class="row main-practices__content mi-fila" style="margin: 0">
     <div class="offset-lg-2 col-lg-5 col-6 offset-xl-1 col-xl-6 d-flex justify-content-center di">
       <div class="">
         <h2 class="practices_title">{{  data.title  }}</h2>
