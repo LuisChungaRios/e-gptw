@@ -88,6 +88,7 @@
             </li>
             <li style="display: none;"><a href="#celebrando-des" class="celebrando-des"></a></li>
             <li style="display: none;"><a href="#intermedio8" class="intermedio8"></a></li>
+            
             <li class="btn-ancla">
                 <a href="#reconociendo" class="nav-link reconociendo">
                     <img src="img/corazon/heart9.png" alt="corazon_lleno" class="corazon_lleno">
@@ -96,7 +97,14 @@
                         <span class="descripcion">Reconociendo</span>
                     </div>
                 </a>
-            </li>					  							  							  							
+            </li>	
+            <!-- <li style="display: none;"><a href="#intermedio8" class="intermedio8"></a></li>
+            <li style="display: none;"><a href="#intermedio8" class="intermedio8"></a></li>
+            <li style="display: none;"><a href="#intermedio8" class="intermedio8"></a></li>
+            <li style="display: none;"><a href="#intermedio8" class="intermedio8"></a></li>
+            <li style="display: none;"><a href="#intermedio8" class="intermedio8"></a></li>
+            <li style="display: none;"><a href="#intermedio8" class="intermedio8"></a></li>
+            <li style="display: none;"><a href="#intermedio8" class="intermedio8"></a></li> -->
         </ul>
     </div>
 </template>
