@@ -16,10 +16,10 @@
                 <!-- <div class="col-lg-1"></div> -->
                 <div class="col-lg-1 col-xl-1 imagen-c">
                     <!-- 501 x 621 -->
-                    <img src="img/reconociendo/persona.png" alt="">
+                    <img src="img/reconociendo/persona_.png" alt="">
                 </div>
                 <div class="col-lg-5 col-xl-5 floro">
-                    <img src="img/reconociendo/texto.png" alt="" class="fondo">
+                    <img src="img/reconociendo/texto_.png" alt="" class="fondo">
                     <div class="floro-cont">
                         <p class="text-right texto">
                             “Entel me transformó, me sacó de la<br>

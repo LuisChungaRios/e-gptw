@@ -172,9 +172,12 @@ width: 30px;
  
  .main-practices {
    background-color: var(--section-color);
-   min-height: 100vh;
+   /* joan recuperar */
+   /* min-height: 100vh; */
  }
  
+
+
  .button-practices {
    text-align: left;
    width: 150px;
@@ -300,6 +303,13 @@ width: 30px;
   margin-top: 45px;
   position: fixed;
   z-index: 99;
+  top: 0;
+  left: 10%;
+}
+@media(max-width: 1919px){
+  #navegador{
+    left: 0;
+  }  
 }
 #navegador ul{
 	list-style: none;
@@ -598,6 +608,11 @@ width: 30px;
   /* width: 450px; */
   /* width: 375px; */
 }
+@media(min-width: 1920px){
+  #inspirando .imagen-c img{
+    width: 842px !important;
+  }
+}
 #inspirando .floro .fondo{
   position: relative;
   z-index: -99;
@@ -712,6 +727,9 @@ width: 30px;
   font-style:normal;
   font-weight:200;
   color: #2d2f8d;
+  /* joan padding-right: 90px; */
+  padding-right: 90px;
+  font-size: 16px !important;
 }
 #section-1 .practices-description__content h4{
   font-family: 'Barlow-Medium';
@@ -2053,7 +2071,7 @@ width: 30px;
   }
 
   #inspirando .imagen-c{
-    left: calc(52.5% - 448px);
+    left: calc(57.5% - 421px);
   }
   #inspirando .floro-cont{
     top: 40%;
@@ -2127,7 +2145,8 @@ width: 30px;
   }
 
   #reconociendo .imagen-c{
-    left: calc(52.5% - 218.5px);
+    /* left: calc(52.5% - 218.5px); */
+    left: calc(44.5% - 370px);
   }
   #reconociendo .floro .fondo{
     left: 0px;

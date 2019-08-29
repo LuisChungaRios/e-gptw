@@ -17,7 +17,7 @@
                 <div class="col-lg-1"></div>
                 <div class="col-lg-1 imagen-c">
                     <!-- 501 x 621 -->
-                    <img src="img/inspirando/fernando.png" alt="">
+                    <img src="img/inspirando/fernando_.png" alt="">
                     <!-- <img src="img/inspirando/men.png" alt="">    -->
                 </div>
                 <div class="offset-lg-1 col-lg-4 floro">
