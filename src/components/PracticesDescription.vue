@@ -2,7 +2,7 @@
 <div class="container-fluid vh-100 container_reclutando"  style="background-color: #42e8b4;">
  <div class="container h-100">
    <div class="row practices-description h-100 mi-fila">
-     <div class="offset-1 col-4">
+     <div class="offset-xl-1 col-xl-4 offset-lg-2 col-lg-4">
        <figure class="logo-cont-reclu">
          <img src="img/icon_3.png" alt="" class="logo-reclu">
        </figure>
@@ -16,12 +16,12 @@
          </p>
          <h4 class="frase">¡Empieza la transformación!</h4>
      </div>
-     <div class="col-3">
+     <div class="col-xl-3 col-lg-2">
        <figure class="persona-cont-reclu">
            <img src="img/nicole.png" class="img-nicol persona-reclu" alt="">
        </figure>       
      </div>
-     <div class="col-lg-3 align-self-center">
+     <div class="col-lg-xl-3 col-lg-3 align-self-center">
        <div class="contenido-per">
          <p class="conoceme_mas_description"> “Yo entré como practicante, algo insegura, pero desde el primer día me hicieron sentir parte del equipo; me enamoré. <img src="img/popup/emoji8.png" alt="">
          A diferencia de otros lugares, aquí sí siento que puedo ser yo misma y que puedo ser como soy y sentirme aceptada”.
@@ -37,7 +37,7 @@
      </div>
    </div>
    <div class="row mi-fila">
-     <div class="offset-xl-1 col-xl-10 separar"> 
+     <div class="offset-xl-1 col-xl-10 separar offset-lg-2 col-lg-8"> 
        <h2 class="bottom-text">Buenas <span>Prácticas</span></h2>
        <img src="img/reclutando_bottom.png" class="img-bottom img-fluid"   alt="">
 
@@ -266,6 +266,19 @@ left: -30px;
 }
 
 }
+
+@media(max-width:1199px){
+  .separar{
+  top: -80px;
+
+  }
+  .persona-cont-reclu{
+  left: -108%;
+  }
+  .img-nicol{
+  width: 545px;
+  }
+  }
 
 
  

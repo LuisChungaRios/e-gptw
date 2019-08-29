@@ -3,7 +3,7 @@
     <div id="hablando">
         <div class="container" style="">
             <div class="row mi-fila">
-                <div class="offset-1 col-lg-4">
+                <div class="offset-xl-1 col-xl-4 offset-lg-2 col-lg-4">
                     <div class="logo">
                         <img src="img/hablando/simbolo.png" alt="">
                         <h3 class="titulop">Hablando
@@ -16,11 +16,11 @@ cliente</b> se transmite a otros miembros del equipo para que puedan <b>experime
                     </div>
                 </div>
                 <!-- <div class="col-lg-1"></div> -->
-                <div class="col-lg-1 imagen-c">
+                <div class="col-xl-1 col-lg-1 imagen-c">
                     <!-- 501 x 621 -->
                     <img src="img/hablando/jimmy1.png" alt="">
                 </div>
-                <div class="col-lg-5 floro">
+                <div class="col-xl-5 col-lg-4 floro">
                     <img src="img/hablando/texto.png" alt="" class="fondo">
                     <div class="floro-cont">
                         <p class="text-right texto">“El colaborador Entel es agente de <br>cambio y por eso es un<br>transformador. Animamos al cliente<br>a cambiar y transformarse de la<br>misma forma como lo hacemos<br>nosotros. Aquí puedo hablar porque<br>me siento<br>escuchado <img src="img/hablando/emoji.png "/>”. </p>
@@ -38,7 +38,7 @@ cliente</b> se transmite a otros miembros del equipo para que puedan <b>experime
     <div id="hablando-des">
         <div class="container" style="height: 0px;">
             <div class="row mi-fila">
-                <div class="col-lg-12 separar offset-xl-1 col-xl-10">
+                <div class="offset-lg-2 col-lg-8 separar offset-xl-1 col-xl-10">
                     <img src="img/hablando/separar.png" alt="" class="img-fluid" >
                     <p class="titulo">Buenas <b>Prácticas</b></p>                 
                 </div>
@@ -172,5 +172,25 @@ $font-size: 132.01px;
         font-size: 28px;
     }    
 }
+@media(max-width:1199px){
+    #hablando .principal p{
+        padding-right: 4.5rem;
+    }
+    #hablando .imagen-c{
+        left: calc(55.5% - 164.52px);
+    }
+    #hablando .imagen-c img{
+        width: 329.03px;
+    }
+    #hablando .floro .fondo{
+        // left: -30%;
+            left: -24%;
+        width: 487px;
+        top: 4%;
+            max-width: 473px;
+    }
+}
+
+
 
 </style>

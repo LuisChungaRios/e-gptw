@@ -3,7 +3,7 @@
     <div id="reconociendo">
         <div class="container" style="">
             <div class="row reconociendo mi-fila">
-                <div class="offset-1 offset-lg-2 col-lg-4 offset-xl-1 col-xl-4">
+                <div class="offset-xl-1 col-xl-4 offset-lg-2 col-lg-4">
                     <div class="logo">
                         <img src="img/reconociendo/logo.png" alt="">
                         <h3 class="titulop">Reconociendo<span class="titulo_sombra">Recono<br>ciendo</span></h3>
@@ -14,11 +14,11 @@
                     </div>
                 </div>
                 <!-- <div class="col-lg-1"></div> -->
-                <div class="col-lg-1 col-xl-1 imagen-c">
+                <div class="col-xl-1 col-lg-1 imagen-c">
                     <!-- 501 x 621 -->
                     <img src="img/reconociendo/persona_.png" alt="">
                 </div>
-                <div class="col-lg-5 col-xl-5 floro">
+                <div class="col-xl-5 col-lg-4 floro">
                     <img src="img/reconociendo/texto_.png" alt="" class="fondo">
                     <div class="floro-cont">
                         <p class="text-right texto">
@@ -48,7 +48,7 @@
     <div id="reconociendo-des">
         <div class="container" style="height: 0px;">
             <div class="row mi-fila">
-                <div class="col-lg-12 separar offset-xl-1 col-xl-10">
+                <div class="offset-lg-2 col-lg-8 separar offset-xl-1 col-xl-10">
                     <img src="img/reclutando_bottom.png" alt="" class="img-fluid">
                     <p class="titulo">Buenas <b>Prácticas</b></p>                 
                 </div>
@@ -159,6 +159,17 @@ $font-size: 93.5px;
     .camb{
         margin-top: 15px;    
     }    
+
+}
+
+@media(max-width: 1199px){
+    #reconociendo .imagen-c img{
+        width: 427px;
+    }
+    #reconociendo .floro .fondo{
+            left: -15%;
+    top: 3%;
+    }
 
 }
 </style>

@@ -2,7 +2,7 @@
     <div id="final" class="container-fluid">
         <div class="container proposito">
             <div class="row fila-1">
-                <div class="col-lg-6 caja">
+                <div class="offset-lg-1 col-lg-5 col-xl-6 caja">
                     <figure class="corazon">
                         <img src="img/secc_final/img-2.png" alt="" class="banner img-fluid">
                     </figure>
@@ -11,19 +11,19 @@
                     <h6 class="text_titulo">¿Sentiste los latidos de sus corazones?</h6>
                     <p class="text_des">Ellos son la <span class="fuerte">mejor señal transformadora</span> que tiene Entel para alcanzar los objetivos y sabemos que su experiencia nos permite crecer como marca y potenciar nuestro posicionamiento.</p>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-xl-6 col-lg-6">
                     <img src="img/secc_final/banner1.png" alt="" class="banner1">
                 </div>
 
             </div>
             <div class="row fila-2">
-                <div class="col-lg-4">
+                <div class="col-xl-4 offset-lg-1 col-lg-2">
                     <img src="img/secc_final/banner2.png" alt="" class="banner2">
                     <figure class="pr-5">
                         <img src="img/secc_final/img-3.png" alt="" class="figura1 img-fluid">
                     </figure>
                 </div>
-                <div class="offset-1 col-lg-7 text-right">
+                <div class="offset-xl-1 col-xl-7 offset-lg-1 col-lg-7 text-right">
                     <h5>
                         <span class="titulo_sombra">Propósito</span>
                         <span class="titulo">Propósito</span>
@@ -37,7 +37,7 @@
         <div class="capita_humano">
             <div class="container">
                 <div class="row fila-3">
-                    <div class="col-lg-6">
+                    <div class="col-xl-6 offset-lg-1 col-lg-5">
                         <h5 class="titulo">
                             <span class="titulo_sombra">Capital Humano</span>
                             Capital Humano
@@ -46,7 +46,7 @@
                         <p class="text_principal">Su liderazgo ha hecho que cada colaborador sea parte de la solución, generando el impulso para hacer <span class="fuerte">las cosas increíbles.</span></p>
                         <p class="text_principal">Ellos también son parte de esta historia y son nuestros <span class="fuerte">#elovermakers</span></p>
                     </div>
-                    <div class="col-lg-6 align-self-center">
+                    <div class="col-xl-6 col-lg-6 align-self-center">
                         <img src="img/secc_final/img-1.png" alt="" class="figura2 img-fluid">
                     </div>
                 </div> 
@@ -292,26 +292,60 @@ $f_semi: 'Barlow-SemiBold';
         font-size: respxl(1.875rem);
         line-height: respxl(1.9375rem);
     }
-    // #final .fila-3 .figura2{
-    //     max-width: fuente(reducirImagen(724px));
-    // }
     #final .fila-2 .figura1{
         max-width: fuente(reducirImagen(272px));
     }
     #final .fila-1 .corazon img{
         max-width: fuente(reducirImagen(126px));
     }
+    #final .fila-2 .titulo_sombra{
+        font-size: respxl(123.19px);
+        line-height: 1;
+    }
+    #final .fila-2 .titulo{
+        font-size: respxl(60px);
+    }
+    #final .fila-2 .texto1{
+        font-size: respxl(24px);
+        line-height: 1.2;
+        padding-left: 60px;
+    }
+    #final .fila-2 .texto1 span{
+        font-size: respxl(24px);
+        line-height: 1.2;
+    }
+
+    #final .fila-3 .titulo{
+        font-size: respxl(3.75rem);
+        padding-bottom: respxl(7.5rem);
+
+    }
+    #final .fila-3 .titulo .titulo_sombra{
+        font-size: respxl(7.699375rem);
+        top: -4.5rem;
+    }
+
+    #final .fila-3{
+        padding-top:respxl(9.375rem);
+        padding-bottom: respxl(9.375rem);
+    }
+    #final .fila-2{
+        padding-bottom: respxl(12.8125rem);
+    }
+    #final .fila-3 .text_principal{
+        font-size: respxl(1.5rem);
+        padding-bottom: respxl(1.40625rem);
+    }
+
+
 }
 @media(max-width: 992px){
-    // #final .fila-3 .figura2{
-    //     max-width: fuente(reducirImagenlg(724px));
+    // #final .fila-2 .figura1{
+    //     max-width: fuente(reducirImagenlg(272px));
+    // }    
+    // #final .fila-1 .corazon img{
+    //     max-width: fuente(reducirImagenlg(126px));
     // }
-    #final .fila-2 .figura1{
-        max-width: fuente(reducirImagenlg(272px));
-    }    
-    #final .fila-1 .corazon img{
-        max-width: fuente(reducirImagenlg(126px));
-    }
 }
 
 </style>

@@ -2546,11 +2546,13 @@
   }
   /* #reconociendo .floro .fondo{
     /* top: -4%; */
+    .separar{
+      top: -100px !important;
+    }    
    
-  } */
-
-  #reconociendo .floro-cont{
-    /* top: 25%; */
   }
-
-}
+  @media(max-width: 1199px){
+    .separar{
+      top: -80px !important;
+    }  
+  }

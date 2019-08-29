@@ -2,7 +2,7 @@
     <div id="intermedio1">
         <div class="container intermedio1">
             <div class="row intermedio1">
-                <div class="offset-lg-1 col-lg-10 offset-xl-0 col-xl-12">
+                <div class="offset-lg-2 col-lg-8 offset-xl-0 col-xl-12">
                     <h6 class="text-center">Y, ¿qué sentimos cuando amamos?</h6>
                     <ul class="list-amamos row">
                         <li class="col-lg-3 col-xl-3">

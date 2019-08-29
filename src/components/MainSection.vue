@@ -10,7 +10,7 @@
             <img src="img/logo_main.png" alt="" class="logo img-fluid">
           </figure>
         </div>
-        <div class="offset-7 col-1 offset-xl-7 col-xl-1">
+        <div class="offset-6 col-2 offset-xl-7 col-xl-1">
           <figure>
             <img src="img/logo_top_.png" alt="" class="logo-top-entel">
           </figure>
@@ -392,6 +392,9 @@ $font-size: 134.68px;
   .background{
     top: 40%;
   }  
+  .row_logos{
+    padding-top: 15px !important;
+  }
 }
 </style>
 
