@@ -45,8 +45,8 @@
     </div>
     <div id="escuchando-des">
         <div class="container" style="height: 0px;">
-            <div class="row">
-                <div class="col-lg-12 separar">
+            <div class="row mi-fila">
+                <div class="col-lg-12 separar offset-xl-1 col-xl-10">
                     <img src="img/escuchando/separar.png" alt="" class="img-fluid">
                     <p class="titulo">Buenas <b>Prácticas</b></p>                 
                 </div>
@@ -173,28 +173,26 @@ $font-size: 132.01px;
     margin-top: 30px;
 }
 
-@media(min-width: 1200px) and (max-width: 1366px){
+@media(max-width: 1366px){
     .titulop{
-        position: relative;
-        margin-bottom: 0;
-        margin-top: convRem(60px);
-        margin-bottom: convRem(90px);
+        margin-top: convRem(respxl(60px));
+        margin-bottom: convRem(respxl(90px));
     }
 
     .titulo_sombra{
         @extend %fuenteBold;
         color: $c_sombra;
-        font-size: convRem($font-size);
-        position: absolute;
-        left: convRem(0px);
-        top: convRem(-60px);
-        line-height: convRem(90px);
-        z-index: -9;
+        font-size: convRem(respxl($font-size));
+        top: convRem(respxl(-60px));
+        line-height: convRem(respxl(90px));
     }
 
     .camb{
         display: inline-block;
-        margin-top: 30px;
+        margin-top: respxl(30px);
+    }
+    #escuchando-des .titulo{
+        font-size: 28px;
     }
 }
 

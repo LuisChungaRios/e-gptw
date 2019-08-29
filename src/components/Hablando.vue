@@ -46,7 +46,7 @@
     </div>
     <div id="inspirando-des">
         <div class="container" style="height: 0px;">
-            <div class="row">
+            <div class="row mi-fila">
                 <div class="col-lg-12 separar col-xl-10 offset-xl-1">
                     <img src="img/hablando/separar.png" alt="" class="img-fluid">
                     <p class="titulo">Buenas <b>Prácticas</b></p>                 
@@ -163,7 +163,7 @@ $font-size: 134.68px;
     line-height: convRem(119.68px);
     z-index: -9;
 }
-@media(min-width: 1200px) and (max-width: 1366px){
+@media(max-width: 1366px){
     .titulop{
         margin-bottom: 0;
         margin-top: convRem(respxl(60px));
@@ -174,7 +174,10 @@ $font-size: 134.68px;
         // top: convRem(respxl(-95px));
         top:  -2.5rem;
         line-height: convRem(respxl(119.68px));
-    }    
+    }
+    #inspirando-des .titulo{
+        font-size: 28px;    
+    }
 }
 
 </style>

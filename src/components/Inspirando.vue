@@ -37,8 +37,8 @@ cliente</b> se transmite a otros miembros del equipo para que puedan <b>experime
     </div>
     <div id="hablando-des">
         <div class="container" style="height: 0px;">
-            <div class="row">
-                <div class="col-lg-12 separar">
+            <div class="row mi-fila">
+                <div class="col-lg-12 separar offset-xl-1 col-xl-10">
                     <img src="img/hablando/separar.png" alt="" class="img-fluid" >
                     <p class="titulo">Buenas <b>Prácticas</b></p>                 
                 </div>
@@ -155,7 +155,7 @@ $font-size: 132.01px;
     z-index: -9;
 }
 
-@media(min-width: 1200px) and (max-width: 1366px){
+@media(max-width: 1366px){
     .titulop{
         // position: relative;
         // margin-bottom: 0;
@@ -167,6 +167,9 @@ $font-size: 132.01px;
         font-size: convRem(respxl($font-size));
         top: convRem(respxl(-122px)) ;
         line-height: convRem(respxl(94px));
+    }
+    #hablando-des .titulo{
+        font-size: 28px;
     }    
 }
 
