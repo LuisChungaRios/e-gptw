@@ -3,7 +3,7 @@
     <img src="img/background.png" alt="background" style="width: 100%;position: absolute;margin-left:-15px;" class="background_1">
     <img src="img/logo_01.png" alt="persona" style="width:41.67vw;position: absolute;top: 0;right: 0">
     <img src="img/_background-2.png" alt="background-2" style="width: 100%;position: absolute;z-index: -10;left:0;opacity:0.7;" class="background">
-    <div class="container vh-100">
+    <div class="container"> <!-- vh-100-->
       <div class="row align-items-center row_logos mi-fila">
         <div class="offset-1 col-3 offset-lg-2 col-lg-2 offset-xl-1 col-xl-3">
           <figure>
@@ -321,7 +321,7 @@ $font-size: 134.68px;
       @return $r;
     }
     .background_1{
-      height: 90vh;
+      // height: 90vh;
     }
   .cont2{
     padding-bottom: reducirFuentexl(115px);
