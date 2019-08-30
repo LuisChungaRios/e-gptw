@@ -10,7 +10,8 @@
   left: 0;
   white-space: nowrap;
   /* background: #0b0b0b; */
-  background: rgba(11, 11, 11, 0.6);
+  /* background: rgba(11, 11, 11, 0.6); */
+  background: rgba(11, 11, 11, 0.9);
   /* background: #9bd8e9; */
   outline: none !important;
   opacity: 0;
@@ -88,6 +89,17 @@
  .lity-container {
   width: 100%;
   max-width: 1024px;
+}
+
+@media(max-width: 1366px){
+  .lity-container{
+    transform: scale(.7);
+  }
+}
+@media(max-width: 1199px){
+  .lity-container{
+    transform: scale(.6);
+  }  
 }
 
 .lity-content {

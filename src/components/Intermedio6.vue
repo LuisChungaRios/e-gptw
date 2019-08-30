@@ -17,7 +17,6 @@
     </div>
 </template>
 
-
 <style lang="scss" scoped>
 @function resp_xl($tamano_xl){
     $rxl: $tamano_xl - $tamano_xl*0.2;
@@ -76,7 +75,7 @@
     }
 }
 
-@media(min-width: 1200px) and (max-width: 1366px){
+@media(max-width: 1366px){
     #intermedio6{
         padding-top: resp_xl(105px);
         padding-bottom: 1resp_xl(05px);

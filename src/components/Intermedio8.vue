@@ -94,7 +94,7 @@
 }
 
 
-@media(min-width: 1200px) and (max-width: 1366px){
+@media(max-width: 1366px){
     #intermedio8{
         padding-top: resp_xl(105px);
         padding-bottom: resp_xl(105px);

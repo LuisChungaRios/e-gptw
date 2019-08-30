@@ -126,7 +126,7 @@
     }
 }
 
-@media(min-width: 1200px) and (max-width: 1366px){
+@media(max-width: 1366px){
     #intermedio7{
         padding-top: resp_xl(105px);
         padding-bottom: resp_xl(105px);
@@ -178,5 +178,9 @@
             width: resp_xl(166px);
         }
     }
+    #intermedio7 .logo-entel p{
+        line-height: 1;        
+    }
+
 }
 </style>
