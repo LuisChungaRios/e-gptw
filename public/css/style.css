@@ -2615,9 +2615,9 @@
     }
   }
 /* floro-cont 25% en alto*/
-  @media(min-width:1200px) and (max-width:1919px) and (min-height: 769px){
+  @media(min-width:1200px) and (max-width:1919px) and (min-height: 765px){
     .container_reclutando{
-      min-height: 768px;
+      min-height: 764px;
     }    
     #inspirando .floro-cont{
       top: 45% !important;
