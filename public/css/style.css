@@ -2609,7 +2609,7 @@
       max-height: 768px;
       height: 100vh;
     }
-    #hablando,#escuchando,#agradeciendo,#desarrollo,#balanceando,#celebrando,#reconociendo,#inspirando{
+    #hablando,#escuchando,#agradeciendo,#desarrollando,#balanceando,#celebrando,#reconociendo,#inspirando{
       max-height: 768px;
       height: 100vh;
     }
@@ -2622,7 +2622,7 @@
     #inspirando .floro-cont{
       top: 45% !important;
     }
-    #hablando .floro,#escuchando .floro,#agradeciendo .floro,#desarrollo .floro,#balanceando .floro,#celebrando .floro,#reconociendo .floro{
+    #hablando .floro,#escuchando .floro,#agradeciendo .floro,#desarrollando .floro,#balanceando .floro,#celebrando .floro,#reconociendo .floro{
       top: 100px;
     }
     #celebrando .floro-cont{
@@ -2640,7 +2640,7 @@
     .container_reclutando{
       min-height: 667px
     }
-    #hablando,#escuchando,#agradeciendo,#desarrollo,#balanceando,#celebrando,#reconociendo,#inspirando{
+    #hablando,#escuchando,#agradeciendo,#desarrollando,#balanceando,#celebrando,#reconociendo,#inspirando{
       min-height: 667px;
     }       
   }
@@ -2661,7 +2661,7 @@
       max-height: 670px;
       /* height: 100vh; */
     }
-    #hablando,#escuchando,#agradeciendo,#desarrollo,#balanceando,#celebrando,#reconociendo,#inspirando{
+    #hablando,#escuchando,#agradeciendo,#desarrollando,#balanceando,#celebrando,#reconociendo,#inspirando{
       max-height: 670px;
       height: 100vh;
     }    
@@ -2671,7 +2671,7 @@
     #inspirando .floro-cont{
       top: 47% !important;
     }
-    #hablando .floro,#escuchando .floro,#agradeciendo .floro,#desarrollo .floro,#balanceando .floro,#celebrando .floro,#reconociendo .floro{
+    #hablando .floro,#escuchando .floro,#agradeciendo .floro,#desarrollando .floro,#balanceando .floro,#celebrando .floro,#reconociendo .floro{
       top: 100px;
     }
     /* #homeprincipal .background_1{
@@ -2682,7 +2682,7 @@
     .container_reclutando{
       min-height: 670px;
     }
-    #hablando,#escuchando,#agradeciendo,#desarrollo,#balanceando,#celebrando,#reconociendo,#inspirando{
+    #hablando,#escuchando,#agradeciendo,#desarrollando,#balanceando,#celebrando,#reconociendo,#inspirando{
       min-height: 670px;
     }       
   }
@@ -2697,7 +2697,7 @@
     .container_reclutando{
       min-height: 920px !important;
     }
-    #hablando, #escuchando, #agradeciendo, #desarrollo, #balanceando, #celebrando, #reconociendo, #inspirando{
+    #hablando, #escuchando, #agradeciendo, #desarrollando, #balanceando, #celebrando, #reconociendo, #inspirando{
       min-height: 920px;
     }
     #inspirando .imagen-c img{
@@ -2724,7 +2724,7 @@
     #agradeciendo .imagen-c img{
       width: 562px;
     }
-    #hablando .floro, #escuchando .floro, #agradeciendo .floro, #desarrollo .floro,#celebrando .floro, #reconociendo .floro{
+    #hablando .floro, #escuchando .floro, #agradeciendo .floro, #desarrollando .floro,#celebrando .floro, #reconociendo .floro{
       top: 140px !important;      
     }
 
@@ -2850,3 +2850,15 @@
     top: 25%;
   }
 }
+
+@media(min-width:1400px) and (max-width: 1919px) and (max-height: 750px){
+  #inspirando .floro-cont{
+    top: 49% !important;
+  }
+}
+
+/* @media (max-width: 1919px) and (min-width: 1400px){
+  #desarrollando {
+      min-height: 920px !important;
+  }
+} */
