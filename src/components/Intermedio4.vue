@@ -1,7 +1,7 @@
 <template>
     <div id="intermedio4">
         <div class="container intermedio4">
-            <div class="row intermedio4">
+            <div class="row intermedio4 mi-fila">
                 <div class="offset-lg-2 col-lg-8 offset-xl-2 col-xl-8 text-center">
                     <h6 class="titulo">
                         <span class="d-block">¿Cómo lo hicimos?</span>

@@ -1,7 +1,7 @@
 <template>
     <div id="intermedio2">
         <div class="container intermedio2">
-            <div class="row intermedio2">
+            <div class="row intermedio2 mi-fila">
                 <div class="offset-lg-2 col-lg-8 offset-xl-0 col-xl-12">
                     <h6 class="text-center">Pero, el verdadero amor no nace a primera vista:
                     <span>es un proceso</span></h6>

@@ -1,7 +1,7 @@
 <template>
     <div id="intermedio6">
         <div class="container intermedio6">
-            <div class="row intermedio6">
+            <div class="row intermedio6 mi-fila">
                 <div class="offset-lg-2 col-lg-8 offset-xl-2 col-xl-8 text-center">
                     <h6 class="titulo">
                         <span class="d-block">¿Cómo lo hicimos?</span>
@@ -16,7 +16,6 @@
         </div>
     </div>
 </template>
-
 
 <style lang="scss" scoped>
 @function resp_xl($tamano_xl){
@@ -76,7 +75,7 @@
     }
 }
 
-@media(min-width: 1200px) and (max-width: 1366px){
+@media(max-width: 1366px){
     #intermedio6{
         padding-top: resp_xl(105px);
         padding-bottom: 1resp_xl(05px);

@@ -1,7 +1,7 @@
 <template>
     <div id="intermedio5">
         <div class="container intermedio5">
-            <div class="row intermedio5">
+            <div class="row intermedio5 mi-fila">
                 <div class="offset-lg-2 col-lg-8 offset-xl-2 col-xl-8 text-center">
                     <h6 class="titulo">
                         <span class="d-block">¿Cómo lo hicimos?</span>
@@ -74,7 +74,7 @@
     }
 }
 
-@media(min-width: 1200px) and (max-width: 1366px){
+@media(max-width: 1366px){
     #intermedio5{
         padding-top: resp_xl(105px);
         padding-bottom: resp_xl(105px);

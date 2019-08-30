@@ -1,7 +1,7 @@
 <template>
     <div id="intermedio8">
         <div class="container intermedio8">
-            <div class="row intermedio8">
+            <div class="row intermedio8 mi-fila">
                 <div class="offset-lg-2 col-lg-8 offset-xl-2 col-xl-8 text-center">
                     <ul class="list-amamos row align-items-center">
                         <li class="col">
@@ -94,7 +94,7 @@
 }
 
 
-@media(min-width: 1200px) and (max-width: 1366px){
+@media(max-width: 1366px){
     #intermedio8{
         padding-top: resp_xl(105px);
         padding-bottom: resp_xl(105px);

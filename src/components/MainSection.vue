@@ -305,7 +305,7 @@ $font-size: 134.68px;
     max-width: reducirimgxl2(238px);
   }
   .main2{
-    padding-top: convRem(reducirFuentexl(45px));
+    // padding-top: convRem(reducirFuentexl(45px));
     padding-bottom: convRem(reducirFuentexl(30px));
   }
 
@@ -394,6 +394,12 @@ $font-size: 134.68px;
   }  
   .row_logos{
     padding-top: 15px !important;
+  }
+}
+
+@media(min-width:1200px) and (max-width:1366px) and (min-height: 769px){
+  .background{
+  top: 20%
   }
 }
 </style>

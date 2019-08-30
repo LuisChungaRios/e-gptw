@@ -2,7 +2,7 @@
 <div class="container-fluid vh-100 container_reclutando"  style="background-color: #42e8b4;">
  <div class="container h-100">
    <div class="row practices-description h-100 mi-fila">
-     <div class="offset-xl-1 col-xl-4 offset-lg-2 col-lg-4">
+     <div class="offset-xl-1 col-xl-4 offset-lg-2 col-lg-4 ">
        <figure class="logo-cont-reclu">
          <img src="img/icon_3.png" alt="" class="logo-reclu">
        </figure>
