@@ -190,7 +190,10 @@ $font-size: 132.01px;
             max-width: 473px;
     }
 }
-
-
+// @media(min-width: 1500px) and (max-width: 1199px){
+//     #inspirando .floro-cont{
+//         top: 49% !important;
+//     }
+// }
 
 </style>

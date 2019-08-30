@@ -2814,4 +2814,39 @@
     #homeprincipal .corazong{
       width: 429px;
     }
+    #navegador{
+      left: -15px !important;
+    }
+    /* #final .fila-1 .banner1{      
+    min-width: calc(50vw + -15px);
+    max-width: calc(50vw + -15px);
+    } */
   }
+  @media(min-width: 1500px) and (max-width: 1919px){
+    #inspirando .floro-cont{
+      top: 49% !important;
+    }
+    #inspirando .imagen-c{
+      left: calc(58% - 316px);
+    }
+    #inspirando .imagen-c img{
+      width: 730.11px !important;
+    }
+    /* #inspirando .floro-cont{
+      top: 45% !important;
+    } */
+}
+@media(min-width: 1700px) and (max-width: 1919px){
+  #inspirando .floro-cont{
+    top: 45% !important;
+  }
+  #inspirando .imagen-c{
+    left: calc(57% - 316px);
+  }
+}
+
+@media(min-width: 1200px) and (max-width: 1366px){
+  #celebrando .floro-cont{
+    top: 25%;
+  }
+}
