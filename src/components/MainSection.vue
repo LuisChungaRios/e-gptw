@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid" id="homeprincipal">
+  <div class="container-fluid wow fadeIn" id="homeprincipal" data-wow-delay="0.7s">
     <img src="img/background.png" alt="background" style="width: 100%;position: absolute;margin-left:-15px;" class="background_1">
     <img src="img/logo_01.png" alt="persona" style="width:41.67vw;position: absolute;top: 0;right: 0">
     <img src="img/_background-2.png" alt="background-2" style="width: 100%;position: absolute;z-index: -10;left:0;opacity:0.7;" class="background">

@@ -8,7 +8,8 @@
     <title>Elovers</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/lity.css">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <!-- <link rel="stylesheet" href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css"> -->
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body onload="myFunction()">
@@ -20,14 +21,20 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="js/lity.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>
-
       // document.addEventListener("DOMContentLoaded",function(event){
-      //   new WOW().init();
+      //   var el = document.querySelector("#navegador a.active img");
+      //   console.log("Element: "+el.innerHTML);
       // });
 
+      document.addEventListener("DOMContentLoaded",function(event){
+        new WOW().init();
+      });
+
       function myFunction() {
+        // var el = $("#navegador a img");
+        // el.addClass("animated infinite heartBeat delay-4s");
 
         var scrollActual = $(document).scrollTop();
         var scrollPos = $(document).scrollTop();
@@ -91,22 +98,18 @@
             }
             if($a == 'hablando'){
               $("#navegador span").css("color","#222473");
-              // $("#navegador span").css("text-shadow","unset");
               $("#navegador span.numero").css("text-shadow","-1px 1px 5px #fff");
             }
             if($a == 'escuchando'){
               $("#navegador span").css("color","#222473");
-              // $("#navegador span").css("text-shadow","unset");
               $("#navegador span.numero").css("text-shadow","-1px 1px 5px #fff");
             }
             if($a == 'agradeciendo'){
               $("#navegador span").css("color","#222473");
-              // $("#navegador span").css("text-shadow","unset");
               $("#navegador span.numero").css("text-shadow","-1px 1px 5px #fff");
             }
             if($a == 'desarrollando'){
               $("#navegador span").css("color","#222473");
-              // $("#navegador span").css("text-shadow","unset");
               $("#navegador span.numero").css("text-shadow","-1px 1px 5px #fff");
             }
             if($a == 'balanceando'){
@@ -115,18 +118,15 @@
             }
             if($a == 'celebrando'){
               $("#navegador span").css("color","#222473");
-              // $("#navegador span").css("text-shadow","unset");
               $("#navegador span.numero").css("text-shadow","-1px 1px 5px #fff");
             }
             if($a == 'reconociendo'){
               $("#navegador span").css("color","#222473");
-              // $("#navegador span").css("text-shadow","unset");
               $("#navegador span.numero").css("text-shadow","-1px 1px 5px #fff");
             }
             // if($a == 'intermedio1' || $a == 'intermedio2' || $a == 'intermedio3' || $a == 'intermedio4' || $a == 'intermedio5' || $a == 'intermedio6' || $a == 'intermedio7') {
             //   $("#navegador span").css("color","#222473");
-            // }            
-
+            // }
             if($a == 'intermedio1'){
               $('#navegador ul li a.section-1').addClass('active');
             }else{
@@ -165,8 +165,6 @@
           }
         });
       }
-
-
       $(document).ready(function(){
         // $ancho = document.querySelector('#abc .floro .fondo').naturalWidth;
         // $(document).on("scroll", onScroll); 
