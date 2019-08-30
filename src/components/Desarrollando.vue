@@ -11,7 +11,7 @@
                         </h3>
                     </div>
                     <div class="principal">
-                        <p><b>Un líder orienta con visión integral</b> y acelera el desarrollo del equipo. Brinda una señal integral y de empoderamiento para priorizar y tomar decisiones acertadas. Por eso, capacitamos constantemente a nuestros colaboradores buscando que ellos promuevan el desarrollo de cada miembro de su equipo y compartan sus conocimientos y motivación para asumir nuevas responsabilidades.</p>
+                        <p><b>Un líder orienta con visión integral</b> y acelera el desarrollo del equipo. Brinda una señal 360° y de empoderamiento para priorizar y tomar decisiones acertadas. Por eso, capacitamos constantemente a nuestros colaboradores buscando que ellos promuevan el desarrollo de cada miembro de su equipo y compartan sus conocimientos y motivación para asumir nuevas responsabilidades.</p>
                         <span class="camb">¡Evolucionamos!</span>
                     </div>
                 </div>
@@ -31,7 +31,7 @@
                             grande del canal y aquí estoy. Voy a <br>
                             cumplir 5 años trabajando aquí, <br>
                             amo Entel y a todo mi equipo <img src="img/desarrollando/emoji2.png" alt="Emoji Corazon">."</p>
-                        <h5 class="text-right">Valeria Madueño (36)</h5>
+                        <h5 class="text-right">Valeria Madueño (35)</h5>
                         <p class="text-right puesto">
                             Jefe de Canales On Line<br>
                             Área: Experiencia del Cliente<br>

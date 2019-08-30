@@ -2867,6 +2867,64 @@
   line-height: 1.25;
   text-align: left !important;
 }
+#escuchando .floro-cont h5{
+  margin-left: 28%;
+  text-align: left !important;
+}
+#escuchando .floro-cont .puesto{
+  margin-left: 28% !important;
+  /* line-height: 1.25; */
+  text-align: left !important;
+}
+#escuchando .floro-cont .texto{
+  margin-left: 28% !important;
+  text-align: left !important;
+}
+#escuchando .floro-cont{
+  margin-left: 50%;
+}
+#escuchando .floro-cont .conocer .btn-conoceme{
+  margin-right: 15px;
+}
+
+#celebrando .principal p{
+  text-shadow: 0px 0px 0.1px #222473;
+}
+#reconociendo .floro-cont h5{
+  margin-left: 27%;
+}
+@media(max-width: 1366px){
+  #reconociendo .floro-cont .puesto{
+    margin-left: 37% !important;
+  }
+  #reconociendo .floro-cont h5{
+    margin-left: 37% !important;
+  }
+}
+@media(max-width: 1199px){
+  #escuchando .floro-cont h5{
+    margin-left: 15%;
+  }
+  #escuchando .floro-cont .puesto{
+    margin-left: 15% !important;
+  }
+  #escuchando .floro-cont .texto{
+    margin-left: 15% !important;
+  }
+  #escuchando .floro-cont{
+    margin-left: 50%;
+  }
+  #escuchando .floro-cont .conocer .btn-conoceme{
+    margin-right: 15px;
+  }
+
+  /* #reconociendo .floro-cont .puesto{
+    margin-left: 37% !important;
+  }
+  #reconociendo .floro-cont h5{
+    margin-left: 37% !important;
+  } */
+}
 @media(min-width: 1401px) and (max-width: 1919px) and (max-height: 764px){
   #celebrando .floro-cont{
     top: 25%;
