@@ -1905,15 +1905,9 @@
     padding: 0 !important;
   }
 }
-@media(min-width:1367px) and (max-width: 1399px){
-  .mi-fila{
-    padding: 0 !important;
-  }
-}
 
 /* @media(min-width: 1200px) and (max-width:1399px){ */
-/* @media(min-width: 992px) and (max-width:1399px){ */
-@media(min-width: 992px) and (max-width:1366px){
+@media(min-width: 992px) and (max-width:1399px){
   .floro-cont .texto{
     font-size: 13px !important;
   }
@@ -2688,9 +2682,7 @@
   }
 
 
-  
-   /* @media(min-width: 1367px) and (max-width: 1919px){      */
-@media(min-width: 1400px) and (max-width: 1919px){
+  @media(min-width: 1400px) and (max-width: 1919px){
     #homeprincipal .background_1{
       min-height: 779px !important;
     }
@@ -2724,12 +2716,8 @@
     #agradeciendo .imagen-c img{
       width: 562px;
     }
-    #hablando .floro, #escuchando .floro, #agradeciendo .floro, #desarrollo .floro,#celebrando .floro, #reconociendo .floro{
+    #hablando .floro, #escuchando .floro, #agradeciendo .floro, #desarrollo .floro, #balanceando .floro, #celebrando .floro, #reconociendo .floro{
       top: 140px !important;      
-    }
-
-    #balanceando .floro{
-      top: 80px !important;
     }
     #reconociendo .floro .fondo{
       width: 513px !important;
@@ -2748,105 +2736,4 @@
     #inspirando .floro-cont{
       /* top: 52% !important; */
     }
-    #homeprincipal .corazong{
-      width: 429px;
-    }    
   }
-
- @media(min-width:1367px) and (max-width: 1399px){
-
-    #homeprincipal .background_1{
-      min-height: 779px !important;
-    }
-    .container_reclutando{
-      min-height: 920px !important;
-    }
-    #hablando, #escuchando, #agradeciendo, #desarrollando, #balanceando, #celebrando, #reconociendo, #inspirando{
-      min-height: 920px;
-    }
-    #inspirando .imagen-c img{
-      width: 730.11px;
-    }
-    #inspirando .imagen-c{
-      left: calc(59% - 316px);
-    }
-    #escuchando .imagen-c img{
-      width: 380px !important;
-    }
-    #escuchando .imagen-c{
-      bottom: -30px;
-    }
-    #escuchando .imagen-c{
-      left: calc(54.5% - 175px);
-    }
-    #escuchando .floro-cont{
-      top: 25%;
-    }
-    #agradeciendo .imagen-c img{
-      bottom: -30px;
-    }
-    #agradeciendo .imagen-c img{
-      width: 562px;
-    }
-    #hablando .floro, #escuchando .floro, #agradeciendo .floro, #desarrollando .floro,#celebrando .floro, #reconociendo .floro{
-      top: 140px !important;      
-    }
-
-    #balanceando .floro{
-      top: 80px !important;
-    }
-    #reconociendo .floro .fondo{
-      width: 513px !important;
-      left: 16.045% !important;
-    }
-    #reconociendo .imagen-c{
-      left: calc(41.5% - 205.5px) !important;    
-    }
-    #reconociendo .imagen-c img{
-      width: 528px !important;
-    }
-    .floro-cont .conocer .btn-conoceme img{
-      top: -0.8px !important;
-      width: 43px !important;
-    }    
-
-
-    #homeprincipal .corazong{
-      width: 429px;
-    }
-    #navegador{
-      left: -15px !important;
-    }
-    /* #final .fila-1 .banner1{      
-    min-width: calc(50vw + -15px);
-    max-width: calc(50vw + -15px);
-    } */
-  }
-  @media(min-width: 1500px) and (max-width: 1919px){
-    #inspirando .floro-cont{
-      top: 49% !important;
-    }
-    #inspirando .imagen-c{
-      left: calc(58% - 316px);
-    }
-    #inspirando .imagen-c img{
-      width: 730.11px !important;
-    }
-    /* #inspirando .floro-cont{
-      top: 45% !important;
-    } */
-}
-@media(min-width: 1700px) and (max-width: 1919px){
-  #inspirando .floro-cont{
-    top: 45% !important;
-  }
-  #inspirando .imagen-c{
-    left: calc(57% - 316px);
-  }
-}
-
-@media(min-width: 1200px) and (max-width: 1366px){
-  #celebrando .floro-cont{
-    top: 25%;
-  }
-}

@@ -16,7 +16,7 @@
           </figure>
         </div>
       </div>
-      <div class="row main2 mi-fila">
+      <div class="row main2">
         <div class="col-2 col-xl-1">
             <Navegador/>
         </div>
@@ -218,7 +218,7 @@ $font-size: 134.68px;
   .main2{
     padding-bottom: 30px;
   }
-@media(max-width: 1366px){
+@media(max-width: 1919px){
   @function reducirimgxl1($x){
     $r: $x - ($x*0.2);
     @return $r;
@@ -235,7 +235,7 @@ $font-size: 134.68px;
   }
 
 // @media(min-width: 1200px) and (max-width: 1366px){
-  @media(min-width: 1200px) and (max-width: 1366px){
+  @media(min-width: 1200px) and (max-width: 1199px){
     @function reducirFuentexl($x){
       $r: $x - ($x*0.2);
       @return $r;
@@ -316,7 +316,7 @@ $font-size: 134.68px;
   $r: $x - ($x*0.7);
   @return $r;
 }
-@media(min-width: 992px) and (max-width: 1366px){
+@media(min-width: 992px) and (max-width: 1199px){
     @function reducirFuentexl($x){
       $r: $x - ($x*0.2);
       @return $r;
@@ -403,87 +403,5 @@ $font-size: 134.68px;
   top: 20%
   }
 }
-
-@media(min-width: 1367px) and (max-width: 1399px){
-      @function reducirFuentexl($x){
-      $r: $x - ($x*0.2);
-      @return $r;
-    }
-  .cont2{
-    padding-bottom: reducirFuentexl(115px);
-    padding-top: reducirFuentexl(60px);
-  }
-  // h2{
-  //   font-size: convRem(reducirFuentexl(45.03px));
-  //   line-height: convRem(reducirFuentexl(45.03px));
-  // }
-  // h1{
-  //   font-size: convRem(reducirFuentexl(80.05px));
-  //   line-height: convRem(reducirFuentexl(80.05px));
-  // }
-  // .descripcion{
-    // font-size: convRem(reducirFuentexl(16px));
-    // padding-right: 90px;
-  // }
-  // .michi{
-  //   font-size: convRem(reducirFuentexl(30.02px));
-  // }
-  // .main-description_elovers{
-  //   p{
-  //     font-size: convRem(reducirFuentexl(14px));
-  //   }
-  // }
-  // .des-final{
-  //   font-size: convRem(reducirFuentexl(21.75px));
-  //   padding: 0 22.5px;
-  // }
-  // .des-fina-bold{
-  //   font-size: convRem(reducirFuentexl(21.75px));
-  // }
-  // .primero{
-  //   font-size: convRem(reducirFuentexl(72.65px));
-  // }
-  // .segundo{
-  //   font-size: convRem(reducirFuentexl(70.45px));
-  // }
-  // .tercero{
-  //   font-size: convRem(reducirFuentexl(70.45px));
-  // }
-  // .corazong{
-  //   width: reducirimgxl3(569px);
-  //   margin-left: moverImagen(-reducirimgxl3(569px));
-  // }
-  // .logo{
-  //   max-width: 100%;
-  // }
-  // .avatar1{
-  //   max-width: reducirimgxl2(42px);
-  // }
-  // .avatar2{
-  //   max-width: reducirimgxl2(53px);
-  // }
-  // .avatar3{
-  //   max-width: reducirimgxl2(144px);
-  // }
-  // .avatar4{
-  //   max-width: reducirimgxl2(238px);
-  // }
-  .main2{
-    padding-bottom: convRem(reducirFuentexl(30px));
-  }
-  // .background{
-  //   top: 40%;
-  // }  
-  .row_logos{
-    padding-top: 15px !important;
-  }
-}
-// @media (max-width: 1399px) and (min-height: 769px) and (min-width: 1367px){
-//   .background{
-//     top: 20%;
-//   }
-// }
-
-
 </style>
 
