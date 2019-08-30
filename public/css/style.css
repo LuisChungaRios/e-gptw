@@ -2862,3 +2862,13 @@
       min-height: 920px !important;
   }
 } */
+#reconociendo .floro-cont .puesto{
+  margin-left: 37% !important;
+  line-height: 1.25;
+  text-align: left !important;
+}
+@media(min-width: 1401px) and (max-width: 1919px) and (max-height: 764px){
+  #celebrando .floro-cont{
+    top: 25%;
+  }
+}

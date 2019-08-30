@@ -1711,9 +1711,7 @@ export default new Vuex.Store({
         <li>Equidad: se debe observar la adecuada homologación en las
         compensaciones. Así se consigue la transparencia necesaria en los procesos
         de propuesta salarial.</li>
-        <li>Objetividad: se esta forma garantizamos que los flujos de aprobación de
-        diferentes conceptos de compensaciones estén atendidos de manera precisa,
-        además de fundamentar con sustento cada caso.</li>
+        <li>Objetividad: de esta forma garantizamos que los flujos de aprobación de diferentes conceptos de compensaciones estén atendidos de manera precisa, además de fundamentar con sustento cada caso.</li>
         <li>Competitividad: ofrecemos beneficios que generan valor, tal como aquellos
         que son brindados en el mercado. La base para ello se encuentra en los
         estudios especiales de profundidad y en sectores específicos que venimos
