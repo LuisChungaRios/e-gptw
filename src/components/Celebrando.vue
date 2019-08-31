@@ -27,7 +27,7 @@
                             áreas compartimos más, nos<br>
                             conocemos más, y yo puedo<br>
                             participar de las actividades.<br>
-                            Por eso en el Fest Entel de<br>
+                            Por eso en el Entel Fest de<br>
                             agosto voy a participar bailando<br>
                             <img src="img/celebrando/emoji.png"/> ”. </p>
                         <h5 class="text-right">Nicole Marini<br>(25)</h5>

@@ -31,7 +31,7 @@
                             Digital. Ahora soy un profesional<br>
                             completamente distinto<br>
                             a hace 6 años <img src="img/reconociendo/emoji1.png"/> ."</p>
-                        <h5 class="text-right">Fernando García<br>(47 años)</h5>
+                        <h5 class="text-right">Fernando García (47 años)</h5>
                         
                         <p class="text-left puesto">Vicepresidente de TI y<br> Procesos<br> Área: TI y Procesos</p>
                         

@@ -22,18 +22,23 @@
                 <div class="col-xl-5 col-lg-4 floro">
                     <img src="img/escuchando/texto.png" alt="" class="fondo">
                     <div class="floro-cont">
-                        <p class="text-right texto">
+                        <!-- <p class="text-right texto">
                             “Te voy a hablar del líder que quiero<br>
                             ser: un líder Entel es aquel que<br>
                             siempre escucha a su equipo y lo<br>
                             motiva a expresarse, le da la<br>
                             confianza y lo empodera para lograr<br>
+                            cosas increíbles <img src="img/escuchando/emoji.png "/> ”. </p> -->
+                        <p class="text-right texto">
+                            “Te voy a hablar del líder que quiero
+                            ser: un líder Entel es aquel que
+                            siempre escucha a su equipo y lo
+                            motiva a expresarse, le da la
+                            confianza y lo empodera para lograr
                             cosas increíbles <img src="img/escuchando/emoji.png "/> ”. </p>
+
                         <h5 class="text-right">Valeria Madueño (35)</h5>
-                        <p class="text-right puesto">
-                            Jefe de Canales On Line<br>
-                            Área: Experiencia del Cliente<br>
-                            Multicanal y Operaciones</p>
+                        <p class="text-right puesto">Jefe de Canales On Line<br>Área: Experiencia del<br>Cliente<br>Multicanal y Operaciones</p>
                         <div class="conocer text-right">
                             <a href="#inlineValeria" class="btn-conoceme"  data-lity>
                             <img src="img/btn-corazon.png" alt="corazon">¡Conóceme!</a>

@@ -2442,8 +2442,7 @@ export default new Vuex.Store({
         content: `Nuestros Entel Lovers cuentan con un plan integral de beneficios que incluyen
         programas relacionados a promover el equilibrio entre nuestra vida personal/familiar con
         el trabajo (Mi Salud, Mi balance vida-trabajo y Mi Conexión), además de beneficios
-        como Mis finanzas y Mi desarrollo personal. Los invitamos a conocer nuestros 3
-        primeros programas:
+        como Mis finanzas y Mi desarrollo personal.
         `,
         links: {
           documents: 'https://issuu.com/balanceando.elovers/docs/vive_entel.pptx',
@@ -2510,7 +2509,7 @@ export default new Vuex.Store({
         y la armonía en su salud emocional, por lo que disponemos de un servicio de consejería
         y orientación psicológica a cargo del Grupo Sanna, en donde existen áreas de
         intervención que incluyen Terapia individual, Terapia de pareja, Consejería familiar,
-        Terapia con niños, coaching, etc.Desde mayo 2018, esta práctica se ha implementado
+        Terapia con niños, coaching, etc. Desde mayo 2018, esta práctica se ha implementado
         con el objetivo de brindar un soporte de salud integral a nuestros Entel Lovers. Aunque
         ya se ha identificado a quienes deberían tener esta asesoría, todo colaborador que así
         lo desee sabe que también podrá acudir a ella cuando lo necesite.
@@ -3128,21 +3127,7 @@ export default new Vuex.Store({
       {
         name: 'PROGRAMA MI GESTIÓN WOW',
         title: 'PROGRAMA MI GESTIÓN WOW',
-        content: `En este primer semestre, hemos enfocado la capacitación en nuestros Asesores de
-        Tienda y en los Supervisores/Coordinadores de Piso de Lima y Regiones para
-        asegurar qu en todas las interacciones con nuestros clientes y compañeros se logre
-        una experiencia distintiva y generemos más clientes Entel Lovers.<br>
-        Este programa es una iniciativa que impacta directamente a la estrategia de la
-        compañía (clientes Entel Lover) y tiene como objetivo contar con los mejores asesores
-        de la industria y así, ofrecer la mejor experiencia de atención.<br>
-        El programa contempla una estructura de capacitación mixta que combina espacios de
-        aprendizaje en aula, modo virtual y on the job. Además, tiene el claro lineamiento de
-        empoderar a los Supervisores de Tienda haciéndolos partícipes del co-diseño del
-        contenido y la formación de los asesores. Una buena práctica instaurada en este
-        programa es que los contenidos recibidos en aula son trasladados por cada Supervisor
-        a los asesores en las reuniones de inicio de semana que tienen en sus respectivas
-        tiendas, esta acción asegura la sostenibilidad del proyecto. ¡Se emiten señales de
-        transformación en todas las tiendas!
+        content: `En este primer semestre, hemos enfocado la capacitación en nuestros Asesores de Tienda y en los Supervisores/Coordinadores de Piso de Lima y Regiones para asegurar que en todas las interacciones con nuestros clientes y compañeros se logre una experiencia distintiva y generemos más Entel Lovers, tanto internos como externos.
         `,
         links: {
           documents: 'https://issuu.com/desarrollando.elovers/docs/mi_gestion_wow.pptx',
