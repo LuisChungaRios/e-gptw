@@ -32,10 +32,9 @@
                             completamente distinto<br>
                             a hace 6 años <img src="img/reconociendo/emoji1.png"/> ."</p>
                         <h5 class="text-right">Fernando García<br>(47 años)</h5>
-                        <p class="text-right puesto">
-                            Vicepresidente de TI y Procesos<br>
-                            Área: TI y Procesos<br>
-                        </p>
+                        
+                        <p class="text-left puesto">Vicepresidente de TI y<br> Procesos<br> Área: TI y Procesos</p>
+                        
                         <div class="conocer text-right">
                             <a href="#inlineFernando" class="btn-conoceme" data-lity>
                             <img src="img/btn-corazon.png" alt="corazon">¡Conóceme!</a>
