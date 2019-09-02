@@ -17,7 +17,7 @@
 
               span(v-if="practice.name.length > 10") {{practice.name.substring(0,7).toUpperCase()}}...
               span(v-else) {{practice.name.toUpperCase()}}
-
+   
     .card-carousel--nav__right(
       @click="moveCarousel(1)"
       :disabled="atEndOfList")
@@ -41,8 +41,8 @@
     data() {
       return {
         currentOffset: 0,
-        windowSize: 5,
-        paginationFactor: 370,
+        windowSize: 1,
+        paginationFactor: 80,
         itemFocus: {}
 
       }
@@ -55,8 +55,8 @@
         practices: state => state.agradeciendo
       }),
       atEndOfList() {
-        return this.currentOffset <= (this.paginationFactor * -1) * (this.practices.length - this.windowSize);
-      },
+         return this.currentOffset <= (this.paginationFactor * -1) * (this.practices.length - this.windowSize);
+    },
       atHeadOfList() {
         return this.currentOffset === 0;
       },

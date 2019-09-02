@@ -103,18 +103,10 @@ export default new Vuex.Store({
           <b class="practices_list">g) Verificación académica, laboral y antecedentes penales, policiales, web y
           redes sociales.</b>
           <br>
-          <b class="practices_list">h) Examen médico pre - ocupacional:</b> un staff de expertos Head Hunters nos
-          ayuda con las posiciones de gerencia, garantizando que el candidato cumpla
-          con las cualidades y el expertise requeridos. Asimismo, buscamos que el
-          puesto cumpla también con las expectativas del candidato, de esta manera le
-          motivamos a ser parte de nuestra organización. Los candidatos seleccionados
-          también serán entrevistados por nuestro gerente general Ramiro Lafarga.
-          La participación de los líderes es activa en el proceso, sobre todo en las etapas
-          de levantamiento de perfil y entrevistas ya que son ellos los que transmitirán
-          esa energía que caracteriza a un Entel Lover. Al tener en todo momento una
-          comunicación directa y constante con ellos, le ponemos gran énfasis a su
-          capacitación en técnicas de entrevistas por competencias, buscando una
-          mayor objetividad.
+          <b class="practices_list">h) Examen médico pre - ocupacional:</b> <br>
+          Un staff de expertos Head Hunters nos ayuda con las posiciones de gerencia, garantizando que el candidato cumpla con las cualidades y el expertise requeridos. Asimismo, buscamos que el puesto cumpla también con las expectativas del candidato, de esta manera le motivamos a ser parte de nuestra organización. Los candidatos seleccionados también serán entrevistados por nuestro gerente general Ramiro Lafarga.<br>
+          La participación de los líderes es activa en el proceso, sobre todo en las etapas de levantamiento de perfil y entrevistas. Al tener en todo momento una comunicación directa y constante con ellos, le ponemos gran énfasis a su capacitación en técnicas de entrevistas por competencias, buscando una mayor objetividad.
+
         `,
         links: {
           videos:'https://www.youtube.com/playlist?list=PLGy3YHNBg96NfPWPOHIIyl9NhZJY1R23T',
@@ -202,7 +194,7 @@ export default new Vuex.Store({
           Estas se dan cuando el expertise requerido para el puesto amerite una búsqueda de
           talento externo. Considerando los requisitos mínimos del puesto, empleamos
           diferentes fuentes externas tales como: nuestra página Trabaja con Nosotros (alojada
-          en nuestra web <a href="https://www.entel.pe/"  target="_blank">www.entel.pe</a>), con enlaces a las principales bolsas de trabajo de las
+          en nuestra web <a href="https://www.trabajaenentel.pe/"  target="_blank">www.entel.pe</a>), con enlaces a las principales bolsas de trabajo de las
           universidades para que los alumnos y exalumnos puedan participar del proceso de
           selección. También trabajamos con Bumeran y Laborum, además de grupos de interés
           y de publicaciones en LinkedIn para asegurarnos de detectar a los talentos que
@@ -524,11 +516,12 @@ export default new Vuex.Store({
       {
         name: `FIRMA DE CONTRATOS`,
         title: 'FIRMA DE CONTRATOS',
-        content: `¡Sorpresa! Cuando el nuevo colaborador llega a su primer día en la oficina, tras
-        culminar la inducción, encuentra su sitio decorado con un globo de bienvenida y una
-        tarjeta con un mensaje del gerente de su área, de su jefe directo y de su equipo.
-        Asimismo, se da con frecuencia que el primer día en el área te inviten a almorzar y te
-        reciban con algún detalle personalizado. ¡Engreimiento a full!
+        content: `Aquí se invita a todos los nuevos ingresos, y en un solo día, a la firma de contrato. En ese
+        momento se les hace vivir una experiencia distintiva, donde disfrutan cada instante al
+        merchandising, se les toma fotos, se les pasa videos de eventos de Entel, conocen las
+        oficinas y viven una experiencia memorable antes de empezar el primer día de trabajo.
+        Somos conscientes que la bienvenida es el primer paso para crear lazos fuertes entre
+        los colaboradores y la marca. El inicio de la experiencia de un Entel Lover.
         
         `,
         links: {
@@ -722,16 +715,13 @@ export default new Vuex.Store({
       {
         name: 'WORKPLACE',
         title: 'WORKPLACE',
-        content: `A través de Workplace, Aldo Vidal, VP de Mercado Personas, comparte con los
-        colaboradores indicadores, resultados y las novedades relacionadas al front del
-        negocio. Durante la transmisión los colaboradores pueden comentar sus preguntas,
-        las cuales son respondidas al finalizar von las primicias. Estos livestream duran media
-        hora y se realizan una vez al mes. En algunas ocasiones se han realizado sorteos en
-        vivo.
+        content: `En Entel contamos con una comunicación simple, clara y digital. Por eso Workplace es nuestro principal canal de comunicación interna. A través de esta plataforma, mantenemos informados a los colaboradores respecto a cambios de puesto, campañas internas, beneficios, logros alcanzados, entre otros. Al mismo tiempo, nos permite conocer a los colaboradores a través de la interacción, distinguiendo así como las señales de los Entel Lovers llegan a sus compañeros, involucrándolos con la marca para hacer extraordinario lo que hacen. <br>
+        Inicialmente, nuestros colaboradores pertenecientes a la planilla de Entel Empresas – Servicios Fijos, ex Americatel, contaban con la red social Yammer, donde se compartían las publicaciones que realizábamos en Workplace, para que estén informados de lo que sucede en el negocio y para que puedan participar de los concursos. Posteriormente, en julio de 2019, se realizó el cambio de dominio de @americatel.com.pe a @entel.pe, permitiéndoles tener acceso a Workplace y participar de los livestream con los líderes.
+        
         
         `,
         links: {
-          documents: 'https://issuu.com/hablando.elovers/docs/workplace.pptx',
+          documents: 'https://issuu.com/escuchando.elovers/docs/workplace.pptx',
           videos:'#',
           otherFiles: '#'
         },
@@ -809,8 +799,22 @@ export default new Vuex.Store({
         interno, aprendizaje, desarrollo, entre otros.
         `,
         links: {
-          documents: '#',
+          documents: 'https://issuu.com/entellovers/docs/tour_cchh.pptx',
           videos:'#',
+          otherFiles: '#'
+        },
+        list: [
+      
+        ]
+      },
+      {
+        name: 'EN PERSONAS CON ALDO ',
+        title: 'EN PERSONAS CON ALDO ',
+        content: `o	A través de Workplace, Aldo Vidal, VP de Mercado Personas, comparte con los colaboradores indicadores, resultados y las novedades relacionadas al front del negocio. Durante la transmisión los colaboradores pueden comentar sus preguntas, las cuales son respondidas al finalizar con las primicias. Estos livestream duran media hora y se realizan una vez al mes. En algunas ocasiones se han realizado sorteos en vivo. Aldo se convierte en un agente transformador y va involucrando a todo el equipo para avanzar juntos.
+        `,
+        links: {
+          documents: 'https://issuu.com/escuchando.elovers/docs/en_personas_con_aldo.pptx',
+          videos:'https://www.youtube.com/watch?reload=9&v=yeUuvGZsvuA&feature=youtu.be',
           otherFiles: '#'
         },
         list: [
@@ -904,10 +908,10 @@ export default new Vuex.Store({
         ]
       },
       {
-        name: `Entel + (Desafío Entel)`,
-        title: 'Entel + (Desafío Entel)',
+        name: `Entel + _El Desafío`,
+        title: 'Entel + _El Desafío',
         content: `
-        Entel+ es un programa regional (Chile-Perú) que busca empoderar a los
+        Es un programa regional (Chile-Perú) que busca empoderar a los
         colaboradores a liderar iniciativas disruptivas que generen mayor valor a la compañía y
         en sus tareas diarias. Buscar convertirlos en líderes de la transformación para
         construir juntos el Entel del futuro.
@@ -946,7 +950,7 @@ export default new Vuex.Store({
         
         `,
         links: {
-          documents: 'https://issuu.com/inspirando.elovers/docs/entel__.pptx',
+          documents: 'https://issuu.com/entellovers/docs/entel1__.pptx',
           videos: 'https://www.youtube.com/playlist?list=PLGy3YHNBg96OgygEJIbAxpW5wdLLrSQVb',
           otherFiles: '#'
         },
@@ -970,7 +974,7 @@ export default new Vuex.Store({
         iniciativas y estrategias enfocadas en 4 drivers: Servicio al Cliente, Marca, Cultura y
         Colaboradores.`,
         links: {
-          documents: 'https://issuu.com/inspirando.elovers/docs/entel_lovers.pptx',
+          documents: 'https://issuu.com/entellovers/docs/entel_lovers.pptx',
           videos:'https://youtu.be/7Mf8_GzW9BA',
           otherFiles: '#'
         },
@@ -1028,7 +1032,7 @@ export default new Vuex.Store({
         que conozcan un poco más sobre nosotros:
         `,
         links: {
-          documents: 'https://issuu.com/inspirando.elovers/docs/oficinas__giles.pptx',
+          documents: 'https://issuu.com/entellovers/docs/oficinas__giles.pptx',
           videos:'#',
           otherFiles: '#'
         },
@@ -1058,8 +1062,8 @@ export default new Vuex.Store({
         serán más!
         `,
         links: {
-          documents: '#',
-          videos:'#',
+          documents: 'https://issuu.com/entellovers/docs/entel_dog_lover.pptx',
+          videos:'https://www.youtube.com/playlist?list=PLGy3YHNBg96OXSJvIjqb4Ubr7Z5xwDa_6',
           otherFiles: '#'
         },
         list: [
@@ -1111,7 +1115,7 @@ export default new Vuex.Store({
         `,
         links: {
           documents: '#',
-          videos:'#',
+          videos:'https://www.youtube.com/playlist?list=PLGy3YHNBg96MI8etmmmfqXLEan5vKgRRM',
           otherFiles: '#'
         },
         list: [
@@ -1136,7 +1140,7 @@ export default new Vuex.Store({
         sentimos orgullosos por su desarrollo. ¡Nos transformamos para inspirar a otros!
         `,
         links: {
-          documents: '#',
+          documents: 'https://issuu.com/entellovers/docs/trasciendelover.pptx',
           videos:'#',
           otherFiles: '#'
         },
@@ -1185,7 +1189,7 @@ export default new Vuex.Store({
         colaborador que conecta con el corazón de todos nuestros clientes. ¡Vamos por más!
         `,
         links: {
-          documents: '#',
+          documents: 'https://issuu.com/entellovers/docs/trasciendentel.pptx',
           videos:'#',
           otherFiles: '#'
         },
@@ -1222,13 +1226,33 @@ export default new Vuex.Store({
         `,
         links: {
           documents: '#',
+          videos:'https://www.youtube.com/playlist?list=PLGy3YHNBg96ODhtPAPOt4TpjxiNnaubJw',
+          otherFiles: '#'
+        },
+        list: [
+      
+        ]
+      },
+      {
+        name: 'Huella de Carbono',
+        title: 'Huella de Carbono',
+        content: `Desde 2016 medimos anualmente nuestra huella de carbono. Esta acción nos permite
+        evaluar nuestro desempeño ambiental y establecer acciones enfocadas en reducir las
+        emisiones de gases de efecto invernadero (GEI) que generamos.<br>
+        En 2018, nuestra huella de carbono fue de 9 994.88 toneladas de CO2 equivalente
+        (tCO2eq). Esto representó una reducción de 13.55% de nuestras emisiones de GEI,
+        con respecto al año 2017, donde se generaron 11 474.64 tCO2eq. Igualmente,
+        disminuimos las emisiones por colaborador de 6.58 tCO2eq a 5.61 tCO2eq.
+        `,
+        links: {
+          documents: 'https://issuu.com/reconociendo.elovers/docs/huellas',
           videos:'#',
           otherFiles: '#'
         },
         list: [
       
         ]
-      }
+      },
     ]
     ,
     escuchando: [
@@ -1245,7 +1269,7 @@ export default new Vuex.Store({
         recibiendo señales que transforman. Se van creando Entel Lovers.
         `,
         links: {
-          documents: 'https://issuu.com/escuchando.elovers/docs/livestream_con_ramiro.pptx',
+          documents: 'https://issuu.com/entellovers/docs/livestream_con_ramiro.pptx',
           videos:'https://youtu.be/_f33M86g_ss',
           otherFiles: '#'
         },
@@ -1388,7 +1412,21 @@ export default new Vuex.Store({
         interno, aprendizaje, desarrollo, entre otros.
         `,
         links: {
-          documents: '#',
+          documents: 'https://issuu.com/entellovers/docs/tour_cchh.pptx',
+          videos:'#',
+          otherFiles: '#'
+        },
+        list: [
+      
+        ]
+      },
+      {
+        name: 'INTEGRACIÓN POR ÁREAS',
+        title: 'INTEGRACIÓN POR ÁREAS',
+        content: `Cada gerencia tiene un presupuesto asignado para eventos de integración. El área decide el formato del evento, la fecha, entre otras características de la experiencia que idean para integrar al equipo de Entel Lovers. Solo debe cumplir con los requisitos que sea en horario laboral, participen todos y tengan alguna dinámica de team building.
+        `,
+        links: {
+          documents: 'https://issuu.com/entellovers/docs/integraci_n_por__reas.pptx',
           videos:'#',
           otherFiles: '#'
         },
@@ -1560,32 +1598,7 @@ export default new Vuex.Store({
       
         ]
       },
-      {
-        name: 'COLABORADOR DEL MES - TIENDAS',
-        title: 'COLABORADOR DEL MES - TIENDAS',
-        content: `Siempre vamos a privilegiar el trabajo con espíritu de equipo, en donde sea más
-        importante una visión global que una personal. Es por ello que reconocemos a
-        nuestros asesores de tienda de Lima y de las regiones todos los meses. Los
-        compañeros y el Supervisor de la tienda escogen a los nominados que cumplan,
-        desde luego, con los requisitos mínimos para participar, como son tener un
-        desempeño positivo en sus métricas y no tener amonestaciones en el mes.
-        Buscamos que sean los propios colaboradores los que reconozcan a los Entel Lovers
-        de sus tiendas, teniendo en cuenta que el liderazgo, la escucha y el cuidado por sus
-        compañeros, son principales cualidades de la marca y son percibidas por los
-        colaboradores mismos.
-        Se envía un correo de felicitación y reconocimiento a nivel nacional a todos los
-        ganadores, haciendo énfasis con esta distinción no solo en la métrica de venta, sino
-        también en la buena actitud y el trabajo en equipo.
-        `,
-        links: {
-          documents: '#',
-          videos:'#',
-          otherFiles: '#'
-        },
-        list: [
       
-        ]
-      },
       {
         name: 'RECONOCIMIENTOS CORPORATIVOS',
         title: 'RECONOCIMIENTOS CORPORATIVOS',
@@ -1598,7 +1611,7 @@ export default new Vuex.Store({
         #EntelLovers a todo nivel.
         `,
         links: {
-          documents: '#',
+          documents: 'https://issuu.com/entellovers/docs/reconocimientos_coorporativos.pptx',
           videos:'#',
           otherFiles: '#'
         },
@@ -1746,8 +1759,8 @@ export default new Vuex.Store({
         compartirlo con ellos, y eso es lo que haremos. ¡Estamos seguros que será un éxito!
         `,
         links: {
-          documents: 'https://issuu.com/celebrando.elovers/docs/entel_festt.pptx',
-          videos:'#',
+          documents: 'https://issuu.com/entellovers/docs/festientel8.pptx',
+          videos:'https://www.youtube.com/playlist?list=PLGy3YHNBg96OXSJvIjqb4Ubr7Z5xwDa_6',
           otherFiles: '#'
         },
         list: [
@@ -2026,7 +2039,7 @@ export default new Vuex.Store({
         de tienda.
         `,
         links: {
-          documents: 'https://issuu.com/reconociendo.elovers/docs/se_as_que_conectan.pptx',
+          documents: 'https://issuu.com/entellovers/docs/se_as_que_conectan.pptx',
           videos:'#',
           otherFiles: '#'
         },
@@ -2095,8 +2108,8 @@ export default new Vuex.Store({
         ]
       },
       {
-        name: 'NO COMPRES, ADOPTA #ENTELDOGLOVERS',
-        title: 'NO COMPRES, ADOPTA #ENTELDOGLOVERS',
+        name: 'Entel Dog Lovers',
+        title: 'Entel Dog Lovers',
         content: `Desde febrero 2017, incentivamos la adopción de perros en el Perú, propósito para el
         cual creamos, en alianza con WUF, el sitio web Perritos Lindos
         (www.perritoslindos.pe). Como parte de una campaña de intriga, mostramos diferentes
@@ -2104,10 +2117,15 @@ export default new Vuex.Store({
         raza, edad y precio, generando así un gran interés en las redes sociales.
         Posteriormente, al hacer clic en &quot;Cómprame ya&quot;, se develaba un mensaje claro y
         potente que nos hacía caer en la cuenta de algo muy importante: “Mientras estás
-        pensando en comprar, muchos perros rescatados buscan hogar. No compres, adopta&quot;.
+        pensando en comprar, muchos perros rescatados buscan hogar. No compres, adopta&quot;.<br>
+        
+        Quién mejor que un Entel Lover para hablar de amor, amor por nuestro planeta y el bienestar de todos los que vivimos en él. Por eso, desde este año hemos habilitado nuestras políticas y nuestros ambientes para recibir a las mascotas en las tiendas. Somos la primera empresa del rubro de Telecomunicaciones en Perú que permite el ingreso a mascotas en nuestras tiendas, declarándonos una empresa 100% Pet Friendly y “Dog Lovers” totales.<br>
+        Las primeras tiendas en donde se inició esta iniciativa fueron las de Larco y Comandante Espinar (Miraflores) y la de San Borja y en los próximos meses lo replicaremos en más tiendas. Por qué sabemos lo importante que son para nuestros clientes sus amigos de cuatro patas. Por ello, y sabiendo que a veces es difícil dejarlos solos en casa, decidimos acondicionar nuestras instalaciones para poder recibirlos en un ambiente seguro y cómodo para todos.<br>
+        Entre nuestros aliados estratégicos se encuentra Matchcota, organización que busca aumentar el número de adopciones de perros en la ciudad, al igual que el apoyo del Departamento de la Policía Canina, quienes brindan durante las capacitaciones necesarias a los colaboradores de las tiendas para actuar de manera correcta y segura.También hemos llevado a perritos en adopción a todos nuestros locales para sensibilizar a los colaboradores y conseguirles un hogar. ¡Logramos transformar los corazones de personas adoptando a 9 perritos y pronto serán más!
+
         `,
         links: {
-          documents: '#',
+          documents: 'https://issuu.com/entellovers/docs/entel_dog_lover.pptx',
           videos:'#',
           otherFiles: '#'
         },
@@ -2244,24 +2262,7 @@ export default new Vuex.Store({
       
         ]
       },
-      {
-        name: `Pacto Mundial`,
-        title: `Pacto Mundial`,
-        content: `Como parte de nuestro compromiso con el desarrollo sostenible y su adhesión al
-        Pacto Mundial de las Naciones Unidas, creamos un espacio para dar a conocer las
-        iniciativas de sostenibilidad de las principales empresas peruanas, así como
-        experiencias a nivel global y su impacto en la implementación de los Objetivos de
-        Desarrollo Sostenible (ODS).
-        `,
-        links: {
-          documents: '#',
-          videos:'#',
-          otherFiles: '#'
-        },
-        list: [
-      
-        ]
-      },
+    
       {
         name: `Una Navidad con Dimitree`,
         title: `Una Navidad con Dimitree`,
@@ -2384,27 +2385,7 @@ export default new Vuex.Store({
       
         ]
       },
-      {
-        name: `INAUGURACIÓN DE NUEVAS OFICINAS –
-        PLAZA REPÚBLICA`,
-        title: `INAUGURACIÓN DE NUEVAS OFICINAS –
-        PLAZA REPÚBLICA`,
-        content: `Este año remodelamos todas nuestras oficinas en Plaza República y recibimos a los
-        colaboradores en sus nuevos pisos con un rico desayuno, para empezar la mañana
-        recargados de energía. El espacio de trabajo también comunica, y envía una señal de
-        mejora o superación si el cambio es positivo. Nuestras oficinas ahora también vibran
-        con un latido que transforma, y se ha convertido en el hogar de nuestros agentes de
-        cambio, nuestros #EntelLovers.
-        `,
-        links: {
-          documents: '#',
-          videos:'#',
-          otherFiles: '#'
-        },
-        list: [
-      
-        ]
-      },
+    
       {
         name: `MAÑANAS ENERGIZANTES TDE`,
         title: `MAÑANAS ENERGIZANTES TDE`,
@@ -2422,7 +2403,103 @@ export default new Vuex.Store({
         mundo lo vivido, convirtiéndose en parte de la señal que transforma.
         `,
         links: {
-          documents: '#',
+          documents: 'https://issuu.com/celebrando.elovers/docs/ma_anas_energizantes.pptx',
+          videos:'#',
+          otherFiles: '#'
+        },
+        list: [
+      
+        ]
+      },
+      {
+        name: `CARRERA ENTEL`,
+        title: `CARRERA ENTEL`,
+        content: `Entel realiza la carrera 10K todos los años, donde también promovemos la participación de nuestros Entel Lovers, tanto para participar de la competencia como para apoyar en la realización de la misma. ¡El dia de la carrera es un día de fiesta para todos en Entel! Parte de los beneficios que otorgamos es que preparamos a los colaboradores que van a correr con un mes de anticipación: les damos entrenamiento personalizado con profesionales.
+        `,
+        links: {
+          documents: 'https://issuu.com/entellovers/docs/carrera_entel.pptx',
+          videos:'https://www.youtube.com/watch?v=KHtaMgc6kZI&t=2s',
+          otherFiles: '#'
+        },
+        list: [
+      
+        ]
+      },
+      {
+        name: `ENTEL MEDIA FEST `,
+        title: `ENTEL MEDIA FEST`,
+        content: `Es un festival que realizamos y traemos a los youtubers más famosos de habla hispana. ¡Cada año se vuelve más famoso y nuestros colaboradores también son parte de este gran evento!
+        Tenemos voluntarios para apoyar en la organización y sorteamos entradas entre los colaboradores para que puedan asistir con familia y/o amigos.
+        
+        `,
+        links: {
+          documents: 'https://issuu.com/entellovers/docs/entel_media_fest.pptx',
+          videos:'#',
+          otherFiles: '#'
+        },
+        list: [
+      
+        ]
+      },
+      {
+        name: `CAMPAÑA RECONOCE`,
+        title: `CAMPAÑA RECONOCE`,
+        content: `Es una buena práctica que fomenta la cultura de reconocimiento a todo nivel en Entel y refuerza nuestros pilares culturales. Todos podemos reconocer a nuestros compañeros de Entel sin importar el área o el cargo que ocupe.<br>
+        ¿Qué es lo que reconocemos?<br>
+        Actitudes y comportamientos que reflejan nuestros pilares culturales y la forma de hacer las cosas en Entel. Cada cuatro meses conoceremos a los representantes de nuestra Cultura.
+        
+        `,
+        links: {
+          documents: 'https://issuu.com/entellovers/docs/campa_a_reconoce.pptx',
+          videos:'#',
+          otherFiles: '#'
+        },
+        list: [
+      
+        ]
+      },
+      {
+        name: 'TrasciendEntel',
+        title: 'TrasciendEntel',
+        content: `En Entel nos enfocamos en hacer las cosas increíble por eso durante 2018 nuestra
+        gestión recibió diferentes reconocimientos en sostenibilidad, reputación, calidad,
+        publicidad y clima laboral. Entre estos reconocimientos y distinciones podemos
+        resaltar:<br>
+        <ul>
+        <li>1° lugar en el premio Mejor Experiencia de Cliente del estudio Best Costumer
+        Experience (BCX), en el sector de telecomunicaciones.</li>
+        <li>Distintivo Empresa Socialmente Responsable de Perú 2021, obtenido por
+        segundo año consecutivo.1° lugar en Empresas con mejor reputación
+        corporativa Merco Empresas 2018 en el sector de telecomunicaciones, así
+        como el 9° puesto en el resultado global, habiendo subido 16 posiciones en
+        comparación con el año anterior.</li>
+        <li>31° puesto en el ranking Merco Responsabilidad y Gobierno Corporativo 2018
+        habiendo subido dos posiciones con respecto al 2017.</li>
+        <li>10° puesto en el ranking Great Place to Work.</li>
+        <li>Ingresamos al ranking Empresas Más Admiradas (EMA 2018) por Price
+        Waterhouse Coopers. Nos convertimos en la primera operadora de
+        telecomunicaciones en ingresar al ranking en sus siete años de existencia.</li>
+        <li>13° puesto en el ranking Merco Talento 2018, habiendo subido 4 ubicaciones
+        con respecto a 2017.</li>
+        </ul><br>
+        Effies Categoría Internet y Telecom<br>
+        <ul>
+          <li>Effie Oro: Entel Perú – McCann. Campaña “Disculpas ilimitadas”.</li>
+          <li>Effie Plata: Entel Perú – McCann. Campaña “Migra y recárgate”.</li>
+        </ul><br>
+        Effie Categoría Promociones de Servicios<br>
+        <ul>
+          <li>Effie Oro: Entel Perú – Alegría Buenos Aires. Campaña “Migra con mamá, tu
+          fan n.° 1”.</li>
+          <li>Effie Plata: Entel Perú – McCann. Campaña “Disculpas ilimitadas”.</li>
+          <li>Effie Bronce: Entel Perú – McCann. Campaña “Migra y recárgate”.</li>
+        </ul><br>
+        Nuestros Entel Lovers lo seguirán haciendo increíble activando el liderazgo
+        transformador y emitiendo más fuerte ese latido que sigue la ruta de la experiencia del
+        colaborador que conecta con el corazón de todos nuestros clientes. ¡Vamos por más!
+        `,
+        links: {
+          documents: 'https://issuu.com/entellovers/docs/trasciendentel.pptx',
           videos:'#',
           otherFiles: '#'
         },
@@ -2648,9 +2725,9 @@ export default new Vuex.Store({
         content: `El primer campeonato de vóley mixto de la VP de Redes se llevó a cabo en el mes de
         julio 2018, y en este se invitó a participar a la gerencia de Plataformas Comerciales
         Mercado Empresas y a la Gerencia Central de Planeamiento Estratégico y Riesgos.
-        Este 2019 la VP de Redes está organizando el campeonato de futbol y vóley mixto
+        Este 2019 la VP de Redes está organizando el campeonato de fútbol y vóley mixto
         esta vez está invitando a todas la Vicepresidencias y Gerencias Centrales, para el cual
-        están participando 25 equipos futbol masculino, 4 equipos de futbol femenino y 13
+        están participando 25 equipos de fútbol masculino, 4 equipos de fútbol femenino y 13
         equipos de vóley mixto, el campeonato inició el 14 de agosto y va hasta el 6
         noviembre.
         `,
@@ -2686,13 +2763,13 @@ export default new Vuex.Store({
         MATRIMONIO`,
         content: `Licencia de maternidad adicional a ley <br>
         ¡Nuestras mamis Entel ya pueden disfrutar más tiempo del nacimiento de sus bebés! Y
-        es que tenemos una licencia con cinco días adicionales a ley. Toda esta información la
+        es que tenemos una licencia con cinco días adicionales a ley.<br> Toda esta información la
         compartimos en el Portal de Beneficios Vive Entel.<br>
         Licencia de paternidad adicional a ley <br>
         Los papás Entel también pueden disfrutar aún más del nacimiento de sus hijos con una
-        licencia de cinco días adicionales a ley. Toda esta información la compartimos en el
+        licencia de cinco días adicionales a ley.<br> Toda esta información la compartimos en el
         Portal de Beneficios Vive Entel.<br>
-        Matrimonio<<br>
+        Matrimonio<br>
         Nuestros colaboradores pueden tomar 3 días útiles de licencia durante la semana
         anterior o posterior al matrimonio, con el fin de realizar los trámites previos al gran día,
         vernos lind@s frente al espejo o, sencillamente, para descansar y disfrutar. Además,
@@ -2810,22 +2887,7 @@ export default new Vuex.Store({
       
         ]
       },
-      {
-        name: `PRÉSTAMOS A COLABORADORES`,
-        title: `PRÉSTAMOS A COLABORADORES`,
-        content: `Apoyo económico para momentos difíciles de nuestros Entel Lovers. Se presta hasta un
-        sueldo, teniendo la posibilidad de financiarlo sin intereses hasta en 2 pagos
-        diferenciados, sin límite de tiempo de cuotas, dentro de un mismo periodo anual.
-        `,
-        links: {
-          documents: '#',
-          videos:'#',
-          otherFiles: '#'
-        },
-        list: [
       
-        ]
-      },
       {
         name: `HORARIO FLEXIBLE DE VERANO`,
         title: `HORARIO FLEXIBLE DE VERANO`,
@@ -2850,7 +2912,7 @@ export default new Vuex.Store({
         días libres. Estas promociones aplican para el mes de diciembre y/o febrero.
         `,
         links: {
-          documents: '#',
+          documents: 'https://issuu.com/entellovers/docs/vacaciones_powe.pptx',
           videos:'https://www.youtube.com/watch?v=jKZwX2YO_0o&t=1s',
           otherFiles: '#'
         },
@@ -3043,24 +3105,7 @@ export default new Vuex.Store({
       
         ]
       },
-      {
-        name: `POSIBILIDAD DE PEDIR VACACIONES POR
-        DÍAS O 1/2 DÍAS`,
-        title: `POSIBILIDAD DE PEDIR VACACIONES POR
-        DÍAS O 1/2 DÍAS`,
-        content: `Es una facilidad que la compañía ofrece a nuestros Entel Lovers, por lo que no están
-        obligados a solicitar sus vacaciones por períodos mínimos de una semana. Eso nos
-        permite disfrutar de una mayor flexibilidad según nuestras necesidades.
-        `,
-        links: {
-          documents: '#',
-          videos:'#',
-          otherFiles: '#'
-        },
-        list: [
-      
-        ]
-      },
+     
       {
         name: `ENTEL CONVIENE`,
         title: `ENTEL CONVIENE`,
@@ -3091,7 +3136,7 @@ export default new Vuex.Store({
         ¡Por qué somos flexibles, experimentamos y cambiamos!
         `,
         links: {
-          documents: '#',
+          documents: 'https://issuu.com/entellovers/docs/horario_flex.pptx',
           videos:'#',
           otherFiles: '#'
         },
@@ -3113,10 +3158,20 @@ export default new Vuex.Store({
         title: `ENCUESTA DE EXPERIENCIA CLIENTE
         INTERNO`,
         content: `Uno de los Objetivos transversales de los Jefes es el de Nivel de satisfacción del
-        cliente interno. En el 2017 iniciamos esta encuesta que mide el ni
+        cliente interno. En el 2017 iniciamos esta encuesta. <br>
+        Esta encuesta nos ayuda a recoger feedback y opiniones valiosas de nuestros clientes internos. Nos permite medir y gestionar la calidad del amor que se transmite en cada uno de los servicios brindados por las áreas/ equipos. Las preguntas exploran puntos como:<br>
+        1. Respuestas de valor<br>
+        2. Objetivo compartido<br>
+        3. Flexibilidad y cooperación<br>
+        4. Comunicación horizontal<br>
+        Este año:<br>
+        137 áreas/equipos son dueños de encuestas<br>
+        1,389 colaboradores como clientes internos participan <br>
+        ¡Nos comprometemos a consolidar una experiencia distintiva!
+
         `,
         links: {
-          documents: '#',
+          documents: 'https://issuu.com/entellovers/docs/encuesta_cliente_interno.pptx',
           videos:'#',
           otherFiles: '#'
         },
@@ -3127,7 +3182,8 @@ export default new Vuex.Store({
       {
         name: 'PROGRAMA MI GESTIÓN WOW',
         title: 'PROGRAMA MI GESTIÓN WOW',
-        content: `En este primer semestre, hemos enfocado la capacitación en nuestros Asesores de Tienda y en los Supervisores/Coordinadores de Piso de Lima y Regiones para asegurar que en todas las interacciones con nuestros clientes y compañeros se logre una experiencia distintiva y generemos más Entel Lovers, tanto internos como externos.
+        content: `En este primer semestre, hemos enfocado la capacitación en nuestros Asesores de Tienda y en los Supervisores/Coordinadores de Piso de Lima y Regiones para asegurar que en todas las interacciones con nuestros clientes y compañeros se logre una experiencia distintiva y generemos más Entel Lovers, tanto internos como externos.<br>
+        Este programa es una iniciativa que impacta directamente a la estrategia de la compañía (clientes Entel Lover) y tiene como objetivo contar con los mejores asesores de la industria para así ofrecer la mejor experiencia de atención.
         `,
         links: {
           documents: 'https://issuu.com/desarrollando.elovers/docs/mi_gestion_wow.pptx',
@@ -3466,14 +3522,14 @@ export default new Vuex.Store({
         cambios ocurridos tras el crecimiento de nuestra compañía, y la expansión de Entel
         Lovers.<br>
         En el corto plazo:<br>
-        1. Contar con una matriz de talento gerencial:<br>
+        Contar con una matriz de talento gerencial:<br>
         Es decir, poseer un mapeo de talento en el equipo gerencial, identificando desde hoy
         quiénes podrían ser futuros directivos y ocupar en los próximos años ubicaciones
         importantes como mentores, líderes de proyectos estratégicos, impulsores de
         procesos de cambio, innovaciones o transformaciones.
         `,
         links: {
-          documents: 'https://issuu.com/entellovers/docs/programa_de_desarrollo_gerencial.pptx',
+          documents: '#',
           videos:'#',
           otherFiles: '#'
         },
@@ -3617,78 +3673,15 @@ export default new Vuex.Store({
         ]
       },
       {
-        name: `TALLER DE DESARROLLO DE HABILIDADES
-        DE COMUNICACIONALES`,
-        title: `TALLER DE DESARROLLO DE HABILIDADES
-        DE COMUNICACIONALES`,
-        content: `
+        name: `CAMPAÑA RECONOCE `,
+        title: `CAMPAÑA RECONOCE `,
+        content: `Es una buena práctica que fomenta la cultura de reconocimiento a todo nivel en Entel y refuerza nuestros pilares culturales. Todos podemos reconocer a nuestros compañeros de Entel sin importar el área o el cargo que ocupe.<br>
+        ¿Qué es lo que reconocemos?<br>
+        Actitudes y comportamientos que reflejan nuestros pilares culturales y la forma de hacer las cosas en Entel. Cada cuatro meses conoceremos a los representantes de nuestra Cultura.
+        
         `,
         links: {
-          documents: 'https://issuu.com/home/published/desarrollo_de_habilidades.pptx',
-          videos:'#',
-          otherFiles: '#'
-        },
-        list: [
-      
-        ]
-      },
-      {
-        name: `TALLER DE INCORPORACIÓN DE CULTURAS
-        ÁGILES`,
-        title: `TALLER DE INCORPORACIÓN DE CULTURAS
-        ÁGILES`,
-        content: `
-        Toda la Gerencia Central de capital humano asistió a una capacitación en la que
-        discutimos cómo es un entorno VUCA, como se dan los cambios en el mundo y en la
-        industria y como ha cambiado la forma de trabajar en las organizaciones ágiles.
-        `,
-        links: {
-          documents: 'https://issuu.com/desarrollando.elovers/docs/_ltimo.pptx',
-          videos:'#',
-          otherFiles: '#'
-        },
-        list: [
-      
-        ]
-      },
-      {
-        name: `AGILIDAD ENTEL`,
-        title: `AGILIDAD ENTEL`,
-        content: `
-        Nuestra forma de trabajar es ágil, liviana y digital por eso desde este 2019 trabajamos
-        formando células ágiles compuestas por hasta 10 colaboradores de diferentes áreas y
-        niveles. Somos ágiles y nos adaptamos a los cambios porque son permanentes en el
-        mercado de Telecomunicaciones.<br>
-        Cada célula ágil cuenta con un Product Owner y Scrum Master, compuesta por 9 Entel
-        Lovers de distintas especialidades y experiencias. El Product Owner representa la voz
-        del cliente y el Scrum Master facilita la metodología. La célula ágil la conforma un
-        equipo que se caracteriza por tener muy buenas relaciones interpersonales, todos son
-        muy proactivos y creativos. Porque la clave es que nuestro trabajo siga la ruta de
-        innovación que esperamos.<br>
-        Tenemos una célula de captura y otra de ingresos. El objetivo de la célula de captura
-        es elaborar e implementar la estrategia comercial de crecimiento de base prepago a
-        través de la venta de calidad y valor. El objetivo de la célula de ingresos es elaborar e
-        implementar la estrategia de generación de ingresos y retención de la base prepago.
-        Contamos con 7 células actualmente y producto de esta forma y metodología
-        innovadora de trabajo, estamos creando nuevos servicios para nuestros clientes. Nos
-        movemos ágiles y livianos, y para lograrlo entendimos que esto era solo el inicio de
-        una forma de trabajo escalable y decidimos comprenderla desde la experiencia.<br>
-        Experimentamos lo que significaba trabajar de esta manera, y así conocer las posibles
-        resistencias, obstáculos y nuevos desafíos que nos trae esta forma de trabajo desde
-        aspectos estructurales hasta cambios en los paradigmas que hasta hoy nos han hecho
-        exitosos. Esto nos ayuda a estar mejor preparados para extender la agilidad en todas
-        sus formas.<br>
-        Adoptar la agilidad es nuestro objetivo diario y el resultado de experimentar y cambiar
-        se ve reflejado en proyectos como Entel Pay, Mercado Hogar, entre otros.
-        Seguiremos trabajando de esta manera hasta se convierta en nuestra única forma de
-        trabajar. Agilidad para emitir la señal que transforma a nuestros clientes a través de
-        productos y servicios innovadores que contribuyan a la evolución del mercado de
-        Telecomunicaciones en Perú.<br>
-        ¡Un Entel Lover es siempre ágil, liviano y digital alcanzando resultados
-        innovadores y haciéndolo increíble!
-        `,
-        links: {
-          documents: '#',
+          documents: 'https://issuu.com/entellovers/docs/campa_a_reconoce.pptx',
           videos:'#',
           otherFiles: '#'
         },
@@ -3713,7 +3706,7 @@ export default new Vuex.Store({
         sentimos orgullosos por su desarrollo. ¡Nos transformamos para inspirar a otros!
         `,
         links: {
-          documents: '#',
+          documents: 'https://issuu.com/entellovers/docs/trasciendelover.pptx',
           videos:'#',
           otherFiles: '#'
         },
@@ -3750,14 +3743,14 @@ export default new Vuex.Store({
         `,
         links: {
           documents: '#',
-          videos:'#',
+          videos:'https://www.youtube.com/playlist?list=PLGy3YHNBg96ODhtPAPOt4TpjxiNnaubJw',
           otherFiles: '#'
         },
         list: [
       
         ]
       }
-    
+      
     ]
   
   },
