@@ -33,7 +33,7 @@
                             ha enseñado y la manera como he <br>
                             cambiado mientras asumo los retos <br>
                             que Entel me entrega <img src="img/balanceando/emoji.png" alt="Emoji rostro">."</p>
-                        <h5 class="text-right">Marcela Parodi (40)</h5>
+                        <h5 class="text-right">Marcela Parodi (39)</h5>
                         <p class="text-right puesto">
                             Coordinadora de Gestión del<br>
                             Cambio y Comunicaciones<br>
@@ -65,7 +65,7 @@
             <div class="container" id="inline-reconociendo">
                 <div class="row">
                     <div class="offset-1 col-3">
-                        <h4>Marcela Parodi  (40)</h4>
+                        <h4>Marcela Parodi  (39)</h4>
                         <p class="cargo">Coordinadora de Gestión del
                                         Cambio y Comunicaciones
                                         Área: TDE (Transformación
