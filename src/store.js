@@ -103,7 +103,7 @@ export default new Vuex.Store({
           <b class="practices_list">g) Verificación académica, laboral y antecedentes penales, policiales, web y
           redes sociales.</b>
           <br>
-          <b class="practices_list">h) Examen médico pre - ocupacional:</b> <br>
+          <b class="practices_list">h) Examen médico pre - ocupacional.</b> <br>
           Un staff de expertos Head Hunters nos ayuda con las posiciones de gerencia, garantizando que el candidato cumpla con las cualidades y el expertise requeridos. Asimismo, buscamos que el puesto cumpla también con las expectativas del candidato, de esta manera le motivamos a ser parte de nuestra organización. Los candidatos seleccionados también serán entrevistados por nuestro gerente general Ramiro Lafarga.<br>
           La participación de los líderes es activa en el proceso, sobre todo en las etapas de levantamiento de perfil y entrevistas. Al tener en todo momento una comunicación directa y constante con ellos, le ponemos gran énfasis a su capacitación en técnicas de entrevistas por competencias, buscando una mayor objetividad.
 
@@ -194,7 +194,7 @@ export default new Vuex.Store({
           Estas se dan cuando el expertise requerido para el puesto amerite una búsqueda de
           talento externo. Considerando los requisitos mínimos del puesto, empleamos
           diferentes fuentes externas tales como: nuestra página Trabaja con Nosotros (alojada
-          en nuestra web <a href="https://www.trabajaenentel.pe/"  target="_blank">www.entel.pe</a>), con enlaces a las principales bolsas de trabajo de las
+          en nuestra web <a href="https://www.trabajaenentel.pe/"  target="_blank">www.trabajaenentel.pe</a>), con enlaces a las principales bolsas de trabajo de las
           universidades para que los alumnos y exalumnos puedan participar del proceso de
           selección. También trabajamos con Bumeran y Laborum, además de grupos de interés
           y de publicaciones en LinkedIn para asegurarnos de detectar a los talentos que
@@ -713,6 +713,20 @@ export default new Vuex.Store({
         ]
       },
       {
+        name: 'EN PERSONAS CON ALDO ',
+        title: 'EN PERSONAS CON ALDO ',
+        content: `o	A través de Workplace, Aldo Vidal, VP de Mercado Personas, comparte con los colaboradores indicadores, resultados y las novedades relacionadas al front del negocio. Durante la transmisión los colaboradores pueden comentar sus preguntas, las cuales son respondidas al finalizar con las primicias. Estos livestream duran media hora y se realizan una vez al mes. En algunas ocasiones se han realizado sorteos en vivo. Aldo se convierte en un agente transformador y va involucrando a todo el equipo para avanzar juntos.
+        `,
+        links: {
+          documents: 'https://issuu.com/escuchando.elovers/docs/en_personas_con_aldo.pptx',
+          videos:'https://www.youtube.com/watch?reload=9&v=yeUuvGZsvuA&feature=youtu.be',
+          otherFiles: '#'
+        },
+        list: [
+      
+        ]
+      },
+      {
         name: 'WORKPLACE',
         title: 'WORKPLACE',
         content: `En Entel contamos con una comunicación simple, clara y digital. Por eso Workplace es nuestro principal canal de comunicación interna. A través de esta plataforma, mantenemos informados a los colaboradores respecto a cambios de puesto, campañas internas, beneficios, logros alcanzados, entre otros. Al mismo tiempo, nos permite conocer a los colaboradores a través de la interacción, distinguiendo así como las señales de los Entel Lovers llegan a sus compañeros, involucrándolos con la marca para hacer extraordinario lo que hacen. <br>
@@ -807,20 +821,7 @@ export default new Vuex.Store({
       
         ]
       },
-      {
-        name: 'EN PERSONAS CON ALDO ',
-        title: 'EN PERSONAS CON ALDO ',
-        content: `o	A través de Workplace, Aldo Vidal, VP de Mercado Personas, comparte con los colaboradores indicadores, resultados y las novedades relacionadas al front del negocio. Durante la transmisión los colaboradores pueden comentar sus preguntas, las cuales son respondidas al finalizar con las primicias. Estos livestream duran media hora y se realizan una vez al mes. En algunas ocasiones se han realizado sorteos en vivo. Aldo se convierte en un agente transformador y va involucrando a todo el equipo para avanzar juntos.
-        `,
-        links: {
-          documents: 'https://issuu.com/escuchando.elovers/docs/en_personas_con_aldo.pptx',
-          videos:'https://www.youtube.com/watch?reload=9&v=yeUuvGZsvuA&feature=youtu.be',
-          otherFiles: '#'
-        },
-        list: [
-      
-        ]
-      },
+     
     ],
     inspirando: [
       {
@@ -1760,7 +1761,7 @@ export default new Vuex.Store({
         `,
         links: {
           documents: 'https://issuu.com/entellovers/docs/festientel8.pptx',
-          videos:'https://www.youtube.com/playlist?list=PLGy3YHNBg96OXSJvIjqb4Ubr7Z5xwDa_6',
+          videos:'https://www.youtube.com/watch?v=DWhADhzJa88',
           otherFiles: '#'
         },
         list: [
@@ -2220,7 +2221,7 @@ export default new Vuex.Store({
         disminuimos las emisiones por colaborador de 6.58 tCO2eq a 5.61 tCO2eq.
         `,
         links: {
-          documents: 'https://issuu.com/reconociendo.elovers/docs/huellas',
+          documents: 'https://issuu.com/agradeciendo.elovers/docs/huellas_de_carbono.pptx',
           videos:'#',
           otherFiles: '#'
         },
