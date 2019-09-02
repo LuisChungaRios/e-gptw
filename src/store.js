@@ -304,7 +304,7 @@ export default new Vuex.Store({
           todo lo que nos da sentido y trascendencia. Por eso compartimos nuestro propósito,
           pilares culturales y la importancia de la evaluación de desempeño, pues ella está
           dirigida a la valoración del mérito y resultados de nuestros colaboradores. Pero no es
-          la recompensa lo que nos mueve como equipo, sino el sentimiento y amor por Entel.
+          la recompensa lo que nos mueve como equipo, sino el sentimiento y amor por Entel.<br>
 
           Cómo hace lo que hace un Entel Lover se ve reflejado en nuestros 5 Pilares Culturales
           (detallados en la sección Inspiración), que describen nuestra manera de ser, nuestro
@@ -590,7 +590,7 @@ export default new Vuex.Store({
         content: `Luego del Staff de Gerentes, cada líder realiza una reunión con su gerencia para bajar
         la información estratégica del negocio. Asimismo, también se utiliza este espacio para
         discutir temas propios de la Gerencia y así mantener a todo el equipo alineado e
-        informado. <br>
+        informado. <br><br>
         Cada gerencia decide la agenda de este espacio, para así mantener carta abierta
         cualquier tema relacionado al trabajo que deseen compartir. En este espacio también
         se realizan reconocimientos a colaboradores que hayan tenido un desempeño
@@ -655,7 +655,7 @@ export default new Vuex.Store({
         content: `Cuenta con grupos que todos los colaboradores siguen por default como Entel Lovers
         (customer centricity), Atracción de Talento (convocatorias internas), Vivamos
         Sostenible (responsabilidad social), Vive Entel (beneficios), Noticias TDE (proyecto de
-        transformación digital).<br>
+        transformación digital).<br><br>
         Cada grupo es administrado por diferentes áreas de la empresa y generan contenidos
         con el propósito de informar, generar interacción, conocer las opiniones referentes a
         un tema, etc. También, cada área o colaborador es libre de crear un grupo de proyecto o
@@ -677,7 +677,7 @@ export default new Vuex.Store({
         title: 'WORKCHAT',
         content: `Digitalizamos aún más el WorkPlace y ahora cuenta con su propia mensajería
         instantánea, WorkChat, el cual permite a los colaboradores crear grupos de trabajo,
-        compartir archivos, crear encuestas, entre otros. <br>
+        compartir archivos, crear encuestas, entre otros. <br><br>
         Por este mismo medio, la VP de TI y Operaciones, ha implementado un chatbot que
         está en constante desarrollo y aprendizaje llamada Tiare, para consultas relacionadas
         a soporte técnico.
@@ -729,7 +729,7 @@ export default new Vuex.Store({
       {
         name: 'WORKPLACE',
         title: 'WORKPLACE',
-        content: `En Entel contamos con una comunicación simple, clara y digital. Por eso Workplace es nuestro principal canal de comunicación interna. A través de esta plataforma, mantenemos informados a los colaboradores respecto a cambios de puesto, campañas internas, beneficios, logros alcanzados, entre otros. Al mismo tiempo, nos permite conocer a los colaboradores a través de la interacción, distinguiendo así como las señales de los Entel Lovers llegan a sus compañeros, involucrándolos con la marca para hacer extraordinario lo que hacen. <br>
+        content: `En Entel contamos con una comunicación simple, clara y digital. Por eso Workplace es nuestro principal canal de comunicación interna. A través de esta plataforma, mantenemos informados a los colaboradores respecto a cambios de puesto, campañas internas, beneficios, logros alcanzados, entre otros. Al mismo tiempo, nos permite conocer a los colaboradores a través de la interacción, distinguiendo así como las señales de los Entel Lovers llegan a sus compañeros, involucrándolos con la marca para hacer extraordinario lo que hacen. <br><br>
         Inicialmente, nuestros colaboradores pertenecientes a la planilla de Entel Empresas – Servicios Fijos, ex Americatel, contaban con la red social Yammer, donde se compartían las publicaciones que realizábamos en Workplace, para que estén informados de lo que sucede en el negocio y para que puedan participar de los concursos. Posteriormente, en julio de 2019, se realizó el cambio de dominio de @americatel.com.pe a @entel.pe, permitiéndoles tener acceso a Workplace y participar de los livestream con los líderes.
         
         
@@ -841,7 +841,7 @@ export default new Vuex.Store({
       {
         name: 'Nuevos pilares culturales',
         title: 'Nuevos pilares culturales',
-        content: `Refrescamos las bases de nuestra cultura alineandola a nuestro nuevo propósito, plan estratégico y a nuestra renovada cultura de trabajo que se caracteriza por ser ágil, liviana y digital. Una filosofía fresca que conecta mejor con nuestros colaboradores y con nuestro core. ¡Nos transformamos constantemente! <br>
+        content: `Refrescamos las bases de nuestra cultura alineandola a nuestro nuevo propósito, plan estratégico y a nuestra renovada cultura de trabajo que se caracteriza por ser ágil, liviana y digital. Una filosofía fresca que conecta mejor con nuestros colaboradores y con nuestro core. ¡Nos transformamos constantemente! <br><br>
         ¿Por qué tenemos que cambiar constantemente? Por qué estamos en una Industria cambiante donde la experiencia es nuestro diferenciador por eso necesitamos mayor <b>AGILIDAD</b>. <br><br>
         <b>+ aprendizaje</b> <br>
         <b>+ velocidad respuesta</b><br>
@@ -851,9 +851,9 @@ export default new Vuex.Store({
           </li></br>
           <li><b>Romper silos:</b>generar colaboración desde el corazón, conectando a las personas con su misión de vida y cambiar el marco mental de este juego se gana compitiendo a este juego se gana sumándole al otro. 
           </li></br>
-          Sobre estos 3 ejes aterrizamos y empaquetamos nuestros nuevos pilares culturales y en el centro está La Señal que Transforma: el latido que une a los 2, 815 colaboradores de Entel, nuestros #EntelLovers internos a nivel nacional. Esta señal, nuestro latido, emite mensajes, emociones y comportamientos que parten de nuestros pilares culturales y se irradian hacia nuestros clientes para convertirlos en verdaderos fans. Esta es nuestra cultura, nuestra identidad. <br>
+          Sobre estos 3 ejes aterrizamos y empaquetamos nuestros nuevos pilares culturales y en el centro está La Señal que Transforma: el latido que une a los 2, 815 colaboradores de Entel, nuestros #EntelLovers internos a nivel nacional. Esta señal, nuestro latido, emite mensajes, emociones y comportamientos que parten de nuestros pilares culturales y se irradian hacia nuestros clientes para convertirlos en verdaderos fans. Esta es nuestra cultura, nuestra identidad. <br><br>
 
-          Un colaborador Entel es esto y mucho más pero sobre todo se caracteriza por su amor por las personas y por su gran capacidad de servicio. Servirnos unos a otros para servir mejor a nuestros clientes, brindando una experiencia distintiva que deje huella y que logre transformar el mercado y en ese efecto multiplicador, logramos transformar al Perú. <br>
+          Un colaborador Entel es esto y mucho más pero sobre todo se caracteriza por su amor por las personas y por su gran capacidad de servicio. Servirnos unos a otros para servir mejor a nuestros clientes, brindando una experiencia distintiva que deje huella y que logre transformar el mercado y en ese efecto multiplicador, logramos transformar al Perú. <br><br>
 
           ¡Estamos muy motivados por seguir activando nuestros nuevos pilares, nuestra nueva forma de hacer las cosas, nuestra nueva forma de trabajar: nuestra nueva identidad!
 
@@ -1207,20 +1207,19 @@ export default new Vuex.Store({
         durante un tiempo determinado, en el cual deberán para desarrollar nuevas ideas según
         el reto asignado: resolver un problema o diseñar un nuevo producto o proceso. Nuestro
         equipo técnico ama lo que hace, el resultado es usualmente una solución tecnológica (HW y/o
-        SW).<br>
+        SW).<br><br>
         A través de una dinámica horizontal e intensiva, los participantes complementan
         experiencias y habilidades individuales con el propósito de desarrollar soluciones concretas y
         transformadoras.<br><br>
-       
-        <ul>
-          <li>Convocatoria: 500 inscritos.</li>
-          <li>Cantidad de ideas: 50 ideas.</li>
+        <ul style="margin-bottom:0px;">
+          <li>Convocatoria: 500 inscritos.</li><br>
+          <li>Cantidad de ideas: 50 ideas.</li><br>
           <li>Objetivos Cumplidos:</li>
         </ul><br>
         
-          <liSe publica la convocatoria en 5 entidades de estudios entre universidades e institutos.</li>
+          <li>Se publica la convocatoria en 5 entidades de estudios entre universidades e institutos.</li><br>
           <li>Hay una base de datos de los inscritos y convocados del evento que tengan perfil
-          técnico.</li>
+          técnico.</li><br>
           <li>Alguna de las 3 propuestas ganadoras responden a los retos establecidos (nuevas
             tec: IoT, AI, Cloud).</li>
       
@@ -1451,7 +1450,7 @@ export default new Vuex.Store({
         finalistas de las diversas áreas a un almuerzo con Ramiro Lafarga, nuestro gerente
         general, quien les dio un presente con una tarjeta firmada por él. Además, todos los
         finalistas de Lima y las regiones fueron invitados a la fiesta de Entel con el fin de
-        premiarlos.<br>
+        premiarlos.<br><br>
         Una vez que tenemos a los ganadores del último trimestre del año, empezamos los
         procesos para la elección de nuestros TOP Entel Anual.
         El objetivo de los reconocimientos es que nuestros Entel Lovers vivan experiencias
@@ -1463,13 +1462,13 @@ export default new Vuex.Store({
           todos sus Top Entel trimestral. Los gerentes seleccionan a la persona que ellos
           piensan ha sido un referente de nuestra cultura en el año, aportando además a
           los objetivos de la gerencia. Ya que son 2 tipos de cupos, hay 2 tipos de
-          procesos:
+          procesos:<br>
             <ul>
               <li><b>Cupos Ventas:</b> un factor determinante para la elección del ganador es
               el resultado anual de ventas ya que en esta instancia se considera el
               número objetivo para obtener a los ganadores finales de las Direcciones
               de ventas, con una validación posterior por parte de los vicepresidentes.
-              </li>
+              </li><br>
               <li><b>Cupos Soporte:</b> aquí son los gerentes quienes seleccionan entre los
               ganadores al Entel Lover que represente mejor la nominación, siempre
               sustentada por su desempeño consistente durante el año. Quien recibe
@@ -1481,13 +1480,13 @@ export default new Vuex.Store({
           <br>
           <li><b>Comité TOP Entel:</b> es una reunión de dos revisiones entre los 7
           vicepresidentes y el gerente general, quienes analizan las nominaciones y
-          escogen a los ganadores:
+          escogen a los ganadores:<br>
             <ul>
               <li><b>Revisión 4 cupos Ventas:</b>en donde un comité valida a los ganadores
               que envían las Direcciones de ventas. Casi no hay lugar para rebatir a
               los ganadores ya que su aporte significativo a la gerencia es el
               porcentaje de resultado anual.
-              </li>
+              </li><br><br>
               <li><b>Revisión 8 cupos Soporte:</b> cada vicepresidente presenta a su
               nominado y las nominaciones son sometidas a votación. De darse un
               empate, será el gerente general quien decidirá el ganador.
@@ -1522,7 +1521,7 @@ export default new Vuex.Store({
         <li><b>Alineamiento sobresaliente a un pilar cultural:</b>en donde un comité valida a los ganadores
         que envían las Direcciones de ventas. Casi no hay lugar para rebatir a
         los ganadores ya que su aporte significativo a la gerencia es el
-        porcentaje de resultado anual.
+        porcentaje de resultado anual.<br><br>
         </li>
         <li><b>Aporte significativo a los objetivos de la gerencia:</b> cnuestro colaborador
         tiene que haber contribuido significativamente a la consecución de los objetivos
@@ -1534,12 +1533,12 @@ export default new Vuex.Store({
       La designación de los TOP Entel se realiza en tres instancias, después del trimestre: <br>
       <b>a. Gerentes/jefes:</b> el gerente de área se reúne con todos sus reportes
       directos para revisar las nominaciones, escogiendo así de acuerdo a la
-      cuota que tenga la Gerencia.<br>
+      cuota que tenga la Gerencia.<br><br>
       <b>b. Gerentes/vicepresidentes:</b> los gerentes de área envían al vicepresidente
       los nombres de los seleccionados para su revisión, validando luego que el
 
       aporte a los objetivos de la gerencia haya sido relevante. De esta manera,
-      quedará claro que el ganador es un verdadero referente de nuestra Cultura.<br>
+      quedará claro que el ganador es un verdadero referente de nuestra Cultura.<br><br>
       <b>c. Capital Humano:</b> tras la validación del vicepresidente, se envían los
       nombres de los ganadores al área de Capital Humano. Ahí se procede a la
       revisión de sustentos de los ganadores y efectuando una última validación
@@ -1923,16 +1922,16 @@ export default new Vuex.Store({
         title: `LANZAMOS NUESTRA NUEVA POLÍTICA
         SALARIAL`,
         content: `En donde mostramos que poseemos herramientas que nos permiten desarrollar esta
-        estructura de la forma más conveniente:
+        estructura de la forma más conveniente:<br><br>
         <ul>
         <li>Uso constante del benchmarking: realizamos estudios salariales de
         mercado que nos brindan información actualizada, con el objetivo de
         ser siempre competitivos y atractivos tanto para nuestros colaboradores
-        actuales como para los potenciales.</li>
+        actuales como para los potenciales.</li><br>
         <li>Diagnóstico de Equidad Salarial por Género: realizamos un
         diagnóstico interno de equidad salarial mensualmente desde marzo
         2018, con el objetivo de tomar acciones necesarias para promover la
-        equidad al interno de nuestra empresa.</li>
+        equidad al interno de nuestra empresa.</li><br>
         <li>Sistema de valoración de puestos: contamos con una metodología de
         valoración de puesto a través de puntos y grados, la cual se encarga de
         determinar la medición del impacto de cada puesto en el negocio, así
@@ -1943,12 +1942,12 @@ export default new Vuex.Store({
         naturaleza de las nuevas exigencias del negocio. Así nacen los tracks de Analytics y
         Proyectos: <br>
         Esta administración de la compensación se lleva a cabo de acuerdo a los siguientes
-        criterios: <br>
+        criterios: <br><br>
         <ul>
         <li>Equidad: se debe observar la adecuada homologación en las
         compensaciones. Así se consigue la transparencia necesaria en los procesos
-        de propuesta salarial.</li>
-        <li>Objetividad: de esta forma garantizamos que los flujos de aprobación de diferentes conceptos de compensaciones estén atendidos de manera precisa, además de fundamentar con sustento cada caso.</li>
+        de propuesta salarial.</li><br>
+        <li>Objetividad: de esta forma garantizamos que los flujos de aprobación de diferentes conceptos de compensaciones estén atendidos de manera precisa, además de fundamentar con sustento cada caso.</li><br>
         <li>Competitividad: ofrecemos beneficios que generan valor, tal como aquellos
         que son brindados en el mercado. La base para ello se encuentra en los
         estudios especiales de profundidad y en sectores específicos que venimos
@@ -1958,18 +1957,18 @@ export default new Vuex.Store({
         Una vez que un colaborador nuestro ocupe cargo de jefe, Entel le otorgará en adelante
         un bono asociado al cumplimiento de nuestros objetivos, tanto los del área como los
         individuales.<br>
-        Lo que busca este programa es:<br>
+        Lo que busca este programa es:<br><br>
         a) Aterrizar objetivos SMART alineados al plan estratégico de la
         compañía.<br>
         b) Alinear a Entel en torno a los principales desafíos del año. <br>
         c) Incentivar el logro de objetivos y el trabajo en equipo al interior de cada
         área y entre áreas afines. <br>
         d) Tener visibilidad sobre el cumplimiento y avance de los principales hitos
-        del plan anual.<br>
+        del plan anual.<br><br>
         <b>Incrementos salariales</b> <br>
         Están vinculados con los siguientes aspectos: <br>
         a) Incrementos asociados al desempeño: se consideran dos factores en cuanto
-        a la política de Entel de revisiones salariales anuales:
+        a la política de Entel de revisiones salariales anuales:<br><br>
 
           <ul>
           <li>Desempeño individual</li>
@@ -1981,13 +1980,13 @@ export default new Vuex.Store({
         desempeño y Q1 para menor desempeño.
         Tras la elaboración de este ranking de notas, se tomará en consideración una
         evaluación de los ingresos anuales, así como la posición de cada colaborador dentro
-        de las categorías salariales de la compañía. <br>
-        b) Incrementos asociados al cambio de funciones y nivel de responsabilidad<br>
+        de las categorías salariales de la compañía. <br><br>
+        b) Incrementos asociados al cambio de funciones y nivel de responsabilidad<br><br>
         <ul>
        <li> Promoción: Ocurre cada vez que uno de nuestros #EntelLovers cambia a un
         puesto que es mayor en uno o más grados que el actual, por lo que se
         establecerá su nueva remuneración de acuerdo a los rangos salariales del
-        nuevo grado.</li>
+        nuevo grado.</li><br>
         <li>Cambio de puesto: En caso el nuevo puesto sea del mismo grado que el
         puesto actual, procedemos a efectuar un análisis salarial, pues así se verifica si
         corresponde o no un incremento, así como su porcentaje.
@@ -2020,14 +2019,14 @@ export default new Vuex.Store({
         content: `Creemos que para conectarnos mejor es imprescindible entendernos. Por eso, en
         2018 creamos el programa Señas que Conectan en el cual capacitamos a nuestros
         asesores de tienda en lengua de señas para atender mejor a nuestros usuarios con
-        discapacidad auditiva.<br>
+        discapacidad auditiva.<br><br>
         Con el apoyo de MAW, organización que promueve la mejora de la calidad de vida de
         las personas con discapacidad auditiva, elaboramos un manual con la traducción a
         lengua de señas de los principales términos y procedimientos que usamos en el
         proceso de atención al cliente. Capacitamos de manera virtual y presencial a 11
         asesores de las tiendas de Mega Plaza, San Isidro y Trujillo. Las clases fueron
         presenciales y virtuales (en el caso de regiones). Nuestros asesores llevaron 16 clases
-        (4 horas semanales divididas en 2 clases).<br>
+        (4 horas semanales divididas en 2 clases).<br><br>
         El objetivo de este programa es concientizar, sensibilizar y promover la importancia de
         la inclusión social de personas con discapacidad auditiva, no solo a nuestros clientes y
         colaboradores, sino a las demás empresas. Por ello, durante la conferencia de prensa
@@ -2036,7 +2035,7 @@ export default new Vuex.Store({
         telecomunicaciones que quiera replicar el programa. Además, invitamos a líderes de
         opinión a que vivan la experiencia de un taller de lengua de señas para sensibilizarlos
         sobre la importancia de la inclusión y la diversidad. De esta manera compartimos una
-        acción en beneficio de la sociedad.<br>
+        acción en beneficio de la sociedad.<br><br>
         Para 2019, tenemos como meta capacitar a una segunda promoción de 20 asesores
         de tienda.
         `,
@@ -2057,14 +2056,14 @@ export default new Vuex.Store({
         buscamos hacernos cargo a través de campañas de sensibilización y alianzas con
         organizaciones comprometidas con el medio ambiente, sobre la consecuencia de no
         disponer de manera segura nuestros celulares, cargadores, baterías y otros
-        complementos de uso del equipo.<br>
+        complementos de uso del equipo.<br><br>
         Así, decidimos ubicar puntos de acopio en establecimientos de empresas e
         instituciones aliadas, como en nuestras oficinas y tiendas a nivel nacional, para la
         recolección y reciclaje de residuos de aparatos eléctricos y electrónicos (RAEE). Todo
         esto se efectuó en alianza con empresas homologadas por la Digesa, Comimtel.
         Cuando el Ministerio de Transportes y Comunicaciones aprobó en 2016 nuestro Plan
         de Manejo de RAEE, nos convertimos en la primera compañía del sector con un plan
-        de gestión ambiental de este tipo.<br>
+        de gestión ambiental de este tipo.<br><br>
         Desde 2015, contamos con la presencia de Hipermercados Tottus como aliado
         estratégico, cumpliendo al 2017 con nuestra meta: más de cuatro toneladas de
         residuos eléctricos y electrónicos. Sus tiendas, por ejemplo, presentan puntos de
@@ -2078,13 +2077,13 @@ export default new Vuex.Store({
         acopio y organizando actividades para sensibilizar a sus colaboradores y al público de
         pie como ferias, reciclatones y concursos. Hay que dejar en claro que este programa
         no es exclusivo para nuestros clientes, puesto que anhelamos darle la bienvenida a
-        todas las organizaciones que deseen sumarse.<br>
+        todas las organizaciones que deseen sumarse.<br><br>
         En el 2017 y 2018, en alianza con Publimetro, aprovechamos que el 17 de mayo es el
         Día internacional del reciclaje, para realizar una recolección masiva de celulares,
         cargadores, baterías y audífonos, a través de una red de más de 100 puntos
         itinerantes. ¿Y cómo estaba conformada esa red de recolección? ¡Eran los propios
         promotores de Publimetro que entregan los diarios en Lima! De esta manera, se
-        recogieron 680 kilogramos de dichos residuos en 4 horas.<br>
+        recogieron 680 kilogramos de dichos residuos en 4 horas.<br><br>
         Aprovechamos el cumpleaños de la tierra para celebrarlo en nuestras tiendas y
         oficinas, a través de un cupcake conmemorativo las personas que traían aparatos
         electrónicos eran reconocidas. ¡Aprovechamos los espacios en tienda para sorprender
@@ -2093,7 +2092,7 @@ export default new Vuex.Store({
         (RAEE) en desuso. En 2017, la Dirección de Asuntos Socio Ambientales del Ministerio
         de Transportes y Comunicaciones (MTC) aprobó nuestro Plan de Manejo de Residuos
         de Aparatos Eléctricos y Electrónicos, convirtiéndonos en el primer operador de Perú
-        en implementarlo.<br>
+        en implementarlo.<br><br>
         Tenemos puntos de acopio en 33 instituciones comprometidas con el medio ambiente.
         Durante el 2018, nos aliamos nuevamente con Publimetro en una campaña por el Día
         Mundial del Reciclaje para contar con 100 puntos de acopio itinerantes en Lima y
@@ -2144,13 +2143,13 @@ export default new Vuex.Store({
         niños, de arte, campañas del cuidado del medio ambiente, entre otros. Además, son
         grandes aliados estratégicos en la tarea de sensibilizar a los demás colaboradores.
         En 2018, contamos con 50 colaboradores voluntarios. Llevamos a cabo tres
-        actividades: <br>
+        actividades: <br><br>
         <ul>
         <li>Amo mi playa, versión #PlásticoChallenge. Conscientes de la importancia del
         cuidado del medio ambiente, realizamos el voluntariado de recolección de
-        basura en las playas La Pampilla y Punta Roquitas.</li>
+        basura en las playas La Pampilla y Punta Roquitas.</li><br>
         <li>Biohuerto con Enseña Perú. Trabajamos junto a nuestros voluntarios en la
-        implementación de un biohuerto en uno de los colegios de Enseña Perú.</li>
+        implementación de un biohuerto en uno de los colegios de Enseña Perú.</li><br>
         <li>Colecta de frazadas. Realizamos una colecta interna de frazadas, de la mano
         de la asociación civil Juguete Pendiente para abrigar a las víctimas del friaje.</li>
         
@@ -2159,13 +2158,13 @@ export default new Vuex.Store({
         de Educación para beneficiar con útiles escolares a zonas aledañas a nuestra zona de
         operación en el interior del país. Desde el año 2017 y 2018, se destinaron las mantas y
         ropa de abrigo recolectadas hacia Puno, Arequipa y Lima. Así también, beneficiamos a
-        50 niños en la zona rural de Ucayali. <br>
+        50 niños en la zona rural de Ucayali. <br><br>
         <b>Enseña Perú:</b> esta asociación civil sin fines de lucro beneficia a más de 5000
         estudiantes de 40 escuelas públicas de Lima, Callao, Arequipa, Junín y La Libertad,
         pues recluta a jóvenes profesionales para que trabajen como docentes en diversas
         instituciones. Por ello, nos adherimos con esta alianza a un trabajo que lleva
         educación de calidad a miles de niños del Perú, Chile y demás países de
-        Latinoamérica.<br>
+        Latinoamérica.<br><br>
         Los profesionales de Enseña Perú (PEP), previo a su egreso de esta asociación,
         definen su futuro en su plan de desarrollo profesional, a través de un proceso
         complejo, por lo que el Mentoring resulta de mucha utilidad como herramienta a una
@@ -2173,7 +2172,7 @@ export default new Vuex.Store({
         nuestros gerentes centrales, quienes brindan su experiencia como Mentores a todos
         aquellos que lo requieran. También, organizamos “la escuelita Entel”, un espacio en el
         que gerentes se convirtieron en profesores por una mañana, viviendo la experiencia de
-        los Profesionales Enseña Perú (PEP) y motivando a sus equipos.<br>
+        los Profesionales Enseña Perú (PEP) y motivando a sus equipos.<br><br>
 
         Acompañamos la misión Enseña Perú a través del auspicio “Voces por la educación”,
         un espacio que convocó a más de 200 personas para intercambiar el poder de cada
@@ -2183,20 +2182,20 @@ export default new Vuex.Store({
         descargar radionovelas y compartirlas con sus alumnos en el camino del colegio a
         casa, una hora aproximadamente. Utiliza el interés de sus alumnos en un espacio de
         “recreación” para luego interiorizarlo y convocarlos a investigar más a detalle en sus
-        clases. <br>
+        clases. <br><br>
         En Entel estamos convencidos que la educación es una herramienta valiosa para
         transformar la sociedad y cambiar la vida de las personas. Desde 2014, nos unimos a
         Enseña Perú para promover una educación de calidad y reducir la brecha digital en los
-        colegios del país.<br>
+        colegios del país.<br><br>
         Hasta el 2018, logramos que 87 colegios estén mejor conectados a través de la
         donación de routers inalámbricos de internet. Esto les ha permitido acceder a material
         que mejore la experiencia de los estudiantes, así como capacitar de manera virtual a
-        los maestros.<br>
+        los maestros.<br><br>
         Lanzamos el programa “Propósitos que conectan”, en el que docentes de ocho
         regiones recibieron capacitaciones virtuales a través de la red de Entel. Además,
         impulsamos la iniciativa “Profe por un día”, en la que cuatro reconocidos periodistas
         ofrecieron una clase maestra y contaron sus experiencias a estudiantes de diferentes
-        colegios de Lima.<br>
+        colegios de Lima.<br><br>
         Nuestro trabajo con Enseña Perú se extiende al voluntariado corporativo. En los
         últimos cuatro años, más de 200 colaboradores de Entel han compartido vivencias con
         cerca de 800 niños y jóvenes.
@@ -2215,7 +2214,7 @@ export default new Vuex.Store({
         title: 'Huella de Carbono',
         content: `Desde 2016 medimos anualmente nuestra huella de carbono. Esta acción nos permite
         evaluar nuestro desempeño ambiental y establecer acciones enfocadas en reducir las
-        emisiones de gases de efecto invernadero (GEI) que generamos.<br>
+        emisiones de gases de efecto invernadero (GEI) que generamos.<br><br>
         En 2018, nuestra huella de carbono fue de 9 994.88 toneladas de CO2 equivalente
         (tCO2eq). Esto representó una reducción de 13.55% de nuestras emisiones de GEI,
         con respecto al año 2017, donde se generaron 11 474.64 tCO2eq. Igualmente,
@@ -2243,15 +2242,15 @@ export default new Vuex.Store({
         nuestros estacionamientos de sedes administrativas (San Isidro, Miraflores y San
         Borja) con un modelo funcional y llamativo que incluía gel de manos, porta casco,
         entre otros. Como lanzamiento, contamos con la participación de Dr. Bici quien nos
-        enseñó algunas medidas de seguridad y mantenimiento.<br>
+        enseñó algunas medidas de seguridad y mantenimiento.<br><br>
         Para nosotros fue muy sorprendente reconocer que los tecleros querían mostrar que
         eran parte de Entel en las competencias que participaban o junto a sus familiares o
         grupos de amigos así que preparamos polos especiales para ello y organizamos un
-        concurso en Workplace para que compartan su pasión con todos.<br>
+        concurso en Workplace para que compartan su pasión con todos.<br><br>
         Promovemos el uso de movilidad sostenible hacia nuestros colaboradores. Por ello, en
         2018 renovamos nuestros estacionamientos de bicicletas de nuestras 3 sedes
         administrativas. Ahora, nuestros colaboradores cuentan con más espacios
-        personalizados para sumarse a venir al trabajo en bicicleta.<br>
+        personalizados para sumarse a venir al trabajo en bicicleta.<br><br>
         Además, durante el año, ofrecimos beneficios en conjunto con la Municipalidad de San
         Isidro como: invitación a caravanas empresariales, charlas con el Dr. Bici, polos, etc.
         `,
@@ -2297,20 +2296,20 @@ export default new Vuex.Store({
         reducción, mitigación y compensación de nuestros impactos o potenciales impactos
         negativos que aparezcan como resultado de nuestras operaciones. Teniendo esto en
         perspectiva, podemos aportar al desarrollo tecnológico, social, económico y
-        medioambiental del Perú.<br>
-        Los pilares para el desarrollo de este trabajo son los siguientes:<br>
+        medioambiental del Perú.<br><br>
+        Los pilares para el desarrollo de este trabajo son los siguientes:<br><br>
         Reporte de Sostenibilidad
         Como parte de nuestro compromiso con ser transparente con nuestra gestión,
         presentamos por segundo año consecutivo el reporte de Sostenibilidad de Entel. De
 
         manera voluntaria, en el mes de agosto, se comunicó al público un registro elaborado
-        con los indicadores de nuestra gestión económica, ambiental y social.<br>
+        con los indicadores de nuestra gestión económica, ambiental y social.<br><br>
         De esta manera pudimos concretar un verdadero y fortalecido lazo que nos conecta
         directamente con nuestra sociedad, a través de la transparencia y con la creación de
         relaciones honestas y de largo plazo. Cabe destacar que este reporte se realizó
         utilizando el estándar internacional Global Reporting Initiative (GRI) y muestra el
         primer avance de nuestra gestión como miembros del Pacto Mundial alineando
-        nuestras acciones con los Objetivos de Desarrollo Sostenible (ODS).<br>
+        nuestras acciones con los Objetivos de Desarrollo Sostenible (ODS).<br><br>
         Buscamos ser transparentes e invitar a nuestros públicos de interés a revisar la
         información y se sientan identificados como Entel Lovers, no solo por nuestros
         productos y atención, sino por nuestra postura ante el impacto globar que generamos.
@@ -2319,25 +2318,25 @@ export default new Vuex.Store({
         hincapié sobre la importancia de reportar y utilizar el estándar más grande nivel
         internacional en la elaboración de reportes. Finalmente, comunicamos nuestro reporte
         en la página web de Entel y preparamos un video interactivo para comunicar nuestra
-        gestión 2017 en nuestras redes sociales.<br>
+        gestión 2017 en nuestras redes sociales.<br><br>
         <b>Empresa Socialmente Responsable (ESR)</b><br>
         Poseemos el reconocimiento como Empresa Socialmente Responsable (ESR),
         entregado por el patronato PERU 2021, en distinción a nuestra gestión sostenible y
         socialmente responsable. Este reconocimiento nos ayuda a enviar un mensaje de
         consciencia y empatía por el país y el mundo que nos cobija, tendencia a través de la
-        cual conectamos con nuestros clientes y colaboradores.<br>
+        cual conectamos con nuestros clientes y colaboradores.<br><br>
 
         Es la segunda vez que nos entregan este galardón, el cual remarca nuestra cultura de
         responsabilidad social empresarial adoptada, considerando factores tales como los
         compromisos y las prácticas cotidianas de las instituciones dirigidas a una
-        competitividad sostenible y responsable.<br>
+        competitividad sostenible y responsable.<br><br>
         <b>2. Premio Periodismo Sustentable</b> <br>
         El Premio Periodismo Sustentable (PESU) nos permite reconocer aquellos trabajos
         periodísticos que contribuyen a generar conciencia y sensibilizar a la comunidad sobre
         iniciativas enfocadas a construir una sociedad más inclusiva, conectada y sostenible.
         Este premio es patrocinado por Entel Chile, creador de la iniciativa, y la Universidad
         Católica de Milán. El ganador es invitado a una pasantía de una semana en la Escuela
-        de Periodismo de la Universidad Católica de Milán.<br>
+        de Periodismo de la Universidad Católica de Milán.<br><br>
         En 2018, Diego Suárez Bolesman logró el primer puesto de la cuarta edición del
         Premio de Periodismo Sustentable- Perú con su reportaje “Los océanos se están
         ahogando”, publicado en el diario El Comercio. El reportaje detalla cómo las zonas
@@ -2368,13 +2367,13 @@ export default new Vuex.Store({
         las personas por decisión propia compartan su viaje, interactúen con nuevas personas
         y reduzcan el impacto en el medio ambiente. Por ello, premiamos el uso del aplicativo
         a través de desayunos, limpieza de auto, tapa sol de material reciclado y entradas al
-        cine, cada mes.<br>
+        cine, cada mes.<br><br>
         Con este programa incentivamos que nuestros colaboradores compartan sus
         vehículos
         para trasladarse a la oficina o retornar a sus casas, así como reducir sus emisiones de
         GEI. Trabajamos con una aplicación móvil que permite al colaborador crear un perfil,
         registrar sus rutas frecuentes y ponerlas a disposición de otros usuarios para compartir
-        el vehículo.<br>
+        el vehículo.<br><br>
         Hasta el 2018 ya somos más de 890 Entel Poolers y hemos compartido más de 1910
         viajes juntos, lo cual equivale a 18 890km.
         `,
@@ -2446,8 +2445,8 @@ export default new Vuex.Store({
       {
         name: `CAMPAÑA RECONOCE`,
         title: `CAMPAÑA RECONOCE`,
-        content: `Es una buena práctica que fomenta la cultura de reconocimiento a todo nivel en Entel y refuerza nuestros pilares culturales. Todos podemos reconocer a nuestros compañeros de Entel sin importar el área o el cargo que ocupe.<br>
-        ¿Qué es lo que reconocemos?<br>
+        content: `Es una buena práctica que fomenta la cultura de reconocimiento a todo nivel en Entel y refuerza nuestros pilares culturales. Todos podemos reconocer a nuestros compañeros de Entel sin importar el área o el cargo que ocupe.<br><br>
+        ¿Qué es lo que reconocemos?<br><br>
         Actitudes y comportamientos que reflejan nuestros pilares culturales y la forma de hacer las cosas en Entel. Cada cuatro meses conoceremos a los representantes de nuestra Cultura.
         
         `,
@@ -2466,34 +2465,34 @@ export default new Vuex.Store({
         content: `En Entel nos enfocamos en hacer las cosas increíble por eso durante 2018 nuestra
         gestión recibió diferentes reconocimientos en sostenibilidad, reputación, calidad,
         publicidad y clima laboral. Entre estos reconocimientos y distinciones podemos
-        resaltar:<br>
+        resaltar:<br><br>
         <ul>
         <li>1° lugar en el premio Mejor Experiencia de Cliente del estudio Best Costumer
-        Experience (BCX), en el sector de telecomunicaciones.</li>
+        Experience (BCX), en el sector de telecomunicaciones.</li><br>
         <li>Distintivo Empresa Socialmente Responsable de Perú 2021, obtenido por
         segundo año consecutivo.1° lugar en Empresas con mejor reputación
         corporativa Merco Empresas 2018 en el sector de telecomunicaciones, así
         como el 9° puesto en el resultado global, habiendo subido 16 posiciones en
-        comparación con el año anterior.</li>
+        comparación con el año anterior.</li><br>
         <li>31° puesto en el ranking Merco Responsabilidad y Gobierno Corporativo 2018
-        habiendo subido dos posiciones con respecto al 2017.</li>
-        <li>10° puesto en el ranking Great Place to Work.</li>
+        habiendo subido dos posiciones con respecto al 2017.</li><br>
+        <li>10° puesto en el ranking Great Place to Work.</li><br>
         <li>Ingresamos al ranking Empresas Más Admiradas (EMA 2018) por Price
         Waterhouse Coopers. Nos convertimos en la primera operadora de
-        telecomunicaciones en ingresar al ranking en sus siete años de existencia.</li>
+        telecomunicaciones en ingresar al ranking en sus siete años de existencia.</li><br>
         <li>13° puesto en el ranking Merco Talento 2018, habiendo subido 4 ubicaciones
         con respecto a 2017.</li>
         </ul><br>
-        Effies Categoría Internet y Telecom<br>
+        Effies Categoría Internet y Telecom<br><br>
         <ul>
-          <li>Effie Oro: Entel Perú – McCann. Campaña “Disculpas ilimitadas”.</li>
+          <li>Effie Oro: Entel Perú – McCann. Campaña “Disculpas ilimitadas”.</li><br>
           <li>Effie Plata: Entel Perú – McCann. Campaña “Migra y recárgate”.</li>
         </ul><br>
-        Effie Categoría Promociones de Servicios<br>
+        Effie Categoría Promociones de Servicios<br><br>
         <ul>
           <li>Effie Oro: Entel Perú – Alegría Buenos Aires. Campaña “Migra con mamá, tu
-          fan n.° 1”.</li>
-          <li>Effie Plata: Entel Perú – McCann. Campaña “Disculpas ilimitadas”.</li>
+          fan n.° 1”.</li><br>
+          <li>Effie Plata: Entel Perú – McCann. Campaña “Disculpas ilimitadas”.</li><br>
           <li>Effie Bronce: Entel Perú – McCann. Campaña “Migra y recárgate”.</li>
         </ul><br>
         Nuestros Entel Lovers lo seguirán haciendo increíble activando el liderazgo
@@ -2766,11 +2765,11 @@ export default new Vuex.Store({
         content: `Licencia de maternidad adicional a ley <br>
         ¡Nuestras mamis Entel ya pueden disfrutar más tiempo del nacimiento de sus bebés! Y
         es que tenemos una licencia con cinco días adicionales a ley.<br> Toda esta información la
-        compartimos en el Portal de Beneficios Vive Entel.<br>
+        compartimos en el Portal de Beneficios Vive Entel.<br><br>
         Licencia de paternidad adicional a ley <br>
         Los papás Entel también pueden disfrutar aún más del nacimiento de sus hijos con una
         licencia de cinco días adicionales a ley.<br> Toda esta información la compartimos en el
-        Portal de Beneficios Vive Entel.<br>
+        Portal de Beneficios Vive Entel.<br><br>
         Matrimonio<br>
         Nuestros colaboradores pueden tomar 3 días útiles de licencia durante la semana
         anterior o posterior al matrimonio, con el fin de realizar los trámites previos al gran día,
@@ -2853,7 +2852,7 @@ export default new Vuex.Store({
         colaboradores, tales como descuentos corporativos en diversas instituciones de
         entretenimiento, gimnasios, restaurantes, entre otros. Además, utilizando el fotocheck,
         en varios de ellos podemos pagar el almuerzo, y el descuento se realiza por planilla a fin
-        de mes.<br>
+        de mes.<br><br>
         También tenemos una la página responsive que nos permite disfrutar de todos nuestros
         descuentos y beneficios a mano, en el momento que los necesitemos.
         `,
@@ -2870,10 +2869,10 @@ export default new Vuex.Store({
         name: `CONVENIO UPC`,
         title: `CONVENIO UPC`,
         content: `Se realizó un convenio especial con la Universidad de Ciencias Aplicadas, con lo cual
-        logramos obtener para a los Entel Lover lo siguiente:<br>
-        - 50 % de descuento en el MBA Ejecutivo<br>
+        logramos obtener para a los Entel Lover lo siguiente:<br><br>
+        - 50 % de descuento en el MBA Ejecutivo<br><br><br>
         - 50% de descuento en el Diploma Especializado en Gestión Comercial y
-        Fidelización al Consumidor.<br>
+        Fidelización al Consumidor.<br><br>
         Ambos programas nos pedían un número de alumnos, con lo cual logramos
         aperturar el Diplomado, este diplomado fue diseñado especialmente para los
         colaboradores de Entel, ya que habíamos identificado que muchos de los
@@ -3035,10 +3034,10 @@ export default new Vuex.Store({
         content: `Para tener siempre un buen ánimo y los deseos de hacer las cosas mejor,
         necesitamos espacios para desconectarnos un momento del trabajo. Entel lo sabe, y
         por eso ponemos a disposición de nuestros colaboradores diversas áreas que
-        impactan positivamente en nuestra productividad.<br>
+        impactan positivamente en nuestra productividad.<br><br>
         Quienes nos visitan se llevan una grata sorpresa cuando ven, por ejemplo, que en
         todos los pisos de los edificios principales de la compañía hay kitchenettes con
-        máquinas de café ¡gratuitas!<br>
+        máquinas de café ¡gratuitas!<br><br>
         Además, contamos con un televisor con cable y pantalla HD, así que ya se imaginarán
         cómo estuvo esa zona en las épocas del Mundial. Como si fuera poco, en MSO
         Miraflores, San Isidro y CO San Borja ofrecemos a nuestros Entel Lovers juegos como;
@@ -3134,7 +3133,7 @@ export default new Vuex.Store({
         mantenemos el beneficio de trabajar 42.5 horas a la semana y brindamos flexibilidad
         diaria a nuestros colaboradores, minimizando los impactos negativos del tráfico y
         contribuyendo con un mejor balance vida-trabajo. Este nuevo horario aplica a todo
-        nuestro personal administrativo, quienes son el 65% de nuestro personal fiscalizado.<br>
+        nuestro personal administrativo, quienes son el 65% de nuestro personal fiscalizado.<br><br>
         ¡Por qué somos flexibles, experimentamos y cambiamos!
         `,
         links: {
@@ -3166,7 +3165,7 @@ export default new Vuex.Store({
         2. Objetivo compartido<br>
         3. Flexibilidad y cooperación<br>
         4. Comunicación horizontal<br>
-        Este año:<br>
+        <br>Este año:<br>
         137 áreas/equipos son dueños de encuestas<br>
         1,389 colaboradores como clientes internos participan <br>
         ¡Nos comprometemos a consolidar una experiencia distintiva!
@@ -3184,7 +3183,7 @@ export default new Vuex.Store({
       {
         name: 'PROGRAMA MI GESTIÓN WOW',
         title: 'PROGRAMA MI GESTIÓN WOW',
-        content: `En este primer semestre, hemos enfocado la capacitación en nuestros Asesores de Tienda y en los Supervisores/Coordinadores de Piso de Lima y Regiones para asegurar que en todas las interacciones con nuestros clientes y compañeros se logre una experiencia distintiva y generemos más Entel Lovers, tanto internos como externos.<br>
+        content: `En este primer semestre, hemos enfocado la capacitación en nuestros Asesores de Tienda y en los Supervisores/Coordinadores de Piso de Lima y Regiones para asegurar que en todas las interacciones con nuestros clientes y compañeros se logre una experiencia distintiva y generemos más Entel Lovers, tanto internos como externos.<br><br>
         Este programa es una iniciativa que impacta directamente a la estrategia de la compañía (clientes Entel Lover) y tiene como objetivo contar con los mejores asesores de la industria para así ofrecer la mejor experiencia de atención.
         `,
         links: {
@@ -3214,7 +3213,7 @@ export default new Vuex.Store({
         name: 'MATRIZ DE TALENTO PARA JEFES',
         title: 'MATRIZ DE TALENTO PARA JEFES',
         content: `Se desarrolla matriz donde se ubica (bajo metodología internacional) la posición de
-        talento y desarrollo que tiene cada jefe dentro de la compañía.<br>
+        talento y desarrollo que tiene cada jefe dentro de la compañía.<br><br>
         Ahora todos los gerentes tienen visibilidad de la matriz de talento de su
         equipo a través de Success Factors.
         
@@ -3235,7 +3234,7 @@ export default new Vuex.Store({
         Lovers diferentes temas de interés como: tecnología, innovación, tendencias y otros
         que nos permitan alcanzar los objetivos de negocio. La metodología consiste en que
         cada expositor tiene 20 minutos en donde de manera simple y concisa comparte
-        información con ejemplos concretos.<br>
+        información con ejemplos concretos.<br><br>
         En el 2018 tuvimos ediciones sobre IoT (Internet de las cosas) y este 2019 sobre
         Organizaciones Ágiles y un último EntelTalk para cerrar el año sobre IA (Inteligencia
         Artificial), con una satisfacción de 90.5% y una recomendación del 95%
@@ -3255,7 +3254,7 @@ export default new Vuex.Store({
         content: `Este proceso se realiza una vez al año a través de nuestra herramienta de
         autogestión, Success Factors, y está dirigida a todos nuestros Entel Lovers. Se
         enfatiza en su aprendizaje y desarrollo por lo que un supervisor directo evalúa los
-        siguientes dos componentes:
+        siguientes dos componentes:<br><br>
         <ul>
         <li>Cumplimiento de objetivos (50% de la evaluación)</li>
         <li>Desarrollo de pilares culturales (50% de la evaluación)</li>
@@ -3270,7 +3269,7 @@ export default new Vuex.Store({
         Este año, por ejemplo, colocamos banners dentro de la plataforma con tips específicos
         para cada etapa (autoevaluación, evaluación, feedback). Además, agregamos a esta
         herramienta una encuesta de satisfacción respecto al feedback recibido al finalizar.<br><br>
-        Este 2019, el proceso tuvo las siguientes etapas:<br>
+        Este 2019, el proceso tuvo las siguientes etapas:<br><br>
         <b>a) Etapa 1. Ingreso y Aprobación de Objetivos</b> <br>
         <b>¿En qué consiste?</b><br>
         El establecimiento de objetivos en Entel es el punto de partida para la Evaluación de
@@ -3281,18 +3280,18 @@ export default new Vuex.Store({
         todos los
         años; así nos aseguramos de su equidad en la división de objetivos y la
         transmisión de
-        la relación Entel-colaborador.<br>
+        la relación Entel-colaborador.<br><br>
         Nuestros colaboradores tienen que ingresar sus objetivos al sistema Success Factors,
         además de contar con la aprobación de su jefe directo. Podemos verlos en el sistema
         durante todo el año, de modo que nuestro equipo de Entel Lovers puede actualizar su
-        avance de manera periódica.<br>
+        avance de manera periódica.<br><br>
         ¿Cuándo se hace?<br>
         En enero de cada año<br>
-        <b>Etapa 2. Revisión de objetivos</b><br>
+        <b>Etapa 2. Revisión de objetivos</b><br><br>
         <b>¿En qué consiste?</b><br>
         A partir de este año, adicionalmente al ingreso de objetivos, abrimos un espacio para
         revisar el avance de los objetivos y realizar un feedback previo a la evaluación con el
-        que podamos conectar con cada colaborador, hablando y escuchándolos.<br>
+        que podamos conectar con cada colaborador, hablando y escuchándolos.<br><br>
         ¿Cuándo se hace?<br>    
         Entre los meses de julio y agosto<br><br>
         <b>b) Etapa 2. Autoevaluación y Evaluación del jefe</b> <br>
@@ -3302,7 +3301,7 @@ export default new Vuex.Store({
         culturales. Entonces, cada uno de ellos ingresa en el sistema esta autopercepción,
         cuya información será usada por el jefe como inicio para su evaluación, agregando a la
         autopercepción su visión objetiva. En esta etapa, podemos ver cómo se está formando
-        un Entel Lover.<br>
+        un Entel Lover.<br><br>
         ¿Cuándo se hace?<br>
         Deben pasar 12 meses después del ingreso de los objetivos. Este ejercicio se realiza
         en un periodo de 5 días (1 semana) para la autoevaluación y 3 semanas para la
@@ -3326,7 +3325,7 @@ export default new Vuex.Store({
         inmediato al momento de realizar la evaluación.</li>
         </ul>
         ¿Cuándo se hace?<br>
-        Durante los 15 días posteriores a la evaluación del jefe. <br>
+        Durante los 15 días posteriores a la evaluación del jefe. <br><br>
        <b> d) Etapa 4. Feedback y Cierre de Proceso</b> <br>
         ¿En qué consiste?<br>
         En esta etapa el jefe inmediato tiene una sesión de feedback presencial con su
@@ -3338,7 +3337,7 @@ export default new Vuex.Store({
         El colaborador, tras este feedback, debe cerrar el proceso en el sistema Success
         Factors, con lo cual está dando su conformidad a lo que ha recibido. Si no está de
         acuerdo, el área de Desarrollo de Capital Humano interviene como mediador.<br>
-        ¿Cuándo se hace?<br>
+        ¿Cuándo se hace?<br><br>
         Durante los 20 días posteriores a la aprobación de 2° nivel.
 
         `,
@@ -3358,7 +3357,7 @@ export default new Vuex.Store({
         manera trimestral, genera un fondo económico virtual denominado Fondo Individual de
         Estudios. A partir de este año, el uso de este Fondo Individual de Estudios FIE,
         además de ser utilizado para el pago de estudios de Aprendizaje y Desarrollo y/o
-        compra de libros, también puede ser utilizado para cursos de interés personal.<br>
+        compra de libros, también puede ser utilizado para cursos de interés personal.<br><br>
         
         Otro ajuste realizado es que, a partir de este año, el FIE tiene fecha de vencimiento de
         un año a partir de su asignación. Esto busca acelerar el aprendizaje y actualización
@@ -3399,7 +3398,7 @@ export default new Vuex.Store({
         camino hacia un Entel Lover. Entre los principales convenios con universidades y
         entidades especializadas de Lima y regiones tenemos a la Universidad del Pacífico,
         Tecnológico de Monterrey, UTP, UPC, InfoPUCP, CENTRUM PUCP, Universidad
-        Privada del Norte, Toulouse Lautrec, entre otros.<br>
+        Privada del Norte, Toulouse Lautrec, entre otros.<br><br>
         El Instituto Peruano de Fomento Educativo (IPFE) también está asociado con
         nosotros. Es una institución que promueve la formación de profesionales con alta
         calidad educativa y competitiva, por lo que nuestros Entel Lovers pueden acceder a
@@ -3426,7 +3425,7 @@ export default new Vuex.Store({
         de especialización para el desarrollo de nuevas competencias profesionales”,
         realizado en convenio con la Universidad ESAN. La alta demanda de este convenio
         generó la apertura de cursos virtuales en nuestras sedes de San Isidro, San Borja, y
-        también se vieron beneficiados nuestros colaboradores de regiones.<br>
+        también se vieron beneficiados nuestros colaboradores de regiones.<br><br>
         Nuestros programas In House poseen seis cursos o módulos independientes, los
         cuales son: (a) Negociación y Solución de Conflictos, (b) Marketing Experiencial, (c)
         Lean Startup con Design Thinking, (d) Transformación Digital de los Negocios, (e)
@@ -3435,7 +3434,7 @@ export default new Vuex.Store({
         Ellos deciden cuáles son los cursos de su interés y reciben un certificado de
         aprobación a nombre de ESAN. Además, a quienes concluyan satisfactoriamente los
         seis módulos se les entregará otro diploma certificando la duración y aprobación del
-        curso.<br>
+        curso.<br><br>
         En el 2019 se culminó este programa con una ceremonia de graduación.
         `,
         links: {
@@ -3454,17 +3453,17 @@ export default new Vuex.Store({
         inicia desde el primer día. Por ello, la consecuencia es que tenemos una rápida
         incorporación de nuevos colaboradores, lo cual genera en nosotros la necesidad de
         conocer cómo funcionan los principales procesos core de nuestro negocio y nuestra
-        marca.<br>
+        marca.<br><br>
         En enero de 2018, dimos inicio al programa “Conectados”, el cual busca la
         comprensión de todos los #EntelLovers sobre el funcionamiento del Network Operation
         Center (NOC), así como sobre la marca Entel y entender cuál es el “customer journey”
-        o viaje de nuestros clientes.<br>
+        o viaje de nuestros clientes.<br><br>
         Además de todo lo aprendido en los cursos virtuales, se realiza una visita presencial al
         NOC. En ella se da alcances sobre el monitoreo de la red y las respuestas en caso de
         incidentes. De esta manera, conocemos el día a día de los ingenieros en su trabajo
         para entregarnos la red más rápida del país. ¡Así nos convertimos en expertos TelCo!
         Hasta el mes de julio de este año 1400 colaboradores habían recibido una
-        certificación.<br>
+        certificación.<br><br>
         En el 2019 relanzamos el programa, con el objetivo que el 100% de nuestros líderes
         hayan vivido la experiencia de visitar una de nuestras tiendas ó el CALL Center.
         `,
@@ -3630,7 +3629,7 @@ export default new Vuex.Store({
         de ellos sea el constructor de su propio desarrollo. Por este motivo les entregamos las
         herramientas digitales necesarias para el acceso a programas y cursos de
         capacitación, siempre según aquellas necesidades transversales identificadas a inicios
-        de cada año.<br>
+        de cada año.<br><br>
         De acuerdo a esto, implementamos tres herramientas de autogestión para nuestros
         colaboradores: Campus Entel, Convenios Educativos y Cursos Externos. Estas se
         encuentran en el Portal de Capacitación alojado en la plataforma Success Factors. El
@@ -3656,7 +3655,7 @@ export default new Vuex.Store({
         liderazgo, la innovación y al uso de nuevas metodologías. Este tipo de beneficio
         refuerzan los latidos de compromiso, los transforma en Entel Lovers.<br>
         Hasta el momento, se han obtenido los siguientes resultados con esta plataforma de
-        Capacitación:<br>
+        Capacitación:<br><br>
         <ul>
         <li>680 colaboradores han utilizado el Campus Entel.</li>
         <li>961 colaboradores han utilizado el módulo de Convenios</li>
@@ -3677,8 +3676,8 @@ export default new Vuex.Store({
       {
         name: `CAMPAÑA RECONOCE `,
         title: `CAMPAÑA RECONOCE `,
-        content: `Es una buena práctica que fomenta la cultura de reconocimiento a todo nivel en Entel y refuerza nuestros pilares culturales. Todos podemos reconocer a nuestros compañeros de Entel sin importar el área o el cargo que ocupe.<br>
-        ¿Qué es lo que reconocemos?<br>
+        content: `Es una buena práctica que fomenta la cultura de reconocimiento a todo nivel en Entel y refuerza nuestros pilares culturales. Todos podemos reconocer a nuestros compañeros de Entel sin importar el área o el cargo que ocupe.<br><br>
+        ¿Qué es lo que reconocemos?<br><br>
         Actitudes y comportamientos que reflejan nuestros pilares culturales y la forma de hacer las cosas en Entel. Cada cuatro meses conoceremos a los representantes de nuestra Cultura.
         
         `,
@@ -3697,12 +3696,12 @@ export default new Vuex.Store({
         content: `En Entel entendemos que tenemos motivaciones dentro y fuera de la empresa y ¡nosotros
         promovemos todas ellas! En nuestro equipo tenemos líderes que son mentores, catedráticos,
         expositores, panelistas, entre otros oficios y roles dentro de la sociedad, en donde contribuyen
-        entregando lo mejor de ellos de manera desinteresada.<br>
+        entregando lo mejor de ellos de manera desinteresada.<br><br>
         Porque en Entel aprendemos a trascender y que para trascender hay que servir. El servicio
         desinteresado está en el ADN de nuestros Entel Lovers y es por eso que brindamos una
         experiencia distintiva a nuestros clientes, pero vamos más allá impulsados por el amor por las
         personas y el amor por nuestro país: compartimos conocimiento, expertise y experiencia
-        brindando nuestro tiempo y knowhow para inspirar a otros grupos de nuestra sociedad.<br>
+        brindando nuestro tiempo y knowhow para inspirar a otros grupos de nuestra sociedad.<br><br>
         Así, Entel trasciende junto a sus #EntelLovers. Porqué el amor por las personas es lo más
         importante y cada vez que un colaborador nuestro destaca en otro ámbito, lo celebramos y nos
         sentimos orgullosos por su desarrollo. ¡Nos transformamos para inspirar a otros!
@@ -3725,20 +3724,20 @@ export default new Vuex.Store({
         durante un tiempo determinado, en el cual deberán para desarrollar nuevas ideas según
         el reto asignado: resolver un problema o diseñar un nuevo producto o proceso. Nuestro
         equipo técnico ama lo que hace, el resultado es usualmente una solución tecnológica (HW y/o
-        SW).<br>
+        SW).<br><br>
         A través de una dinámica horizontal e intensiva, los participantes complementan
         experiencias y habilidades individuales con el propósito de desarrollar soluciones concretas y
-        transformadoras.<br>
+        transformadoras.<br><br>
        
-        <ul>
+        <ul style="margin-bottom:0px">
           <li>Convocatoria: 500 inscritos.</li>
           <li>Cantidad de ideas: 50 ideas.</li>
           <li>Objetivos Cumplidos:</li>
         </ul><br>
         
-          <liSe publica la convocatoria en 5 entidades de estudios entre universidades e institutos.</li>
+          <li>Se publica la convocatoria en 5 entidades de estudios entre universidades e institutos.</li><br>
           <li>Hay una base de datos de los inscritos y convocados del evento que tengan perfil
-          técnico.</li>
+          técnico.</li><br>
           <li>Alguna de las 3 propuestas ganadoras responden a los retos establecidos (nuevas
             tec: IoT, AI, Cloud).</li>
       
@@ -3759,13 +3758,13 @@ export default new Vuex.Store({
         Nuestra forma de trabajar es ágil, liviana y digital por eso desde este 2019 trabajamos
         formando células ágiles compuestas por hasta 10 colaboradores de diferentes áreas y
         niveles. Somos ágiles y nos adaptamos a los cambios porque son permanentes en el
-        mercado de Telecomunicaciones.<br>
+        mercado de Telecomunicaciones.<br><br>
         Cada célula ágil cuenta con un Product Owner y Scrum Master, compuesta por 9 Entel
         Lovers de distintas especialidades y experiencias. El Product Owner representa la voz
         del cliente y el Scrum Master facilita la metodología. La célula ágil la conforma un
         equipo que se caracteriza por tener muy buenas relaciones interpersonales, todos son
         muy proactivos y creativos. Porque la clave es que nuestro trabajo siga la ruta de
-        innovación que esperamos.<br>
+        innovación que esperamos.<br><br>
         Tenemos una célula de captura y otra de ingresos. El objetivo de la célula de captura
         es elaborar e implementar la estrategia comercial de crecimiento de base prepago a
         través de la venta de calidad y valor. El objetivo de la célula de ingresos es elaborar e
@@ -3778,7 +3777,7 @@ export default new Vuex.Store({
         resistencias, obstáculos y nuevos desafíos que nos trae esta forma de trabajo desde
         aspectos estructurales hasta cambios en los paradigmas que hasta hoy nos han hecho
         exitosos. Esto nos ayuda a estar mejor preparados para extender la agilidad en todas
-        sus formas.<br>
+        sus formas.<br><br>
         Adoptar la agilidad es nuestro objetivo diario y el resultado de experimentar y cambiar
         se ve reflejado en proyectos como Entel Pay, Mercado Hogar, entre otros.
         Seguiremos trabajando de esta manera hasta se convierta en nuestra única forma de
