@@ -3749,6 +3749,51 @@ export default new Vuex.Store({
         list: [
       
         ]
+      },
+      {
+        name: 'AGILIDAD ENTEL',
+        title: 'AGILIDAD ENTEL',
+        content: `
+        Nuestra forma de trabajar es ágil, liviana y digital por eso desde este 2019 trabajamos
+        formando células ágiles compuestas por hasta 10 colaboradores de diferentes áreas y
+        niveles. Somos ágiles y nos adaptamos a los cambios porque son permanentes en el
+        mercado de Telecomunicaciones.<br>
+        Cada célula ágil cuenta con un Product Owner y Scrum Master, compuesta por 9 Entel
+        Lovers de distintas especialidades y experiencias. El Product Owner representa la voz
+        del cliente y el Scrum Master facilita la metodología. La célula ágil la conforma un
+        equipo que se caracteriza por tener muy buenas relaciones interpersonales, todos son
+        muy proactivos y creativos. Porque la clave es que nuestro trabajo siga la ruta de
+        innovación que esperamos.<br>
+        Tenemos una célula de captura y otra de ingresos. El objetivo de la célula de captura
+        es elaborar e implementar la estrategia comercial de crecimiento de base prepago a
+        través de la venta de calidad y valor. El objetivo de la célula de ingresos es elaborar e
+        implementar la estrategia de generación de ingresos y retención de la base prepago.
+        Contamos con 7 células actualmente y producto de esta forma y metodología
+        innovadora de trabajo, estamos creando nuevos servicios para nuestros clientes. Nos
+        movemos ágiles y livianos, y para lograrlo entendimos que esto era solo el inicio de
+        una forma de trabajo escalable y decidimos comprenderla desde la experiencia.
+        Experimentamos lo que significaba trabajar de esta manera, y así conocer las posibles
+        resistencias, obstáculos y nuevos desafíos que nos trae esta forma de trabajo desde
+        aspectos estructurales hasta cambios en los paradigmas que hasta hoy nos han hecho
+        exitosos. Esto nos ayuda a estar mejor preparados para extender la agilidad en todas
+        sus formas.<br>
+        Adoptar la agilidad es nuestro objetivo diario y el resultado de experimentar y cambiar
+        se ve reflejado en proyectos como Entel Pay, Mercado Hogar, entre otros.
+        Seguiremos trabajando de esta manera hasta se convierta en nuestra única forma de
+        trabajar. Agilidad para emitir la señal que transforma a nuestros clientes a través de
+        productos y servicios innovadores que contribuyan a la evolución del mercado de
+        Telecomunicaciones en Perú.<br>
+        ¡Un Entel Lover es siempre ágil, liviano y digital alcanzando resultados
+        innovadores y haciéndolo increíble!
+        `,
+        links: {
+          documents: 'https://issuu.com/entellovers/docs/agilidad_entel.pptx',
+          videos:'#',
+          otherFiles: '#'
+        },
+        list: [
+      
+        ]
       }
       
     ]
