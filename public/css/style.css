@@ -832,6 +832,8 @@
   font-style: normal;
   font-weight: 200;
   font-size: 18px;
+  display: inline-block;
+  margin-top: 13px;
 }
 
 .download-files .evidencia{
