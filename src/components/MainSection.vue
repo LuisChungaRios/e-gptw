@@ -24,10 +24,8 @@
           <h2>La señal que</h2>
           <h1>Transforma</h1>
           <p class="descripcion">
-            En <span class="decorate">Entel</span> creemos firmemente en el talento y capacidad de cada colaborador en hacer increíble lo que hace,
-            pero esto se logra con algo más que con compromiso, se hace con <span class="decorate">amor</span>, y es este el que transmite a través de una señal,
-            un latido que contagia este sentimiento a través de la Cultura Entel entre los mismos colaboradores,
-            despertando en cada uno el amor por la marca, convirtiendonos así en:
+            En <span class="decorate">Entel</span> creemos firmemente en el talento y capacidad de cada colaborador en hacer increíble lo que hace.
+            Pero esto se logra con algo más que con compromiso, se hace con <span class="decorate">amor</span>, y se transmite a través de una señal: un latido que contagia este sentimiento a través de la Cultura Entel entre los mismos colaboradores, despertando en cada uno el amor por la marca convirtiéndonos así en:
           </p>
           <h3 class="decorate michi">#EntelLovers</h3>
 
