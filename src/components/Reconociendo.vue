@@ -33,7 +33,7 @@
                             a hace 6 años <img src="img/reconociendo/emoji1.png"/> ."</p>
                         <h5 class="text-right">Fernando García (47 años)</h5>
                         
-                        <p class="text-left puesto">Vicepresidente de TI y<br> Procesos<br> Área: TI y Procesos</p>
+                        <p class="text-left puesto">Vicepresidente de TI y<br> Operaciones<br> Área: TI y Operaciones</p>
                         
                         <div class="conocer text-right">
                             <a href="#inlineFernando" class="btn-conoceme" data-lity>
